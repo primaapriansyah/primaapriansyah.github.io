@@ -1,13 +1,13 @@
-/*
- * Template Name: Unify - Responsive Bootstrap Template
- * Description: Business, Corporate, Portfolio, Blog and One Page Theme.
- * Version: 1.6
- * Author: @htmlstream
- * Website: http://htmlstream.com
+/*   
+ * Template Name: Prima Portfolio
+ * Description: Web Design, Graphic Design, SEO, Internet Marketing, Bootstrap, 
+ * Version: 1.0
+ * Author: @primaapriansyah
+ * Website: http://primaapriansyah.com
 */
 
 /*Import Google Font*/
-@import url(../../../../../../external.html?link=https://fonts.googleapis.com/css?family=Open+Sans:300,400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400);
 
 /*Import Global Compulsory CSS Files*/
 @import url(app.css);
