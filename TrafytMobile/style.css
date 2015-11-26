@@ -1210,8 +1210,11 @@ ul.mega li.title {
 	width: 100%;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-.sticky .logo {
+/*.sticky .logo {
 	margin: 2px 0 !important
+}primaapriansyah*/
+.sticky .logo {
+	margin: -5px 0 !important
 }
 .sticky .sf-menu {
 	margin: 16px 0 !important
@@ -1219,8 +1222,12 @@ ul.mega li.title {
 .sticky .search {
 	margin: 20px 0 20px 20px !important
 }
-.sticky .logo img{
+/*.sticky .logo img{
 	width: 100px;
+	margin-top: 10px;
+}primaapriansyah*/
+.sticky .logo img{
+	width: 225px;
 	margin-top: 10px;
 }
 .sticky .sf-menu {
@@ -3432,8 +3439,8 @@ ul.medium-testi li {
 .travel-search .tabs-content {
 	padding: 15px 25px 10px;
 	background: rgba(70, 70, 70, 0.36);
-	border-radius: 0 2px 8px 8px;
-	-webkit-border-radius: 0 2px 8px 8px;
+	border-radius: 8px 8px;
+	-webkit-border-radius: 8px 8px;
 }
 .travel-search.right {
 	width: 400px;
