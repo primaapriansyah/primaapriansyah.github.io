@@ -777,3 +777,13 @@ div#section-intro {
 	padding-left:10%;
 	padding-right:10%;
 }
+.label-reedem-home {
+    position: absolute;
+    bottom: 31px;
+    right: 8px;
+    z-index: 100;
+    background-image: url(http://d35ixe5v9yyxne.cloudfront.net/wordpress/wp-content/uploads/label-diskon-home.png);
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+}
