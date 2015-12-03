@@ -17,10 +17,10 @@
 }
 .search-section {
     margin-top: 60px;
-    margin-bottom: 60px;/*
+    margin-bottom: 60px;
     padding: 0px 0px;
     margin-left: -5px;
-    margin-right: -5px;*/
+    margin-right: -5px;
 	z-index:9999;
 }
 .search-section .nav-tabs {
@@ -58,7 +58,7 @@
 	margin-right: 4px;
 }
 .search-section .nav > li > a {
-	padding: 15px;
+	padding: 15px 45px;
 }
 .search-section .nav-tabs > li {
 	margin-bottom: 0px;
