@@ -833,7 +833,7 @@ div#section-intro {
     background-size: contain;
 }
 /*BLUR HEADER START*/
-/*.touch .parallax:after, .page-header.parallax:after{
+.touch .parallax:after, .page-header.parallax:after{
     content: ' ';
     position: absolute;
     top: 0;
@@ -853,7 +853,7 @@ div#section-intro {
 .page-header h1.page-title {
     position: absolute !important;
     z-index:9;
-}*/
+}
 /*Autocomplete Style*/
 ul#ui-id-1 {
     width: 39% !important;
