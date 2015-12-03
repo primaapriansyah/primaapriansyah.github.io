@@ -399,7 +399,7 @@
 @media (max-width:767px) {
 	/*tab width at homepage*/
 	.search-section .nav > li > a {
-    padding: 15px 45px;
+    padding: 15px;
 }
 
 	.vertical-tab .nav-tabs > li {
