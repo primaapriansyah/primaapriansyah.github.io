@@ -28,9 +28,9 @@
 }
 /*Filter advance search*/
 .navbar .search-form-inner {
-    border-top: 2px solid;/*
+    border-top: 2px solid;
     padding: 20px;
-    margin: 0 -15px;*/
+    margin: 0 -15px;
 }
 .search-section .nav-tabs .active {
 	position: relative;
