@@ -16,20 +16,11 @@
 	margin-bottom: 0px;
 }
 .search-section {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding: 0px 0px;
-    margin-left: -5px;
-    margin-right: -5px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 .search-section .nav-tabs {
 	border-bottom: none;
-}
-/*Filter advance search*/
-.navbar .search-form-inner {
-    border-top: 2px solid;
-    padding: 20px;
-    margin: 0 -15px;
 }
 .search-section .nav-tabs .active {
 	position: relative;
@@ -236,7 +227,6 @@
 	background: #00adef;
 	color: #fff;
 }
-/*Prima Slider */
 .owl-theme .owl-dots .owl-dot.active span, 
 .owl-theme .owl-dots .owl-dot:hover span {
 	background: #F7A91B !important;
@@ -397,11 +387,6 @@
 	}
 }
 @media (max-width:767px) {
-	/*tab width at homepage*/
-	.search-section .nav > li > a {
-    padding: 15px 54px;
-}
-
 	.vertical-tab .nav-tabs > li {
 		display: block;
 		width: auto;
@@ -442,9 +427,8 @@
 	.floated .search-form{
 		margin-top:-150px;
 	}
-	/*Active indicator tab*/
 	.search-section .nav-tabs .active:after{
-		left:39%;
+		left:28%;
 	}
 	.hero-slider.flexslider, .hero-slider.flexslider ul.slides li{
 		height:450px;
@@ -452,28 +436,9 @@
 	.hiden-mobile{
 		display:none;
 	}
-	.navbar #menu-toggle{
-		border-bottom:3px solid #73BB46;
-	}
-	.hiden-pc{
-		display: block !important;
-	}
-	
 	.dark-bg .package-block-content{
 		min-height:180px;
 	}
-	.discount-price {
-    font-size: 14px !important;
-    color: #F7A91B !important;
-} 
-.current-price {
-    font-size: 14px !important;
-    margin-top: 30px;
-}
-.footer_widget.widget_links ul li {
-    border: 1px solid #ccc;
-    padding: 5px 12px;
-}
 }
 .bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
 	width:100%;
@@ -490,13 +455,6 @@ button.search-button.btn.transition-effect{
     color: #AFADAD !important;
     margin-bottom: -15px;
 	margin-top:5px;
-}
-.package-date {
-    font-size: 13px;
-    color: #AFADAD !important;
-    margin-bottom: -15px;
-    margin-top: 5px;
-	display:block;
 }
 .discount-price {
     font-size: 20px;
@@ -818,50 +776,4 @@ div#section-intro {
 .padding10prcnt{
 	padding-left:10%;
 	padding-right:10%;
-}
-/*DISKON LABEL ORANGE START*/
-.label-reedem-home {
-    position: absolute;
-    top: 0px;
-    left: 30px;
-    z-index: 100;
-    background-image: url(http://d35ixe5v9yyxne.cloudfront.net/wordpress/wp-content/uploads/diskon_label.png);
-    background-repeat: no-repeat;
-    width: 55px;
-    height: 55px;
-    background-size: contain;
-}
-/*BLUR HEADER START*/
-.touch .parallax:after, .page-header.parallax:after{
-    content: ' ';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0,0,0,.5);
-    z-index: 5;
-}
-
-.touch .parallax:after, .page-header.parallax:after{
-    overflow: hidden;
-    background: -webkit-linear-gradient(top,transparent 0,transparent 0,rgba(0,0,0,.65) 100%);
-    background: -moz-linear-gradient(top,transparent 0,transparent 0,rgba(0,0,0,.65) 100%);
-    background: linear-gradient(to bottom,transparent 0,transparent 0,rgba(0,0,0,.65) 100%);
-}
-.page-header h1.page-title {
-    position: absolute !important;
-    z-index:9;
-}
-/*Autocomplete Style*/
-ul#ui-id-1 {
-    width: 39% !important;
-    list-style: none;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding-left: 10px;
-    line-height: 2;
-}
-.circle-radius{
-	border-radius:50%;
 }

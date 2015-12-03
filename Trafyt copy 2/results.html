@@ -1,0 +1,550 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+
+<head>
+    <!-- Basic Page Needs
+  ================================================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Trafyt</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Trafyt.com">
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <!-- CSS
+  ================================================== -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="vendor/prettyphoto/css/prettyPhoto.css" rel="stylesheet" type="text/css">
+    <link href="vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <!-- CUSTOM STYLESHEET FOR STYLING -->
+    <!-- Color Style -->
+    <link href="colors/color1.css" rel="stylesheet" type="text/css">
+    <!-- SCRIPTS
+  ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <!-- Modernizr -->
+</head>
+
+<body>
+    <div class="body">
+        <!-- Start Site Header -->
+        <div class="site-header-wrapper">
+            <header class="site-header">
+                <div class="container sp-cont">
+                    <div class="site-logo">
+                        <h1><a href="index.html"><img src="images/logo.jpg" alt="Logo"></a></h1>
+                        <!--<span class="site-tagline">Website Pemesanan<br>Paket Wisata Murah Terbesar</span>-->
+                    </div>
+                    <div class="header-center">
+                        <div class="contact-top logged-in-user">
+                            <a href="#" class="user-login-btn">
+                                <img src="http://placehold.it/100x100&amp;text=IMAGE+PLACEHOLDER" alt="">
+                                <span class="user-informa">
+                                <span class="meta-data"> Whatsapp</span>
+                                <span class="user-name"> +62-852-2746-3846</span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="contact-top logged-in-user">
+                            <a href="#" class="user-login-btn">
+                                <img src="http://placehold.it/100x100&amp;text=IMAGE+PLACEHOLDER" alt="">
+                                <span class="user-informa">
+                                <span class="meta-data"> Email</span>
+                                <span class="user-name"> info@trafyt.com</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div class="user-login-panel">
+                            <a href="#" class="user-login-btn" data-toggle="modal" data-target="#loginModal"><i class="icon-profile"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- End Site Header -->
+            <div class="navbar">
+                <div class="container sp-cont">
+                    <div class="search-function">
+                        <a href="#" class="search-trigger"><i class="fa fa-search"></i></a>
+                        <span>< Advance Search</span>
+                    </div>
+                    <a href="#" class="visible-sm visible-xs" id="menu-toggle"><i class="fa fa-bars"></i></a>
+                    <!-- Main Navigation -->
+                    <nav class="main-navigation dd-menu toggle-menu" role="navigation">
+                        <ul class="sf-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Promo & Diskon</a></li>
+                            <li><a href="#">Destination</a></li>
+                            <li><a href="#">Activity</a></li>
+                            <li><a href="#">Price</a></li>
+                            <li><a href="#">Trip Kategory</a></li>
+                            <li><a href="#">Operator</a></li>
+                            <li><a href="javascript:void(0)">Flash Sale</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">December</a></li>
+                                    <li><a href="#">January</a></li>
+                                    <li><a href="#">February</a></li>
+                                    <li><a href="#">March</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- Search Form -->
+                    <div class="search-form">
+                        <div class="search-form-inner">
+                            <form>
+                                <h3>Find a Package with our Advance Search</h3>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Destination</label>
+                                                <select name="Destination" class="form-control selectpicker">
+                                                    <option selected>Any</option>
+                                                    <option>DKI Jakarta</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label>Specific Place</label>
+                                                <select name="Place" class="form-control selectpicker">
+                                                    <option selected>Any</option>
+                                                    <option>Center Jakarta</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Activity</label>
+                                                <select name="Activity" class="form-control selectpicker">
+                                                    <option selected>Any</option>
+                                                    <option>Hiking</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label>Departure</label>
+                                                <select name="Departure " class="form-control selectpicker">
+                                                    <option selected>Any</option>
+                                                    <option>December</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" id="inlineCheckbox1" value="option1"> Certified Operator Only
+                                                </label>
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" id="inlineCheckbox2" value="option2"> Promo Only
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Trip Category</label>
+                                                <select name="Trip Category" class="form-control selectpicker">
+                                                    <option selected>Any</option>
+                                                    <option>Open Trip</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label>Trip Type</label>
+                                                <select name="trip type" class="form-control selectpicker">
+                                                    <option selected>Any</option>
+                                                    <option>Overseas</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Min Price</label>
+                                                <select name="Min Price" class="form-control selectpicker">
+                                                    <option selected>Any</option>
+                                                    <option>10000</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label>Max Price</label>
+                                                <select name="Max Price" class="form-control selectpicker">
+                                                    <option selected>Any</option>
+                                                    <option>10000</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <input type="submit" class="btn btn-block btn-info btn-lg" value="Serach Now">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Page header -->
+        <div class="page-header parallax" style=" background-image:url(images/slider/slider_2.jpeg)">
+            <div class="container">
+                <h1 class="page-title">Package results</h1>
+            </div>
+        </div>
+        <!-- Utiity Bar -->
+        <div class="utility-bar-2nd hiden-mobile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-8">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active">Search results</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Actions bar -->
+        <div class="actions-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 search-actions">
+                    </div>
+                    <div class="col-md-9 col-sm-9">
+                        <div class="btn-group pull-right results-sorter">
+                            <button type="button" class="btn btn-default listing-sort-btn">Sort by</button>
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                <span class="caret"></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Price (High to Low)</a></li>
+                                <li><a href="#">Price (Low to High)</a></li>
+                            </ul>
+                        </div>
+                        <div class="toggle-view view-count-choice pull-right">
+                            <label>Show</label>
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-default">10</a>
+                                <a href="#" class="btn btn-default active">20</a>
+                                <a href="#" class="btn btn-default">50</a>
+                            </div>
+                        </div>
+                        <div class="toggle-view view-format-choice pull-right">
+                            <label>View</label>
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-default active" id="results-list-view"><i class="fa fa-th-list"></i></a>
+                                <a href="#" class="btn btn-default" id="results-grid-view"><i class="fa fa-th"></i></a>
+                            </div>
+                        </div>
+                        <!-- Small Screens Filters Toggle Button -->
+                        <button class="btn btn-default visible-xs" id="Show-Filters">Search Filters</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Body Content -->
+        <div class="main" role="main">
+            <div id="content" class="content full">
+                <div class="container">
+                    <div class="row">
+                        <!-- Search Filters -->
+                        <div class="col-md-3 search-filters" id="Search-Filters">
+                            <div class="filters-sidebar">
+                                <h3>Refine Search</h3>
+                                <div class="accordion" id="toggleArea">
+                                    <!-- Filter by Price -->
+                                    <div class="accordion-group panel">
+                                        <div class="accordion-heading togglize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseOne">price<i class="fa fa-angle-down"></i> </a> </div>
+                                        <div id="collapseOne" class="accordion-body collapse">
+                                            <div class="accordion-inner">
+                                                <div class="form-inline">
+                                                    <div class="form-group">
+                                                        <label>Min price</label>
+                                                        <select name="Min price" class="form-control selectpicker">
+                                                            <option selected>Any</option>
+                                                            <option>Rp. 0</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group last-child">
+                                                        <label>Max price</label>
+                                                        <select name="Max price" class="form-control selectpicker">
+                                                            <option selected>Any</option>
+                                                            <option>Rp. 1000.000</option>
+                                                        </select>
+                                                    </div>
+                                                    <button type="submit" class="btn btn-default btn-sm pull-right">Filter</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Toggle -->
+								
+                                <a href="#" class="btn-primary btn-sm btn ful"><i class="fa fa-folder-o"></i> Search</a>
+								<div class="spacer-10"></div>
+                                <a href="#" class="btn-default btn-sm btn ful"><i class="fa fa-refresh"></i> Reset</a>
+                            </div>
+                        </div>
+                        <!-- Listing Results -->
+                        <div class="col-md-9 results-container">
+                            <div class="results-container-in">
+                                <div class="waiting" style="display:none;">
+                                    <div class="spinner">
+                                        <div class="rect1"></div>
+                                        <div class="rect2"></div>
+                                        <div class="rect3"></div>
+                                        <div class="rect4"></div>
+                                        <div class="rect5"></div>
+                                    </div>
+                                </div>
+                                <div id="results-holder" class="results-grid-view">
+                                    <!-- Result Item -->
+                                    <div class="result-item format-standard">
+                                        <div class="result-item-image">
+                                            <a href="#" class="media-box"><img src="images/package/package4.jpg"></a>
+                                            <span class="label label-primary package-age">Brand new</span>
+                                            <div class="result-item-view-buttons">
+                                                <a href="#"><i class="fa fa-plus"></i> by Citranashwa</a>
+                                            </div>
+                                        </div>
+                                        <div class="result-item-in">
+                                            <h4 class="result-item-title"><a href="#">Pulau Pahawang</a></h4>
+                                            <div class="result-item-cont">
+                                                <div class="result-item-block col1">
+                                                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam..</p>-->
+                                                </div>
+                                                <div class="result-item-block col2">
+                                                    <div class="result-item-pricing">
+                                                        <div class="discount-price">Start Rp. 5000.000</div>
+                                                        <div class="normal-price">Start Rp. 5000.000</div>
+                                                        <div class="spacer-10"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="result-item-features">
+                                                <ul class="inline">
+                                                    <li>January , February, March</li>
+                                                    <li>Bromo, Pahawang, Yogyakarta</li>
+                                                    <li>4D3N, 3D2N</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+										<div class="action-grid">
+											<div class="col-md-12">
+												<button type="button" class="btn btn-primary ful">Book Now</button>
+											</div>
+											<div class="spacer-10"></div>
+											<div class="col-md-12">
+												<button type="button" class="btn btn-default ful">Detail Package</button>
+											</div>
+											<div class="spacer-10"></div>
+										</div>
+										<div class="action-list">
+											<div class="col-md-4 pull-left pt3">
+												<button type="button" class="btn btn-primary ful">Book Now</button>
+											</div>
+											<div class="col-md-4 ml-25 pull-right pt3">
+												<button type="button" class="btn btn-default ful">Detail Package</button>
+											</div>
+										</div>
+                                    </div>
+                                    <!-- Result Item -->
+                                    <div class="result-item format-standard">
+                                        <div class="result-item-image">
+                                            <a href="#" class="media-box"><img src="images/package/package4.jpg"></a>
+                                            <span class="label label-primary package-age">Brand new</span>
+                                            <div class="result-item-view-buttons">
+                                                <a href="#"><i class="fa fa-plus"></i> by Citranashwa</a>
+                                            </div>
+                                        </div>
+                                        <div class="result-item-in">
+                                            <h4 class="result-item-title"><a href="#">Pulau Pahawang</a></h4>
+                                            <div class="result-item-cont">
+                                                <div class="result-item-block col1">
+                                                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam..</p>-->
+                                                </div>
+                                                <div class="result-item-block col2">
+                                                    <div class="result-item-pricing">
+                                                        <div class="price">Start Rp. 5000.000</div>
+                                                        <div class="normal-price">Start Rp. 5000.000</div>
+                                                        <div class="spacer-10"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="result-item-features">
+                                                <ul class="inline">
+                                                    <li>January , February, March</li>
+                                                    <li>Bromo, Pahawang, Yogyakarta</li>
+                                                    <li>4D3N, 3D2N</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Result Item -->
+                                    <div class="result-item format-standard">
+                                        <div class="result-item-image">
+                                            <a href="#" class="media-box"><img src="images/package/package4.jpg"></a>
+                                            <span class="label label-primary package-age">Brand new</span>
+                                            <div class="result-item-view-buttons">
+                                                <a href="#"><i class="fa fa-plus"></i> by Citranashwa</a>
+                                            </div>
+                                        </div>
+                                        <div class="result-item-in">
+                                            <h4 class="result-item-title"><a href="#">Pulau Pahawang</a></h4>
+                                            <div class="result-item-cont">
+                                                <div class="result-item-block col1">
+                                                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam..</p>-->
+                                                </div>
+                                                <div class="result-item-block col2">
+                                                    <div class="result-item-pricing">
+                                                        <div class="price">Start Rp. 5000.000</div>
+                                                        <div class="normal-price">Start Rp. 5000.000</div>
+                                                        <div class="spacer-10"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="result-item-features">
+                                                <ul class="inline">
+                                                    <li>January , February, March</li>
+                                                    <li>Bromo, Pahawang, Yogyakarta</li>
+                                                    <li>4D3N, 3D2N</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Result Item -->
+                                    <div class="result-item format-standard">
+                                        <div class="result-item-image">
+                                            <a href="#" class="media-box"><img src="images/package/package4.jpg"></a>
+                                            <span class="label label-primary package-age">Brand new</span>
+                                            <div class="result-item-view-buttons">
+                                                <a href="#"><i class="fa fa-plus"></i> by Citranashwa</a>
+                                            </div>
+                                        </div>
+                                        <div class="result-item-in">
+                                            <h4 class="result-item-title"><a href="#">Pulau Pahawang</a></h4>
+                                            <div class="result-item-cont">
+                                                <div class="result-item-block col1">
+                                                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam..</p>-->
+                                                </div>
+                                                <div class="result-item-block col2">
+                                                    <div class="result-item-pricing">
+                                                        <div class="price">Start Rp. 5000.000</div>
+                                                        <div class="normal-price">Start Rp. 5000.000</div>
+                                                        <div class="spacer-10"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="result-item-features">
+                                                <ul class="inline">
+                                                    <li>January , February, March</li>
+                                                    <li>Bromo, Pahawang, Yogyakarta</li>
+                                                    <li>4D3N, 3D2N</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Body Content -->
+        <!-- Start site footer -->
+        <footer class="site-footer">
+            <div class="site-footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-6 footer_widget widget text_widget">
+                            <h4 class="widgettitle">About Trafyt</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="site-footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 copyrights-left">
+                            <p>&copy; 2014 Trafyt. All Rights Reserved</p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 copyrights-right">
+                            <ul class="social-icons social-icons-colored pull-right">
+                                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                <li class="flickr"><a href="#"><i class="fa fa-flickr"></i></a></li>
+                                <li class="vimeo"><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
+                                <li class="digg"><a href="#"><i class="fa fa-digg"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End site footer -->
+        <a id="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    </div>
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4>Login to your account</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                            <input type="text" class="form-control" placeholder="Username">
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                            <input type="password" class="form-control" placeholder="Password">
+                        </div>
+                        <input type="submit" class="btn btn-primary" value="Login">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-block btn-facebook btn-social"><i class="fa fa-facebook"></i> Login with Facebook</button>
+                    <button type="button" class="btn btn-block btn-twitter btn-social"><i class="fa fa-twitter"></i> Login with Twitter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-2.0.0.min.js"></script>
+    <!-- Jquery Library Call -->
+    <script src="vendor/prettyphoto/js/prettyphoto.js"></script>
+    <!-- PrettyPhoto Plugin -->
+    <script src="js/ui-plugins.js"></script>
+    <!-- UI Plugins -->
+    <script src="js/helper-plugins.js"></script>
+    <!-- Helper Plugins -->
+    <script src="vendor/owl-carousel/js/owl.carousel.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="vendor/password-checker.js"></script>
+    <!-- Password Checker -->
+    <script src="js/bootstrap.js"></script>
+    <!-- UI -->
+    <script src="js/init.js"></script>
+    <!-- All Scripts -->
+    <script src="vendor/flexslider/js/jquery.flexslider.js"></script>
+    <!-- FlexSlider -->
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+</body>
+
+</html>
