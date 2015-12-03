@@ -444,7 +444,7 @@
 	}
 	/*Active indicator tab*/
 	.search-section .nav-tabs .active:after{
-		left:39%;
+		left:30%;
 	}
 	.hero-slider.flexslider, .hero-slider.flexslider ul.slides li{
 		height:450px;
