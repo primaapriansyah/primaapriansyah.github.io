@@ -1027,7 +1027,7 @@ html[xmlns] .slides {
 	display:block;
 }
 .hero-slider.flexslider ul.slides li a{
-	display:block;
+	/*display:block; primaapriansyah */
 	height:100%;
 	width:100%;
 }
