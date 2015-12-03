@@ -58,7 +58,7 @@
 	margin-right: 4px;
 }
 .search-section .nav > li > a {
-	padding: 15px 45px;
+	padding: 15px;
 }
 .search-section .nav-tabs > li {
 	margin-bottom: 0px;
@@ -400,7 +400,7 @@
 @media (max-width:767px) {
 	/*tab width at homepage*/
 	.search-section .nav > li > a {
-    padding: 15px;
+    padding: 15px 45px;
 }
 
 	.vertical-tab .nav-tabs > li {
