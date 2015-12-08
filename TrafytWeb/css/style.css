@@ -2297,12 +2297,12 @@ h1.page-title{
 	display:block;
 	margin-top:15px;
 }
-.package-meta{
+/*.package-meta{
 	color:#999;
 	font-size:11px;
 	line-height:normal;
 	display:block;
-}
+}*/
 .package-block .package-body-type{
 	float:right;
 	margin-top:30px;
@@ -2894,7 +2894,7 @@ h1.page-title{
 	clear:both;
 }
 .results-grid-view .result-item-title{
-	min-height: inherit;
+	/*min-height: inherit;*/
 	padding-top:15px;
 	margin-bottom:17px;
 	font-size:16px;
@@ -5448,18 +5448,18 @@ body{
 		font-size:12px;
 		line-height:normal;
 	}
-	.results-list-view .result-item-image{
+	/* primaapriansyah.results-list-view .result-item-image{
 		width:100%;
 		float:none;
-	}
+	}*/
 	.results-list-view .result-item-image img{
 		width:100%;
 	}
-	.results-list-view .result-item-in{
+	/* primaapriansyah .results-list-view .result-item-in{
 		float:none;
 		width:100%;
 		min-height:inherit;
-	}
+	}*/
 	.result-item-block.col1{
 		display:none;
 	}

@@ -523,9 +523,6 @@ span.icon {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.results-grid-view .result-item{
-	min-height:452px;
-}
 .ful{
 	width:100% !important;
 }
@@ -866,3 +863,73 @@ ul#ui-id-1 {
 .circle-radius{
 	border-radius:50%;
 }
+/*Meta Taxonomy Prettyfy*/
+.package-meta {
+    color: #999;
+    font-size: 11px;
+    line-height: normal;
+    display: block;
+    overflow: hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+    width: 100%;
+    height: 54px;
+}
+.results-grid-view .result-item-title {
+    background: none;
+    height: 75px;
+    overflow: hidden;
+}
+.results-grid-view .result-item {
+    min-height: 500px;
+}
+.image-thumbnail-trafyt{
+	position: relative;
+  width: 272px;
+  height: 175px;
+  overflow: hidden;
+}
+.image-thumbnail-trafyt img{
+	position: absolute;
+  left: 45%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.package-block.format-standard {
+	overflow:hidden;
+}
+/*Breadcrumb*/
+.breadcrumb > .active {
+    color: #fff;
+    font-weight: bold;
+}
+.breadcrumb a {
+    color: #fff;
+}
+.package-block-content h5.package-title {
+    overflow: hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+    width: 100%;
+    height: 55px;
+}/*
+#featured_page .touch .parallax, .page-header.parallax{
+	background-attachment: fixed !important;
+	background-position: center center !important;
+	background-size: cover !important;
+}
+#featured_page .page-header{
+	top:0px !important;
+	min-height:500px;
+}*/
+#featured_page .touch .parallax, .page-header.parallax{
+	background-attachment: fixed !important;
+	}
+body#about .page-header.parallax{
+	background-attachment: fixed !important;
+	min-height:300px;
+	}

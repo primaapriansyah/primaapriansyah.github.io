@@ -1,5 +1,4 @@
 <!DOCTYPE HTML>
-<!DOCTYPE HTML>
 <html class="no-js">
 
 <head>
@@ -27,16 +26,14 @@
     <!-- CUSTOM STYLESHEET FOR STYLING -->
     <!-- Color Style -->
     <link href="colors/color1.css" rel="stylesheet" type="text/css">
+    <link media="all" type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.3.5/awesome-bootstrap-checkbox.min.css">
     <!-- SCRIPTS
   ================================================== -->
     <script src="js/modernizr.js"></script>
     <!-- Modernizr -->
 </head>
 
-<body id="featured_page">
-    <!--[if lt IE 7]>
-    <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-<![endif]-->
+<body>
     <div class="body">
         <!-- Start Site Header -->
         <div class="site-header-wrapper">
@@ -162,7 +159,7 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <label>Trip Type</label>
-                                                <select name="Max Year" class="form-control selectpicker">
+                                                <select name="trip type" class="form-control selectpicker">
                                                     <option selected>Any</option>
                                                     <option>Overseas</option>
                                                 </select>
@@ -198,48 +195,70 @@
             </div>
         </div>
         <!-- Start Page header -->
-        <div class="page-header parallax" style=" background-image:url(http://i0.wp.com/d35ixe5v9yyxne.cloudfront.net/wordpress/wp-content/uploads/test2.jpg?resize=750%2C298)">
+        <div class="page-header parallax" style=" background-image:url(http://i1.wp.com/d35ixe5v9yyxne.cloudfront.net/wordpress/wp-content/uploads/burufly_bromo-head_header_image.jpg?resize=1905%2C840)">
+            <div class="container">
+                <h1 class="page-title">Package results</h1>
+            </div>
+        </div>
+        <!-- Utiity Bar -->
+        <div class="utility-bar-2nd hiden-mobile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-8">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active">Search results</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Actions bar -->
+        <div class="actions-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 search-actions">
+                    </div>
+                    <div class="col-md-9 col-sm-9">
+                        <div class="btn-group pull-right results-sorter">
+                            <button type="button" class="btn btn-default listing-sort-btn">Sort by</button>
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                <span class="caret"></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Price (High to Low)</a></li>
+                                <li><a href="#">Price (Low to High)</a></li>
+                            </ul>
+                        </div>
+                        <div class="toggle-view view-count-choice pull-right">
+                            <label>Show</label>
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-default">10</a>
+                                <a href="#" class="btn btn-default active">20</a>
+                                <a href="#" class="btn btn-default">50</a>
+                            </div>
+                        </div>
+                        <div class="toggle-view view-format-choice pull-right">
+                            <label>View</label>
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-default active" id="results-list-view"><i class="fa fa-th-list"></i></a>
+                                <a href="#" class="btn btn-default" id="results-grid-view"><i class="fa fa-th"></i></a>
+                            </div>
+                        </div>
+                        <!-- Small Screens Filters Toggle Button -->
+                        <button class="btn btn-default visible-xs" id="Show-Filters">Search Filters</button>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Start Body Content -->
         <div class="main" role="main">
-            <div id="content" class="content full operator-prosite">
+            <div id="content" class="content full">
                 <div class="container">
-					<div class="spacer-50"></div>
-                    <div class="text-align-center">
-                        <h2 class="margin-0">Featured Page Bali !</h2>
-                    </div>
-                    <div class="spacer-30"></div>
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="answer">
-                                <p>Trafyt ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Trafyt ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Trafyt ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Trafyt ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo.</p>
-                            </div>
-                        </div>
-						<div class="row">
-                	<div class="col-md-4 answer">
-                            <h3>Culture</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus.</p>
-                        
-                    </div>
-                	<div class="col-md-4 answer">
-                            <h3>Food</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus.</p>
-                        
-                    </div>
-                	<div class="col-md-4 answer">
-                    	<!--<div class="icon-box ibox-effect">-->
-                            <h3>Activity</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus.</p>
-                        
-                    </div>
-                </div>
-                    </div>
-					<div class="spacer-30"></div>
-					<div class="text-align-center">
-                        <h3 class="margin-0">Rekomendasi Tempat Wisata Diskon</h3>
-                    </div>
-					<div class="spacer-30"></div>
-					<div class="row">
                         <!-- Search Filters -->
                         <div class="col-md-3 search-filters" id="Search-Filters">
                             <div class="filters-sidebar">
@@ -269,10 +288,101 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="accordion-heading togglize">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapsePromoDanDiskon">Promo dan Diskon<i class="fa fa-angle-down"></i> </a>
+                                        </div>
+                                        <div id="collapsePromoDanDiskon" class="accordion-body collapse ">
+                                            <div class="accordion-inner">
+                                                <div class="checkbox checkbox-success">
+                                                    <input id="checkbox-last-minute" class="styled" name="discount" type="checkbox" value="1">
+                                                    <label for="checkbox-discount">
+                                                        Discount Only On Trafyt
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox checkbox-success">
+                                                    <input id="checkbox-last-minute" class="styled" name="lastmin" type="checkbox" value="1">
+                                                    <label for="checkbox-last-minute">
+                                                        Last Minute
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Tab Toogle Start-->
+                                        <div class="accordion-heading togglize">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapse2">Destinasi<i class="fa fa-angle-down"></i> </a>
+                                        </div>
+                                        <div id="collapse2" class="accordion-body collapse ">
+                                            <div class="accordion-inner">
+                                                <div class="checkbox checkbox-success">
+                                                    <input id="checkbox-last-minute" class="styled" name="discount" type="checkbox" value="1">
+                                                    <label for="checkbox-discount">
+                                                        Discount Only On Trafyt
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox checkbox-success">
+                                                    <input id="checkbox-last-minute" class="styled" name="lastmin" type="checkbox" value="1">
+                                                    <label for="checkbox-last-minute">
+                                                        Last Minute
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Tab Toogle End-->
+                                        <!--Tab Toogle Start-->
+                                        <div class="accordion-heading togglize">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapse3">Lokasi Spesifik<i class="fa fa-angle-down"></i> </a>
+                                        </div>
+                                        <div id="collapse3" class="accordion-body collapse ">
+                                            <div class="accordion-inner">
+                                                <div class="checkbox checkbox-success">
+                                                    <input id="checkbox-last-minute" class="styled" name="discount" type="checkbox" value="1">
+                                                    <label for="checkbox-discount">
+                                                        Discount Only On Trafyt
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Tab Toogle End-->
+                                        <!--Tab Toogle Start-->
+                                        <div class="accordion-heading togglize">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapse4">Tipe Wisatawan<i class="fa fa-angle-down"></i> </a>
+                                        </div>
+                                        <div id="collapse4" class="accordion-body collapse ">
+                                            <div class="accordion-inner">
+                                                <div class="checkbox checkbox-success">
+                                                    <input id="checkbox-last-minute" class="styled" name="discount" type="checkbox" value="1">
+                                                    <label for="checkbox-discount">
+                                                        Discount Only On Trafyt
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--Tab Toogle End-->
+                                    </div>
+                                    <div class="accordion-group">
+                                        <div class="accordion-heading togglize"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseSix">Destination <i class="fa fa-angle-down"></i> </a> </div>
+                                        <div id="collapseSix" class="accordion-body collapse">
+                                            <div class="accordion-inner">
+                                                <div class="form-group">
+                                                    <label>Min price</label>
+                                                    <select name="Min price" class="form-control selectpicker" multiple>
+                                                        <option selected>Any</option>
+                                                        <option>Jawa Barat</option>
+                                                        <option>Jawa Barat</option>
+                                                        <option>Jawa Barat</option>
+                                                        <option>Jawa Barat</option>
+                                                        <option>Jawa Barat</option>
+                                                        <option>Jawa Barat</option>
+                                                        <option>Jawa Barat</option>
+                                                        <option>Jawa Barat</option>
+                                                        <option>Jawa Barat</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- End Toggle -->
-                                
                                 <a href="#" class="btn-primary btn-sm btn ful"><i class="fa fa-folder-o"></i> Search</a>
                                 <div class="spacer-10"></div>
                                 <a href="#" class="btn-default btn-sm btn ful"><i class="fa fa-refresh"></i> Reset</a>
@@ -295,7 +405,7 @@
                                     <div class="result-item format-standard">
                                         <div class="result-item-image">
                                             <a href="#" class="media-box"><img src="images/package/package4.jpg"></a>
-                                            <span class="label label-primary package-age">Brand new</span>
+                                            <span class="label label-primary package-age">Open Trip</span>
                                             <div class="result-item-view-buttons">
                                                 <a href="#"><i class="fa fa-plus"></i> by Citranashwa</a>
                                             </div>
@@ -345,7 +455,7 @@
                                     <div class="result-item format-standard">
                                         <div class="result-item-image">
                                             <a href="#" class="media-box"><img src="images/package/package4.jpg"></a>
-                                            <span class="label label-primary package-age">Brand new</span>
+                                            <span class="label label-primary package-age">Open Trip</span>
                                             <div class="result-item-view-buttons">
                                                 <a href="#"><i class="fa fa-plus"></i> by Citranashwa</a>
                                             </div>
@@ -395,7 +505,7 @@
                                     <div class="result-item format-standard">
                                         <div class="result-item-image">
                                             <a href="#" class="media-box"><img src="images/package/package4.jpg"></a>
-                                            <span class="label label-primary package-age">Brand new</span>
+                                            <span class="label label-primary package-age">Open Trip</span>
                                             <div class="result-item-view-buttons">
                                                 <a href="#"><i class="fa fa-plus"></i> by Citranashwa</a>
                                             </div>
@@ -445,7 +555,7 @@
                                     <div class="result-item format-standard">
                                         <div class="result-item-image">
                                             <a href="#" class="media-box"><img src="images/package/package4.jpg"></a>
-                                            <span class="label label-primary package-age">Brand new</span>
+                                            <span class="label label-primary package-age">Open Trip</span>
                                             <div class="result-item-view-buttons">
                                                 <a href="#"><i class="fa fa-plus"></i> by Citranashwa</a>
                                             </div>
@@ -495,7 +605,7 @@
                                     <div class="result-item format-standard">
                                         <div class="result-item-image">
                                             <a href="#" class="media-box"><img src="images/package/package4.jpg"></a>
-                                            <span class="label label-primary package-age">Brand new</span>
+                                            <span class="label label-primary package-age">Open Trip</span>
                                             <div class="result-item-view-buttons">
                                                 <a href="#"><i class="fa fa-plus"></i> by Citranashwa</a>
                                             </div>
@@ -541,11 +651,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- Result Item -->
                                     <div class="result-item format-standard">
                                         <div class="result-item-image">
                                             <a href="#" class="media-box"><img src="images/package/package4.jpg"></a>
-                                            <span class="label label-primary package-age">Brand new</span>
+                                            <span class="label label-primary package-age">Open Trip</span>
                                             <div class="result-item-view-buttons">
                                                 <a href="#"><i class="fa fa-plus"></i> by Citranashwa</a>
                                             </div>
@@ -591,14 +700,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- Result Item -->
-                                    
                                 </div>
                             </div>
                         </div>
-                    </div>\
+                    </div>
                 </div>
-				<div class="text-align-center">
+                <div class="text-align-center">
                     <ul class="pagination pagination-lg">
                         <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
                         <li class="active"><a href="#">1</a></li>
@@ -646,10 +753,8 @@
             </div>
         </footer>
         <!-- End site footer -->
-        <!-- End site footer -->
         <a id="back-to-top"><i class="fa fa-angle-double-up"></i></a>
     </div>
-    <!-- LOGIN POPUP -->
     <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-sm">
             <div class="modal-content">
