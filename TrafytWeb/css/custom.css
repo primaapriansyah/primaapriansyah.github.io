@@ -932,4 +932,10 @@ ul#ui-id-1 {
 body#about .page-header.parallax{
 	background-attachment: fixed !important;
 	min-height:300px;
-	}
+}
+.operator-block-info .operator-avatar img {
+    border-radius: 50%;
+}
+.operator-block-info .operator-avatar {
+    border-radius: 50%;
+}

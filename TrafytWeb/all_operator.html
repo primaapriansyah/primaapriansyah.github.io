@@ -1,0 +1,435 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+
+<head>
+    <!-- Basic Page Needs
+  ================================================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Trafyt</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Trafyt.com">
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <!-- CSS
+  ================================================== -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="vendor/prettyphoto/css/prettyPhoto.css" rel="stylesheet" type="text/css">
+    <link href="vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <!-- CUSTOM STYLESHEET FOR STYLING -->
+    <!-- Color Style -->
+    <link href="colors/color1.css" rel="stylesheet" type="text/css">
+    <!-- SCRIPTS
+  ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <!-- Modernizr -->
+</head>
+<body>
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+<div class="body">
+    <!-- Start Site Header -->
+        <div class="site-header-wrapper">
+            <header class="site-header">
+                <div class="container sp-cont">
+                    <div class="site-logo">
+                        <h1><a href="index.html"><img src="images/logo.jpg" alt="Logo"></a></h1>
+                        <!--<span class="site-tagline">Website Pemesanan<br>Paket Wisata Murah Terbesar</span>-->
+                    </div>
+                    <div class="header-center">
+                        <div class="contact-top logged-in-user">
+                            <a href="#" class="user-login-btn">
+                                <img src="http://placehold.it/100x100&amp;text=IMAGE+PLACEHOLDER" alt="">
+                                <span class="user-informa">
+                                <span class="meta-data"> Whatsapp</span>
+                                <span class="user-name"> +62-852-2746-3846</span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="contact-top logged-in-user">
+                            <a href="#" class="user-login-btn">
+                                <img src="http://placehold.it/100x100&amp;text=IMAGE+PLACEHOLDER" alt="">
+                                <span class="user-informa">
+                                <span class="meta-data"> Email</span>
+                                <span class="user-name"> info@trafyt.com</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div class="user-login-panel">
+                            <a href="#" class="user-login-btn" data-toggle="modal" data-target="#loginModal"><i class="icon-profile"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- End Site Header -->
+            <div class="navbar">
+                <div class="container sp-cont">
+                    <div class="search-function">
+                        <a href="#" class="search-trigger"><i class="fa fa-search"></i></a>
+                        <span>< Advance Search</span>
+                    </div>
+                    <a href="#" class="visible-sm visible-xs" id="menu-toggle"><i class="fa fa-bars"></i></a>
+                    <!-- Main Navigation -->
+                    <nav class="main-navigation dd-menu toggle-menu" role="navigation">
+                        <ul class="sf-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Promo & Diskon</a></li>
+                            <li><a href="#">Destination</a></li>
+                            <li><a href="#">Activity</a></li>
+                            <li><a href="#">Price</a></li>
+                            <li><a href="#">Trip Kategory</a></li>
+                            <li><a href="#">Operator</a></li>
+                            <li><a href="javascript:void(0)">Flash Sale</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">December</a></li>
+                                    <li><a href="#">January</a></li>
+                                    <li><a href="#">February</a></li>
+                                    <li><a href="#">March</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- Search Form -->
+                    <div class="search-form">
+                        <div class="search-form-inner">
+                            <form>
+                                <h3>Find a Package with our Advance Search</h3>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Destination</label>
+                                                <select name="Destination" class="form-control selectpicker">
+                                                    <option selected>Any</option>
+                                                    <option>DKI Jakarta</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label>Specific Place</label>
+                                                <select name="Place" class="form-control selectpicker">
+                                                    <option selected>Any</option>
+                                                    <option>Center Jakarta</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Activity</label>
+                                                <select name="Activity" class="form-control selectpicker">
+                                                    <option selected>Any</option>
+                                                    <option>Hiking</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label>Departure</label>
+                                                <select name="Departure " class="form-control selectpicker">
+                                                    <option selected>Any</option>
+                                                    <option>December</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" id="inlineCheckbox1" value="option1"> Certified Operator Only
+                                                </label>
+                                                <label class="checkbox-inline">
+                                                    <input type="checkbox" id="inlineCheckbox2" value="option2"> Promo Only
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Trip Category</label>
+                                                <select name="Trip Category" class="form-control selectpicker">
+                                                    <option selected>Any</option>
+                                                    <option>Open Trip</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label>Trip Type</label>
+                                                <select name="trip type" class="form-control selectpicker">
+                                                    <option selected>Any</option>
+                                                    <option>Overseas</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Min Price</label>
+                                                <select name="Min Price" class="form-control selectpicker">
+                                                    <option selected>Any</option>
+                                                    <option>10000</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label>Max Price</label>
+                                                <select name="Max Price" class="form-control selectpicker">
+                                                    <option selected>Any</option>
+                                                    <option>10000</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <input type="submit" class="btn btn-block btn-info btn-lg" value="Serach Now">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="page-header parallax" style="background-image:url(http://i1.wp.com/d35ixe5v9yyxne.cloudfront.net/wordpress/wp-content/uploads/burufly_bromo-head_header_image.jpg?resize=1905%2C840);">
+        <div class="container">
+            <h1 class="page-title">operators Search</h1>
+        </div>
+    </div>
+    <!-- Utiity Bar -->
+    <div class="utility-bar-2nd hiden-mobile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-8">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active">Search results</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Start Body Content -->
+    <div class="main" role="main">
+        <div id="content" class="content full padding-b0">
+            <div class="container">
+                <div class="operators-search-result">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 operator-block">
+                            <div class="operator-block-inner" style="background-image:url(http://i1.wp.com/d35ixe5v9yyxne.cloudfront.net/wordpress/wp-content/uploads/burufly_bromo-head_header_image.jpg?resize=1905%2C840);">
+                                <div class="operator-block-cont">
+                                    <div class="operator-block-info">
+                                        <span class="label label-default">Open Trip</span>
+                                        <span class="operator-avatar"><img src="http://placehold.it/80x80&amp;text=IMAGE+PLACEHOLDER" alt=""></span>
+                                        <h5><a href="operator-prosite.html">Agoda</a></h5>
+                                        <span class="meta-data">Jakarta, Bromo</span>
+                                    </div>
+                                    <div class="operator-block-text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur <a href="#">adipiscing</a> elit. Nulla convallis egestas rhoncus.</p>
+                                        <div class="operator-block-add">
+                                            <span>Member Rating <strong>4.5 from 5</strong></span>
+                                            <span>Total listings <strong>22</strong></span>
+                                        </div>
+                                    </div>
+                                    <div class="text-align-center"><a href="operator-prosite.html" class="btn btn-default">View profile</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4 col-sm-4 operator-block">
+                            <div class="operator-block-inner" style="background-image:url(http://i1.wp.com/d35ixe5v9yyxne.cloudfront.net/wordpress/wp-content/uploads/burufly_bromo-head_header_image.jpg?resize=1905%2C840);">
+                                <div class="operator-block-cont">
+                                    <div class="operator-block-info">
+                                        <span class="label label-default">Open Trip</span>
+                                        <span class="operator-avatar"><img src="http://placehold.it/80x80&amp;text=IMAGE+PLACEHOLDER" alt=""></span>
+                                        <h5><a href="operator-prosite.html">Travacello</a></h5>
+                                        <span class="meta-data">Jakarta, Bromo</span>
+                                    </div>
+                                    <div class="operator-block-text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur <a href="#">adipiscing</a> elit. Nulla convallis egestas rhoncus.</p>
+                                        <div class="operator-block-add">
+                                            <span>Member Rating <strong>4.5 from 5</strong></span>
+                                            <span>Total listings <strong>20</strong></span>
+                                        </div>
+                                    </div>
+                                    <div class="text-align-center"><a href="operator-prosite.html" class="btn btn-default">View profile</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4 col-sm-4 operator-block">
+                            <div class="operator-block-inner" style="background-image:url(http://i1.wp.com/d35ixe5v9yyxne.cloudfront.net/wordpress/wp-content/uploads/burufly_bromo-head_header_image.jpg?resize=1905%2C840);">
+                                <div class="operator-block-cont">
+                                    <div class="operator-block-info">
+                                        <span class="label label-default">Open Trip</span>
+                                        <span class="operator-avatar"><img src="http://placehold.it/80x80&amp;text=IMAGE+PLACEHOLDER" alt=""></span>
+                                        <h5><a href="operator-prosite.html">Citranashwa</a></h5>
+                                        <span class="meta-data">Jakarta, Bogor</span>
+                                    </div>
+                                    <div class="operator-block-text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus.</p>
+                                        <div class="operator-block-add">
+                                            <span>Member Rating <strong>4.5 from 5</strong></span>
+                                            <span>Total listings <strong>13</strong></span>
+                                        </div>
+                                    </div>
+                                    <div class="text-align-center"><a href="operator-prosite.html" class="btn btn-default">View profile</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="spacer-40"></div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 operator-block">
+                            <div class="operator-block-inner" style="background-image:url(http://i1.wp.com/d35ixe5v9yyxne.cloudfront.net/wordpress/wp-content/uploads/burufly_bromo-head_header_image.jpg?resize=1905%2C840);">
+                                <div class="operator-block-cont">
+                                    <div class="operator-block-info">
+                                        <span class="label label-default">Open Trip</span>
+                                        <span class="operator-avatar"><img src="http://placehold.it/80x80&amp;text=IMAGE+PLACEHOLDER" alt=""></span>
+                                        <h5><a href="operator-prosite.html">Agoda</a></h5>
+                                        <span class="meta-data">Jakarta, Bromo</span>
+                                    </div>
+                                    <div class="operator-block-text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur <a href="#">adipiscing</a> elit. Nulla convallis egestas rhoncus.</p>
+                                        <div class="operator-block-add">
+                                            <span>Member Rating <strong>4.5 from 5</strong></span>
+                                            <span>Total listings <strong>22</strong></span>
+                                        </div>
+                                    </div>
+                                    <div class="text-align-center"><a href="operator-prosite.html" class="btn btn-default">View profile</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4 col-sm-4 operator-block">
+                            <div class="operator-block-inner" style="background-image:url(http://i1.wp.com/d35ixe5v9yyxne.cloudfront.net/wordpress/wp-content/uploads/burufly_bromo-head_header_image.jpg?resize=1905%2C840);">
+                                <div class="operator-block-cont">
+                                    <div class="operator-block-info">
+                                        <span class="label label-default">Open Trip</span>
+                                        <span class="operator-avatar"><img src="http://placehold.it/80x80&amp;text=IMAGE+PLACEHOLDER" alt=""></span>
+                                        <h5><a href="operator-prosite.html">Travacello</a></h5>
+                                        <span class="meta-data">Jakarta, Bromo</span>
+                                    </div>
+                                    <div class="operator-block-text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur <a href="#">adipiscing</a> elit. Nulla convallis egestas rhoncus.</p>
+                                        <div class="operator-block-add">
+                                            <span>Member Rating <strong>4.5 from 5</strong></span>
+                                            <span>Total listings <strong>20</strong></span>
+                                        </div>
+                                    </div>
+                                    <div class="text-align-center"><a href="operator-prosite.html" class="btn btn-default">View profile</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4 col-sm-4 operator-block">
+                            <div class="operator-block-inner" style="background-image:url(http://i1.wp.com/d35ixe5v9yyxne.cloudfront.net/wordpress/wp-content/uploads/burufly_bromo-head_header_image.jpg?resize=1905%2C840);">
+                                <div class="operator-block-cont">
+                                    <div class="operator-block-info">
+                                        <span class="label label-default">Open Trip</span>
+                                        <span class="operator-avatar"><img src="http://placehold.it/80x80&amp;text=IMAGE+PLACEHOLDER" alt=""></span>
+                                        <h5><a href="operator-prosite.html">Citranashwa</a></h5>
+                                        <span class="meta-data">Jakarta, Bogor</span>
+                                    </div>
+                                    <div class="operator-block-text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus.</p>
+                                        <div class="operator-block-add">
+                                            <span>Member Rating <strong>4.5 from 5</strong></span>
+                                            <span>Total listings <strong>13</strong></span>
+                                        </div>
+                                    </div>
+                                    <div class="text-align-center"><a href="operator-prosite.html" class="btn btn-default">View profile</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="spacer-40"></div>
+                    <div class="text-align-center"><a href="#" class="btn btn-default"><i class="fa fa-refresh"></i> Load More</a></div>
+                </div>
+            </div>
+            <div class="spacer-40"></div>
+        </div>
+    </div>
+    <!-- End Body Content -->
+    <!-- Start site footer -->
+        <footer class="site-footer">
+            <div class="site-footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-6 footer_widget widget text_widget">
+                            <h4 class="widgettitle">About Trafyt</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="site-footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 copyrights-left">
+                            <p>&copy; 2014 Trafyt. All Rights Reserved</p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 copyrights-right">
+                            <ul class="social-icons social-icons-colored pull-right">
+                                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                <li class="flickr"><a href="#"><i class="fa fa-flickr"></i></a></li>
+                                <li class="vimeo"><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
+                                <li class="digg"><a href="#"><i class="fa fa-digg"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End site footer -->
+    <a id="back-to-top"><i class="fa fa-angle-double-up"></i></a>  
+</div>
+<!-- LOGIN POPUP -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog"  aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4>Login to your account</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                        <input type="text" class="form-control" placeholder="Username">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <input type="submit" class="btn btn-primary" value="Login">
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-block btn-facebook btn-social"><i class="fa fa-facebook"></i> Login with Facebook</button>
+                <button type="button" class="btn btn-block btn-twitter btn-social"><i class="fa fa-twitter"></i> Login with Twitter</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-2.0.0.min.js"></script> <!-- Jquery Library Call -->
+<script src="vendor/prettyphoto/js/prettyphoto.js"></script> <!-- PrettyPhoto Plugin -->
+<script src="js/ui-plugins.js"></script> <!-- UI Plugins -->
+<script src="js/helper-plugins.js"></script> <!-- Helper Plugins -->
+<script src="vendor/owl-carousel/js/owl.carousel.min.js"></script> <!-- Owl Carousel -->
+<script src="vendor/password-checker.js"></script> <!-- Password Checker -->
+<script src="js/bootstrap.js"></script> <!-- UI -->
+<script src="js/init.js"></script> <!-- All Scripts -->
+<script src="vendor/flexslider/js/jquery.flexslider.js"></script> <!-- FlexSlider -->
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+</body>
+</html>
