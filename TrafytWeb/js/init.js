@@ -665,7 +665,7 @@ $(window).load(function(){
 		$(this).find(".media-box").append("<span class='zoom'><span class='icon'><i class='icon-expand'></i></span></span>");
 	});
 	$(".format-standard").each(function(){
-		$(this).find(".media-box").append("<span class='zoom'><span class='icon'><i class='icon-plus'></i></span></span>");
+		$(this).find(".media-box").append("<span class='zoom'><span class='icon'><p>View Details</p></span></span>");
 	});
 	$(".format-video").each(function(){
 		$(this).find(".media-box").append("<span class='zoom'><span class='icon'><i class='icon-music-play'></i></span></span>");
@@ -686,7 +686,7 @@ $('ul.checks li, .add-features-list li').prepend('<i class="fa fa-check"></i> ')
 $('ul.checks li, .exc-features-list li').prepend('<i class="fa fa-close"></i> ');
 $('ul.angles li, .widget_categories ul li a, .widget_archive ul li a, .widget_recent_entries ul li a, .widget_recent_comments ul li a, .widget_links ul li a, .widget_meta ul li a').prepend('<i class="fa fa-angle-right"></i> ');
 $('ul.chevrons li').prepend('<i class="fa fa-chevron-right"></i> ');
-$('ul.carets li, ul.inline li, .filter-options-list li').prepend('<i class="fa fa-caret-right"></i> ');
+//$('ul.carets li, ul.inline li, .filter-options-list li').prepend('<i class="fa fa-caret-right"></i> ');
 $('a.external').prepend('<i class="fa fa-external-link"></i> ');
 
 // Animation Appear

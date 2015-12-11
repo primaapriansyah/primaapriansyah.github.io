@@ -821,7 +821,7 @@ div#section-intro {
 .label-reedem-home {
     position: absolute;
     top: 0px;
-    left: 30px;
+    /*left: 30px;*/
     z-index: 100;
     background-image: url(http://d35ixe5v9yyxne.cloudfront.net/wordpress/wp-content/uploads/diskon_label.png);
     background-repeat: no-repeat;
@@ -882,6 +882,7 @@ ul#ui-id-1 {
 }
 .results-grid-view .result-item {
     min-height: 500px;
+	overflow:hidden;
 }
 .image-thumbnail-trafyt{
 	position: relative;
@@ -889,6 +890,12 @@ ul#ui-id-1 {
   height: 175px;
   overflow: hidden;
 }
+/*.image-thumbnail-trafyt-result {
+    position: relative;
+    width: 335px;
+    height: 230px;
+    overflow: hidden;
+}*/
 .image-thumbnail-trafyt img{
 	position: absolute;
   left: 45%;
@@ -899,6 +906,16 @@ ul#ui-id-1 {
       -ms-transform: translate(-50%,-50%);
           transform: translate(-50%,-50%);
 }
+/*.image-thumbnail-trafyt-result img{
+	position: absolute;
+  left: 45%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}*/
 .package-block.format-standard {
 	overflow:hidden;
 }
@@ -938,4 +955,58 @@ body#about .page-header.parallax{
 }
 .operator-block-info .operator-avatar {
     border-radius: 50%;
+}
+.image-thumb-container{
+	max-height:175px;
+	overflow:hidden;
+}
+.image-thumb-zoom{
+	width:100%; 
+	height:175px; 
+	background-position:center; 
+	overflow:hidden; 
+	background-size:cover; 
+	/*transform: scale(1.7,1);*/
+}
+.small{
+	font-size:55% !important;
+}
+.action-list.row.col-md-12 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.media-box .zoom .icon, .media-box .expand .icon {
+    height: 38px !important;
+	width:auto !important;
+    -webkit-border-radius: 3px !important;
+    border-radius: 3px !important ;
+    text-align: center !important;
+    color: #ffffff!important;
+    position: absolute !important;
+	line-height:normal !important;
+    font-size: 13px !important;
+    top: 50% !important;
+    border: 1px solid #fff !important;
+    padding: 10px 15px !important;
+    left: 50% !important;
+    margin: -20px 0px 0 -52px !important;
+}
+span.icon {
+    display: block !important;
+}
+.media-box .zoom .icon{
+	background:none !important;
+}
+ul.inline > li i.fa {
+    margin-right: 2px;
+    padding-right: 10px;
+}
+.results-grid-view .current-price {
+    font-size: 20px !important;
+    margin-top: 0px !important;
+    margin-bottom: 30px !important;
+}
+.results-list-view .current-price {
+    font-size: 20px !important;
+    margin-top: 0px !important;
 }
