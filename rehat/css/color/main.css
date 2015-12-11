@@ -1,0 +1,83 @@
+.noUi-connect {
+    background: #0092CB url('../../images/defaults/price-range.png') center center no-repeat;
+}
+
+.sf-menu li.current > a:before , .btn-primary, #mobilepro, #search-collapse, .search-toggle, .rc-rating, #testi-carousel .owl-controls .owl-page.active span, #testi-carousel .owl-controls.clickable .owl-page:hover span, .paging .pagination li.active a, ul.tag-cluod li a:hover, .comment-item a.comment-reply:hover, .travel-item a.travel-more, .travel-right .travel-more, #toTop:hover, .bottom-footer.colored, .label-wide1, .label-wide2, .label-wide3, .lfi-icon-inner, .tih-save, .travel-search .tabs li  a, .travel-search ul.tt-accordion, .big-slider p, .owl-capture p, .image-inner:hover .image-overlay, .travel-item.hv-bg:hover .travel-label-inner {
+	background: #009FDE;
+}
+
+.btn-primary:hover, .travel-item a.travel-more:hover, .travel-right .travel-more:hover {
+	background: #007EB0;
+}
+
+
+.tipsy-inner {
+	background: #007EB0;
+}
+.tipsy-n .tipsy-arrow:before { border-bottom: 6px solid #007EB0; }
+.tipsy-s .tipsy-arrow:before { border-top: 6px solid #007EB0; }
+.tipsy-e .tipsy-arrow:before { border-top: 6px solid #007EB0; }
+.tipsy-w .tipsy-arrow:before { border-right: 6px solid #007EB0; }
+
+
+.sf-menu li.current > a, #page_title, .breadcrumb .current-page, .another-toggle h5:after, ul.sort-nav li a:hover, ul.sort-nav li.active a, .tabs li a.active, .tabs li a:hover, .read-more, .facility_show_hide, .main-text, .price, .tab-detail-tPrice span, .show-more-btn a, .book-step li.current, .total-price, ul.why-list li  span.icon, ul.why-list li h5, .blog-posted span.date, .blog-type, .blog-item a.btn, ul.tweet-widget li a, ul.tweet-widget li i, ul.tag-cluod li a, .comment-item a.comment-reply, .travel-right .travel-price, .item-carousel-navigation a, #toTop, .colored  #toTop:hover, .ttc-intro a, .tic-price span, .tih-price, .travel-search .tabs li a.active, .flexslider h3 a, .big-slider .flex-direction-nav a:hover i , .big-slider .flex-direction-nav a i:hover, .owl-capture h2 a, footer .phone-number, .travel-item-price, .travel-item-price-2, .colored-border:hover h3 a, .travel-item:hover a.btn-icon {
+	color: #009FDE;
+}
+
+.produc-item-2 h3 a:hover {
+	color: #009FDE !important;
+}
+
+a:hover, a.main-text:hover, .flexslider h3 a:hover, .owl-capture h2 a:hover {
+	color: #007EB0;
+}
+
+
+.book-step li.current .circle, ul.why-list li  span.icon, #searchform input:focus, #search-collapse, ul.tag-cluod li a:hover, .comment-item a.comment-reply:hover, #toTop, .bottom-footer.colored, .colored-border .travel-label-inner, .travel-item:hover .travel-label-inner, .travel-item.hv-bg:hover .travel-label-inner, .travel-item:hover a.btn-icon  {
+	border: 1px solid #009FDE;
+}
+
+.travel-search ul.tt-accordion {
+	border: 2px solid #009FDE;
+}
+.top-header, .sf-menu li:hover ul, .sf-menu li.sfHover ul  {
+	border-top: 2px solid #009FDE;
+}
+ul.mega  {
+	border-top: 2px solid #009FDE !important;
+}
+.travel-label .right, .travel-item:hover .travel-label-inner .right {
+	border-left: 1px solid #009FDE;
+}
+#searchform input.btn:hover {
+	background: url(../../images/defaults/search-go-blue.png) no-repeat 50% 50% !important;
+}
+
+.icheckbox, .iradio {
+	background: url(../../images/defaults/check-radio-blue.png) no-repeat;
+}
+
+.travel-search .tabs > li > a span.hotel {background:url('../../images/defaults/travel-icons-blue.png')  0 0;}
+.travel-search .tabs > li > a:hover span.hotel {background:url('../../images/defaults/travel-icons-blue.png')  0 -32px;}
+.travel-search .tabs > li > a.active span.hotel {background:url('../../images/defaults/travel-icons-blue.png')  0 -16px;}
+.travel-search .tabs > li> a.active:hover span.hotel {background:url('../../images/defaults/travel-icons-blue.png')  0 -32px;}
+
+.travel-search .tabs > li > a span.flight {background:url('../../images/defaults/travel-icons-blue.png')  -16px 0;}
+.travel-search .tabs > li > a:hover span.flight {background:url('../../images/defaults/travel-icons-blue.png')  -16px -32px;}
+.travel-search .tabs > li > a.active span.flight {background:url('../../images/defaults/travel-icons-blue.png')  -16px -16px;}
+.travel-search .tabs > li > a.active:hover span.flight {background:url('../../images/defaults/travel-icons-blue.png')  -16px -32px;}
+
+.travel-search .tabs > li > a span.vacation {background:url('../../images/defaults/travel-icons-blue.png')  -32px 0;}
+.travel-search .tabs > li > a:hover span.vacation {background:url('../../images/defaults/travel-icons-blue.png')  -32px -32px;}
+.travel-search .tabs > li > a.active span.vacation {background:url('../../images/defaults/travel-icons-blue.png')  -32px -16px;}
+.travel-search .tabs > li > a.active:hover span.vacation {background:url('../../images/defaults/travel-icons-blue.png')  -32px -32px;}
+
+.travel-search .tabs > li > a span.car {background:url('../../images/defaults/travel-icons-blue.png')  -48px 0;}
+.travel-search .tabs > li > a:hover span.car {background:url('../../images/defaults/travel-icons-blue.png')  -48px -32px;}
+.travel-search .tabs > li > a.active span.car {background:url('../../images/defaults/travel-icons-blue.png')  -48px -16px;}
+.travel-search .tabs > li > a.active:hover span.car {background:url('../../images/defaults/travel-icons-blue.png')  -48px -32px;}
+
+.travel-search .tabs > li > a span.cruise {background:url('../../images/defaults/travel-icons-blue.png')  -64px 0;}
+.travel-search .tabs > li > a:hover span.cruise {background:url('../../images/defaults/travel-icons-blue.png')  -64px -32px;}
+.travel-search .tabs > li > a.active span.cruise {background:url('../../images/defaults/travel-icons-blue.png')  -64px -16px;}
+.travel-search .tabs > li > a.active:hover span.cruise {background:url('../../images/defaults/travel-icons-blue.png')  -64px -32px;}

@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from crenoveative.com/creativemarket/tongtiew/index-toggle-search.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Oct 2015 09:36:52 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Tongtiaw - Travel Agency HTML5 Responsive Template</title>
+	<meta name="keywords" content="Hotel, Travel, Tour, Trip, Booking , CSS3, HTML5, Repsonsive"/>
+    <meta name="description" content="Responsive Template for Travel Agency and Complete Booking System">
+    <meta name="author" content="hoomey">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<!-- ============================================
+		Fav and touch icons
+	============================================= -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="images/ico/favicon.png">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/external-styled.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/icons.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/smoothness/jquery-ui-1.8.16.custom.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100,500,400italic,500italic,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+	
+	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	
+  </head>
+
+  <body>
+  
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+	
+	<div id="body_wrapper" class="full">
+
+		<header id="header">
+			<div class="top-header">
+				<div class="clearfix">
+					<div class="top-header-inner clearfix">
+						<div class="header-currency mr-20">
+							<a href="#"><span><i class="fa-dollar"></i>US Dollar</span></a>
+							<div class="currency-show">
+								<ul>
+									<li><a href="#"><span><i class="fa-gbp"></i>UK Pound</span></a></li>
+									<li><a href="#"><span><i class="fa-euro"></i>EU Euro</span></a></li>
+								</ul>
+							</div><!-- end other -->
+						</div>
+						<div class="header-phone"><i class="icon icon-phone-support"></i>+1900 12 213 21</div>
+						<div class="header-language ml-10">
+							<a href="#" class="english"><span>English</span></a>
+							<div class="other_languages">
+								<ul class="clearfix">
+									<li><a href="#" class="deutsch"><span>Deutsch</span></a></li>
+									<li><a href="#" class="espanol"><span>Español</span></a></li>
+									<li><a href="#" class="italiano"><span>Italiano</span></a></li>
+								</ul>
+							</div><!-- end other -->
+						</div>
+						<div class="header-register">
+							<a href="#" class="br"><i class="icon icon icon-user-add mi"></i>Register</a>
+							<div class="register_show">
+								<form role="form">
+									<div class="form-group">
+										<label for="register-name">Your Name</label>
+										<input type="text" class="form-control" id="register-name" placeholder="Ex: John Doe">
+									</div>
+									<div class="form-group">
+										<label for="register-email">Email</label>
+										<input type="email" class="form-control" id="register-email" placeholder="Email">
+									</div>
+									<div class="form-group">
+										<label for="register-username">Your Preferred Username</label>
+										<input type="text" class="form-control" id="register-username" placeholder="Min. 6 char & Max. 15 char">
+									</div>
+									<div class="form-group">
+										<label for="register-password">Password</label>
+										<input type="password" class="form-control" id="register-password" placeholder="Password">
+									</div>
+									<div class="form-group">
+										<label for="register-password-confirm">Confirm Password</label>
+										<input type="password" class="form-control" id="register-password-confirm" placeholder="Confirm  Password">
+									</div>
+									<a href="#" class="btn btn-success">Register</a>
+									<div class="clear mb-10"></div>
+								</form>
+							</div><!-- end other -->
+						</div>
+						<div class="header-login mr-15">
+							<a href="#" class="br"><i class="fa-sign-in mi"></i>Login</a>
+							<div class="login_show">
+								<form role="form">
+									<div class="form-group">
+										<label for="show-login">Email / Username</label>
+										<input type="text" class="form-control" id="show-login" placeholder="Email / Username">
+									</div>
+									<div class="form-group">
+										<label for="show-password">Password</label>
+										<input type="password" class="form-control" id="show-password" placeholder="Password">
+									</div>
+									<div class="checkbox">
+										<label>
+											<input type="checkbox"> Remember Me
+										</label>
+									</div>
+									<button type="submit" class="btn btn-primary">Login</button>
+									<div class="clear mb-10"></div>
+									<a href="#" class="forgot">Forgot Your Password?</a>
+								</form>
+							</div><!-- end other -->
+						</div>
+						<div class="clear xss-mb-10"></div>
+					</div><!-- end top-header-inner -->
+				</div><!-- end container -->
+			</div><!-- end top-header -->
+			<div class="clear"></div>
+			<div class="large-header my_sticky">
+				<div class="clearfix">
+					<div class="logo">
+						<a href="index-2.html" title="Logo"><img src="images/logo.png" alt="Logo"></a>
+					</div><!-- end logo -->
+					<div class="search-wrapper">
+						<button id="#search-collapse" class="search-toggle">
+							<i class="icon icon-active-search"></i>
+						</button>
+						<div id="search-collapse" style="display:none;">
+							<form  action="#" method="get">
+								<input type="text" id="search-collapse-inner" name="search-collapse-inner" placeholder="Search ..." >
+							</form>
+						</div><!-- End search-collapsem -->
+					</div><!-- End search-wrapper -->
+					<nav>
+						<ul class="sf-menu">
+							<li class="current">
+								<a href="index-2.html">Home</a>
+								<ul class="col3 mega">
+									<li class="col1">
+										<ol>
+											<li class="title">Variants</li>
+											<li><a href="index-3.html">Style 2</a></li>
+											<li><a href="index-3-offer.html">Style 3 - Offer</a></li>
+											<li><a href="index-4-minimal.html">Style 4 - Minimal</a></li>
+											<li><a href="index-5-presentation.html">Style 5 - Present</a></li>
+										</ol>
+									</li>
+									<li class="col1">
+										<ol>
+											<li class="title">Layouts</li>
+											<li><a href="index-boxed.html">Boxed</a></li>
+											<li><a href="index-boxed-margin.html">Boxed Margin</a></li>
+											<li><a href="index-6.html">Home Style - 6</a></li>
+											<li><a href="index-7.html">Home Style - 7</a></li>
+										</ol>
+									</li>
+									<li class="col1">
+										<ol>
+											<li class="title">Sliders</li>
+											<li><a href="index-flexslider.html">FlexSlider</a></li>
+											<li><a href="index-owl-slider.html">Owl Slider - 1 </a></li>
+											<li><a href="index-owl-slider-center.html">Owl Slider - 2</a></li>
+											<li><a href="index-owl-slider-right.html">Owl Slider - 3</a></li>
+										</ol>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">Hotels</a></li>
+							<li><a href="#">Flights</a></li>
+							<li><a href="#">Vocations</a></li>
+							<li><a href="#">Things To Do</a></li>
+							<li>
+								<a href="#">Pages</a>
+								<ul>
+									<li><a href="page-list-list.html">List Page - List</a></li>
+									<li><a href="page-list-large-grid.html">List Page - Large Grid</a></li>
+									<li><a href="page-list-small-grid.html">List Page - Small Grid</a></li>
+									<li><a href="page-details.html">Detail Page</a></li>
+									<li><a href="page-details-2.html">Detail Page 2</a></li>
+									<li><a href="page-payment.html">Payment Page</a></li>
+									<li><a href="page-confirm.html">Confirm Page</a></li>
+									<li><a href="#">Header</a>
+										<ul>
+											<li><a href="index-header-01.html">Style 1</a></li>
+											<li><a href="index-header-02.html">Style 2</a></li>
+											<li><a href="index-header-03.html">Style 3</a></li>
+											<li><a href="index-header-04-modal.html">Style 4 - Modal Login</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Footer</a>
+										<ul>
+											<li><a href="index-footer-01.html">Style 1</a></li>
+											<li><a href="index-footer-02.html">Style 2</a></li>
+											<li><a href="index-footer-03.html">Style 3</a></li>
+											<li><a href="index-footer-04.html">Style 4</a></li>
+											<li><a href="index-footer-05.html">Style 5</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Travel Search</a>
+										<ul>
+											<li><a href="index-2.html">Style 1</a></li>
+											<li><a href="index-tab-search.html">Style 2</a></li>
+											<li><a href="index-tab-search-long.html">Style 3</a></li>
+											<li><a href="index-toggle-search.html">Style 4</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="blog.html">Blog</a>
+								<ul>
+									<li><a href="blog-single.html">Blog Single</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>
+							<li>
+								<a href="#">Purchase</a>
+							</li>
+						</ul><!-- end menu -->
+					</nav><!-- end nav -->
+				</div><!-- end container -->
+			</div><!-- end large-header -->
+		</header><!-- end header -->
+		
+		<div id="slider_wrapper">
+			<div class="big-slider flexslider big_flex">
+				<ul class="slides">
+					<li><img src="images/sliders/flexSlider-01.jpg" alt="#">
+						<p class="flex-price">Starting From $350 only</p>
+						<h3><a href="#">Your Honeymoon Day</a></h3>
+						<p>Santorini, Greece</p>
+					</li>
+					<li><img src="images/sliders/flexSlider-02.jpg" alt="#">
+						<p class="flex-price">Starting From $120 only</p>
+						<h3><a href="#">Cable Car Adventure</a></h3>
+						<p>Grindelwald , Switzerland</p>
+					</li>
+					<li><img src="images/sliders/flexSlider-03.jpg" alt="#">
+						<p class="flex-price">Starting From $199 only</p>
+						<h3><a href="#">Exotic Paradise Relax</a></h3>
+						<p>Phuket, Thailand</p>
+					</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div><!-- end slider_wrapper -->
+		
+		<div id="content_wrapper">
+			<div class="container">
+				
+				<div class="travel-search right toggle">
+					<div class="travel-search-inner">
+						<ul class="tt-accordion">
+							<li class="sub-accordion">
+								<div class="accordion-head">
+									<div class="accordion-head-sign"></div>
+									<p>Flights</p>
+								</div>
+								<div class="accordion-content">
+									<form role="form" class="row">
+										<div class="col-xs-12 col-sm-3 col-md-6">
+											<div class="form-group">
+												<label for="searchFlightFrom">From</label>
+												<input type="text" class="form-control" id="searchFlightFrom" placeholder="Thailand">
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-3 col-md-6">
+											<div class="form-group">
+												<label for="searchFlightTo">To</label>
+												<input type="text" class="form-control" id="searchFlightTo" placeholder="Thailand">
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-3 col-md-6">
+											<div class="form-group datepicker-wrapper">
+												<label for="searchFlightChckIn">Check-in</label>
+												<input type="text" class="form-control date" id="searchFlightChckIn" placeholder="dd/dm/yy">
+												<i class="fa fa-calendar"></i>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-3 col-md-6">
+											<div class="form-group datepicker-wrapper">
+												<label for="searchFlightChckOut">Check-out</label>
+												<input type="text" class="form-control date" id="searchFlightChckOut" placeholder="dd/dm/yy">
+												<i class="fa fa-calendar"></i>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-3 col-md-4">
+											<div class="form-group">
+												<label for="searchFlightAdult">Adult</label>
+												<select class="form-control mySelectBoxClass" id="searchFlightAdult">
+													<option>0</option>
+													<option selected>1</option>
+													<option>2</option>
+													<option>3</option>
+													<option>4</option>
+													<option>5</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-3 col-md-4">
+											<div class="form-group">
+												<label for="searchFlightChild">Child</label>
+												<select class="form-control mySelectBoxClass" id="searchFlightChild">
+													<option>0</option>
+													<option selected>1</option>
+													<option>2</option>
+													<option>3</option>
+													<option>4</option>
+													<option>5</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-6 col-md-4">
+											<div class="clear"></div>
+											<button type="submit" class="btn btn-primary btn-block">Search</button>
+										</div>
+									</form>
+								</div>
+								<div class="clear"></div>
+							</li><!-- end accordion item -->
+							<li class="sub-accordion">
+								<div class="accordion-head">
+									<div class="accordion-head-sign"></div>
+									<p>Hotels</p>
+								</div>
+								<div class="accordion-content">
+									<form role="form" class="row">
+										<div class="col-xs-12 col-sm-4 col-md-12">
+											<div class="form-group">
+												<label for="searchHotelWhere">Where Do You Want to Stay?</label>
+												<input type="text" class="form-control" id="searchHotelWhere" placeholder="Thailand">
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-4 col-md-6">
+											<div class="form-group datepicker-wrapper">
+												<label for="searchCheckIn">Check-in</label>
+												<input type="text" class="form-control date" id="searchCheckIn" placeholder="dd/dm/yy">
+												<i class="fa fa-calendar"></i>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-4 col-md-6">
+											<div class="form-group datepicker-wrapper">
+												<label for="searchCheckOut">Check-out</label>
+												<input type="text" class="form-control date" id="searchCheckOut" placeholder="dd/dm/yy">
+												<i class="fa fa-calendar"></i>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-3 col-md-4">
+											<div class="form-group">
+												<label for="searchCheckAdult">Adult</label>
+												<select class="form-control mySelectBoxClass" id="searchCheckAdult">
+													<option>0</option>
+													<option selected>1</option>
+													<option>2</option>
+													<option>3</option>
+													<option>4</option>
+													<option>5</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-3 col-md-4">
+											<div class="form-group">
+												<label for="searchCheckChild">Child</label>
+												<select class="form-control mySelectBoxClass" id="searchCheckChild">
+													<option>0</option>
+													<option selected>1</option>
+													<option>2</option>
+													<option>3</option>
+													<option>4</option>
+													<option>5</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-6 col-md-4">
+											<div class="clear"></div>
+											<button type="submit" class="btn btn-primary btn-block">Search</button>
+										</div>
+									</form>
+								</div>
+								<div class="clear"></div>
+							</li><!-- end accordion item -->
+							<li class="sub-accordion">
+								<div class="accordion-head">
+									<div class="accordion-head-sign"></div>
+									<p>Vacations</p>
+								</div>
+								<div class="accordion-content">
+									<form role="form" class="row">
+										<div class="col-xs-12 col-sm-4 col-md-12">
+											<div class="form-group">
+												<label for="searchVacationWhere">Where Do You Want to Go?</label>
+												<input type="text" class="form-control" id="searchVacationWhere" placeholder="Thailand">
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-6">
+											<div class="form-group datepicker-wrapper">
+												<label for="searchVacationCheckIn">From</label>
+												<input type="text" class="form-control date" id="searchVacationCheckIn" placeholder="dd/dm/yy">
+												<i class="fa fa-calendar"></i>
+											</div>
+										</div>
+										<div class="col-xs-6 col-sm-4 col-md-6">
+											<div class="form-group datepicker-wrapper">
+												<label for="searchVacationCheckOut">To</label>
+												<input type="text" class="form-control date" id="searchVacationCheckOut" placeholder="dd/dm/yy">
+												<i class="fa fa-calendar"></i>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-3 col-md-4">
+											<div class="form-group">
+												<label for="searchVacationAdult">Adult</label>
+												<select class="form-control mySelectBoxClass" id="searchVacationAdult">
+													<option>0</option>
+													<option selected>1</option>
+													<option>2</option>
+													<option>3</option>
+													<option>4</option>
+													<option>5</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-3 col-md-4">
+											<div class="form-group">
+												<label for="searchVacationChild">Child</label>
+												<select class="form-control mySelectBoxClass" id="searchVacationChild">
+													<option>0</option>
+													<option selected>1</option>
+													<option>2</option>
+													<option>3</option>
+													<option>4</option>
+													<option>5</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-6 col-md-4">
+											<div class="clear"></div>
+											<button type="submit" class="btn btn-primary btn-block">Search</button>
+										</div>
+									</form>
+								</div>
+								<div class="clear"></div>
+							</li><!-- end accordion item -->
+							<li class="sub-accordion">
+								<div class="accordion-head">
+									<div class="accordion-head-sign"></div>
+									<p>Cruises</p>
+								</div>
+								<div class="accordion-content">
+									<form role="form" class="row">
+										<div class="col-xs-12 col-sm-6 col-md-12">
+											<div class="form-group">
+												<label for="searchCruisesDestinatiom">Destination</label>
+												<select class="form-control mySelectBoxClass" id="searchCruisesDestinatiom">
+													<option selected>Show all</option>
+													<optgroup label="Most Popular">
+														<option>Caribbean</option>
+														<option>Bahamas</option>
+														<option>Mexico</option>
+														<option>Alaska</option>
+														<option>Europe</option>
+														<option>Bermuda</option>
+														<option>Hawaii</option>
+													</optgroup>
+													<optgroup label="Other Destinations">
+														<option>Africa</option>
+														<option>Arctic/Antartctic</option>
+														<option>Asia</option>
+														<option>Oceania</option>
+														<option>Central America</option>
+														<option>Cruise to Nowhere</option>
+														<option>Galapagos</option>
+														<option>Greenland/Iceland</option>
+														<option>Middle East</option>
+														<option>Pacific Coastal</option>
+														<option>Panama Canal</option>
+														<option>South Africa</option>
+														<option>South Pacific</option>
+														<option>Tahiti</option>
+														<option>Transatlantic</option>
+														<option>World Cruises</option>
+													</optgroup>
+												</select>
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-6 col-md-12">
+											<div class="form-group">
+												<label for="searchCruisesWhen">When</label>
+												<select class="form-control mySelectBoxClass" id="searchCruisesWhen">
+													<option selected>Show all</option>
+													<option>October 2013</option>
+													<option>November 2013</option>
+													<option>December 2013</option>
+													<option>January 2014</option>
+													<option>February 2014</option>
+													<option>March 2014</option>
+													<option>April 2014</option>
+													<option>May 2014</option>
+													<option>June 2014</option>
+													<option>July 2014</option>
+													<option>August 2014</option>
+													<option>September 2014</option>
+													<option>October 2014</option>
+													<option>November 2014</option>
+													<option>December 2014</option>
+												</select>
+											</div>
+										</div>
+										<div class="clear"></div>
+										<div class="col-xs-12 col-sm-12 col-md-12">
+											<div class="clear"></div>
+											<button type="submit" class="btn btn-primary btn-block" style="margin: 15px 0;">Search</button>
+										</div>
+									</form>
+								</div>
+								<div class="clear"></div>
+							</li><!-- end accordion item -->
+						</ul><!-- end accordion -->
+					</div>
+				</div>
+				
+				<div class="clear"></div>
+				
+				<div class="row clearfix pv-30 mt-20">
+					<div class="col-xs-12 col-sm-12 col-md-12 product-3">
+						<h3 class="section-title mb-30">Best Offers</h3>
+						<div class="hot-deal-wrapper">
+							<div class="hotDeal1Navigation">
+								<a class="hotDeal1-prev"><i class="icon icon-left-open-big"></i></a>
+								<a class="hotDeal1-next"><i class="icon icon-right-open-big"></i></a>
+							</div>
+
+							<div id="hot-deal-1" class="owl-carousel items-container small-grid">
+								<div class="item">
+									<div class="list-item">
+										<div class="list-item-image">
+											<div class="image-inner">
+												<a class="link-image" href="page-details.html">
+													<img class="lazyOwl" data-src="images/list-items/best-offer-01.jpg" alt="Image" />
+													<div class="image-overlay">
+														<div class="overlay-content">
+															<div class="overlay-icon"><i class="icon_link"></i></div>
+														</div>	
+													</div>
+												</a>	
+											</div><!-- end image-inner -->
+										</div><!-- end list-item-image -->
+										<div class="list-item-label">
+											<h4 class="list-item-title"><a href="page-details.html" class="inverse">The Naka Island</a></h4>
+											<p class="line-h16px">Phuket, Thailand</p>
+											<div class="clear"></div>
+											<div class="list-item-save">
+												<span class="text-bold">45 sec remaining</span>
+												Save 40%
+											</div>
+											<div class="list-item-price">
+												<span>$250</span><a href="#">$150</a>
+											</div>
+										</div><!-- end list-item-label -->
+									</div>
+								</div>
+								<div class="item">
+									<div class="list-item">
+										<div class="list-item-image">
+											<div class="image-inner">
+												<a class="link-image" href="page-details.html">
+													<img class="lazyOwl" data-src="images/list-items/best-offer-02.jpg" alt="Image" />
+													<div class="image-overlay">
+														<div class="overlay-content">
+															<div class="overlay-icon"><i class="icon_link"></i></div>
+														</div>	
+													</div>
+												</a>	
+											</div><!-- end image-inner -->
+										</div><!-- end list-item-image -->
+										<div class="list-item-label">
+											<h4 class="list-item-title mb-10"><a href="page-details.html" class="inverse">The Hilton Maldives Resort & Spa</a></h4>
+											<p class="line-h16px">Rangali Island, Maldives</p>
+											<div class="clear"></div>
+											<div class="list-item-save">
+												<span class="text-bold">120 sec remaining</span>
+												Save 50%
+											</div>
+											<div class="list-item-price">
+												<span>$300</span><a href="#">$230</a>
+											</div>
+										</div><!-- end list-item-label -->
+									</div>
+								</div>
+								<div class="item">
+									<div class="list-item">
+										<div class="list-item-image">
+											<div class="image-inner">
+												<a class="link-image" href="page-details.html">
+													<img class="lazyOwl" data-src="images/list-items/best-offer-03.jpg" alt="Image" />
+													<div class="image-overlay">
+														<div class="overlay-content">
+															<div class="overlay-icon"><i class="icon_link"></i></div>
+														</div>	
+													</div>
+												</a>	
+											</div><!-- end image-inner -->
+										</div><!-- end list-item-image -->
+										<div class="list-item-label">
+											<h4 class="list-item-title mb-10"><a href="page-details.html" class="inverse">Anantara Seminyak Resort & Spa</a></h4>
+											<p class="line-h16px">Bali, Indonesia</p>
+											<div class="clear"></div>
+											<div class="list-item-save">
+												<span class="text-bold">21 min remaining</span>
+												Save 30%
+											</div>
+											<div class="list-item-price">
+												<span>$540</span><a href="#">$400</a>
+											</div>
+										</div><!-- end list-item-label -->
+									</div>
+								</div>
+								<div class="item">
+									<div class="list-item">
+										<div class="list-item-image">
+											<div class="image-inner">
+												<a class="link-image" href="page-details.html">
+													<img class="lazyOwl" data-src="images/list-items/best-offer-04.jpg" alt="Image" />
+													<div class="image-overlay">
+														<div class="overlay-content">
+															<div class="overlay-icon"><i class="icon_link"></i></div>
+														</div>	
+													</div>
+												</a>	
+											</div><!-- end image-inner -->
+										</div><!-- end list-item-image -->
+										<div class="list-item-label">
+											<h4 class="list-item-title mb-10"><a href="page-details.html" class="inverse">Shanti Maurice</a></h4>
+											<p class="line-h16px">Grenier, Mauritius</p>
+											<div class="clear"></div>
+											<div class="list-item-save">
+												<span class="text-bold">45 min remaining</span>
+												Save 45%
+											</div>
+											<div class="list-item-price">
+												<span>$700</span><a href="#">$550</a>
+											</div>
+										</div><!-- end list-item-label -->
+									</div>
+								</div>
+								<div class="item">
+									<div class="list-item">
+										<div class="list-item-image">
+											<div class="image-inner">
+												<a class="link-image" href="page-details.html">
+													<img class="lazyOwl" data-src="images/list-items/best-offer-05.jpg" alt="Image" />
+													<div class="image-overlay">
+														<div class="overlay-content">
+															<div class="overlay-icon"><i class="icon_link"></i></div>
+														</div>	
+													</div>
+												</a>	
+											</div><!-- end image-inner -->
+										</div><!-- end list-item-image -->
+										<div class="list-item-label">
+											<h4 class="list-item-title mb-10"><a href="page-details.html" class="inverse">Mandarin Oriental</a></h4>
+											<p class="line-h16px">Orchard, Singapore</p>
+											<div class="clear"></div>
+											<div class="list-item-save">
+												<span class="text-bold">1 hr 23 min remaining</span>
+												Save 50%
+											</div>
+											<div class="list-item-price">
+												<span>$300</span><a href="#">$600</a>
+											</div>
+										</div><!-- end list-item-label -->
+									</div>
+								</div>
+								<div class="item">
+									<div class="list-item">
+										<div class="list-item-image">
+											<div class="image-inner">
+												<a class="link-image" href="page-details.html">
+													<img class="lazyOwl" data-src="images/list-items/best-offer-06.jpg" alt="Image" />
+													<div class="image-overlay">
+														<div class="overlay-content">
+															<div class="overlay-icon"><i class="icon_link"></i></div>
+														</div>	
+													</div>
+												</a>	
+											</div><!-- end image-inner -->
+										</div><!-- end list-item-image -->
+										<div class="list-item-label">
+											<h4 class="list-item-title mb-10"><a href="page-details.html" class="inverse">Marina Bay Sands</a></h4>
+											<p class="line-h16px">Orchard, Singapore</p>
+											<div class="clear"></div>
+											<div class="list-item-save">
+												<span class="text-bold">12 hr 01 min remaining</span>
+												Save 40%
+											</div>
+											<div class="list-item-price">
+												<span>$250</span><a href="#">$150</a>
+											</div>
+										</div><!-- end list-item-label -->
+									</div>
+								</div>
+								<div class="item">
+									<div class="list-item">
+										<div class="list-item-image">
+											<div class="image-inner">
+												<a class="link-image" href="page-details.html">
+													<img class="lazyOwl" data-src="images/list-items/best-offer-07.jpg" alt="Image" />
+													<div class="image-overlay">
+														<div class="overlay-content">
+															<div class="overlay-icon"><i class="icon_link"></i></div>
+														</div>	
+													</div>
+												</a>	
+											</div><!-- end image-inner -->
+										</div><!-- end list-item-image -->
+										<div class="list-item-label">
+											<h4 class="list-item-title mb-10"><a href="page-details.html" class="inverse">Madinat Jumeirah</a></h4>
+											<p class="line-h16px">Dubai, UAE</p>
+											<div class="clear"></div>
+											<div class="list-item-save">
+												<span class="text-bold">2 days 19 hr remaining</span>
+												Save 40%
+											</div>
+											<div class="list-item-price">
+												<span>$150</span><a href="#">$90</a>
+											</div>
+										</div><!-- end list-item-label -->
+									</div>
+								</div>
+								<div class="item">
+									<div class="list-item">
+										<div class="list-item-image">
+											<div class="image-inner">
+												<a class="link-image" href="page-details.html">
+													<img class="lazyOwl" data-src="images/list-items/best-offer-08.jpg" alt="Image" />
+													<div class="image-overlay">
+														<div class="overlay-content">
+															<div class="overlay-icon"><i class="icon_link"></i></div>
+														</div>	
+													</div>
+												</a>	
+											</div><!-- end image-inner -->
+										</div><!-- end list-item-image -->
+										<div class="list-item-label">
+											<h4 class="list-item-title mb-10"><a href="page-details.html" class="inverse">Silavadee Pool Spa Resort</a></h4>
+											<p class="line-h16px">Koh Samui, Thailand</p>
+											<div class="clear"></div>
+											<div class="list-item-save">
+												<span class="text-bold">4 days 21 hr remaining</span>
+												Save 40%
+											</div>
+											<div class="list-item-price">
+												<span>$250</span><a href="#">$150</a>
+											</div>
+										</div><!-- end list-item-label -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+					
+					<div class="col-xs-12 col-sm-12 col-md-12 mt-30">
+						<div class="gr-style"></div>
+						<h3 class="section-title mv-30">Top Destinations</h3>
+					</div>
+					
+					<div class="produc-item">
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="list-item">
+								<div class="list-item-image">
+									<div class="image-inner">
+										<a class="link-image" href="page-details.html">
+											<img src="images/list-items/top-destination-05.jpg" alt="Image" />
+											<div class="image-overlay">
+												<div class="overlay-content">
+													<div class="overlay-icon"><i class="icon_link"></i></div>
+												</div><!--/ .extra-content-->	
+											</div><!--/ .image-extra-->
+										</a>	
+									</div>
+								</div><!-- end list-item -->
+								<div class="list-item-label">
+									<h4 class="list-item-title"><a href="page-details.html">Bora Bora, French Polynesia</a></h4>
+									<div class="list-item-price">
+										<a href="#"><i class="fa-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="list-item">
+								<div class="list-item-image">
+									<div class="image-inner">
+										<a class="link-image" href="page-details.html">
+											<img src="images/list-items/top-destination-06.jpg" alt="Image" />
+											<div class="image-overlay">
+												<div class="overlay-content">
+													<div class="overlay-icon"><i class="icon_link"></i></div>
+												</div><!--/ .extra-content-->	
+											</div><!--/ .image-extra-->
+										</a>	
+									</div>
+								</div><!-- end list-item -->
+								<div class="list-item-label">
+									<h4 class="list-item-title"><a href="page-details.html">Hong Kong, China</a></h4>
+									<div class="list-item-price">
+										<a href="#"><i class="fa-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="list-item">
+								<div class="list-item-image">
+									<div class="image-inner">
+										<a class="link-image" href="page-details.html">
+											<img src="images/list-items/top-destination-07.jpg" alt="Image" />
+											<div class="image-overlay">
+												<div class="overlay-content">
+													<div class="overlay-icon"><i class="icon_link"></i></div>
+												</div><!--/ .extra-content-->	
+											</div><!--/ .image-extra-->
+										</a>	
+									</div>
+								</div><!-- end list-item -->
+								<div class="list-item-label">
+									<h4 class="list-item-title"><a href="page-details.html">Mykonos, Greece</a></h4>
+									<div class="list-item-price">
+										<a href="#"><i class="fa-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="list-item">
+								<div class="list-item-image">
+									<div class="image-inner">
+										<a class="link-image" href="page-details.html">
+											<img src="images/list-items/top-destination-08.jpg" alt="Image" />
+											<div class="image-overlay">
+												<div class="overlay-content">
+													<div class="overlay-icon"><i class="icon_link"></i></div>
+												</div><!--/ .extra-content-->	
+											</div><!--/ .image-extra-->
+										</a>	
+									</div>
+								</div><!-- end list-item -->
+								<div class="list-item-label">
+									<h4 class="list-item-title"><a href="page-details.html">San Francisco, USA</a></h4>
+									<div class="list-item-price">
+										<a href="#"><i class="fa-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="list-item">
+								<div class="list-item-image">
+									<div class="image-inner">
+										<a class="link-image" href="page-details.html">
+											<img src="images/list-items/top-destination-01.jpg" alt="Image" />
+											<div class="image-overlay">
+												<div class="overlay-content">
+													<div class="overlay-icon"><i class="icon_link"></i></div>
+												</div><!--/ .extra-content-->	
+											</div><!--/ .image-extra-->
+										</a>	
+									</div>
+								</div><!-- end list-item -->
+								<div class="list-item-label">
+									<h4 class="list-item-title"><a href="page-details.html">Dubai, UAE</a></h4>
+									<div class="list-item-price">
+										<a href="#"><i class="fa-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="list-item">
+								<div class="list-item-image">
+									<div class="image-inner">
+										<a class="link-image" href="page-details.html">
+											<img src="images/list-items/top-destination-02.jpg" alt="Image" />
+											<div class="image-overlay">
+												<div class="overlay-content">
+													<div class="overlay-icon"><i class="icon_link"></i></div>
+												</div><!--/ .extra-content-->	
+											</div><!--/ .image-extra-->
+										</a>	
+									</div>
+								</div><!-- end list-item -->
+								<div class="list-item-label">
+									<h4 class="list-item-title"><a href="page-details.html">Varenna, Italy</a></h4>
+									<div class="list-item-price">
+										<a href="#"><i class="fa-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="list-item">
+								<div class="list-item-image">
+									<div class="image-inner">
+										<a class="link-image" href="page-details.html">
+											<img src="images/list-items/top-destination-03.jpg" alt="Image" />
+											<div class="image-overlay">
+												<div class="overlay-content">
+													<div class="overlay-icon"><i class="icon_link"></i></div>
+												</div><!--/ .extra-content-->	
+											</div><!--/ .image-extra-->
+										</a>	
+									</div>
+								</div><!-- end list-item -->
+								<div class="list-item-label">
+									<h4 class="list-item-title"><a href="page-details.html">Santorini, Greece</a></h4>
+									<div class="list-item-price">
+										<a href="#"><i class="fa-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="list-item">
+								<div class="list-item-image">
+									<div class="image-inner">
+										<a class="link-image" href="page-details.html">
+											<img src="images/list-items/top-destination-04.jpg" alt="Image" />
+											<div class="image-overlay">
+												<div class="overlay-content">
+													<div class="overlay-icon"><i class="icon_link"></i></div>
+												</div><!--/ .extra-content-->	
+											</div><!--/ .image-extra-->
+										</a>	
+									</div>
+								</div><!-- end list-item -->
+								<div class="list-item-label">
+									<h4 class="list-item-title"><a href="page-details.html">New York, USa</a></h4>
+									<div class="list-item-price">
+										<a href="#"><i class="fa-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- end content_wrapper -->
+		
+		<footer id="footer">
+			<div class="primary-footer">
+				<div class="container">
+					<div class="row pt-50 pb-30">
+						<div class="col-xs-12 col-sm-3 col-md-3 rs-mb">
+							<h4 class="widget-title mb-30">About Us</h4>
+							<div class="logo-footer mt-20 mb-10">
+								<img src="images/logo-footer.png" alt="logo" />
+							</div>
+							<p>Left till here away at to whom past. Feelings laughing at no... <a href="#" style="font-weight: 300; font-style: italic">view more</a></p>
+							<div class="social with_color">
+								<a href="#" class="bottomtip" title="Twitter"><i class="fa-twitter"></i></a>
+								<a href="#" class="bottomtip" title="Facebook"><i class="fa-facebook"></i></a>
+								<a href="#" class="bottomtip" title="Dribbble"><i class="fa-dribbble"></i></a>
+								<a href="#" class="bottomtip" title="Youtube"><i class="fa-youtube"></i></a>
+								<a href="#" class="bottomtip" title="RSS"><i class="fa-rss"></i></a>
+							</div><!-- end social -->
+							<div class="clear"></div>
+						</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 xs-mb">
+							<h4 class="widget-title mb-20">Travel Specialists</h4>
+							<ul class="link-list">
+								<li><a href="#" title="Travel Specialists">Honeymoon</a></li>
+								<li><a href="#" title="Travel Specialists">Winter Sun Holidays</a></li>
+								<li><a href="#" title="Travel Specialists">Safari Season</a></li>
+								<li><a href="#" title="Travel Specialists">Luxury Cities</a></li>
+								<li><a href="#" title="Travel Specialists">Family Holidays</a></li>
+								<li><a href="#" title="Travel Specialists">Culture Trips</a></li>
+								<li><a href="#" title="Travel Specialists">Tropical Adventure</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 xs-mb">
+							<h4 class="widget-title mb-20">Quick Links</h4>
+							<ul class="link-list">
+								<li><a href="#" title="Quick Links">Make reservation</a></li>
+								<li><a href="#" title="Quick Links">FAQ</a></li>
+								<li><a href="#" title="Quick Links">Payment Options</a></li>
+								<li><a href="#" title="Quick Links">Booking Tips</a></li>
+								<li><a href="#" title="Quick Links">Information</a></li>
+								<li><a href="#" title="Quick Links">Hotel Awards</a></li>
+								<li><a href="#" title="Quick Links">Press Room</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-12 col-sm-3 col-md-3">
+							<h4 class="widget-title mb-20">Newsletter</h4>
+							<div class="newsletter mt-20">
+								<form name="email-validation" id="email-validation" class="fixed-position" action="#" novalidate>
+									<input type="email" name="form-control" id="input-email" class="form-control" placeholder="Enter Your Email" value="">
+									<button type="submit" class="btn btn-primary submit-button"><i class="arrow_carrot-right_alt2"></i></button>
+								</form>
+							</div><!-- End newsletter -->
+							<div class="clear mb-30"></div>
+							<h4 class="widget-title">Customer Support</h4>
+							<p class="phone-number text-info"><i class="icon icon-phone-support mr-10"></i>+1900 12 213 21</p>
+							<a href="mailto:dowenstation@gmail.com" class="font16 font300">office@tongtiew.com</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="bottom-footer">
+				<div class="container pv-15 bt">
+					<p class="copy-right text-center">&copy; 2014 <a href="index-2.html">TongTiew</a>. All Right Reserved</p>
+					<div id="toTop" class="toptip" title="Back to Top"><i class="icon icon-up-open-big"></i></div><!-- Back to top -->
+				</div>
+			</div>
+		</footer>
+	</div><!-- end body_wrapper -->
+
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery.v2.0.3.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script> 
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script type="text/javascript" src="js/sliders.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>  
+	
+  </body>
+
+<!-- Mirrored from crenoveative.com/creativemarket/tongtiew/index-toggle-search.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Oct 2015 09:36:52 GMT -->
+</html>

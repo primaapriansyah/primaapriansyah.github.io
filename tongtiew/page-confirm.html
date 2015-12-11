@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from crenoveative.com/creativemarket/tongtiew/page-confirm.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Oct 2015 09:36:48 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Tongtiaw - Travel Agency HTML5 Responsive Template</title>
+	<meta name="keywords" content="Hotel, Travel, Tour, Trip, Booking , CSS3, HTML5, Repsonsive, ios7"/>
+    <meta name="description" content="Responsive Template for Travel Agency and Complete Booking System">
+    <meta name="author" content="hoomey">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<!-- ============================================
+		Fav and touch icons
+	============================================= -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="images/ico/favicon.png">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/external-styled.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/icons.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/smoothness/jquery-ui-1.8.16.custom.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100,500,400italic,500italic,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+	
+	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	
+  </head>
+
+  <body>
+  
+	<div id="body_wrapper" class="full trip">
+		<header id="header">
+			<div class="top-header">
+				<div class="clearfix">
+					<div class="top-header-inner clearfix">
+						<div class="header-currency mr-20">
+							<a href="#"><span><i class="icon icon-dollar"></i>US Dollar</span></a>
+							<div class="currency-show">
+								<ul>
+									<li><a href="#"><span><i class="icon icon-pound"></i>UK Pound</span></a></li>
+									<li><a href="#"><span><i class="icon icon-euro"></i>EU Euro</span></a></li>
+								</ul>
+							</div><!-- end other -->
+						</div>
+						<div class="header-phone"><i class="icon icon-phone-support"></i>+1900 12 213 21</div>
+						<div class="header-language ml-10">
+							<a href="#" class="english"><span>English</span></a>
+							<div class="other_languages">
+								<ul class="clearfix">
+									<li><a href="#" class="deutsch"><span>Deutsch</span></a></li>
+									<li><a href="#" class="espanol"><span>Español</span></a></li>
+									<li><a href="#" class="italiano"><span>Italiano</span></a></li>
+								</ul>
+							</div><!-- end other -->
+						</div>
+						<div class="header-register">
+							<a href="#" class="br"><i class="icon icon icon-user-add mi"></i>Register</a>
+							<div class="register_show">
+								<form role="form">
+									<div class="form-group">
+										<label for="register-name">Your Name</label>
+										<input type="text" class="form-control" id="register-name" placeholder="Ex: John Doe">
+									</div>
+									<div class="form-group">
+										<label for="register-email">Email</label>
+										<input type="email" class="form-control" id="register-email" placeholder="Email">
+									</div>
+									<div class="form-group">
+										<label for="register-username">Your Preferred Username</label>
+										<input type="text" class="form-control" id="register-username" placeholder="Min. 6 char & Max. 15 char">
+									</div>
+									<div class="form-group">
+										<label for="register-password">Password</label>
+										<input type="password" class="form-control" id="register-password" placeholder="Password">
+									</div>
+									<div class="form-group">
+										<label for="register-password-confirm">Confirm Password</label>
+										<input type="password" class="form-control" id="register-password-confirm" placeholder="Confirm  Password">
+									</div>
+									<a href="#" class="btn btn-success">Register</a>
+									<div class="clear mb-10"></div>
+								</form>
+							</div><!-- end other -->
+						</div>
+						<div class="header-login mr-15">
+							<a href="#" class="br"><i class="icon icon-login mi"></i>Login</a>
+							<div class="login_show">
+								<form role="form">
+									<div class="form-group">
+										<label for="show-login">Email / Username</label>
+										<input type="text" class="form-control" id="show-login" placeholder="Email / Username">
+									</div>
+									<div class="form-group">
+										<label for="show-password">Password</label>
+										<input type="password" class="form-control" id="show-password" placeholder="Password">
+									</div>
+									<div class="checkbox">
+										<label>
+											<input type="checkbox"> Remember Me
+										</label>
+									</div>
+									<button type="submit" class="btn btn-primary">Login</button>
+									<div class="clear mb-10"></div>
+									<a href="#" class="forgot">Forgot Your Password?</a>
+								</form>
+							</div><!-- end other -->
+						</div>
+						<div class="clear xss-mb"></div>
+					</div><!-- end top-header-inner -->
+				</div><!-- end container -->
+			</div><!-- end top-header -->
+			<div class="clear"></div>
+			<div class="large-header my_sticky">
+				<div class="clearfix">
+					<div class="logo">
+						<a href="index-2.html" title="Logo"><img src="images/logo.png" alt="Logo"></a>
+					</div><!-- end logo -->
+					<div class="search-wrapper">
+						<button id="#search-collapse" class="search-toggle">
+							<i class="icon icon-active-search"></i>
+						</button>
+						<div id="search-collapse" style="display:none;">
+							<form  action="http://crenoveative.com/creativemarket/tongtiew/search.php" method="get">
+								<input type="text" id="search-collapse-inner" name="search-collapse-inner" placeholder="Search ..." >
+							</form>
+						</div><!-- End search-collapsem -->
+					</div><!-- End search-wrapper -->
+					<nav>
+						<ul class="sf-menu">
+							<li>
+								<a href="index-2.html">Home</a>
+								<ul class="col3 mega">
+									<li class="col1">
+										<ol>
+											<li class="title">Variants</li>
+											<li><a href="index-3.html">Style 2</a></li>
+											<li><a href="index-3-offer.html">Style 3 - Offer</a></li>
+											<li><a href="index-4-minimal.html">Style 4 - Minimal</a></li>
+											<li><a href="index-5-presentation.html">Style 5 - Present</a></li>
+										</ol>
+									</li>
+									<li class="col1">
+										<ol>
+											<li class="title">Layouts</li>
+											<li><a href="index-boxed.html">Boxed</a></li>
+											<li><a href="index-boxed-margin.html">Boxed Margin</a></li>
+											<li><a href="index-6.html">Home Style - 6</a></li>
+											<li><a href="index-7.html">Home Style - 7</a></li>
+										</ol>
+									</li>
+									<li class="col1">
+										<ol>
+											<li class="title">Sliders</li>
+											<li><a href="index-flexslider.html">FlexSlider</a></li>
+											<li><a href="index-owl-slider.html">Owl Slider - 1 </a></li>
+											<li><a href="index-owl-slider-center.html">Owl Slider - 2</a></li>
+											<li><a href="index-owl-slider-right.html">Owl Slider - 3</a></li>
+										</ol>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">Hotels</a></li>
+							<li><a href="#">Flights</a></li>
+							<li><a href="#">Vocations</a></li>
+							<li><a href="#">Things To Do</a></li>
+							<li class="current">
+								<a href="#">Pages</a>
+								<ul>
+									<li><a href="page-list-list.html">List Page - List</a></li>
+									<li><a href="page-list-large-grid.html">List Page - Large Grid</a></li>
+									<li><a href="page-list-small-grid.html">List Page - Small Grid</a></li>
+									<li><a href="page-details.html">Detail Page</a></li>
+									<li><a href="page-details-2.html">Detail Page 2</a></li>
+									<li><a href="page-payment.html">Payment Page</a></li>
+									<li><a href="page-confirm.html">Confirm Page</a></li>
+									<li><a href="#">Header</a>
+										<ul>
+											<li><a href="index-header-01.html">Style 1</a></li>
+											<li><a href="index-header-02.html">Style 2</a></li>
+											<li><a href="index-header-03.html">Style 3</a></li>
+											<li><a href="index-header-04-modal.html">Style 4 - Modal Login</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Footer</a>
+										<ul>
+											<li><a href="index-footer-01.html">Style 1</a></li>
+											<li><a href="index-footer-02.html">Style 2</a></li>
+											<li><a href="index-footer-03.html">Style 3</a></li>
+											<li><a href="index-footer-04.html">Style 4</a></li>
+											<li><a href="index-footer-05.html">Style 5</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Travel Search</a>
+										<ul>
+											<li><a href="index-2.html">Style 1</a></li>
+											<li><a href="index-tab-search.html">Style 2</a></li>
+											<li><a href="index-tab-search-long.html">Style 3</a></li>
+											<li><a href="index-toggle-search.html">Style 4</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="blog.html">Blog</a>
+								<ul>
+									<li><a href="blog-single.html">Blog Single</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>
+							<li>
+								<a href="#">Purchase</a>
+							</li>
+						</ul><!-- end menu -->
+					</nav><!-- end nav -->
+				</div><!-- end container -->
+			</div><!-- end large-header -->
+		</header><!-- end header -->
+		
+		<div id="page_title">
+			<div class="container clearfix">
+				<div class="page-name">Payment</div>
+				<div class="breadcrumb clearfix">
+					<a href="index-2.html">Home</a>
+					<span class="current-page">Payment</span>
+				</div>
+			</div>
+		</div><!-- end slider_wrapper -->
+		
+		<div id="content_wrapper">
+			<div class="container">
+				<div class="row clearfix pv-50">
+					
+					<div class="col-xs-12 col-sm-8 col-md-8 xs-mb">
+						<div class="white-bg payment-wrapper">
+							<h2 class="section-title center mb-10"><span class="text-success">Thank you</span>, your booking is complete!</h2>
+							<p class="center mb-40">Your confirmation number is <span class="text-success text-bold">9977234<span></span>
+							
+							<h3>Booking Information</h3>
+							<div class="bb2 mb-30"></div>
+							
+							<table class="table table-striped">
+								<tbody>
+									<tr>
+										<td>First Name: </td>
+										<td>Abdulrahman</td>
+									</tr>
+									<tr>
+										<td>Last Name: </td>
+										<td>Bin Solah</td>
+									</tr>
+									<tr>
+										<td>Hotel: </td>
+										<td>Kyoto Kokusai Hotel, Kyoto, Japan</td>
+									</tr>
+									<tr>
+										<td>Duration: </td>
+										<td>2 nights (Dec/22/2013 - Dec/24/2013)</td>
+									</tr>
+								</tbody>
+							</table>
+							
+							<h3>Payment</h3>
+							<div class="bb2 mb-20"></div>
+							<p>Prepared do an dissuade be so whatever steepest. Yet her beyond looked either day wished nay. By doubtful disposed do juvenile an. Now curiosity you explained immediate why behaviour. An dispatched impossible of of melancholy favourable. Our quiet not heart along scale sense timed. Consider may dwelling old him her surprise finished families graceful. Gave led past poor met fine was new.</p>
+							<p>Talking chamber as shewing an it minutes. Trees fully of blind do. Exquisite favourite at do extensive listening. Improve up musical welcome he. Gay attended vicinity prepared now diverted. Esteems it ye sending reached as. Longer lively her design settle tastes advice mrs off who. </p>
+							
+							
+							<h3>Special Request</h3>
+							<div class="bb2 mb-20"></div>
+							<p>Abilities or he perfectly pretended so strangers be exquisite. Oh to another chamber pleased imagine do in. Went me rank at last loud shot an draw. Excellent so to no sincerity smallness. Removal request delight if on he we. Unaffected in we by apartments astonished to decisively themselves. Offended ten old consider speaking.</p>
+							
+							<div class="bb2 mb-15"></div>
+							<div class="mb-15 center">Grand Totel: <span class="font24 text-success">$970</span></div>
+							<div class="bb2 mb-30"></div>
+							<button type="submit" class="btn btn-primary">Print This Bill</button>
+							<div class="clear"></div>
+						</div>
+					</div>
+					
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="sidebar hotel-sidebar">
+							<div class="sidebar-item mb-20">
+								<div class="summary-payment">
+									<div class="summary-header mb-30">
+										<img src="images/list-items/small-item-01.jpg" alt="Alternative Hotel" />
+										<h3 class="no-mb">Kyoto Kokusai Hotel</h3>
+										<span>Kyoto, Japan</span>
+										<span class="rating-static rating-45"></span>
+									</div>
+									<div class="bb2 mb-30"></div>
+									<table class="table table-bordered table-striped mb-30">
+										<tr>
+											<td>Guests recommendations</td>
+											<td class="center text-bold text-success">90%</td>
+										</tr>
+										<tr>
+											<td>Guest ratings</td>
+											<td class="center text-bold text-success">4.0</td>
+										</tr>
+										<tr>
+											<td colspan=2><span class="text-bold">Room 1</span>: Standard Double Room</td>
+										</tr>
+										<tr>
+											<td colspan=2><span class="text-bold">2 Nights</span>: Dec/22/2013 - Dec/24/2013</td>
+										</tr>
+										<tr>
+											<td>
+												<span class="text-bold">Room 1</span>: 2 Adults<br/>
+												2 Nights
+												<!-- Collapse 1 -->	
+												<button type="button" class="summary-collapse collapsed mt-5" data-toggle="collapse" data-target="#collapse1"></button>
+												<div id="collapse1" class="collapse">
+													<div class="left font12 text-info">
+														Wed Dec 22<br/>
+														Thu Dec 24
+													</div>
+													<div class="right font12 text-info">
+														$231.00<br/>
+														$213.00
+													</div><div class="clearfix"></div>	
+												</div>
+												<!-- End of collapse 1 -->
+												<div class="clearfix"></div>	
+
+												
+												Taxes & Fees per night
+												
+												<!-- Collapse 1 -->	
+												<button type="button" class="summary-collapse collapsed mt-5" data-toggle="collapse" data-target="#collapse2"></button>
+												<div id="collapse2" class="collapse">
+													<div class="left font12 text-warning">
+														Wed Dec 22<br/>
+														Thu Dec 24
+													</div>
+													<div class="right font12 text-warning">
+														$1.51<br/>
+														$1.00
+													</div><div class="clearfix"></div>	
+												</div>
+												<!-- End of collapse 1 -->
+												<div class="clearfix"></div>	
+												
+											</td>
+											<td class="center">
+												avg/night<br/>
+												$435.92<br/>
+												$2.51<br/>
+											</td>
+										</tr>
+									</table>
+									
+									<div class="bb2 mb-20"></div>
+									
+									<span class="left">Total Fee:</span>
+									<span class="right text-success text-bold font24">$192.15</span>
+									
+									<div class="clear mb-10"></div>
+									
+								</div>
+							</div>
+							
+							<div class="sidebar-item mb-20">
+								<div class="lp-box">
+									<i class="text-info fa-phone-square"></i>
+									<h4>Need Assistance?</h4>
+									<p>Our team is 24/7 at your service to help you with your booking issues or answer any related questions</p>
+									<span class="text-info font24">+1900 12 213 21</span>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div><!-- end content_wrapper -->
+		
+		<footer id="footer">
+			<div class="primary-footer">
+				<div class="container">
+					<div class="row pt-50 pb-30">
+						<div class="col-xs-12 col-sm-3 col-md-3 rs-mb">
+							<h4 class="widget-title mb-30">About Us</h4>
+							<div class="logo-footer mt-20 mb-10">
+								<img src="images/logo-footer.png" alt="logo" />
+							</div>
+							<p>Left till here away at to whom past. Feelings laughing at no... <a href="#" style="font-weight: 300; font-style: italic">view more</a></p>
+							<div class="social with_color">
+								<a href="#" class="bottomtip" title="Twitter"><i class="fa-twitter"></i></a>
+								<a href="#" class="bottomtip" title="Facebook"><i class="fa-facebook"></i></a>
+								<a href="#" class="bottomtip" title="Dribbble"><i class="fa-dribbble"></i></a>
+								<a href="#" class="bottomtip" title="Youtube"><i class="fa-youtube"></i></a>
+								<a href="#" class="bottomtip" title="RSS"><i class="fa-rss"></i></a>
+							</div><!-- end social -->
+							<div class="clear"></div>
+						</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 xs-mb">
+							<h4 class="widget-title mb-20">Travel Specialists</h4>
+							<ul class="link-list">
+								<li><a href="#" title="Travel Specialists">Honeymoon</a></li>
+								<li><a href="#" title="Travel Specialists">Winter Sun Holidays</a></li>
+								<li><a href="#" title="Travel Specialists">Safari Season</a></li>
+								<li><a href="#" title="Travel Specialists">Luxury Cities</a></li>
+								<li><a href="#" title="Travel Specialists">Family Holidays</a></li>
+								<li><a href="#" title="Travel Specialists">Culture Trips</a></li>
+								<li><a href="#" title="Travel Specialists">Tropical Adventure</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 xs-mb">
+							<h4 class="widget-title mb-20">Quick Links</h4>
+							<ul class="link-list">
+								<li><a href="#" title="Quick Links">Make reservation</a></li>
+								<li><a href="#" title="Quick Links">FAQ</a></li>
+								<li><a href="#" title="Quick Links">Payment Options</a></li>
+								<li><a href="#" title="Quick Links">Booking Tips</a></li>
+								<li><a href="#" title="Quick Links">Information</a></li>
+								<li><a href="#" title="Quick Links">Hotel Awards</a></li>
+								<li><a href="#" title="Quick Links">Press Room</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-12 col-sm-3 col-md-3">
+							<h4 class="widget-title mb-20">Newsletter</h4>
+							<div class="newsletter mt-20">
+								<form name="email-validation" id="email-validation" class="fixed-position" action="#" novalidate>
+									<input type="email" name="form-control" id="input-email" class="form-control" placeholder="Enter Your Email" value="">
+									<button type="submit" class="btn btn-primary submit-button"><i class="arrow_carrot-right_alt2"></i></button>
+								</form>
+							</div><!-- End newsletter -->
+							<div class="clear mb-30"></div>
+							<h4 class="widget-title">Customer Support</h4>
+							<p class="phone-number text-info"><i class="icon icon-phone-support mr-10"></i>+1900 12 213 21</p>
+							<a href="mailto:dowenstation@gmail.com" class="font16 font300">office@tongtiew.com</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="bottom-footer">
+				<div class="container pv-15 bt">
+					<p class="copy-right text-center">&copy; 2014 <a href="index-2.html">TongTiew</a>. All Right Reserved</p>
+					<div id="toTop" class="toptip" title="Back to Top"><i class="icon icon-up-open-big"></i></div><!-- Back to top -->
+				</div>
+			</div>
+		</footer>
+	</div><!-- end body_wrapper -->
+
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery.v2.0.3.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script> 
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script type="text/javascript" src="js/sliders.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>  
+	
+  </body>
+
+<!-- Mirrored from crenoveative.com/creativemarket/tongtiew/page-confirm.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Oct 2015 09:36:48 GMT -->
+</html>

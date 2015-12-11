@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from crenoveative.com/creativemarket/tongtiew/index-5-presentation.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Oct 2015 09:29:26 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Tongtiaw - Travel Agency HTML5 Responsive Template</title>
+	<meta name="keywords" content="Hotel, Travel, Tour, Trip, Booking , CSS3, HTML5, Repsonsive"/>
+    <meta name="description" content="Responsive Template for Travel Agency and Complete Booking System">
+    <meta name="author" content="hoomey">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<!-- ============================================
+		Fav and touch icons
+	============================================= -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="images/ico/favicon.png">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/external-styled.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/icons.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/smoothness/jquery-ui-1.8.16.custom.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,100,500,400italic,500italic,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+	
+	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	
+  </head>
+
+  <body>
+  
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+	
+	<div id="body_wrapper" class="full">
+
+		<header id="header">
+			<div class="top-header">
+				<div class="clearfix">
+					<div class="top-header-inner clearfix">
+						<div class="header-currency mr-20">
+							<a href="#"><span><i class="fa-dollar"></i>US Dollar</span></a>
+							<div class="currency-show">
+								<ul>
+									<li><a href="#"><span><i class="fa-gbp"></i>UK Pound</span></a></li>
+									<li><a href="#"><span><i class="fa-euro"></i>EU Euro</span></a></li>
+								</ul>
+							</div><!-- end other -->
+						</div>
+						<div class="header-phone"><i class="icon icon-phone-support"></i>+1900 12 213 21</div>
+						<div class="header-language ml-10">
+							<a href="#" class="english"><span>English</span></a>
+							<div class="other_languages">
+								<ul class="clearfix">
+									<li><a href="#" class="deutsch"><span>Deutsch</span></a></li>
+									<li><a href="#" class="espanol"><span>Español</span></a></li>
+									<li><a href="#" class="italiano"><span>Italiano</span></a></li>
+								</ul>
+							</div><!-- end other -->
+						</div>
+						<div class="header-register">
+							<a href="#" class="br"><i class="icon icon icon-user-add mi"></i>Register</a>
+							<div class="register_show">
+								<form role="form">
+									<div class="form-group">
+										<label for="register-name">Your Name</label>
+										<input type="text" class="form-control" id="register-name" placeholder="Ex: John Doe">
+									</div>
+									<div class="form-group">
+										<label for="register-email">Email</label>
+										<input type="email" class="form-control" id="register-email" placeholder="Email">
+									</div>
+									<div class="form-group">
+										<label for="register-username">Your Preferred Username</label>
+										<input type="text" class="form-control" id="register-username" placeholder="Min. 6 char & Max. 15 char">
+									</div>
+									<div class="form-group">
+										<label for="register-password">Password</label>
+										<input type="password" class="form-control" id="register-password" placeholder="Password">
+									</div>
+									<div class="form-group">
+										<label for="register-password-confirm">Confirm Password</label>
+										<input type="password" class="form-control" id="register-password-confirm" placeholder="Confirm  Password">
+									</div>
+									<a href="#" class="btn btn-success">Register</a>
+									<div class="clear mb-10"></div>
+								</form>
+							</div><!-- end other -->
+						</div>
+						<div class="header-login mr-15">
+							<a href="#" class="br"><i class="fa-sign-in mi"></i>Login</a>
+							<div class="login_show">
+								<form role="form">
+									<div class="form-group">
+										<label for="show-login">Email / Username</label>
+										<input type="text" class="form-control" id="show-login" placeholder="Email / Username">
+									</div>
+									<div class="form-group">
+										<label for="show-password">Password</label>
+										<input type="password" class="form-control" id="show-password" placeholder="Password">
+									</div>
+									<div class="checkbox">
+										<label>
+											<input type="checkbox"> Remember Me
+										</label>
+									</div>
+									<button type="submit" class="btn btn-primary">Login</button>
+									<div class="clear mb-10"></div>
+									<a href="#" class="forgot">Forgot Your Password?</a>
+								</form>
+							</div><!-- end other -->
+						</div>
+						<div class="clear xss-mb-10"></div>
+					</div><!-- end top-header-inner -->
+				</div><!-- end container -->
+			</div><!-- end top-header -->
+			<div class="clear"></div>
+			<div class="large-header my_sticky">
+				<div class="clearfix">
+					<div class="logo">
+						<a href="index-2.html" title="Logo"><img src="images/logo.png" alt="Logo"></a>
+					</div><!-- end logo -->
+					<div class="search-wrapper">
+						<button id="#search-collapse" class="search-toggle">
+							<i class="icon icon-active-search"></i>
+						</button>
+						<div id="search-collapse" style="display:none;">
+							<form  action="#" method="get">
+								<input type="text" id="search-collapse-inner" name="search-collapse-inner" placeholder="Search ..." >
+							</form>
+						</div><!-- End search-collapsem -->
+					</div><!-- End search-wrapper -->
+					<nav>
+						<ul class="sf-menu">
+							<li class="current">
+								<a href="index-2.html">Home</a>
+								<ul class="col3 mega">
+									<li class="col1">
+										<ol>
+											<li class="title">Variants</li>
+											<li><a href="index-3.html">Style 2</a></li>
+											<li><a href="index-3-offer.html">Style 3 - Offer</a></li>
+											<li><a href="index-4-minimal.html">Style 4 - Minimal</a></li>
+											<li><a href="index-5-presentation.html">Style 5 - Present</a></li>
+										</ol>
+									</li>
+									<li class="col1">
+										<ol>
+											<li class="title">Layouts</li>
+											<li><a href="index-boxed.html">Boxed</a></li>
+											<li><a href="index-boxed-margin.html">Boxed Margin</a></li>
+											<li><a href="index-6.html">Home Style - 6</a></li>
+											<li><a href="index-7.html">Home Style - 7</a></li>
+										</ol>
+									</li>
+									<li class="col1">
+										<ol>
+											<li class="title">Sliders</li>
+											<li><a href="index-flexslider.html">FlexSlider</a></li>
+											<li><a href="index-owl-slider.html">Owl Slider - 1 </a></li>
+											<li><a href="index-owl-slider-center.html">Owl Slider - 2</a></li>
+											<li><a href="index-owl-slider-right.html">Owl Slider - 3</a></li>
+										</ol>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">Hotels</a></li>
+							<li><a href="#">Flights</a></li>
+							<li><a href="#">Vocations</a></li>
+							<li><a href="#">Things To Do</a></li>
+							<li>
+								<a href="#">Pages</a>
+								<ul>
+									<li><a href="page-list-list.html">List Page - List</a></li>
+									<li><a href="page-list-large-grid.html">List Page - Large Grid</a></li>
+									<li><a href="page-list-small-grid.html">List Page - Small Grid</a></li>
+									<li><a href="page-details.html">Detail Page</a></li>
+									<li><a href="page-details-2.html">Detail Page 2</a></li>
+									<li><a href="page-payment.html">Payment Page</a></li>
+									<li><a href="page-confirm.html">Confirm Page</a></li>
+									<li><a href="#">Header</a>
+										<ul>
+											<li><a href="index-header-01.html">Style 1</a></li>
+											<li><a href="index-header-02.html">Style 2</a></li>
+											<li><a href="index-header-03.html">Style 3</a></li>
+											<li><a href="index-header-04-modal.html">Style 4 - Modal Login</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Footer</a>
+										<ul>
+											<li><a href="index-footer-01.html">Style 1</a></li>
+											<li><a href="index-footer-02.html">Style 2</a></li>
+											<li><a href="index-footer-03.html">Style 3</a></li>
+											<li><a href="index-footer-04.html">Style 4</a></li>
+											<li><a href="index-footer-05.html">Style 5</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Travel Search</a>
+										<ul>
+											<li><a href="index-2.html">Style 1</a></li>
+											<li><a href="index-tab-search.html">Style 2</a></li>
+											<li><a href="index-tab-search-long.html">Style 3</a></li>
+											<li><a href="index-toggle-search.html">Style 4</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="blog.html">Blog</a>
+								<ul>
+									<li><a href="blog-single.html">Blog Single</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>
+							<li>
+								<a href="#">Purchase</a>
+							</li>
+						</ul><!-- end menu -->
+					</nav><!-- end nav -->
+				</div><!-- end container -->
+			</div><!-- end large-header -->
+		</header><!-- end header -->
+	
+		<div id="slider_wrapper">
+			<div class="owl-slider-wrapper center-capture">
+				<div id="owl-slider" class="owl-carousel owl-theme">
+					 
+					<div class="item">
+						<img class="lazyOwl" data-src="images/sliders/owlSlider-01.jpg" alt="image">
+						<div class="owl-capture">
+							<p class="owl-price">Starting From $190 only</p>
+							<h2><a href="#" class="right-capture">Exotic Paradise Relax</a></h2>
+							<p>Phuket, Thailand</p>
+						</div>
+					</div>
+					<div class="item">
+						<img class="lazyOwl" data-src="images/sliders/owlSlider-02.jpg" alt="image">
+						<div class="owl-capture">
+							<p class="owl-price">Starting From $250 only</p>
+							<h2><a href="#" class="right-capture">Explore Romantic City</a></h2>
+							<p>Venice, Italy</p>
+						</div>
+					</div>
+					<div class="item">
+						<img class="lazyOwl" data-src="images/sliders/owlSlider-03.jpg" alt="image">
+						<div class="owl-capture">
+							<p class="owl-price">Starting From $370 only</p>
+							<h2><a href="#" class="right-capture">Enjoy Your Modern Life</a></h2>
+							<p>Paris, France</p>
+						</div>
+					</div>
+					<div class="item">
+						<img class="lazyOwl" data-src="images/sliders/owlSlider-04.jpg" alt="image">
+						<div class="owl-capture">
+							<p class="owl-price">Starting From $400 only</p>
+							<h2><a href="#" class="right-capture">Your Honeymoon Day</a></h2>
+							<p>Santorini, Greece</p>
+						</div>
+					</div>
+				</div>
+				<div class="owlSliderNavigation">
+					<a class="owlSlider-prev"><i class="arrow_carrot-left_alt2"></i></a>
+					<a class="owlSlider-next"><i class="arrow_carrot-right_alt2"></i></a>
+				</div>
+			</div>
+		</div><!-- end slider_wrapper -->
+		
+		<div id="content_wrapper">
+			<div class="container">
+				
+				<div class="travel-search">
+					<div class="travel-search-inner">
+						<ul class="tabs searchTab">
+							<li><a href="#hotelsSearch" class="active"><span class="hotel mi"></span>Hotels</a></li>
+							<li><a href="#flightsSearch"><span class="flight mi"></span>Flights</a></li>
+							<li><a href="#vacationsSearch"><span class="vacation mi"></span>Vacations</a></li>
+							<li><a href="#carsSearch"><span class="car mi"></span>Cars</a></li>
+							<li><a href="#cruisesSearch"><span class="cruise mi"></span>Cruises</a></li>
+						</ul><!-- tabs -->
+						
+						<ul class="tabs-content">
+							<li id="hotelsSearch" class="active">
+								<form role="form" class="row">
+									<div class="col-xs-12 col-sm-4 col-md-4">
+										<div class="form-group">
+											<label for="hotelLocation">Where to Stay?</label>
+											<input type="text" class="form-control" id="hotelLocation" placeholder="Thailand">
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-2">
+										<div class="form-group datepicker-wrapper">
+											<label for="hotel-check-in">Check-in</label>
+											<input type="text" class="form-control date" id="hotel-check-in" placeholder="dd/dm/yy">
+											<i class="fa fa-calendar"></i>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-2">
+										<div class="form-group datepicker-wrapper">
+											<label for="hotel-check-out">Check-out</label>
+											<input type="text" class="form-control date" id="hotel-check-out" placeholder="dd/dm/yy">
+											<i class="fa fa-calendar"></i>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-1">
+										<div class="form-group">
+											<label for="flightAdult">Adult</label>
+											<select class="form-control mySelectBoxClass" id="flightAdult">
+												<option>0</option>
+												<option selected>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-1">
+										<div class="form-group">
+											<label for="flightChild">Child</label>
+											<select class="form-control mySelectBoxClass" id="flightChild">
+												<option>0</option>
+												<option selected>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-2">
+										<div class="clear"></div>
+										<button type="submit" class="btn btn-primary btn-block">Search</button>
+									</div>
+								</form>
+							</li>
+							<li id="flightsSearch">
+								<form role="form" class="row">
+									<div class="col-xs-12 col-sm-4 col-md-2">
+										<div class="form-group">
+											<label for="flightFrom">From</label>
+											<input type="text" class="form-control" id="flightFrom" placeholder="Bangkok">
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-2">
+										<div class="form-group">
+											<label for="flightTo">To</label>
+											<input type="text" class="form-control" id="flightTo" placeholder="Hong Kong">
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-2">
+										<div class="form-group datepicker-wrapper">
+											<label for="flightCheckIn">Check-in</label>
+											<input type="text" class="form-control date" id="flightCheckIn" placeholder="dd/dm/yy">
+											<i class="fa fa-calendar"></i>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-2">
+										<div class="form-group datepicker-wrapper">
+											<label for="flightCheckOut">Check-out</label>
+											<input type="text" class="form-control date" id="flightCheckOut" placeholder="dd/dm/yy">
+											<i class="fa fa-calendar"></i>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-3 col-md-1">
+										<div class="form-group">
+											<label for="hotelAdult">Adult</label>
+											<select class="form-control mySelectBoxClass" id="hotelAdult">
+												<option>0</option>
+												<option selected>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-3 col-md-1">
+										<div class="form-group">
+											<label for="hotelChild">Child</label>
+											<select class="form-control mySelectBoxClass" id="hotelChild">
+												<option>0</option>
+												<option selected>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-2 col-md-2">
+										<div class="clear"></div>
+										<button type="submit" class="btn btn-primary btn-block">Search</button>
+									</div>
+								</form>
+							</li>
+							<li id="vacationsSearch">
+								<form role="form" class="row">
+									<div class="col-xs-12 col-sm-4 col-md-4">
+										<div class="form-group">
+											<label for="vacationLocation">Where to Stay?</label>
+											<input type="text" class="form-control" id="vacationLocation" placeholder="Thailand">
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-2">
+										<div class="form-group datepicker-wrapper">
+											<label for="vacation-check-in">Check-in</label>
+											<input type="text" class="form-control date" id="vacation-check-in" placeholder="dd/dm/yy">
+											<i class="fa fa-calendar"></i>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-2">
+										<div class="form-group datepicker-wrapper">
+											<label for="vacation-check-out">Check-out</label>
+											<input type="text" class="form-control date" id="vacation-check-out" placeholder="dd/dm/yy">
+											<i class="fa fa-calendar"></i>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-1">
+										<div class="form-group">
+											<label for="vacationAdult">Adult</label>
+											<select class="form-control mySelectBoxClass" id="vacationAdult">
+												<option>0</option>
+												<option selected>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-1">
+										<div class="form-group">
+											<label for="vacationChild">Child</label>
+											<select class="form-control mySelectBoxClass" id="vacationChild">
+												<option>0</option>
+												<option selected>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-2">
+										<div class="clear"></div>
+										<button type="submit" class="btn btn-primary btn-block">Search</button>
+									</div>
+								</form>
+							</li>
+							<li id="carsSearch">
+								<form role="form" class="row">
+									<div class="col-xs-12 col-sm-4 col-md-1">
+										<div class="form-group">
+											<label for="carFrom">From</label>
+											<input type="text" class="form-control" id="carFrom" placeholder="Bangkok">
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-1">
+										<div class="form-group">
+											<label for="carTo">To</label>
+											<input type="text" class="form-control" id="carTo" placeholder="Pattaya">
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-2">
+										<div class="form-group datepicker-wrapper">
+											<label for="carPickUp">Pick Up</label>
+											<input type="text" class="form-control date" id="carPickUp" placeholder="dd/dm/yy">
+											<i class="fa fa-calendar"></i>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-3 col-md-2">
+										<div class="form-group datepicker-wrapper">
+											<label for="pickUpTime">Hour</label>
+											<select class="form-control mySelectBoxClass" id="pickUpTime">
+												<option>12:00 AM</option>
+												<option>12:30 AM</option>
+												<option>01:00 AM</option>
+												<option>01:30 AM</option>
+												<option>02:00 AM</option>
+												<option>02:30 AM</option>
+												<option>03:00 AM</option>
+												<option>03:30 AM</option>
+												<option>04:00 AM</option>
+												<option>04:30 AM</option>
+												<option>05:00 AM</option>
+												<option>05:30 AM</option>
+												<option>06:00 AM</option>
+												<option>06:30 AM</option>
+												<option>07:00 AM</option>
+												<option>07:30 AM</option>
+												<option>08:00 AM</option>
+												<option>08:30 AM</option>
+												<option>09:00 AM</option>
+												<option>09:30 AM</option>
+												<option>10:00 AM</option>
+												<option selected>10:30 AM</option>
+												<option>11:00 AM</option>
+												<option>11:30 AM</option>
+												<option>12:00 PM</option>
+												<option>12:30 PM</option>								  
+												<option>01:00 PM</option>
+												<option>01:30 PM</option>
+												<option>02:00 PM</option>
+												<option>02:30 PM</option>
+												<option>03:00 PM</option>
+												<option>03:30 PM</option>
+												<option>04:00 PM</option>
+												<option>04:30 PM</option>
+												<option>05:00 PM</option>
+												<option>05:30 PM</option>
+												<option>06:00 PM</option>
+												<option>06:30 PM</option>
+												<option>07:00 PM</option>
+												<option>07:30 PM</option>
+												<option>08:00 PM</option>
+												<option>08:30 PM</option>
+												<option>09:00 PM</option>
+												<option>09:30 PM</option>
+												<option>10:00 PM</option>
+												<option>10:30 PM</option>
+												<option>11:00 PM</option>
+												<option>11:30 PM</option>		
+											</select>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-2">
+										<div class="form-group datepicker-wrapper">
+											<label for="carDropOff">Drop Off</label>
+											<input type="text" class="form-control date" id="carDropOff" placeholder="dd/dm/yy">
+											<i class="fa fa-calendar"></i>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-3 col-md-2">
+										<div class="form-group datepicker-wrapper">
+											<label for="dropOffTime">Hour</label>
+											<select class="form-control mySelectBoxClass" id="dropOffTime">
+												<option>12:00 AM</option>
+												<option>12:30 AM</option>
+												<option>01:00 AM</option>
+												<option>01:30 AM</option>
+												<option>02:00 AM</option>
+												<option>02:30 AM</option>
+												<option>03:00 AM</option>
+												<option>03:30 AM</option>
+												<option>04:00 AM</option>
+												<option>04:30 AM</option>
+												<option>05:00 AM</option>
+												<option>05:30 AM</option>
+												<option>06:00 AM</option>
+												<option>06:30 AM</option>
+												<option>07:00 AM</option>
+												<option>07:30 AM</option>
+												<option>08:00 AM</option>
+												<option>08:30 AM</option>
+												<option>09:00 AM</option>
+												<option>09:30 AM</option>
+												<option>10:00 AM</option>
+												<option selected>10:30 AM</option>
+												<option>11:00 AM</option>
+												<option>11:30 AM</option>
+												<option>12:00 PM</option>
+												<option>12:30 PM</option>								  
+												<option>01:00 PM</option>
+												<option>01:30 PM</option>
+												<option>02:00 PM</option>
+												<option>02:30 PM</option>
+												<option>03:00 PM</option>
+												<option>03:30 PM</option>
+												<option>04:00 PM</option>
+												<option>04:30 PM</option>
+												<option>05:00 PM</option>
+												<option>05:30 PM</option>
+												<option>06:00 PM</option>
+												<option>06:30 PM</option>
+												<option>07:00 PM</option>
+												<option>07:30 PM</option>
+												<option>08:00 PM</option>
+												<option>08:30 PM</option>
+												<option>09:00 PM</option>
+												<option>09:30 PM</option>
+												<option>10:00 PM</option>
+												<option>10:30 PM</option>
+												<option>11:00 PM</option>
+												<option>11:30 PM</option>	
+											</select>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-2 col-md-2">
+										<div class="clear"></div>
+										<button type="submit" class="btn btn-primary btn-block">Search</button>
+									</div>
+								</form>
+							</li>
+							<li id="cruisesSearch">
+								<form role="form" class="row">
+									<div class="col-xs-12 col-sm-4 col-md-3">
+										<div class="form-group">
+											<label for="cruisesDestinatiom">Destination</label>
+											<select class="form-control mySelectBoxClass" id="cruisesDestinatiom">
+												<option selected>Show all</option>
+												<optgroup label="Most Popular">
+													<option>Caribbean</option>
+													<option>Bahamas</option>
+													<option>Mexico</option>
+													<option>Alaska</option>
+													<option>Europe</option>
+													<option>Bermuda</option>
+													<option>Hawaii</option>
+												</optgroup>
+												<optgroup label="Other Destinations">
+													<option>Africa</option>
+													<option>Arctic/Antartctic</option>
+													<option>Asia</option>
+													<option>Oceania</option>
+													<option>Central America</option>
+													<option>Cruise to Nowhere</option>
+													<option>Galapagos</option>
+													<option>Greenland/Iceland</option>
+													<option>Middle East</option>
+													<option>Pacific Coastal</option>
+													<option>Panama Canal</option>
+													<option>South Africa</option>
+													<option>South Pacific</option>
+													<option>Tahiti</option>
+													<option>Transatlantic</option>
+													<option>World Cruises</option>
+												</optgroup>
+											</select>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-3">
+										<div class="form-group">
+											<label for="cruisesWhen">When</label>
+											<select class="form-control mySelectBoxClass" id="cruisesWhen">
+												<option selected>Show all</option>
+												<option>October 2013</option>
+												<option>November 2013</option>
+												<option>December 2013</option>
+												<option>January 2014</option>
+												<option>February 2014</option>
+												<option>March 2014</option>
+												<option>April 2014</option>
+												<option>May 2014</option>
+												<option>June 2014</option>
+												<option>July 2014</option>
+												<option>August 2014</option>
+												<option>September 2014</option>
+												<option>October 2014</option>
+												<option>November 2014</option>
+												<option>December 2014</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-xs-12 col-sm-4 col-md-6">
+										<div class="clear"></div>
+										<button type="submit" class="btn btn-primary btn-block">Search</button>
+									</div>
+								</form>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="clear"></div>
+				
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div class="white-bg">
+				<div class="container">
+					<div class="last-min">
+						<span class="rating-large rating-40"></span>
+						<div class="block clearfix mv-15">LAST MINUTE: <strong>Santorini</strong> - 4 nights - Flight+4 Starts Hotel, Departure on 24th Feb from $350/person</div>
+						<a href="#">More Details</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div class="container">
+								
+				<div class="row pv-30 mt-20 product-4">
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="list-item">
+							<div class="list-item-image">
+								<div class="image-inner">
+									<a class="link-image" href="page-details.html">
+										<img src="images/list-items/item-wide-05.jpg" alt="" />
+										<div class="image-overlay">
+											<div class="overlay-content">
+												<div class="overlay-icon"><i class="icon_link"></i></div>
+											</div><!--/ .extra-content-->	
+										</div><!--/ .image-extra-->
+									</a>	
+								</div>
+							</div><!-- end list-item -->
+							<div class="product-4-label">
+								<h3><a href="#">Zealously prevailed be arranging do. Set arranging too dejection.</a></h3>
+								<div class="bb2 mb-20"></div>
+								<p>Sir margaret drawings repeated recurred exercise laughing may you but. Do repeated whatever to welcomed absolute no. Fat surprise although outlived and informed shy dissuade property.</p>
+								<a href="#" class="more-link">More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="list-item">
+							<div class="list-item-image">
+								<div class="image-inner">
+									<a class="link-image" href="page-details.html">
+										<img src="images/list-items/item-wide-04.jpg" alt="" />
+										<div class="image-overlay">
+											<div class="overlay-content">
+												<div class="overlay-icon"><i class="icon_link"></i></div>
+											</div><!--/ .extra-content-->	
+										</div><!--/ .image-extra-->
+									</a>	
+								</div>
+							</div><!-- end list-item -->
+							<div class="product-4-label">
+								<h3><a href="#">Greatly hearted has who believe. Drift allow green son walls years.</a></h3>
+								<div class="bb2 mb-20"></div>
+								<p>Sir margaret drawings repeated recurred exercise laughing may you but. Do repeated whatever to welcomed absolute no. Fat surprise although outlived and informed shy dissuade property.</p>
+								<a href="#" class="more-link">More</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<div class="list-item">
+							<div class="list-item-image">
+								<div class="image-inner">
+									<a class="link-image" href="page-details.html">
+										<img src="images/list-items/item-wide-06.jpg" alt="" />
+										<div class="image-overlay">
+											<div class="overlay-content">
+												<div class="overlay-icon"><i class="icon_link"></i></div>
+											</div><!--/ .extra-content-->	
+										</div><!--/ .image-extra-->
+									</a>	
+								</div>
+							</div><!-- end list-item -->
+							<div class="product-4-label">
+								<h3><a href="#">Partments occasional boisterous as solicitude to introduced.</a></h3>
+								<div class="bb2 mb-20"></div>
+								<p>Sir margaret drawings repeated recurred exercise laughing may you but. Do repeated whatever to welcomed absolute no. Fat surprise although outlived and informed shy dissuade property.</p>
+								<div class=""><a href="#" class="more-link">More</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div><!-- end content_wrapper -->
+
+		<footer id="footer">
+			<div class="primary-footer">
+				<div class="container">
+					<div class="row pt-50 pb-30">
+						<div class="col-xs-12 col-sm-3 col-md-3 rs-mb">
+							<h4 class="widget-title mb-30">About Us</h4>
+							<div class="logo-footer mt-20 mb-10">
+								<img src="images/logo-footer.png" alt="logo" />
+							</div>
+							<p>Left till here away at to whom past. Feelings laughing at no... <a href="#" style="font-weight: 300; font-style: italic">view more</a></p>
+							<div class="social with_color">
+								<a href="#" class="bottomtip" title="Twitter"><i class="fa-twitter"></i></a>
+								<a href="#" class="bottomtip" title="Facebook"><i class="fa-facebook"></i></a>
+								<a href="#" class="bottomtip" title="Dribbble"><i class="fa-dribbble"></i></a>
+								<a href="#" class="bottomtip" title="Youtube"><i class="fa-youtube"></i></a>
+								<a href="#" class="bottomtip" title="RSS"><i class="fa-rss"></i></a>
+							</div><!-- end social -->
+							<div class="clear"></div>
+						</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 xs-mb">
+							<h4 class="widget-title mb-20">Travel Specialists</h4>
+							<ul class="link-list">
+								<li><a href="#" title="Travel Specialists">Honeymoon</a></li>
+								<li><a href="#" title="Travel Specialists">Winter Sun Holidays</a></li>
+								<li><a href="#" title="Travel Specialists">Safari Season</a></li>
+								<li><a href="#" title="Travel Specialists">Luxury Cities</a></li>
+								<li><a href="#" title="Travel Specialists">Family Holidays</a></li>
+								<li><a href="#" title="Travel Specialists">Culture Trips</a></li>
+								<li><a href="#" title="Travel Specialists">Tropical Adventure</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 xs-mb">
+							<h4 class="widget-title mb-20">Quick Links</h4>
+							<ul class="link-list">
+								<li><a href="#" title="Quick Links">Make reservation</a></li>
+								<li><a href="#" title="Quick Links">FAQ</a></li>
+								<li><a href="#" title="Quick Links">Payment Options</a></li>
+								<li><a href="#" title="Quick Links">Booking Tips</a></li>
+								<li><a href="#" title="Quick Links">Information</a></li>
+								<li><a href="#" title="Quick Links">Hotel Awards</a></li>
+								<li><a href="#" title="Quick Links">Press Room</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-12 col-sm-3 col-md-3">
+							<h4 class="widget-title mb-20">Newsletter</h4>
+							<div class="newsletter mt-20">
+								<form name="email-validation" id="email-validation" class="fixed-position" action="#" novalidate>
+									<input type="email" name="form-control" id="input-email" class="form-control" placeholder="Enter Your Email" value="">
+									<button type="submit" class="btn btn-primary submit-button"><i class="arrow_carrot-right_alt2"></i></button>
+								</form>
+							</div><!-- End newsletter -->
+							<div class="clear mb-30"></div>
+							<h4 class="widget-title">Customer Support</h4>
+							<p class="phone-number text-info"><i class="icon icon-phone-support mr-10"></i>+1900 12 213 21</p>
+							<a href="mailto:dowenstation@gmail.com" class="font16 font300">office@tongtiew.com</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="bottom-footer">
+				<div class="container pv-15 bt">
+					<p class="copy-right text-center">&copy; 2014 <a href="index-2.html">TongTiew</a>. All Right Reserved</p>
+					<div id="toTop" class="toptip" title="Back to Top"><i class="icon icon-up-open-big"></i></div><!-- Back to top -->
+				</div>
+			</div>
+		</footer>
+	</div><!-- end body_wrapper -->
+
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery.v2.0.3.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script> 
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script type="text/javascript" src="js/sliders.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>  
+	
+  </body>
+
+<!-- Mirrored from crenoveative.com/creativemarket/tongtiew/index-5-presentation.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Oct 2015 09:29:46 GMT -->
+</html>

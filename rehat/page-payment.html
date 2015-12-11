@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from crenoveative.com/creativemarket/rehat/page-payment.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Oct 2015 10:53:50 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>REHat - HTML5 Responsive Template for Travel System</title>
+	<meta name="keywords" content="Hotel, Travel, Tour, Trip, Booking , CSS3, HTML5, Responsive, ios7"/>
+    <meta name="description" content="Responsive Template for Travel Agency and Complete Booking System">
+    <meta name="author" content="hoomey">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<!-- ============================================
+		Fav and touch icons
+	============================================= -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="images/ico/favicon.png">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/css-sliders.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/css-functions.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/weathericons.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/icons.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/smoothness/jquery-ui-1.8.16.custom.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />
+	
+	<link rel="stylesheet" type="text/css" href="css/color/main.css" media="screen" />
+	
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:100,400,300,500,600,300italic' rel='stylesheet' type='text/css' />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+	
+	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	
+  </head>
+
+  <body>
+	
+	<div id="body_wrapper" class="full">
+		<header id="header">
+			<div class="top-header">
+				<div class="container">
+					<div class="top-header-inner clearfix">
+						<div class="header-currency mr-15">
+							<a href="#" class="br"><span><i class="glyphicon glyphicon-usd"></i>US Dollar</span></a>
+							<div class="currency-show">
+								<ul>
+									<li><a href="#"><span><i class="glyphicon glyphicon-gbp"></i>UK Pound</span></a></li>
+									<li><a href="#"><span><i class="glyphicon glyphicon-euro"></i>EU Euro</span></a></li>
+								</ul>
+							</div><!-- end other -->
+						</div>
+						<div class="header-phone"><i class="icon icon-phone-support"></i>+1900 12 213 21</div>
+						<div class="header-language ml-10">
+							<a href="#" class="english"><span>English</span></a>
+							<div class="other_languages">
+								<ul class="clearfix">
+									<li><a href="#" class="deutsch"><span>Deutsch</span></a></li>
+									<li><a href="#" class="espanol"><span>Español</span></a></li>
+									<li><a href="#" class="italiano"><span>Italiano</span></a></li>
+								</ul>
+							</div><!-- end other -->
+						</div>
+						<div class="header-register">
+							<a href="#" class="br"><i class="icon icon icon-user-add mi"></i>Register</a>
+							<div class="register_show">
+								<form role="form">
+									<div class="form-group">
+										<label for="register-name">Your Name</label>
+										<input type="text" class="form-control" id="register-name" placeholder="Ex: John Doe">
+									</div>
+									<div class="form-group">
+										<label for="register-email">Email</label>
+										<input type="email" class="form-control" id="register-email" placeholder="Email">
+									</div>
+									<div class="form-group">
+										<label for="register-username">Your Preferred Username</label>
+										<input type="text" class="form-control" id="register-username" placeholder="Min. 6 char & Max. 15 char">
+									</div>
+									<div class="form-group">
+										<label for="register-password">Password</label>
+										<input type="password" class="form-control" id="register-password" placeholder="Password">
+									</div>
+									<div class="form-group">
+										<label for="register-password-confirm">Confirm Password</label>
+										<input type="password" class="form-control" id="register-password-confirm" placeholder="Confirm  Password">
+									</div>
+									<a href="#" class="btn btn-success">Register</a>
+									<div class="clear mb-10"></div>
+								</form>
+							</div><!-- end other -->
+						</div>
+						<div class="header-login mr-15">
+							<a href="#" class="br"><i class="fa fa-sign-in mi"></i>Login</a>
+							<div class="login_show">
+								<form role="form">
+									<div class="form-group">
+										<label for="show-login">Email / Username</label>
+										<input type="text" class="form-control" id="show-login" placeholder="Email / Username">
+									</div>
+									<div class="form-group">
+										<label for="show-password">Password</label>
+										<input type="password" class="form-control" id="show-password" placeholder="Password">
+									</div>
+									<div class="styled-checkbox">
+										<label>
+											<input type="checkbox" name="rememberMe" id="rememberMe1" value="option1">
+											Remember Me.
+										</label>
+									</div>
+									<button type="submit" class="btn btn-primary">Login</button>
+								</form>
+								<div class="clear mb-15"></div>
+								<a href="#" style="margin-left: -13px;">Forgot Your Password?</a>
+							</div><!-- end other -->
+						</div>
+						<div class="clear"></div>
+					</div><!-- end top-header-inner -->
+				</div><!-- end container -->
+			</div><!-- end top-header -->
+			<div class="clear"></div>
+			<div class="large-header my_sticky">
+				<div class="container clearfix">
+					<div class="logo">
+						<a href="index-2.html" title="Logo"><img src="images/logo.png" alt="Logo"></a>
+					</div><!-- end logo -->
+					<div class="search-wrapper">
+						<button id="#search-collapse" class="search-toggle">
+							<i class="icon icon-active-search"></i>
+						</button>
+						<div id="search-collapse" style="display:none;">
+							<form  action="http://crenoveative.com/creativemarket/rehat/search.php" method="get">
+								<input type="text" id="search-collapse-inner" name="search-collapse-inner" placeholder="Search ..." >
+							</form>
+						</div><!-- End search-collapsem -->
+					</div><!-- End search-wrapper -->
+					<nav>
+						<ul class="sf-menu">
+							<li>
+								<a href="index-2.html">Home</a>
+								<ul class="col3 mega">
+									<li class="col1">
+										<ol>
+											<li class="title">Variants</li>
+											<li><a href="index-3.html">Home Style 2</a></li>
+											<li><a href="index-4.html">Home Style 3</a></li>
+											<li><a href="index-5.html">Home Style 4</a></li>
+											<li><a href="index-6.html">Home Style 5</a></li>
+											<li><a href="#">Coming Soon</a></li>
+											<li><a href="#.html">Coming Soon</a></li>
+										</ol>
+									</li>
+									<li class="col1">
+										<ol>
+											<li class="title">Layouts & Sliders</li>
+											<li><a href="index-boxed.html">Boxed</a></li>
+											<li><a href="index-boxed-margin.html">Boxed Margin</a></li>
+											<li><a href="index-flexslider.html">FlexSlider</a></li>
+											<li><a href="index-owl-slider.html">Owl Slider - 1 </a></li>
+											<li><a href="index-owl-slider-center.html">Owl Slider - 2</a></li>
+											<li><a href="index-owl-slider-right.html">Owl Slider - 3</a></li>
+										</ol>
+									</li>
+									<li class="col1">
+										<ol>
+											<li class="title">Colors</li>
+											<li><a href="index-color-blue.html">Blue</a></li>
+											<li><a href="index-color-green.html">Green</a></li>
+											<li><a href="index-color-orange.html">Orange</a></li>
+											<li><a href="index-color-red.html">Red</a></li>
+											<li><a href="index-color-pink.html">Pink</a></li>
+											<li><a href="index-color-pionero.html">Pionero</a></li>
+										</ol>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">Hotels</a></li>
+							<li><a href="#">Flights</a></li>
+							<li><a href="#">Vocations</a></li>
+							<li><a href="#">Activities</a></li>
+							<li class="current">
+								<a href="#">Pages</a>
+								<ul>
+									<li><a href="page-list-list.html">List Page - List</a></li>
+									<li><a href="page-list-large-grid.html">List Page - Large Grid</a></li>
+									<li><a href="page-list-small-grid.html">List Page - Small Grid</a></li>
+									<li><a href="page-details.html">Detail Page</a></li>
+									<li><a href="page-payment.html">Payment Page</a></li>
+									<li><a href="page-confirm.html">Confirm Page</a></li>
+									<li><a href="#">Header</a>
+										<ul>
+											<li><a href="index-header-01.html">Style 1</a></li>
+											<li><a href="index-header-02.html">Style 2</a></li>
+											<li><a href="index-header-03.html">Style 3</a></li>
+											<li><a href="index-header-04-modal.html">Style 4 - Modal Login</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Footer</a>
+										<ul>
+											<li><a href="index-footer-01.html">Style 1</a></li>
+											<li><a href="index-footer-02.html">Style 2</a></li>
+											<li><a href="index-footer-03.html">Style 3</a></li>
+											<li><a href="index-footer-04.html">Style 4</a></li>
+											<li><a href="index-footer-05.html">Style 5</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Travel Search</a>
+										<ul>
+											<li><a href="index-2.html">Style 1</a></li>
+											<li><a href="index-tab-search.html">Style 2</a></li>
+											<li><a href="index-toggle-search.html">Style 3</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="blog.html">Blog</a>
+								<ul>
+									<li><a href="blog-single.html">Blog Single</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>
+							<li>
+								<a href="#">Purchase</a>
+							</li>
+						</ul><!-- end menu -->
+					</nav><!-- end nav -->
+				</div><!-- end container -->
+			</div><!-- end large-header -->
+			<div class="header_shadow"><span class="shadow-01"></span></div>
+		</header><!-- end header -->
+		
+		<div class="clear"></div>
+		
+		<div id="page_title">
+			<div class="container clearfix">
+				<div class="page-name">Payment</div>
+				<div class="breadcrumb clearfix">
+					<a href="index-2.html">Home</a>
+					<a href="#">Page</a>
+					<span class="current-page">Payment</span>
+				</div>
+			</div>
+		</div><!-- end slider_wrapper -->
+		
+		<div class="clear"></div>
+		
+		<div id="content_wrapper">
+			<div class="container pv-50">
+				<div class="clearfix">
+				
+					<ul class="book-step">
+						<li>
+							<span class="circle">1</span>
+							Select Room
+						</li>
+						<li class="current">
+							<span class="circle">2</span>
+							Payment
+						</li>
+						<li>
+							<span class="circle">3</span>
+							Confirm
+						</li>
+					</ul>
+					<div class="clear mb-40"></div>
+					<div class="book-sum">
+						<h3>Reservation Details</h3>
+						<div class="row mb-30">
+							<div class="col-xs-12 col-sm-9 col-md-9 xs-mb">
+								<div class="book-sum-image">
+									<a class="image-lightbox" href="images/room-types/room-type-02.jpg">
+										<img src="images/room-types/room-type-02.jpg" alt="room-type" />
+										<div class="image-overlay">
+											<div class="overlay-content">
+												<div class="overlay-icon"><i class="icon_zoom-in_alt"></i></div>
+											</div><!-- end .extra-content-->	
+										</div><!-- end .image-overlay-->
+									</a><!-- end link-image -->
+								</div>
+								<ul class="book-sum-list ml pl-100">
+									<li><strong>Hotel: </strong>The Fabriken Furillen Hotel</li>
+									<li><strong>Address: </strong>Rute Furilden, 624 58 Lärbro, Sweden</li>
+									<li><strong>Check-in: </strong>Feb 5, 2014</li>
+									<li><strong>Check-out:</strong> Feb 7, 2014</li>
+									<li><strong>For: </strong>2 Night(s), 1 Room(s) (Standard Single Bed & Sea View), 2 Adult(s), 0 Children</li>
+									<li><strong>Included: </strong>Breakfast</li>
+								</ul>
+							</div>
+							<div class="col-xs-12 col-sm-3 col-md-3 xs-mb">
+								<ul class="book-sum-list pl-140">
+									<li><strong>Individual Price: </strong>$121</li>
+									<li><strong>Subtotal: </strong>$247</li>
+									<li><strong>Taxes and Fees: </strong>$5</li>
+								</ul>
+								<div class="bb mv-10"></div>
+								<div class="total-price mt-30">
+									<span>Grand Total:</span> $252
+								</div>
+								<p class="mt-10">including taxes & any hotel fees</p>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12">
+								<div class="textright mt-20">
+									<a class="main-text mr-15" href="#">Full Description</a>
+									<a class="main-text mr-15" href="#">Cancellation Policy</a>
+									<a class="main-text" href="#">Payment Policy & Check-in Instructions</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="clear mb-30"></div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-8 col-md-9 xs-mb">
+							<h3>Guess Information</h3>
+							<div class="bb mb-30"></div>
+							<form class="form-horizontal" role="form">
+								<div class="clear"></div>
+								<div class="form-group">
+									<label for="paymentTitle" class="col-xs-12 col-sm-3 col-md-3 control-label">Title: <span class="text-danger">*</span></label>
+									<div class="col-xs-12 col-sm-3 col-md-2 xs-mb">
+										<select class="form-control mySelectBoxClass" id="paymentTitle">
+											<option selected>Selct</option>
+											<option>Mr.</option>
+											<option>Mrs.</option>
+											<option>Miss</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="paymentFirstName" class="col-xs-12 col-sm-3 col-md-3 control-label">First Name: <span class="text-danger">*</span></label>
+									<div class="col-xs-12 col-sm-5 col-md-4">
+										<input type="email" class="form-control" id="paymentFirstName" placeholder="First Name">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="paymentLastName" class="col-xs-12 col-sm-3 col-md-3 control-label">Last Name: <span class="text-danger">*</span></label>
+									<div class="col-xs-12 col-sm-5 col-md-4">
+										<input type="email" class="form-control" id="paymentLastName" placeholder="Last Name">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="paymentEmail" class="col-xs-12 col-sm-3 col-md-3 control-label">Email: <span class="text-danger">*</span></label>
+									<div class="col-xs-12 col-sm-5 col-md-4">
+										<input type="email" class="form-control" id="paymentEmail" placeholder="Email">
+									</div>
+									<div class="col-xs-12 col-sm-3 col-md-4 font12">
+										For receiving confirmation of your reservation
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="paymentEmailConfirm" class="col-xs-12 col-sm-3 col-md-3 control-label">Confirmation Email: <span class="text-danger">*</span></label>
+									<div class="col-xs-12 col-sm-5 col-md-4">
+										<input type="email" class="form-control" id="paymentEmailConfirm" placeholder="Confirmation Email">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="paymentCountryCode" class="col-xs-12 col-sm-3 col-md-3 control-label">Country Code: <span class="text-danger">*</span></label>
+									<div class="col-xs-12 col-sm-4 col-md-3 xs-mb">
+										<select class="form-control mySelectBoxClass" id="paymentCountryCode">
+											<option selected>Thailand (+66)</option>
+											<option>Hong Kong (+852)</option>
+											<option>Indonesia (+62)</option>
+											<option>Italy (+39)</option>
+											<option>Kuwait (+965)</option>
+											<option>Malaysia (+60)</option>
+											<option>Netherlands (+31)</option>
+											<option>Norway (+47)</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="paymentPhoneNO" class="col-xs-12 col-sm-3 col-md-3 control-label">Phone Number: <span class="text-danger">*</span></label>
+									<div class="col-xs-12 col-sm-5 col-md-4">
+										<input type="email" class="form-control" id="paymentPhoneNO" placeholder="Phone Number">
+									</div>
+								</div>
+							</form>
+							
+							<div class="clear mb-50"></div>
+							
+							<h3>Paymemt Details</h3>
+							<div class="bb mb-30"></div>
+							<form class="form-horizontal" role="form">
+								<div class="form-group">
+									<label for="payemtCardType" class="col-xs-12 col-sm-4 col-md-3 control-label">Credit Card Type: <span class="text-danger">*</span></label>
+									<div class="col-xs-12 col-sm-5 col-md-4 xs-mb">
+										<select class="form-control mySelectBoxClass" id="payemtCardType">
+											<option selected>Selct Your Card Type</option>
+											<option>Visa</option>
+											<option>Master Card</option>
+											<option>American Express</option>
+											<option>Paypal</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="payemtCardNO" class="col-xs-12 col-sm-4 col-md-3 control-label">Credit Card Number: <span class="text-danger">*</span></label>
+									<div class="col-xs-12 col-sm-6 col-md-4">
+										<input type="email" class="form-control" id="payemtCardNO" placeholder="Credit Card Number">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="payemtCardName" class="col-xs-12 col-sm-4 col-md-3 control-label">Name On Card: <span class="text-danger">*</span></label>
+									<div class="col-xs-12 col-sm-5 col-md-4">
+										<input type="email" class="form-control" id="payemtCardName" placeholder="As It Appears on the Card">
+									</div>
+									<div class="col-xs-12 col-sm-2 col-md-3">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="payemtCardExpire" class="col-xs-12 col-sm-4 col-md-3 control-label">Expiration Date: <span class="text-danger">*</span></label>
+									<div class="col-xs-12 col-sm-3 col-md-2 xs-mb">
+										<select class="form-control mySelectBoxClass" id="payemtCardExpire">
+											<option selected>Month</option>
+											<option>01 JAN</option>
+											<option>02 FEB</option>
+											<option>03 MAR</option>
+											<option>04 APR</option>
+											<option>05 MAY</option>
+											<option>06 JUN</option>
+											<option>07 JUL</option>
+											<option>08 AUG</option>
+											<option>09 SEP</option>
+											<option>10 OCT</option>
+											<option>11 NOV</option>
+											<option>12 DEC</option>
+										</select>
+									</div>
+									<div class="col-xs-12 col-sm-3 col-md-2">
+										<select class="form-control mySelectBoxClass" id="payemtCardExpireYear">
+											<option selected>Year</option>
+											<option>2013</option>
+											<option>2014</option>
+											<option>2015</option>
+											<option>2016</option>
+											<option>2017</option>
+											<option>2018</option>
+											<option>2019</option>
+											<option>2020</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="payemtCardCV2" class="col-xs-12 col-sm-4 col-md-3 control-label">CV2 Number: <span class="text-danger">*</span></label>
+									<div class="col-xs-12 col-sm-4 col-md-3">
+										<input type="email" class="form-control" id="payemtCardCV2" placeholder="Card Verification Value">
+									</div>
+									<div class="col-xs-12 col-sm-3 col-md-4">
+										<span class="font12 toptip" title="The card verification value (CV2) is a very important security feature that is made for credit card transactions on the Internet and over the phone.">What's this?</span>
+									</div>
+								</div>
+							</form>
+							
+							<div class="styled-checkbox mt-40">
+								<label>
+									<input type="checkbox" name="termCondition" id="termCondition1" value="option1">
+									Yes, I have read and agree to  <a href="#" class="clblue"></a> <a href="#" class="clblue">terms & conditions</a> , and <a href="#" class="clblue">privacy policy</a>.
+								</label>
+							</div>
+							<div class="styled-checkbox mt-10">
+								<label>
+									<input type="checkbox" name="newsletter" id="newsletter1" value="option1">
+									I want to subscribe to your newsletter.
+								</label>
+							</div>
+							
+							<a href="#" class="btn btn-primary btn-large mt-20">COMPLETE BOOKING</a>
+							
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-3">
+							<div class="details-sidebar mt-10">
+								<div class="module mt-30">
+									<h4 class="mb-15">Need Booking Help?</h4>
+									<p class="mb-10">Paid was hill sir high 24/7. For him precaution any advantages dissimilar.</p>
+									<ul class="help-list">
+										<li><span>Hotline</span>: +1900 12 213 21</li>
+										<li><span>Email</span>: dowebstaion@gmail.com</li>
+										<li><span>Livechat</span>: dowebstaion (Skype)</li>
+									</ul>
+								</div>
+								<div class="module mt-30">
+									<h4 class="mb-15">Member Login</h4>
+									<form role="form">
+										<div class="form-group">
+											<label for="member-login">Email / Username</label>
+											<input type="text" class="form-control" id="member-login" placeholder="Email / Username">
+										</div>
+										<div class="form-group">
+											<label for="member-password">Password</label>
+											<input type="password" class="form-control" id="member-password" placeholder="Password">
+										</div>
+										<div class="styled-checkbox mv-20">
+											<label>
+												<input type="checkbox" name="optionsCheckbox" id="optionsCheckbox1" value="option1">
+												Remember Me.
+											</label>
+										</div>
+										<button type="submit" class="btn btn-primary">Login</button>
+										<div class="clear mb-10"></div>
+										<a href="#" class="forgot">Forgot Your Password?</a>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- end content_wrapper -->
+		
+		<footer id="footer">
+			<div class="primary-footer">
+				<div class="container">
+					<div class="row pv-50">
+						<div class="col-xs-12 col-sm-3 col-md-3 rs-mb">
+							<h4 class="widget-title">About Us</h4>
+							<div class="logo-footer mt-20 mb-10">
+								<img src="images/logo-footer.png" alt="logo" />
+							</div>
+							<p>Left till here away at to whom past. Feelings laughing at no... <a href="#" style="font-weight: 500; font-style: italic">view more</a></p>
+							<div class="social with_color">
+								<a href="#" class="bottomtip" title="Twitter"><i class="fa-twitter"></i></a>
+								<a href="#" class="bottomtip" title="Facebook"><i class="fa-facebook"></i></a>
+								<a href="#" class="bottomtip" title="Dribbble"><i class="fa-dribbble"></i></a>
+								<a href="#" class="bottomtip" title="Youtube"><i class="fa-youtube"></i></a>
+								<a href="#" class="bottomtip" title="RSS"><i class="fa-rss"></i></a>
+							</div><!-- end social -->
+							<div class="clear"></div>
+						</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 rs-mb">
+							<h4 class="widget-title">Travel Categories</h4>
+							<ul class="link-list">
+								<li><a href="#" title="Travel Specialists">Honeymoon</a></li>
+								<li><a href="#" title="Travel Specialists">Winter Sun Holidays</a></li>
+								<li><a href="#" title="Travel Specialists">Safari Season</a></li>
+								<li><a href="#" title="Travel Specialists">Luxury Cities</a></li>
+								<li><a href="#" title="Travel Specialists">Family Holidays</a></li>
+								<li><a href="#" title="Travel Specialists">Culture Trips</a></li>
+								<li><a href="#" title="Travel Specialists">Tropical Adventure</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-12 col-sm-3 col-md-3 rs-mb">
+							<h4 class="widget-title">Quick Links</h4>
+							<ul class="link-list">
+								<li><a href="#" title="Quick Links">Make reservation</a></li>
+								<li><a href="#" title="Quick Links">FAQ</a></li>
+								<li><a href="#" title="Quick Links">Payment Options</a></li>
+								<li><a href="#" title="Quick Links">Booking Tips</a></li>
+								<li><a href="#" title="Quick Links">Information</a></li>
+								<li><a href="#" title="Quick Links">Hotel Awards</a></li>
+								<li><a href="#" title="Quick Links">Press Room</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-12 col-sm-3 col-md-3">
+							<h4 class="widget-title">Newsletter</h4>
+							<div class="newsletter mt-20">
+								<form name="email-validation" id="email-validation" class="fixed-position" action="#" novalidate>
+									<input type="email" name="form-control" id="input-email" class="form-control" placeholder="" value="Enter Your Email">
+									<button type="submit" class="btn btn-primary submit-button"><i class="arrow_carrot-right_alt2"></i></button>
+								</form>
+							</div><!-- End newsletter -->
+							<div class="clear mb-30"></div>
+							<h4 class="widget-title">Customer Support</h4>
+							<p class="phone-number"><i class="icon icon-phone-support mr-10"></i>+1900 12 213 21</p>
+							<a href="mailto:dowenstation@gmail.com">office@rehat.com</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="bottom-footer">
+				<div class="container pv-10">
+					<p class="copy-right text-center">&copy; 2014 <a href="index-2.html">REHat</a>. All Right Reserved</p>
+					<div id="toTop" class="toptip" title="Back to Top"><i class="fa-angle-up"></i></div><!-- Back to top -->
+				</div>
+			</div>
+		</footer>
+	</div><!-- end body_wrapper -->
+
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script> 
+	<script type="text/javascript" src="js/sliders.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	
+  </body>
+
+<!-- Mirrored from crenoveative.com/creativemarket/rehat/page-payment.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Oct 2015 10:53:50 GMT -->
+</html>
