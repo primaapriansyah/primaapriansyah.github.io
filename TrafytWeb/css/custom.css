@@ -560,6 +560,11 @@ Product Item
 	-webkit-transform: scale(1.2);
 			transform: scale(1.2);
 }
+/*primaapriansyah*/
+.travel-image img {
+	-webkit-transform: scale(1.2);
+			transform: scale(1.2);
+}
 .link-image {
 	position: relative;
 	display: block;
@@ -1004,7 +1009,7 @@ ul.inline > li i.fa {
 .results-grid-view .current-price {
     font-size: 20px !important;
     margin-top: 0px !important;
-    margin-bottom: 30px !important;
+    margin-bottom: 15px !important;
 }
 .results-list-view .current-price {
     font-size: 20px !important;
