@@ -1104,3 +1104,12 @@ ul.inline > li i.fa {
     height: 100px;
     width: 100%;
 }
+.operator-avatar img {
+    border-radius: 50%;
+}
+.prosite-header {
+    min-height: 200px !important;
+}
+.share-text{
+	float:right;
+	margin-right:20px;
