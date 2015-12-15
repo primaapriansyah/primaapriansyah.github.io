@@ -548,7 +548,7 @@ button.search-button.btn.transition-effect{
     padding: 1em 1em 1em;
     background-color: rgba(216, 216, 216, 0.3) !important;
     border-radius: 0px;
-    top: 145px;
+    top: 149px;
     text-shadow: 1px 1px #4C4C4C;
 	right:0px !important;
 }
@@ -893,15 +893,27 @@ div#section-intro {
 /*DISKON LABEL ORANGE START*/
 .label-reedem-home {
     position: absolute;
-    top: 0px;
-    /*left: 30px;*/
+    top: -5px;
+    left: -5px;
     z-index: 100;
-    background-image: url(http://d35ixe5v9yyxne.cloudfront.net/wordpress/wp-content/uploads/diskon_label.png);
+    background-image: url(../images/assets/label-diskon.png);
     background-repeat: no-repeat;
     width: 80px;
     height: 80px;
     background-size: contain;
 }
+.package-block.format-standard .label-reedem-home {
+    position: absolute;
+    top: 1px;
+    left: 27px;
+    z-index: 100;
+    background-image: url(../images/assets/label-diskon.png);
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+}
+
 /*BLUR HEADER START*/
 .touch .parallax:after, .page-header.parallax:after{
     content: ' ';
@@ -951,11 +963,10 @@ ul#ui-id-1 {
 .results-grid-view .result-item-title {
     background: none;
     height: 75px;
-    overflow: hidden;
 }
 .results-grid-view .result-item {
     min-height: 500px;
-	overflow:hidden;
+	/* primaapriansyah overflow:hidden;*/
 }
 .image-thumbnail-trafyt{
 	position: relative;
@@ -991,6 +1002,7 @@ ul#ui-id-1 {
 }*/
 .package-block.format-standard {
 	overflow:hidden;
+	margin-top:5px;
 }
 /*Breadcrumb*/
 .breadcrumb > .active {

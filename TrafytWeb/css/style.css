@@ -2871,7 +2871,7 @@ h1.page-title{
 }
 .results-list-view .result-item{
 	border:0;
-	overflow:hidden;
+	/* primaapriansyah overflow:hidden;*/
 	border:1px solid #eee;
 	margin-bottom:40px;
 	background:#F9F9F9;
