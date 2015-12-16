@@ -1116,7 +1116,7 @@ ul.inline > li i.fa {
 	margin-right:20px;
 }
 .tools-bar > li > a{
-	font-size:12.4px;
+	font-size:12px;
 }
 
 ul.operator-slider div.owl-item {
@@ -1124,4 +1124,10 @@ ul.operator-slider div.owl-item {
 }
 .modal-dialog {
     z-index: 9999;
+}
+.tools-bar > li > a:hover {
+    border-bottom: 2px solid #73BB46;
+    background: #EEEEEE !important;
+    border-radius: 0px;
+    color: #73BB46;
 }
