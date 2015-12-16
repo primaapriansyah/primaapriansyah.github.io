@@ -1113,3 +1113,7 @@ ul.inline > li i.fa {
 .share-text{
 	float:right;
 	margin-right:20px;
+}
+.tools-bar > li > a{
+	font-size:12.4px;
+}
