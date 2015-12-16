@@ -947,6 +947,7 @@ ul#ui-id-1 {
 }
 .circle-radius{
 	border-radius:50%;
+	width:90px;
 }
 /*Meta Taxonomy Prettyfy*/
 .package-meta {
@@ -1116,4 +1117,11 @@ ul.inline > li i.fa {
 }
 .tools-bar > li > a{
 	font-size:12.4px;
+}
+
+ul.operator-slider div.owl-item {
+    width: 120px !important;
+}
+.modal-dialog {
+    z-index: 9999;
 }
