@@ -1295,7 +1295,7 @@ body.boxed .body{
 	}
 }
 .site-header{
-	padding:20px 0 15px;
+	padding:10px 0 15px;
 	width:100%;
 	position:relative;
 	z-index:4;
@@ -2938,7 +2938,7 @@ h1.page-title{
 }
 .result-item .package-age, .result-item .premium-listing{
 	right:15px;
-	width:80px;
+	/* primaapriansyah width:80px;*/
 }
 .results-list-view .result-item-in{
 	position:relative;
@@ -3270,7 +3270,7 @@ result-item-block.col2{
 	border-radius:3px;
 	padding:13px 20px;
 	font-size:11px;
-	margin-top:20px;
+	/*margin-top:20px;*/
 	border:1px solid #eee;
 }
 .package-enquiry-foot i{

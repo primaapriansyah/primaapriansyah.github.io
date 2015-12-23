@@ -527,11 +527,20 @@ $(document).ready(function(){
 //	var goffset = $(".site-header-wrapper").height() + 19;
 //	var boffset = $(".site-footer").height() + 90;
 //	if($(window).width() > 767 ){
-	var toffset = $(".site-header-wrapper").height() - 130;
+	
+	//var toffset = $(".site-header-wrapper").height() - 130;
+//	var soffset = $(".site-header-wrapper").height() + 0;
+//	var goffset = $(".site-header-wrapper").height() + 0;
+//	var boffset = $(".site-footer").height() + 0;
+
+
+	var toffset = $(".site-header-wrapper").height() - 140;
 	var soffset = $(".site-header-wrapper").height() + 0;
-	var goffset = $(".site-header-wrapper").height() + 0;
-	var boffset = $(".site-footer").height() + 0;
-	if($(window).width() > 767 ){
+	var goffset = $(".site-header-wrapper").height() - 65;
+	var boffset = $(".site-footer").height() + 25;
+	
+	//if($(window).width() > 767 ){
+	if($(window).width() > 1000 ){
 		$(".tsticky").sticky({topSpacing:toffset});
 		$(".tbsticky").sticky({topSpacing:soffset, bottomSpacing: boffset});
 		$(".tbssticky").sticky({topSpacing:goffset, bottomSpacing: boffset});
