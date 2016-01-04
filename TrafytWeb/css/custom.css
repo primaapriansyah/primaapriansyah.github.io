@@ -1196,3 +1196,17 @@ div#package-slider {
 .btn-group.pull-right.results-sorter {
     display: inline-flex;
 }
+/*Logo operator package page*/
+.final-review.ful img {
+    width: 100px !important;
+}
+.final-review.ful h3.text-align-center {
+	font-size: 17px;
+    color: #FF9245;
+    font-weight: 500;
+}
+.final-review.ful h4.text-align-center {
+    font-size: 11px;
+    text-transform: none;
+    font-weight: 600;
+}
