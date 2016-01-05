@@ -216,9 +216,9 @@
                             <div class="users-sidebar tbssticky">
                             	<a href="user-dashboard.html" class="btn btn-block btn-primary add-listing-btn">Save & Back to Homepage</a>
                                 <ul class="list-group">
-                                    <li class="list-group-item active"> <a href="user.html"><i class="fa fa-user"></i> My Profile</a></li>
+                                    <li class="list-group-item"> <a href="user.html"><i class="fa fa-user"></i> My Profile</a></li>
                                     <li class="list-group-item"> <span class="badge">5</span> <a href="question_history.html"><i class="fa fa-folder-o"></i> Queston History</a></li>
-                                    <li class="list-group-item"> <span class="badge">2</span> <a href="booking-history.html"><i class="fa fa-edit"></i> Booking History</a></li>
+                                    <li class="list-group-item active"> <span class="badge">2</span> <a href="booking-history.html"><i class="fa fa-edit"></i> Booking History</a></li>
                                     <li class="list-group-item"> <span class="badge">12</span> <a href="user-saved-packages.html"><i class="fa fa-star-o"></i> Saved Packages</a></li>
                                     <li class="list-group-item"> <a href="#"><i class="fa fa-plus-square-o"></i> Create Trip Request</a></li>
                                     <li class="list-group-item"> <a href="#"><i class="fa fa-cog"></i> Account Settings</a></li>
@@ -227,115 +227,69 @@
                             </div>
                         </div>
                         <div class="col-md-9 col-sm-8">
-                        	<h2>My Profile</h2>
+                        	<h2>Booking History</h2>
                             <div class="dashboard-block">
-                                <div class="tabs profile-tabs">
-                                    <ul class="nav nav-tabs">
-                                        <li class="active"> <a data-toggle="tab" href="#personalinfo" aria-controls="personalinfo" role="tab">Personal Info</a></li>
-                                        <li> <a data-toggle="tab" href="#billinginfo" aria-controls="billinginfo" role="tab">Payment Info</a></li>
-                                        <li> <a data-toggle="tab" href="#changepassword" aria-controls="changepassword" role="tab">Change Password</a></li>
-                                    </ul>
-                                    <form>
-                                        <div class="tab-content">
-                                            <!-- PROFIE PERSONAL INFO -->
-                                            <div id="personalinfo" class="tab-pane fade active in">
-                                                <div class="row">
-                                                    <div class="col-md-8">
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                            	<label>First name*</label>
-                                                                <input type="text" class="form-control" placeholder="" required>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                            	<label>Last name</label>
-                                                                <input type="text" class="form-control" placeholder="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                            	<label>Email*</label>
-                                                                <input type="text" class="form-control" placeholder="mail@example.com" required>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                            	<label>Phone</label>
-                                                                <input type="text" class="form-control" placeholder="000-00-0000">
-                                                            </div>
-                                                        </div>
-                                                        
-                                                        <h3>Security Question</h3>
-                            							<div class="lighter"><p>Please choose a security question so we can better identify you if you forget your password, or in regard to your ad.</p></div>
-                                                        <label>Question</label>
-                                                        <select name="Security Questions" class="form-control selectpicker">
-                                                            <option selected>What is your maiden name?</option>
-                                                            <option selected>What is your pet's name?</option>
-                                                            <option selected>What is your first school name?</option>
-                                                            <option selected>What is your place of birth name?</option>
-                                                            <option selected>Who is your favourite actor?</option>
-                                                       	</select>
-                                                        <label>Answer</label>
-                                                        <input type="password" class="form-control">
-
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-responsive dashboard-tables saved-cars-table">
+                                        <thead>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <td>Description</td>
+                                                <td>Price/Status</td>
+                                                <td>Timestamp</td>
+                                                <td>Payment</td>
+                                                <td>Actions</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td valign="middle"><input type="checkbox"></td>
+                                                <td>
+                                                    <!-- Result -->
+                                                    <a href="vehicle-details.html" class="car-image"><img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt=""></a>
+                                                    <div class="search-find-results">
+                                                        <h5><a href="#">Paket Pulau Pahawang Ceria</a></h5>
+                                                        <ul class="inline">
+                                                            <li>Duration: 3D2N</li>
+                                                            <li>Meeting point: Jakarta</li>
+                                                            <li>Type: Open Trip</li>
+                                                            <li>Departure: December</li>
+                                                        </ul>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <!-- PROFIE BILLING INFO -->
-                                            <div id="billinginfo" class="tab-pane fade">
-                                                <div class="row">
-                                                    <div class="col-md-8">
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                        		<label>Name*</label>
-                                                                <input type="text" class="form-control" placeholder="" required>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                        		<label>Rekening Number*</label>
-                                                                <input type="text" class="form-control" placeholder="" required>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                        		<label>Bank Name*</label>
-                                                                <select name="State" class="form-control selectpicker" required>
-                                                                    <option selected>Mandiri</option>
-                                                                    <option value="JKT">BCA</option>
-																	<option value="JKT">HSBC</option>
-                                                                </select>
-                                                           	</div>
-                                                            <div class="col-md-6">
-                                                            	<label>&nbsp;</label>
-                                                            	<input type="text" class="form-control" value="Branch Jakarta">
-                                                            </div>
-                                                       	</div>
-                                                  	</div>
-                                               	</div>
-                                            </div>
-                                            <!-- PROFIE CHANGE PASSWORD -->
-                                            <div id="changepassword" class="tab-pane fade">
-                                            	<div class="row">
-                                                    <div class="col-md-8">
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                        		<label>Old Password</label>
-                                                                <input type="password" class="form-control" placeholder="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                        		<label>New password</label>
-                                                                <input type="password" class="form-control" placeholder="">
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                        		<label>Confirm new password</label>
-                                                                <input type="password" class="form-control" placeholder="">
-                                                            </div>
-                                                        </div>
-                                                  	</div>
-                                               	</div>
-                                            </div>
-                                        </div>
-                                        <button type="submit" class="btn btn-info">Update details</button>
-                                    </form>
-                                </div>
+                                                </td>
+                                                <td><span class="price">Rp. 5000.000</span></td>
+                                                <td><span class="text-success">Created on</span> 09/12/14 @ 12:09am</td>
+                                                <td align="center"><span class="label-bootstrap label-warning">Pending payment</span></td>
+                                                <td align="center">
+                                                    <button class="text-default" title="Archive"><i class="fa fa-archive"></i></button>                                                <button class="text-danger" title="Delete"><i class="fa fa-times"></i></button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle"><input type="checkbox"></td>
+                                                <td>
+                                                    <!-- Result -->
+                                                    <a href="vehicle-details.html" class="car-image"><img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt=""></a>
+                                                    <div class="search-find-results">
+                                                        <h5><a href="#">Paket Pulau Pahawang Ceria</a></h5>
+                                                        <ul class="inline">
+                                                            <li>Duration: 3D2N</li>
+                                                            <li>Meeting point: Jakarta</li>
+                                                            <li>Type: Open Trip</li>
+                                                            <li>Departure: December</li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                                <td><span class="price">Rp. 5000.000</span></td>
+                                                <td><span class="text-success">Created on</span> 09/12/14 @ 12:09am</td>
+                                                <td align="center"><span class="label-bootstrap label-success">Active</span></td>
+                                                <td align="center">
+                                                    <button class="text-default" title="Activate"><i class="fa fa-refresh"></i></button>                                                <button class="text-danger" title="Delete"><i class="fa fa-times"></i></button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                               	</div>
+                                <button class="btn btn-default btn-sm disabled">Delete Selected</button>
                             </div>
                        	</div>
                     </div>

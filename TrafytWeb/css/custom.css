@@ -1210,3 +1210,17 @@ div#package-slider {
     text-transform: none;
     font-weight: 600;
 }
+.label-bootstrap{
+	padding: .3em .6em .3em;
+	font-size: 10px!important;
+    text-transform: uppercase;
+    position: relative;
+    top: -2px;
+	font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
