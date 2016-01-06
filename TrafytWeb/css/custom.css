@@ -1224,3 +1224,7 @@ div#package-slider {
     vertical-align: baseline;
     border-radius: .25em;
 }
+/*phone number align properly*/
+.header-center {
+    font-family: sans-serif;
+}
