@@ -2874,7 +2874,8 @@ h1.page-title{
 	/* primaapriansyah overflow:hidden;*/
 	border:1px solid #eee;
 	margin-bottom:40px;
-	background:#F9F9F9;
+	background:#fff;
+	/*background:#F9F9F9;*/
 }
 .results-list-view .result-item:hover{
 	box-shadow:none;
@@ -2930,9 +2931,10 @@ h1.page-title{
 .result-item-view-buttons a i{
 	line-height:2em;
 }
+/*primaapriansyah
 .result-item-view-buttons a:first-child{
 	border-right:1px solid #eee;
-}
+}*/
 .results-grid-view .result-item-view-buttons a{
 	padding:4px 0 3px;
 }
@@ -2940,13 +2942,22 @@ h1.page-title{
 	right:15px;
 	/* primaapriansyah width:80px;*/
 }
-.results-list-view .result-item-in{
+/*.results-list-view .result-item-in{
 	position:relative;
 	z-index:2;
 	float:left;
 	width:64%;
 	background:#fff;
 	box-shadow:-5px 0 10px rgba(0,0,0,.2);
+	padding:0;
+	min-height:231px;
+}*/
+.results-list-view .result-item-in{
+	position:relative;
+	z-index:2;
+	float:left;
+	width:64%;
+	background:#fff;
 	padding:0;
 	min-height:231px;
 }

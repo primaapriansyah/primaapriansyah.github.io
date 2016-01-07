@@ -14,17 +14,17 @@
 /* Styling Next and Prev buttons */
 
 .owl-theme .owl-buttons div{
-	color: #ccc;
+	color: #fff;
 	display: inline-block;
 	zoom: 1;
 	*display: inline;/*IE7 life-saver */
 	margin: 5px;
-	padding: 3px 10px;
-	font-size: 12px;
+	padding: 10px 10px;
+	font-size: 15px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	background: rgba(0,0,0,.8);
+	background: rgb(250, 131, 0);
 	position:absolute;
 	top:50%;
 	margin-top:-50px;
