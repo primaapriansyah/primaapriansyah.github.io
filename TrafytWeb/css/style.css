@@ -1460,7 +1460,6 @@ body.boxed .body{
 .logged-in-user .user-name{
 	font-size:13px;
 	display:block;
-	color:#777
 }
 .navbar{
 	background:rgba(255,255,255,.9);
@@ -1828,7 +1827,7 @@ body.boxed .body{
 .floated .search-form{
 	width:600px;
 	margin:0 auto;
-	padding-top:65px;
+	padding-top:50px;
 	position: absolute;
 	z-index:3;
 	top:0;

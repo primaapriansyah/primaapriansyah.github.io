@@ -522,7 +522,7 @@ mark,
   white-space: nowrap;
 }
 .text-lowercase {
-  text-transform: lowercase;
+  text-transform: lowercase !important;
 }
 .text-uppercase {
   text-transform: uppercase;

@@ -15,6 +15,7 @@
     <meta name="format-detection" content="telephone=no">
     <!-- CSS
   ================================================== -->
+  	<link rel="stylesheet" href="css/idangerous.swiper.css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -339,51 +340,43 @@
                 </div>
             </div>
             <!-- Start Hero Slider -->
-            <div class="visible-lg visible-md visible-sm hero-slider heroflex flexslider clearfix" data-autoplay="yes" data-pagination="no" data-arrows="yes" data-style="fade" data-speed="7000" data-pause="yes">
-                <ul class="slides">
-                    <li style="background-image:url(images/slider/discount.jpg)">
-                        <a href="#"></a>
-                    </li>
-					<li style="background-image:url(images/slider/discount_inline.jpg)">
-                        <a href="#"></a>
-                    </li>
-                    <li style="background-image:url(images/slider/jatim-slider.jpg)">
-                        <a href="#"></a>
-                    </li>
-                    <li style="background-image:url(images/slider/derawan-slider.jpg)">
-                        <a href="#"></a>
-                    </li>
-                    <li style="background-image:url(images/slider/jepang-slider.jpg)">
-                        <a href="#"></a>
-                    </li>
-                    <li style="background-image:url(images/slider/komodo-slider.jpg)">
-                        <a href="http://trafyt.com/"></a>
-                    </li>
-                    <li style="background-image:url(images/slider/jogja-slider.jpg)">
-                        <a href="http://trafyt.com/"></a>
-                    </li>
-                    <li style="background-image:url(images/slider/lampung-slider.jpg)">
-                        <a href="http://trafyt.com/"></a>
-                    </li>
-                    <li style="background-image:url(images/slider/jomblang-slider.jpg)">
-                        <a href="http://trafyt.com/"></a>
-                    </li>
-                    <li style="background-image:url(images/slider/bali-slider.jpg)">
-                        <a href="http://trafyt.com/"></a>
-                    </li>
-                    <li style="background-image:url(images/slider/ntt-slider.jpg)">
-                        <a href="http://trafyt.com/"></a>
-                    </li>
-                    <li style="background-image:url(images/slider/papua-slider.jpg)">
-                        <a href="http://trafyt.com/"></a>
-                    </li>
-                    <li style="background-image:url(images/slider/riau-slider.jpg)">
-                        <a href="http://trafyt.com/"></a>
-                    </li>
-                    <li style="background-image:url(images/slider/singapura-slider.jpg)">
-                        <a href="http://trafyt.com/"></a>
-                    </li>
-                </ul>
+            <div class="mp-slider">
+                <!-- // slider // -->
+                <div class="mp-slider-row">
+                    <div class="swiper-container">
+                        <div class="swiper-preloader-bg"></div>
+                        <div id="preloader">
+                            <div id="spinner"></div>
+                        </div>
+                        <a href="#" class="arrow-left"></a>
+                        <a href="#" class="arrow-right"></a>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slide-section" style="background:url(images/slider/test-slider1.jpg) center top no-repeat;">
+                                    <div class="mp-slider-lbl">Great journey begins with a small step</div>
+                                    <div class="mp-slider-lbl-a">Make Your Life Better and Bright! You must trip with Us!</div>
+                                    <div class="mp-slider-btn"><a href="#" class="btn-a">Learn more</a></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-section slide-b" style="background:url(images/slider/test-slider2.jpg) center top no-repeat;">
+                                    <div class="mp-slider-lbl">Relax with us. we love our clients</div>
+                                    <div class="mp-slider-lbl-a">Make Your Life Better and Bright! You must trip with Us!</div>
+                                    <div class="mp-slider-btn"><a href="#" class="btn-a">Learn more</a></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide-section slide-b" style="background:url(images/slider/test-slider3.jpg) center top no-repeat;">
+                                    <div class="mp-slider-lbl">the best relax with us</div>
+                                    <div class="mp-slider-lbl-a">Make Your Life Better and Bright! You must trip with Us!</div>
+                                    <div class="mp-slider-btn"><a href="#" class="btn-a">Learn more</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- \\ slider \\ -->
             </div>
             <!-- End Hero Slider -->
             <!-- Start Hero Slider -->
@@ -1419,6 +1412,7 @@
             </div>
         </div>
     </div>
+	<script src="js/idangerous.swiper.js"></script>
     <script src="js/jquery-2.0.0.min.js"></script>
     <!-- Jquery Library Call -->
     <script src="vendor/prettyphoto/js/prettyphoto.js"></script>
