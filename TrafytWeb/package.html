@@ -337,11 +337,11 @@
                                         <div class="package-enquiry-foot">
                                             <h3 class="price-widget text-align-center"><span class="small">Start</span> Rp. 8000.000 <span class="small">/person</span></h3>
                                             <div class="col-md-12">
-                                                <button type="button" class="btn btn-primary ful btn-lg" data-toggle="modal" data-target="#myModal">Book Now</button>
+                                                <button type="button" class="btn btn-primary ful btn-lg" data-toggle="modal" data-target="#book-now-modal">Book Now</button>
                                             </div>
                                             <div class="spacer-10"></div>
                                             <div class="col-md-12">
-                                                <button type="button" class="btn btn-default ful">Asking</button>
+                                                <button type="button" class="btn btn-default ful btn-lg" data-toggle="modal" data-target="#inquiry-modal">Inquiry Now</button>
                                             </div>
                                             <div class="spacer-10"></div>
                                         </div>
@@ -777,56 +777,119 @@
                                     <div class="listing-container">
                                         <div class="carousel-wrapper">
                                             <div class="row">
-                                                <ul class="owl-carousel carousel-fw" id="package-slider" data-columns="3" data-autoplay="" data-pagination="yes" data-arrows="no" data-single-item="no" data-items-desktop="3" data-items-desktop-small="3" data-items-tablet="2" data-items-mobile="2.3">
+                                                <ul class="owl-carousel carousel-fw" id="test-slider" data-columns="3" data-autoplay="" data-pagination="yes" data-arrows="yes" data-single-item="no" data-items-desktop="3" data-items-desktop-small="3" data-items-tablet="2" data-items-mobile="2.2">
                                                     <li class="item">
                                                         <div class="package-block format-standard">
-                                                            <a href="package-details.html" class="media-box"><img src="images/package/package1.jpg" alt=""></a>
+                                                            <div class="image-thumb-container">
+                                                                <!-- <div class="cs-post-border"></div> -->
+                                                                <a href="package-details.html" class="media-box">
+                                                                    <div style="background-image:url(http://d20rdq16sttzbe.cloudfront.net/default/packages/281/e70f7a7eda24e072410b789459d653c0.jpg)" class="image-thumb-zoom"></div><span class="gradient_image_premium"></span>
+                                                                </a>
+                                                            </div>
                                                             <div class="package-block-content">
-                                                                <span class="label label-primary package-age">Open Trip</span>
-                                                                <h5 class="package-title"><a href="package-details.html">Liburan Pulau Pahawang</a></h5>
+                                                                <span class="label label-primary package-age"><i class="fa fa-hand-o-right"></i> Open Trip</span>
+                                                                <h5 class="package-title"><a href="package-details.html">Bromo</a></h5>
                                                                 <span class="package-meta">Snorkeling, Hiking, Diving</span>
                                                                 <a href="results-list.html" title="View all SUVs" class="package-body-type"><span>3D2N</span></a>
-                                                                <span class="package-cost current-price">Start Rp. 8000.000</span>
+                                                                <span class="package-cost normal-price"><span class="small">Start</span> Rp. 8000.000</span>
+                                                                <span class="package-cost discount-price"><span class="small">Start</span> Rp. 6000.000</span>
                                                             </div>
+                                                            <div class="label-reedem-home"></div>
                                                         </div>
                                                     </li>
                                                     <li class="item">
                                                         <div class="package-block format-standard">
-                                                            <a href="package-details.html" class="media-box"><img src="images/package/package2.jpg" alt=""></a>
+                                                            <div class="image-thumb-container">
+                                                                <!-- <div class="cs-post-border"></div> -->
+                                                                <a href="package-details.html" class="media-box">
+                                                                    <div style="background-image:url(images/package/lumba2.jpg)" class="image-thumb-zoom"></div><span class="gradient_image_premium"></span>
+                                                                </a>
+                                                            </div>
                                                             <div class="package-block-content">
-                                                                <span class="label label-primary package-age">Open Trip</span>
-                                                                <h5 class="package-title"><a href="package-details.html">Liburan Pulau Pahawang</a></h5>
+                                                                <span class="label label-primary package-age"><i class="fa fa-hand-o-right"></i> Open Trip</span>
+                                                                <h5 class="package-title"><a href="package-details.html">Bromo</a></h5>
                                                                 <span class="package-meta">Snorkeling, Hiking, Diving</span>
                                                                 <a href="results-list.html" title="View all SUVs" class="package-body-type"><span>3D2N</span></a>
-                                                                <span class="package-cost normal-price">Start Rp. 8000.000</span>
-                                                                <span class="package-cost discount-price">Start Rp. 6000.000</span>
+                                                                <span class="package-cost normal-price"><span class="small">Start</span> Rp. 8000.000</span>
+                                                                <span class="package-cost discount-price"><span class="small">Start</span> Rp. 6000.000</span>
                                                             </div>
+                                                            <div class="label-reedem-home"></div>
                                                         </div>
                                                     </li>
                                                     <li class="item">
                                                         <div class="package-block format-standard">
-                                                            <a href="package-details.html" class="media-box"><img src="images/package/package3.jpg" alt=""></a>
+                                                            <div class="image-thumb-container">
+                                                                <!-- <div class="cs-post-border"></div> -->
+                                                                <a href="package-details.html" class="media-box">
+                                                                    <div style="background-image:url(images/package/packagedetail.jpg)" class="image-thumb-zoom"></div><span class="gradient_image_premium"></span>
+                                                                </a>
+                                                            </div>
                                                             <div class="package-block-content">
-                                                                <span class="label label-primary package-age">Open Trip</span>
-                                                                <h5 class="package-title"><a href="package-details.html">Liburan Pulau Pahawang</a></h5>
+                                                                <span class="label label-primary package-age"><i class="fa fa-hand-o-right"></i> Open Trip</span>
+                                                                <h5 class="package-title"><a href="package-details.html">Bromo</a></h5>
                                                                 <span class="package-meta">Snorkeling, Hiking, Diving</span>
                                                                 <a href="results-list.html" title="View all SUVs" class="package-body-type"><span>3D2N</span></a>
-                                                                <span class="package-cost normal-price">Start Rp. 8000.000</span>
-                                                                <span class="package-cost discount-price">Start Rp. 6000.000</span>
+                                                                <span class="package-cost normal-price"><span class="small">Start</span> Rp. 8000.000</span>
+                                                                <span class="package-cost discount-price"><span class="small">Start</span> Rp. 6000.000</span>
                                                             </div>
+                                                            <div class="label-reedem-home"></div>
                                                         </div>
                                                     </li>
                                                     <li class="item">
                                                         <div class="package-block format-standard">
-                                                            <a href="package-details.html" class="media-box"><img src="images/package/package4.jpg" alt=""></a>
+                                                            <div class="image-thumb-container">
+                                                                <!-- <div class="cs-post-border"></div> -->
+                                                                <a href="package-details.html" class="media-box">
+                                                                    <div style="background-image:url(http://d20rdq16sttzbe.cloudfront.net/default/packages/281/e70f7a7eda24e072410b789459d653c0.jpg)" class="image-thumb-zoom"></div><span class="gradient_image_premium"></span>
+                                                                </a>
+                                                            </div>
                                                             <div class="package-block-content">
-                                                                <span class="label label-primary package-age">Open Trip</span>
-                                                                <h5 class="package-title"><a href="package-details.html">Liburan Pulau Pahawang</a></h5>
+                                                                <span class="label label-primary package-age"><i class="fa fa-hand-o-right"></i> Open Trip</span>
+                                                                <h5 class="package-title"><a href="package-details.html">Bromo</a></h5>
                                                                 <span class="package-meta">Snorkeling, Hiking, Diving</span>
                                                                 <a href="results-list.html" title="View all SUVs" class="package-body-type"><span>3D2N</span></a>
-                                                                <span class="package-cost normal-price">Start Rp. 8000.000</span>
-                                                                <span class="package-cost discount-price">Start Rp. 6000.000</span>
+                                                                <span class="package-cost normal-price"><span class="small">Start</span> Rp. 8000.000</span>
+                                                                <span class="package-cost discount-price"><span class="small">Start</span> Rp. 6000.000</span>
                                                             </div>
+                                                            <div class="label-reedem-home"></div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="item">
+                                                        <div class="package-block format-standard">
+                                                            <div class="image-thumb-container">
+                                                                <!-- <div class="cs-post-border"></div> -->
+                                                                <a href="package-details.html" class="media-box">
+                                                                    <div style="background-image:url(images/package/lumba2.jpg)" class="image-thumb-zoom"></div><span class="gradient_image_premium"></span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="package-block-content">
+                                                                <span class="label label-primary package-age"><i class="fa fa-hand-o-right"></i> Open Trip</span>
+                                                                <h5 class="package-title"><a href="package-details.html">Bromo</a></h5>
+                                                                <span class="package-meta">Snorkeling, Hiking, Diving</span>
+                                                                <a href="results-list.html" title="View all SUVs" class="package-body-type"><span>3D2N</span></a>
+                                                                <span class="package-cost normal-price"><span class="small">Start</span> Rp. 8000.000</span>
+                                                                <span class="package-cost discount-price"><span class="small">Start</span> Rp. 6000.000</span>
+                                                            </div>
+                                                            <div class="label-reedem-home"></div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="item">
+                                                        <div class="package-block format-standard">
+                                                            <div class="image-thumb-container">
+                                                                <!-- <div class="cs-post-border"></div> -->
+                                                                <a href="package-details.html" class="media-box">
+                                                                    <div style="background-image:url(images/package/packagedetail.jpg)" class="image-thumb-zoom"></div><span class="gradient_image_premium"></span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="package-block-content">
+                                                                <span class="label label-primary package-age"><i class="fa fa-hand-o-right"></i> Open Trip</span>
+                                                                <h5 class="package-title"><a href="package-details.html">Bromo</a></h5>
+                                                                <span class="package-meta">Snorkeling, Hiking, Diving</span>
+                                                                <a href="results-list.html" title="View all SUVs" class="package-body-type"><span>3D2N</span></a>
+                                                                <span class="package-cost normal-price"><span class="small">Start</span> Rp. 8000.000</span>
+                                                                <span class="package-cost discount-price"><span class="small">Start</span> Rp. 6000.000</span>
+                                                            </div>
+                                                            <div class="label-reedem-home"></div>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -846,117 +909,79 @@
             </div>
         </div>
         <!-- End Body Content -->
-        <!-- Start site footer -->
-        <footer class="site-footer">
-            <div class="site-footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-5 col-sm-6 footer_widget widget text_widget">
-                            <h4 class="widgettitle">About Trafyt</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus.</p>
-                        </div>
+        <!--MODAL START-->
+        <div class="modal fade" id="inquiry-modal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Inquiry Form</h4>
                     </div>
-                </div>
-            </div>
-            <div class="site-footer-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 copyrights-left">
-                            <p>&copy; 2014 Trafyt. All Rights Reserved</p>
-                        </div>
-                        <div class="col-md-6 col-sm-6 copyrights-right">
-                            <ul class="social-icons social-icons-colored pull-right">
-                                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li class="youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>
-                                <li class="flickr"><a href="#"><i class="fa fa-flickr"></i></a></li>
-                                <li class="vimeo"><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
-                                <li class="digg"><a href="#"><i class="fa fa-digg"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- End site footer -->
-        <a id="back-to-top"><i class="fa fa-angle-double-up"></i></a>
-    </div>
-    <!-- LOGIN POPUP -->
-    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-sm">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4>Login to your account</h4>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                            <input type="text" class="form-control" placeholder="Username">
-                        </div>
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="fa fa-key"></i></span>
-                            <input type="password" class="form-control" placeholder="Password">
-                        </div>
-                        <input type="submit" class="btn btn-primary" value="Login">
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-block btn-facebook btn-social"><i class="fa fa-facebook"></i> Login with Facebook</button>
-                    <button type="button" class="btn btn-block btn-twitter btn-social"><i class="fa fa-twitter"></i> Login with Twitter</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- REQUEST MORE INFO POPUP -->
-    <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4>Request more info</h4>
-                </div>
-                <div class="modal-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
-                    <form>
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                            <input type="text" class="form-control" placeholder="Full Name">
-                        </div>
+                    <div class="modal-body">
+                        <p>Inquiry form let you book this trip package base on your requirement. We will contact the operator to make sure the stocks are availeble. Thanks!</p>
                         <div class="row">
-                            <div class="col-md-6">
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                    <input type="email" class="form-control" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                    <input type="text" class="form-control" placeholder="Phone">
-                                </div>
+                            <div class="col-md-12 col-sm-12">
+                                <form>
+									<div class="row">
+                                        <div class="col-md-12">
+											<div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                                <input type="text" class="form-control" placeholder="Full Name">
+                                            </div>
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                                <input type="text" class="form-control" placeholder="Email">
+                                            </div>
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                                <input type="text" class="form-control" placeholder="Phone">
+                                            </div>
+										</div>
+									</div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+											<div class="form-group">
+                                                <textarea rows="8" class="form-control input-lg" placeholder="Please fill additional message here if needed" required name="comment" cols="50"></textarea>
+                                            </div>
+                                        </div>
+                                        <!-- -->
+                                        <div class="col-md-6">
+                                            <p class="lead">Please add informetion like: </p>
+                                            <ul class="list-unstyled" style="line-height: 2">
+                                                <li><span class="fa fa-check text-success"></span> How long your trip</li>
+                                                <li><span class="fa fa-check text-success"></span> Your Destination</li>
+												<li><span class="fa fa-check text-success"></span> When?</li>
+                                                <li><span class="fa fa-check text-success"></span> How Many Person</li>
+                                            </ul>
+                                            <!--<p><a href="#" class="btn btn-info btn-block">Yes please, Inquiry me now!</a></p>-->
+                                        </div>
+                                    </div>
+                                    <!--<div class="row">
+                                        <div class="col-md-12">
+                                            
+                                        </div>
+                                    </div>-->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <input id="submit" name="submit" type="submit" class="btn btn-primary btn-lg pull-right ful" value="Inquiry now!">
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
-                        <input type="submit" class="btn btn-primary pull-right" value="Request Info">
-                        <label class="btn-block">Preferred Contact</label>
-                        <label class="checkbox-inline">
-                            <input type="checkbox"> Email</label>
-                        <label class="checkbox-inline">
-                            <input type="checkbox"> Phone</label>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- BOOK TEST DRIVE POPUP -->
-    <div class="modal fade" id="testdriveModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <!--MODAL END-->
+    <!-- Inquiry -->
+    <div class="modal fade" id="book-now-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4>Book a test drive</h4>
+                    <h4>Booking Form</h4>
                 </div>
                 <div class="modal-body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
@@ -983,18 +1008,18 @@
                             <div class="col-md-6">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-                                    <input type="text" id="datepicker" class="form-control" placeholder="Preferred Date">
+                                    <input type="text" id="datepicker" class="form-control" placeholder="Maybe start at ">
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="input-group input-append bootstrap-timepicker">
-                                    <span class="input-group-addon add-on"><i class="fa fa-clock-o"></i></span>
-                                    <input type="text" id="timepicker" class="form-control" placeholder="Preferred time">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-users"></i></span>
+                                    <input type="text" class="form-control" placeholder="How many person">
                                 </div>
                             </div>
                         </div>
                         <input type="submit" class="btn btn-primary pull-right" value="Schedule Now">
-                        <label class="btn-block">Preferred Contact</label>
+                        <label class="btn-block">Please remind me via</label>
                         <label class="checkbox-inline">
                             <input type="checkbox"> Email</label>
                         <label class="checkbox-inline">
@@ -1004,107 +1029,66 @@
             </div>
         </div>
     </div>
-    <!-- MAKE AN OFFER POPUP -->
-    <div class="modal fade" id="offerModal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4>Make an offer</h4>
-                </div>
-                <div class="modal-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
-                    <form>
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                            <input type="text" class="form-control" placeholder="Full Name">
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                    <input type="email" class="form-control" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                    <input type="text" class="form-control" placeholder="Phone">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
-                                    <input type="text" class="form-control" placeholder="Offered Price">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
-                                    <select type="text" class="form-control selectpicker">
-                                        <option selected>Financing required?</option>
-                                        <option>Yes</option>
-                                        <option>No</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <textarea class="form-control" placeholder="Additional comments"></textarea>
-                        <input type="submit" class="btn btn-primary pull-right" value="Submit">
-                        <div class="clearfix"></div>
-                    </form>
+    <!-- Start site footer -->
+    <footer class="site-footer">
+        <div class="site-footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-6 footer_widget widget text_widget">
+                        <h4 class="widgettitle">About Trafyt</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus.</p>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="site-footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 copyrights-left">
+                        <p>&copy; 2014 Trafyt. All Rights Reserved</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 copyrights-right">
+                        <ul class="social-icons social-icons-colored pull-right">
+                            <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                            <li class="flickr"><a href="#"><i class="fa fa-flickr"></i></a></li>
+                            <li class="vimeo"><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
+                            <li class="digg"><a href="#"><i class="fa fa-digg"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End site footer -->
+    <a id="back-to-top"><i class="fa fa-angle-double-up"></i></a>
     </div>
-    <!-- SEND TO A FRIEND POPUP -->
-    <div class="modal fade" id="sendModal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+    <!-- LOGIN POPUP -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4>Make an offer</h4>
+                    <h4>Login to your account</h4>
                 </div>
                 <div class="modal-body">
                     <form>
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                            <input type="text" class="form-control" placeholder="Your Name">
+                            <input type="text" class="form-control" placeholder="Username">
                         </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                    <input type="email" class="form-control" placeholder="Your Email">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                    <input type="email" class="form-control" placeholder="Friend's Email">
-                                </div>
-                            </div>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                            <input type="password" class="form-control" placeholder="Password">
                         </div>
-                        <textarea class="form-control" placeholder="Message"></textarea>
-                        <input type="submit" class="btn btn-primary pull-right" value="Submit">
-                        <div class="clearfix"></div>
+                        <input type="submit" class="btn btn-primary" value="Login">
                     </form>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="myModalLabel">Comment Sent!</h4>
-                </div>
-                <div class="modal-body"> Thanks for give a comment, your message still moderation by our CS </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Close</button>
+                    <button type="button" class="btn btn-block btn-facebook btn-social"><i class="fa fa-facebook"></i> Login with Facebook</button>
+                    <button type="button" class="btn btn-block btn-twitter btn-social"><i class="fa fa-twitter"></i> Login with Twitter</button>
                 </div>
             </div>
         </div>

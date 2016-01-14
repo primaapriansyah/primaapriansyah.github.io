@@ -111,3 +111,9 @@ a.list-group-item.active:focus,
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
+.purple{
+	color: #CC1685 !important;
+}
+.weight{
+	font-weight:600 !important;
+}
