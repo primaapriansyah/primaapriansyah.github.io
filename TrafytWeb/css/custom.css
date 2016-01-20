@@ -967,7 +967,7 @@ div#section-info-package {
     background: linear-gradient(to bottom,transparent 0,transparent 0,rgba(0,0,0,.65) 100%);
 }
 .page-header h1.page-title {
-    position: absolute !important;
+    position: absolute;
     z-index:9;
 }
 /*Autocomplete Style*/
@@ -1278,3 +1278,97 @@ body p {
   margin: 20px auto; 
 }
 #tallModal .modal-body p { margin-bottom: 900px }*/
+.relative{
+	position:relative !important;
+}
+.result-item-in{
+	min-height:230px;
+}
+/*CSS FOR DETAILS PAGE prma */
+.pagecontainer2{ background:#fff; border:1px solid #ddd; position:relative; border-radius:4px;}
+.padding30{padding:30px;} /*prma*/
+.hpadding30{padding:0 30px;} /*prma*/
+.collapsebtn3{
+width:9px;
+height:6px;
+border:0px solid black;
+text-align:left;
+/*padding-left:20px;*/
+padding-right:20px;
+font-family:"Open Sans";
+font-size:14px;
+font-weight:400;
+background:url('arrows.png') scroll 0 -6px no-repeat;
+}/*prma*/
+.collapsebtn3.collapsed{ 
+width:9px;
+height:6px;
+border:0px solid black;
+text-align:left;
+/*padding-left:20px;*/
+padding-right:20px;
+font-family:"Open Sans";
+font-size:14px;
+font-weight:400;
+background:url('arrows.png') scroll 0 0 no-repeat;
+} /*prma*/
+.paymentbox{ margin-left:-15px; margin-right:-15px;} /*prma*/
+td.center.bold{
+	vertical-align:middle;
+}
+.fs18{
+	font-size:18px;
+}
+.mb20{
+	margin-bottom:20px;
+}
+.cp{
+	cursor:pointer;
+}
+.w100{
+	width:100px !important;
+}
+.fs{
+	font-size:15px;
+}
+.fs12{
+	font-size:13px;
+}
+.w140{
+	width:140px !important;
+}
+.dn{
+	display:none;
+}
+.tac{
+	text-align:center;
+}
+.mb-8{
+	margin-bottom:-8px;
+}
+.fr{
+	float:right !important;
+}
+.fw700{
+	font-weight:700;
+}
+.line3 {
+    background: #e8e8e8;
+    height: 1px;
+    margin: 0px 0 0px 0;
+    padding: 0;
+    display: block;
+}
+
+@media (min-width: 992px) {
+.paymentbox{ margin-left:10px; margin-right:-15px;} /*prma*/
+.login-c3 .left{margin-left:20px; margin-top:15px;} /*prma*/
+.login-c3 .left span{ 
+width:26px;
+height:26px;
+background:url('../../images/login-home.png') scroll 0 0 no-repeat;
+display:block;
+float:left;
+margin-top:-3px;
+margin-right:5px;
+}/*prma*/
