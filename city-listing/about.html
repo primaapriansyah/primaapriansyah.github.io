@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  
+<!-- Mirrored from webdesigntrade.net/city-listing/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 24 Feb 2017 02:19:23 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+    <title>City Listing - Directory Template</title>
+    <!-- Google Font(s) -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Capriola" rel="stylesheet">
+    <!-- Bootstrap-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Awesome Icons Font -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Listing Filter -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css" rel="stylesheet">
+    <!-- Lightbox -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.min.css" rel="stylesheet">
+    <!-- Map -->
+    <link href="assets/css/leaflet-map/leaflet.css" rel="stylesheet">
+    <!-- City Listing Icons -->
+    <link href="assets/fonts/icons/css/import-icons.css" rel="stylesheet">
+    <!-- Main CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Start Body Content Wrapper -->
+    <div class="body-wrapper">
+      <!-- Start header (topbar) -->
+      <header class="header">
+        <!-- Start Logo -->
+        <div class="logo">
+          <a href="index.html">
+            <img alt="" src="assets/images/logo.png"/>
+          </a>
+        </div>
+        <!-- End Logo -->
+        <!-- Start User Buttons -->
+        <div class="user-buttons">
+          <a href="login-register.html" class="user-login"></a>
+          <a href="pricing.html" class="add-listing">Add Listing</a>
+        </div>
+        <!-- End User Buttons -->
+        <!-- Start Navbar -->
+        <div class="navbar navbar-inverse" role="navigation" id="slide-nav">
+          <div class="container">
+            <div id="slidemenu">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign In<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="login-register.html">Login/Register</a></li>
+                    <li><a href="forgot-password.html">Recover Password</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="about.html">How it Works</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Listings<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="listings-option-1.html">Grid 1</a></li>
+                    <li><a href="listings-option-2.html">Grid 2</a></li>
+                    <li><a href="listing-detail.html">Listing Detail</a></li>
+                    <li><a href="cities.html">Cities</a></li>
+                    <li><a href="404.html">Not Found</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="blog.html">Blog Grid</a></li>
+                    <li><a href="single-blog.html">Single Article</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End Navbar -->
+        <!-- Header Search Button -->
+        <div class="header-search-button"></div>
+      </header>
+      <!-- End header (topbar) -->
+      <!-- Start Search Popup -->
+      <div class="search-popup container-fluid hero-header">
+        <!-- Start Header Centralizer -->
+        <div class="header-centralizer">
+          <div class="content-centralized">
+            <!-- Start Hero Search -->
+            <div class="hero-search">
+              <form>
+                <fieldset>
+                  <input type="text" class="form-control" data-placeholder="Explore and Enjoy...">
+                  <span class="typingEffect" data-title="Explore and Enjoy//Find New Places//Discover Tasty Goodies//Do Memorable Check-ins//Go Beyond and Beyond"></span>
+                </fieldset>
+                <div class="search-submit">
+                  <input type="submit" value=" ">
+                  <i class="hero-search-icon"></i>
+                </div>
+              </form>
+            </div>
+            <!-- End Hero Search -->
+            <!-- Start Search Categories -->
+            <div class="search-categories">
+              <div class="categories">
+                <a class="icon-platter child" href="listings-option-1.html">Restaurant</a>
+                <a class="icon-teacup child" href="listings-option-1.html">Café</a>
+                <a class="icon-moon" href="listings-option-1.html">Nightlife</a>
+                <a class="icon-landscape" href="listings-option-1.html">Outdoor</a>
+                <a class="icon-home" href="listings-option-1.html">Lodging</a>
+                <a class="icon-car child" href="listings-option-1.html">Car Dealer</a>
+                <a class="icon-hanger child" href="listings-option-1.html">Clothing</a>
+                <a class="icon-bench-press child" href="listings-option-1.html">Gim</a>
+                <a class="icon-saw child" href="listings-option-1.html">Home Service</a>
+                <a class="icon-laundry child" href="listings-option-1.html">Laundry</a>
+                <a class="icon-bag-dollar child" href="listings-option-1.html">Bank</a>
+                <a class="icon-palette child" href="listings-option-1.html">Art Gallery</a>
+                <a class="icon-library child" href="listings-option-1.html">Bookstore</a>
+                <a class="icon-chair child" href="listings-option-1.html">Furniture</a>
+                <a class="icon-receipt" href="listings-option-1.html">Coupons</a>
+                <a class="icon-lan2" href="listings-option-1.html">Online Order</a>
+                <a class="icon-paw" href="listings-option-1.html">Pets Friendly</a>
+                <a class="icon-wheelchair" href="listings-option-1.html">Accessible</a>
+                <a class="icon-wifi" href="listings-option-1.html">Wi-Fi</a>
+                <a class="icon-plus-circle" href="listings-option-1.html">More Options</a>
+              </div>
+            </div>
+            <!-- End Search Categories -->
+          </div>
+        </div>
+      </div>
+      <!-- End Search Popup -->
+      <!-- Start Login/Register Popup -->
+      <div class="login-popup container hero-header">
+        <div class="row">
+    			<div class="col-sm-12 text-center">
+    				<div class="panel panel-form">
+    					<div class="panel-heading">
+    						<div class="row">
+    							<div class="col-xs-6">
+    								<a href="#" class="active" id="login-form-link">Login</a>
+    							</div>
+    							<div class="col-xs-6">
+    								<a href="#" id="register-form-link">Register</a>
+    							</div>
+    						</div>
+    						<hr>
+    					</div>
+    					<div class="panel-body">
+    						<div class="row">
+    							<div class="col-lg-12">
+    								<form id="login-form" action="#" method="post">
+    									<div class="form-group">
+    										<input type="text" name="username" id="login-username" tabindex="1" class="form-control" placeholder="Username" value="">
+    									</div>
+    									<div class="form-group">
+    										<input type="password" name="password" id="login-password" tabindex="2" class="form-control" placeholder="Password">
+    									</div>
+    									<div class="form-group text-center">
+    										<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+    										<label for="remember"> Remember Me</label>
+    									</div>
+    									<div class="form-group">
+    										<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-submit" value="Log In">
+    									</div>
+    									<div class="form-group">
+    										<div class="row">
+    											<div class="col-lg-12">
+    												<div class="text-center">
+    													<a href="forgot-password.html" tabindex="5" class="login-forgot-password">Forgot Password?</a>
+    												</div>
+    											</div>
+    										</div>
+    									</div>
+    								</form>
+    								<form id="register-form" action="#" method="post">
+    									<div class="form-group">
+    										<input type="text" name="username" id="register-username" tabindex="1" class="form-control" placeholder="Username" value="">
+    									</div>
+    									<div class="form-group">
+    										<input type="email" name="email" id="register-email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+    									</div>
+    									<div class="form-group">
+    										<input type="password" name="password" id="register-password" tabindex="2" class="form-control" placeholder="Password">
+    									</div>
+    									<div class="form-group">
+    										<input type="password" name="confirm-password" id="register-confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
+    									</div>
+    									<div class="form-group">
+    										<input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-submit" value="Register Now">
+    									</div>
+    								</form>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+      </div>
+      <!-- End Login/Register Popup -->
+      <!-- Start Page Header -->
+      <div class="container-fluid pg-header" style="background-image: url(assets/images/backgrounds/5.jpg);">
+        <div class="breadcrumbs text-left">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listings-option-1.html">Listings</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div class="pg-header-content">
+          <h1 class="pg-title">
+            City Listing
+          </h1>
+          <h4 class="pg-subtitle">
+            Understand why our listings are handy tools
+          </h4>
+        </div>
+        <div class="pg-header-icon icon-city"></div>
+      </div>
+      <!-- End Page Header -->
+      <!-- Start Page Intro -->
+      <div class="container page-intro">
+        We make business easier to announcers and customers
+      </div>
+      <!-- End Page Intro -->
+      <!-- Start Page Content -->
+      <div class="container pg-content">
+        <div class="row text-center">
+          <div class="img-left with-icon icon-store-24">
+            <img alt="" src="assets/images/about/1.jpg" />
+          </div>
+          <div class="text-inline">
+            <h2>Start Adding your Listing</h2>
+            Create an account to start your publication on our directory. You can upload photos, add relevant links to your website or to social media, set an address, map, telephone, opening info and other details.
+          </div>
+        </div>
+        <div class="separator s-line-dashed"></div>
+        <div class="row text-center">
+          <div class="img-left with-icon icon-list2">
+            <img alt="" src="assets/images/about/2.jpg" />
+          </div>
+          <div class="text-inline">
+            <h2>Enter Your Ammenities</h2>
+            Show what is different on your establishment by adding every detail of your business to the listing, so the public can find you easier. Some examples of amenities: Accepts Credit Cards, Parking, Bike Parking, Wheelchair Accessible, Wi-fi, etc.
+          </div>
+        </div>
+        <div class="separator s-line-dashed"></div>
+        <div class="row text-center">
+          <div class="img-left with-icon icon-archery">
+            <img alt="" src="assets/images/about/3.jpg" />
+          </div>
+          <div class="text-inline">
+            <h2>Get Relevant Traffic</h2>
+            After publicate your announce, be prepared to receive the first feedbacks via email, phone calls, social network(s) or even personally.
+          </div>
+        </div>
+        <div class="separator s-line-dashed"></div>
+        <div class="row text-center">
+          <div class="img-left with-icon icon-group-work">
+            <img alt="" src="assets/images/about/4.jpg" />
+          </div>
+          <div class="text-inline">
+            <h2>Talk with The Audience</h2>
+            Now it's time to gain Loyalty: comprove to your new possible long-term clients all the qualities you have quoted on your listing and extend it with your attendance and personal touch. It’s your job from here to make them happy to leave positive reviews.
+          </div>
+        </div>
+        <div class="separator s-line-dashed"></div>
+        <div class="row text-center">
+          <div class="img-left with-icon icon-chart-growth">
+            <img alt="" src="assets/images/about/5.jpg" />
+          </div>
+          <div class="text-inline">
+            <h2>Earn More and More</h2>
+            We strictly intend to increase your earnings by bringing specialized traffic to your business. And we do it with passion because if you grow up, we go straightly to the same path.
+          </div>
+        </div>
+        <div class="separator"></div>
+        <div class="row text-center">
+          <a href="faq.html" class="button big grey">Read the FAQ</a>
+          <a href="pricing.html" class="button big">Ok, I Want to Add My Listing</a>
+        </div>
+      </div>
+      <!-- End Page Content -->
+      <!-- Start Footer -->
+      <footer>
+        <div class="row footer-info">
+          <div class="footer-col footer-terms">
+            <a href="#">Terms of Use</a>
+          </div>
+          <div class="footer-col footer-privacy">
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="footer-col social-networks">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+          </div>
+          <div class="footer-col footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#" class="sign-in">Sign In</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="footer-col footer-contact">
+            <div class="footer-address">
+              Your Business Address Here
+            </div>
+            <div class="footer-contact-data">
+              (99) 989-745-9922
+            </div>
+          </div>
+        </div>
+        <div class="row footer-logo">
+          <a href="index.html">
+            <img alt="" src="assets/images/logo.png"/>
+          </a>
+        </div>
+        <div class="row footer-credits">
+          <div class="copyright">
+            (C) 2017 Your Company, All right reserved
+          </div>
+          <div class="developer">
+            Developed with Passion for Coding by <a href="https://themeforest.net/user/webdesigntrade" target="_blank">Webdesign Trade</a>.
+          </div>
+        </div>
+      </footer>
+      <!-- End Footer -->
+    </div>
+    <!-- End Body Content Wrapper -->
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Lightbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox.min.js"></script>
+    <!-- Typing Effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
+    <!-- Dragging Scroll to Listing Gallery -->
+    <script src="assets/js/jquery.dragscroll.js"></script>
+    <!-- Horizontal Mousewheel Scroll to Listing Gallery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <!-- Listing Filter -->
+    <script src="assets/js/bootstrap-select.js"></script>
+    <!-- Map -->
+    <script src="assets/js/leaflet-map/build/deps.js"></script>
+  	<script src="assets/js/leaflet-map/leaflet-include.js"></script>
+    <script src="assets/js/leaflet-map/sampleMapSingleListingMarker.js"></script>
+    <!-- Main Javascript -->
+    <script src="assets/js/main.js"></script>
+  </body>
+
+<!-- Mirrored from webdesigntrade.net/city-listing/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 24 Feb 2017 02:21:08 GMT -->
+</html>
