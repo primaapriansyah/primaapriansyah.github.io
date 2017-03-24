@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)http://getbootstrap.com/examples/navbar-static-top/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>Static Top Navbar Example for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/modify.css" rel="stylesheet">
+	<link href="./css/style.css" rel="stylesheet">
+	<link href="./css/font-awesome.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<style type="text/css">
+		.stepwizard-step p {
+			margin-top: 10px;
+		}
+		.stepwizard-row {
+			display: table-row;
+		}
+		.stepwizard {
+			display: table;
+			width: 100%;
+			position: relative;
+		}
+		.stepwizard-step button[disabled] {
+			opacity: 1 !important;
+			filter: alpha(opacity=100) !important;
+		}
+		.stepwizard-row:before {
+			top: 14px;
+			bottom: 0;
+			position: absolute;
+			content: " ";
+			width: 100%;
+			height: 1px;
+			background-color: #ccc;
+			z-order: 0;
+		}
+		.stepwizard-step {
+			display: table-cell;
+			text-align: center;
+			position: relative;
+		}
+		.btn-circle {
+			width: 30px;
+			height: 30px;
+			text-align: center;
+			padding: 6px 0;
+			font-size: 12px;
+			line-height: 1.428571429;
+			border-radius: 15px;
+		}
+	</style>
+	
+	
+  </head>
+
+  <body class="general-font">
+<div id="wrap">
+<!--/.navigation -->
+<nav class="navbar navbar-default navbar-style" role="navigation">     
+    <div class="container">
+		<!-- Logo -->
+		<div class="navbar-header style-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand navbar-style" href="#"><img src="img/kompascom.png" alt="HTML5 Icon" style="width:130px;"></a>
+        </div>
+		
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<!-- Mega Manu Category -->   
+				<ul class="nav category-inline">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle megamenu-style" data-toggle="dropdown" style="font-size:15px !important;">Kategori<b class="caret"></b></a>   
+						<ul class="dropdown-menu mega-menu dropdown-style">
+							<div class="row">
+								<div class="col-sm-4">
+									<li class="mega-menu-column">
+									<ul>
+										<li class="nav-header">Property</li>
+										<li class="sub-category"><a href="#" class="megamenu-style ">Building</a></li>
+										<li class="sub-category"><a href="#" class="megamenu-style ">Factory & Office</a></li>
+										<li class="sub-category"><a href="#" class="megamenu-style ">Land</a></li>
+										<li class="sub-category"><a href="#" class="megamenu-style ">House</a></li>
+										<li class="sub-category"><a href="#" class="megamenu-style ">Apartement</a></li>
+										<li class="sub-category"><a href="#" class="megamenu-style ">Warehouse</a></li>
+										<li class="sub-category"><a href="#" class="megamenu-style">Other</a></li>
+										<li class="divider"></li>
+									</ul>
+									</li>    
+								</div>
+			
+								<div class="col-sm-4">
+									<li class="mega-menu-column">
+									<ul>
+									<li class="nav-header">Transportation</li>
+										<li class="sub-category"><a href="#" class="megamenu-style">Car or Bus</a></li>
+										<li class="sub-category"><a href="#" class="megamenu-style">Motorcycle</a></li>
+										<li class="sub-category"><a href="#" class="megamenu-style">Truck</a></li>
+										<li class="sub-category"><a href="#" class="megamenu-style">Aircraft</a></li>
+										<li class="sub-category"><a href="#" class="megamenu-style">Ship</a></li>
+										<li class="sub-category"><a href="#" class="megamenu-style">Forklift</a></li>
+										<li class="sub-category"><a href="#" class="megamenu-style">Others</a></li>
+										<li class="divider"></li>
+									</ul>
+									</li> 
+								</div>
+								
+								<div class="col-sm-4">
+									<li class="mega-menu-column">
+									<ul>                            
+									<li class="nav-header">Scrap Items</li>
+										<li class="sub-category"><a href="#" class="megamenu-style">Scrap Production</a></li>
+										<li class="sub-category"><a href="#" class="megamenu-style">Scrap Non Production</a></li>
+										<li class="sub-category"><a href="#" class="megamenu-style">Others</a></li>	
+										<li class="divider"></li>
+									</ul>
+									</li> 
+								</div>
+							</div>
+							<br>
+							<div class="row">
+								<div class="col-sm-4">
+									<li class="mega-menu-column">
+									<ul>                            
+									<li class="nav-header"><a href="#" class="list-nochild">Machineries</a></li>
+									</ul>
+									</li> 
+								</div>
+								
+								<div class="col-sm-4">
+									<li class="mega-menu-column">
+									<ul>                            
+									<li class="nav-header"><a href="#" class="list-nochild">Electronic</a></li>
+									</ul>
+									</li>
+								</div>
+								
+								<div class="col-sm-4">
+									<li class="mega-menu-column">
+									<ul>                            
+									<li class="nav-header"><a href="#" class="list-nochild">Others</a></li>
+									</ul>
+									</li>
+								</div>
+							</div>
+							
+							<div class="row-fluid">
+								<div class="col-sm-12 all-Category">
+									<small><b><a class="color" href="#">Semua Kategori</a></b></small>
+								</div>
+							</div>
+						</ul>
+					</li>
+				</ul>
+		
+			<!-- Form Searching -->
+			<form class="form-inline navbar-form" role="form" id="yourformID-form" action="" method="post">	
+				<div class="input-group">
+					<div class="form-group form-style spaceformheader">
+						<input size="50" maxlength="50" class="form-control" name="q" type="text">          
+					</div>
+					<div class="form-group form-style spaceformheader">
+						<select class="form-control" name="category">
+							<option value="">All Location</option>
+							<option value="0">select1</option>
+							<option value="1">select2</option>
+							<option value="2">select3</option>
+						</select>           
+					</div>
+					<button type="submit" class="btn btn-primary search-style">Search</button>
+				</div>
+			</form>
+		
+			<!-- Notif -->
+			<div class="pull-right style-header-notif">	
+				<ul class="nav navbar-nav nav-tab ">
+					<!-- Messages: style can be found in dropdown.less-->
+					<li class="dropdown messages-menu list-notif">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="fa fa-envelope-o notif"></i>
+							<span class="label label-success">1</span>
+						</a>
+						<ul class="dropdown-menu margindropdown">
+							<li class="header">You have 1 messages</li>
+							<li>
+								<!-- inner menu: contains the actual data -->
+								<ul class="menu">
+								  <li><!-- start message -->
+									<a href="#">
+										<div class="pull-left">
+											<img src="img/avatar5.png" class="img-circle" alt="User Image"/>
+										</div>
+										<h4>
+											Support Team
+										</h4>
+										<p><small style="color:#999999;">5 mins</small></p>
+									</a>
+								  </li><!-- end message -->
+								</ul>
+								<li class="footer"><a href="#">See All Messages</a></li>
+							</li>
+						</ul>
+					</li><!--/.end of message -->
+				  
+					<!-- Notifications: style can be found in dropdown.less -->
+					<li class="dropdown notifications-menu list-notif">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="fa fa-bell-o notif"></i>
+							<span class="label label-warning">10</span>
+						</a>
+						<ul class="dropdown-menu margindropdown">
+							<li class="header">You have 10 notifications</li>
+							<li>
+								<!-- inner menu: contains the actual data -->
+								<ul class="menu">
+									<li>
+									<a href="#" class="colornotif">
+										<i class="fa fa-bullhorn"></i> 5 new members joined today <br>
+										<small style="margin-left:25px; color:#999999;">5 mins</small>
+									</a>
+									</li>
+								</ul>
+								<li class="footer"><a href="#">See All Notification </a></li>
+							</li>
+						</ul>
+					</li><!--/.end of notification -->
+					
+					<li class="dropdown user user-menu list-notif">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<img src="img/avatar5.png" class="user-image" alt="User Image"/>
+							<span class="hidden-xs">Dena Sucianandika</span>
+						</a>
+						<ul class="dropdown-menu notifdash">
+							<li><a href="#">Dashboard</a></li>
+							<li><a href="#">Account</a></li>
+							<li><a href="#">My Bid</a></li>
+							<li><a href="#">My Auction</a></li>
+							<li><a href="#">My WatchList</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Logout</a></li>
+						  </ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+    </div>
+</nav><!--/.navigation -->
+    
+  
+  	<!-- /.container -->
+    <div class="container-fluid container-content ">
+		<div class="row">
+			<div class="col-md-1"></div>
+      		<div class="col-md-10 row-home">
+				<div class="col-md-3">
+					
+					<div class="panel panel-default" style="margin-top:65px;border-radius:0;width:200px;box-shadow: none;">
+						<div class="panel-heading"><b>PT Pertamina Persero</b></div>
+						<div class="panel-body" style="padding: 10px 15px;">
+							<i class="fa fa-user fa-space"></i><b>Username</b>
+								<div class="row">
+									<div class="col-md-9">
+										<p style="margin-left: 12px; font-size:11px;"><i>AdminPertamina</i></p>
+									</div>
+									<div class="col-md-1">
+										<a href="#"><i class="fa fa-edit fa-lg"></i></a>
+									</div>
+								</div><hr>
+							<i class="fa fa-key fa-space"></i><b>Password</b>
+								<div class="row">
+									<div class="col-md-9">
+										<p style="margin-left: 12px;">*******</p>
+									</div>
+									<div class="col-md-1">
+										<a href="#"><i class="fa fa-edit fa-lg"></i></a>
+									</div>
+								</div>
+						</div>
+					</div>
+					
+					<div class="panel panel-default" style="border-radius:0;width:200px;box-shadow: none;">
+						<div class="panel-heading text-center"><b>Tambah Foto Profil</b></div>
+						<div class="panel-body" style="padding: 10px 15px;">
+							<div>
+								<img data-src="holder.js/100%x200" alt="100%x200" src="./img/nophoto.png" data-holder-rendered="true" style="height: 150px; width: 100%; display: block;">
+								<div class="caption" style="margin-top:10px;">
+									<input type="file" id="exampleInputFile">
+									<p class="help-block" style="font-size:10px;">Maksimum 10 MB. Ekstensi yang diperbolehkan: .JPG .JPEG .GIF .PNG</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8">
+				<h4 class="text-center why-ap">Lengkapi Data Perusahaan Anda dan Ikuti Lelangnya segera!</h4>
+				<div class="stepwizard">
+					<div class="stepwizard-row setup-panel">
+						<div class="stepwizard-step">
+							<a href="#step-1" type="button" class="btn btn-primary btn-circle">1</a>
+							<p>Informasi Profil</p>
+						</div>
+						<div class="stepwizard-step">
+							<a href="#step-2" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
+							<p>Rekening</p>
+						</div>
+						<div class="stepwizard-step">
+							<a href="#step-3" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
+							<p>Interest Pelelangan</p>
+						</div>
+					</div>
+				</div>
+				  
+				<form role="form" action="" method="post" style="margin-top: 35px;">
+					<div class="row setup-content" id="step-1">
+						<div>
+							<div class="col-md-12">
+								<div class="form-group" style="margin-bottom:25px;">
+									<label for="namaPerusahaan" class="label_style">Nama Perusahaan *</label>
+									<input type="text" class="form-control form-control_custom test-both" id="namaPerusahaan" placeholder="PT Pertamina" readonly>
+								</div>
+								<div class="form-group" style="margin-bottom:25px;">
+									<label for="deskripsiperushaan" class="label_style">Deskripsi Perusahaan *</label>
+									<textarea class="form-control form-control_custom" placeholder="DeskripsiPerusahaan" rows="3"></textarea>
+								</div>
+								<div class="form-group" style="margin-bottom:25px;">
+									<label for="alamatPerusahaan" class="label_style">Alamat Perusahaan *</label>
+									<textarea class="form-control form-control_custom" placeholder="AlamatPerusahaan" rows="3"></textarea>
+								</div>
+								<div class="form-group" style="margin-bottom:25px;">
+									<label for="alamatWebsite" class="label_style">Alamat Website *</label>
+									<input type="textarea" class="form-control form-control_custom" id="alamatWebsite" placeholder="Alamat Website">
+								</div>
+								<div class="form-group" style="margin-bottom:25px;">
+									<label for="kodePos" class="label_style">Kode Pos *</label>
+									<input type="textarea" class="form-control form-control_custom" id="kodePos" placeholder="Kode Pos">
+								</div>
+								<div class="form-group" style="margin-bottom:25px;">
+									<label for="alamatEmail" class="label_style">Alamat Email *</label>
+									<input type="textarea" class="form-control form-control_custom" id="alamatEmail" placeholder="Alamat Email">
+								</div>
+								<div class="form-group" style="margin-bottom:25px;">
+									<label for="noTelepon" class="label_style">Nomor Telepon *</label>
+									<input type="textarea" class="form-control form-control_custom" id="noTelepon" placeholder="Nomor Telepon">
+								</div>
+								<div class="form-group" style="margin-bottom:25px;">
+									<label for="noHP1" class="label_style">Nomor Handphone 1*</label>
+									<input type="textarea" class="form-control form-control_custom" id="noHP1" placeholder="Nomor Handphone 1">
+								 </div>
+								 <div class="form-group" style="margin-bottom:25px;">
+									<label for="noHP2" class="label_style">Nomor Handphone 2</label>
+									<input type="textarea" class="form-control form-control_custom" id="noHP2" placeholder="Nomor Handphone 2">
+								 </div>
+								<div class="form-group" style="margin-bottom:25px;">
+									<label for="nomorSiup" class="label_style">Nomor SIUP (Surat Izin Perusahaan) *</label>
+									<input type="textarea" class="form-control form-control_custom" id="nomorSiup" placeholder="Nomor SIUP">
+								</div>
+								<div class="form-group" style="margin-bottom:25px;">
+									<label for="lampiranSiup" class="label_style">Lampiran SIUP *</label>
+									<input type="file" id="lampiranSiup">
+									<p class="help-block">Lampirkan berupa gambar hasil scan/foto SIUP</p>
+								 </div>
+									<hr>
+									<a href="#" class="btn btn-success nextBtn save" style="margin-top:20px;">Next</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row setup-content" id="step-2">
+						<div class="col-md-12">
+								<div class="form-group" style="margin-bottom:25px;">
+									<label for="namaBank" class="label_style">Nama Bank yang Digunakan *</label>
+									<input type="textarea" class="form-control form-control_custom" id="namaBank" placeholder="Nama Bank">
+								</div>
+								<div class="form-group" style="margin-bottom:25px;">
+									<label for="noRekening" class="label_style">No Rekening *</label>
+									<input type="textarea" class="form-control form-control_custom" id="noRekening" placeholder="No Rekening">
+								</div>
+								<hr>
+								<a href="#" class="btn btn-default save" style="margin-top:20px;">Back</a>
+								<a href="#" class="btn btn-success nextBtn save" style="margin-top:20px;">Next</a>
+						</div>
+					</div>
+					
+					
+					<div class="row setup-content" id="step-3">
+						<div class="col-md-12">
+							<div class="form-group" style="margin-bottom:25px;">
+								<label for="bidangUsaha" class="label_style">Bidang Usaha *</label>
+								<br><br>
+								<label class="checkbox-inline">
+								  <input type="checkbox" id="manufaktur" value="option1">Manufaktur
+								</label>
+								<label class="checkbox-inline">
+								  <input type="checkbox" id="properti" value="option2">Properti
+								</label>
+								<label class="checkbox-inline">
+								  <input type="checkbox" id="banking" value="option3">Banking
+								</label><br><br>
+								<label class="checkbox-inline">
+								  <input type="checkbox" id="transportasi" value="option1">Transportasi
+								</label>
+								<label class="checkbox-inline">
+								  <input type="checkbox" id="oilgas" value="option2">Oil & Gas
+								</label>
+								<label class="checkbox-inline">
+								  <input type="checkbox" id="alatberat" value="option3">Alat Berat
+								</label><br><br>
+								<textarea class="form-control form-control_custom" placeholder="Bidang usaha lainnya" rows="3"></textarea>
+							</div>
+							<div class="form-group" style="margin-bottom:25px;">
+								<label for="interestPelelangan" class="label_style">Interest Pelelangan *</label>
+								<br><br>
+								<label class="checkbox-inline">
+								  <input type="checkbox" id="mesin" value="option1">Mesin
+								</label>
+								<label class="checkbox-inline">
+								  <input type="checkbox" id="elektronik" value="option2">Elektronik
+								</label>
+								<label class="checkbox-inline">
+								  <input type="checkbox" id="rumahtanah" value="option3">Rumah & Tanah
+								</label><br><br>
+								<label class="checkbox-inline">
+								  <input type="checkbox" id="mobilmotor" value="option1">Mobil & Motor
+								</label>
+								<label class="checkbox-inline">
+								  <input type="checkbox" id="scrapbesi" value="option2">Scrap Besi
+								</label>
+								<label class="checkbox-inline">
+								  <input type="checkbox" id="scrapplastik" value="option3">Scrap Plastik
+								</label><br><br>
+								<textarea class="form-control form-control_custom" placeholder="Interest pelelangan lainnya (ex : besi bekas, truck etc)" rows="3"></textarea>
+							</div>
+							<hr>
+							<a href="#" class="btn btn-success save" data-toggle="modal" data-target="#fullregistrasi" style="margin-top:20px;">Submit</a>
+							<a href="#" class="btn btn-default save" style="margin-top:20px;">Cancel</a>
+						</div>
+					</div>
+				</form>
+				<div id="fullregistrasi" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+				  <div class="modal-content">
+
+					<div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+					  <h4 class="modal-title" id="myModalLabel">Terima kasih telah mengisi data anda</h4>
+					</div>
+					<div class="modal-body">
+						<p>Anda dapat segera membuat lelang untuk menjual barang bekas anda dan dapatkan penawaran harga terbaik dengan segala kemudahannya</p>
+						<p>Klik menu berikut untuk membuat lelang. 
+							<a href="buat_lelang.jsp" class="btn btn-primary btn" style="background:#007ee5; border-color:#007ee5;">Buat Lelang</a>
+							atau <a href="index_afterlogin.jsp">Cek Lelang disini!</a>
+						</p>
+					</div>
+
+				  </div><!-- /.modal-content -->
+				</div><!-- /.modal-dialog -->
+			  </div>
+			
+				</div>
+			</div><!-- /.md-10 -->
+			
+			
+			
+			<div class="col-md-1"></div>
+		</div>
+	</div><!-- /.container -->
+</div>
+
+	
+<div class="footer footer-style">
+    <div class="container">
+      	<div class="row footer-row-style">
+      		<div class="col-md-2">
+				<h5 class="h5-footer"><b>AuctionParty</b></h5>
+				<ul class="nav">
+					<li><a href="#">Tentang Kami</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Legalitas</a></li>
+					<li><a href="#">Keamanan Lelang AuctionParty</a></li>
+					<li><a href="#">Keuntungan Lelang di AuctionParty</a></li>
+				</ul>
+      		</div>
+ 			<div class="col-md-2">
+ 				<h5 class="h5-footer"><b>Bantuan</b></h5>
+ 				<ul class="nav">
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Site Map</a></li>
+					<li><a href="#">Syarat & Ketentuan</a></li>
+					<li><a href="#">Bantuan</a></li>
+					<li><a href="#">Kebijakan Privasi</a></li>
+				</ul>
+ 			</div> 
+ 			<div class="col-md-2">
+ 				<h5 class="h5-footer"><b>Bidder</b></h5>
+ 				<ul class="nav">
+					<li><a href="#">Cara Ikut Lelang</a></li>
+					<li><a href="#">Pembayaran</a></li>
+					<li><a href="#">Pengembalian Uang Jaminan</a></li>
+					<li><a href="#">Pengambilan Barang</a></li>
+					<li><a href="#">Risalah Pelelangan</a></li>
+					<li><a href="#">Tips Pelelangan</a></li>
+				</ul>
+ 			</div> 
+			<div class="col-md-2">
+ 				<h5 class="h5-footer"><b>Seller</b></h5>
+ 				<ul class="nav">
+					<li><a href="#">Cara Membuat Pelelangan</a></li>
+					<li><a href="#">Pengiriman Pembayaran</a></li>
+					<li><a href="#">Ketentuan Pelelangan</a></li>
+				</ul>
+ 			</div> 
+ 			<div class="col-md-2">
+ 				<h5 class="h5-footer"><b>Hubungi Kami</b></h5>
+ 				<ul class="nav">
+					<li><a href="#"><i class="fa fa-map-marker" style="margin-right: 5px;"></i>Lokasi Kami :<p style="  margin-left: 12px;">Jalan Jend Sudirman Gd. Sampoerna Lt. 15. Jakarta Selatan</p></a></li>
+					<li><a href="#"><i class="fa fa-phone"></i> 021 500261</a></li>
+					<li><a href="#"><i class="fa fa-envelope"></i> admin@auctionparty.com </a></li>
+				</ul>
+ 			</div>  
+			<div class="col-md-2">
+				<h5 class="h5-footer"><b>Ikuti Kami</b></h5>
+				<div class="social">
+					<ul>
+						<li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-lg fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-lg fa-youtube"></i></a></li>
+					</ul>
+				</div>
+			</div>	
+      	</div><!--/ End Row Footer -->
+	
+		<div class="row footer-border">
+			<p>AuctionParty.com merupakan platform e-auction yang memberikan fasilitas pelelangan online dan pemasaran barang lelang antar perusahaan. 
+			Melalui AuctionParty.com ini, perusahaan yang ingin melakukan lelang terhadap aset-asetnya akan mendapatkan pengalaman lelang yang lebih mudah dan efisien serta sangat menguntungkan 
+			untuk dapat mencapai harga yang maksimum dari barang yang dilelang. Selain itu pembeli ataupun peserta lelang juga bisa mendapatkan barang yang dinginkan dengan cepat dan mudah.
+			<br><br><strong>Segera lelang di AuctionParty.com</strong> dan nikmati pengalaman lelang yang mudah, aman dan menyenangkan serta dapatkan harga maksimum
+			dari barang yang anda lelang. Kami tidak hanya menyediakan fasilitas pelelangan online, tapi kami juga membantu untuk memasarkan barang yang anda lelang
+			ke calon pembeli potensial anda. Nikmati kemudahan melakukan lelang di AuctionParty.com dengan berbagai fitur dan fasilitas yang telah
+			kami sediakan untuk anda. Dan dapatkan harga maksimum dari penjualan lelang anda atau segera dapatkan barang yang anda inginkan dengan cepat, mudah dan aman.
+			</p>
+			<address>© 2015 AuctionParty.com. All rights reserved.</address>
+		</div>	
+		
+	</div><!--/ End Container Footer -->
+</div><!--/ End Footer -->
+
+   
+   
+   
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+	<script src="./js/jquery.bootstrap.wizard.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./js/ie10-viewport-bug-workaround.js"></script>
+    <script src="./js/java-script-modify.js"></script>
+  
+	<script type="text/javascript">
+  $(document).ready(function () {
+  var navListItems = $('div.setup-panel div a'),
+          allWells = $('.setup-content'),
+          allNextBtn = $('.nextBtn');
+
+  allWells.hide();
+
+  navListItems.click(function (e) {
+      e.preventDefault();
+      var $target = $($(this).attr('href')),
+              $item = $(this);
+
+      if (!$item.hasClass('disabled')) {
+          navListItems.removeClass('btn-primary').addClass('btn-default');
+          $item.addClass('btn-primary');
+          allWells.hide();
+          $target.show();
+          $target.find('input:eq(0)').focus();
+      }
+  });
+
+  allNextBtn.click(function(){
+      var curStep = $(this).closest(".setup-content"),
+          curStepBtn = curStep.attr("id"),
+          nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().next().children("a"),
+          curInputs = curStep.find("input[type='text'],input[type='url']"),
+          isValid = true;
+
+      $(".form-group").removeClass("has-error");
+      for(var i=0; i<curInputs.length; i++){
+          if (!curInputs[i].validity.valid){
+              isValid = false;
+              $(curInputs[i]).closest(".form-group").addClass("has-error");
+          }
+      }
+
+      if (isValid)
+          nextStepWizard.removeAttr('disabled').trigger('click');
+  });
+
+  $('div.setup-panel div a.btn-primary').trigger('click');
+});
+  </script>
+  
+  
+
+</body></html>
