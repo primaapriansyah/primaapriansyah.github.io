@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from redq.io/sites/glimpse/restaurant/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Apr 2017 06:31:10 GMT -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- PAGE TITLE -->
+  <title>Glimpse - Restaurant</title>
+
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <link rel="stylesheet" href="css/restaurant.style.css">
+</head>
+
+<body class="gl-restaurant-template">
+
+<!--================================
+            PAGE LOADER
+=================================-->
+<div id="gl-circle-loader-wrapper gl-home-template">
+  <div id="gl-circle-loader-center">
+    <div class="gl-circle-load">
+      <img src="images/ploading.gif" alt="Page Loader">
+    </div>
+  </div>
+</div>
+
+<!--================================
+            SIDE MENU
+=================================-->
+<!-- PAGE OVERLAY WHEN MENU ACTIVE -->
+<div class="gl-side-menu-overlay"></div>
+<!-- PAGE OVERLAY WHEN MENU ACTIVE END -->
+
+<div class="gl-side-menu-wrap">
+    <div class="gl-side-menu">
+        <div class="gl-side-menu-widget-wrap">
+            <div class="gl-login-form-wrapper">
+                <h3>User Login</h3>
+                <p>Login to add new listing </p>
+
+                <div class="gl-login-form">
+                    <form action="#">
+                        <input type="text" name="gl-user-name" id="gl-user-input" placeholder="User Name">
+                        <input type="password" name="gl-user-password" id="gl-user-password" placeholder="Password">
+                        <button type="submit">Login</button>
+                    </form>
+                </div>
+
+                <div class="gl-social-login-opt">
+                    <a href="#" class="gl-social-login-btn gl-facebook-login">Login with Facebook</a>
+                    <a href="#" class="gl-social-login-btn gl-twitter-login">Login with Twitter</a>
+                </div>
+
+                <div class="gl-other-options">
+                    <a href="#" class="gl-forgot-pass">Forget Password ?</a>
+                    <a href="#" class="gl-signup">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="gl-side-menu-close-button" id="gl-side-menu-close-button">Close Menu</button>
+</div>
+<!-- SIDE MENU END -->
+
+<!-- HEADER -->
+<header class="gl-header">
+  <!-- BOTTOM BAR/NAVIGATION -->
+  <div class="gl-header-bottombar">
+    <!-- Navigation Menu start-->
+    <nav class="navbar gl-header-main-menu" role="navigation">
+      <div class="container-fluid">
+
+        <!-- Navbar Toggle -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo-header.png" alt="GLIMPSE"></a>
+        </div>
+        <!-- Navbar Toggle End -->
+
+        <!-- navbar-collapse start-->
+        <div id="nav-menu" class="navbar-collapse gl-menu-wrapper collapse" role="navigation">
+          <ul class="nav navbar-nav gl-menus">
+              <li class="active">
+                <a href="index.html">Home</a>
+                <ul class="gl-sub-menu">
+                    <li>
+                        <a href="../business/index.html">Home - Business</a>
+                    </li>
+                    <li>
+                        <a href="../jobs/index.html">Home - Job</a>
+                    </li>
+                    <li>
+                        <a href="../real-estate/index.html">Home - Real Estate</a>
+                    </li>
+                </ul>
+              </li>
+              <li>
+                <a href="listing-style-1.html">Listing</a>
+                <ul class="gl-sub-menu">
+                    <li>
+                        <a href="listing-style-2.html">Listing Style - Map Right</a>
+                    </li>
+                    <li>
+                        <a href="listing-style-3.html">Listing Style - Map Top</a>
+                    </li>
+                </ul>
+              </li>
+              <li>
+                <a href="details.html">Details</a>
+              </li>
+              <li>
+                <a href="about-us.html">About</a>
+              </li>
+              <li>
+                <a href="../elements/elements.html">Elements</a>
+              </li>
+              <li>
+                <a href="blog-grid.html">Blog</a>
+                <ul class="gl-sub-menu">
+                    <li>
+                        <a href="blog-default.html">Blog Default</a>
+                    </li>
+                    <li>
+                        <a href="blog-details.html">Blog Details</a>
+                    </li>
+                </ul>
+              </li>
+              <li>
+                <a href="contact-us.html">Contact</a>
+              </li>
+          </ul>
+        </div>
+        <!-- navbar-collapse end-->
+
+        <div class="gl-extra-btns-wrapper">
+          <button class="gl-login-btn" id="gl-side-menu-btn">Login</button>
+          <a href="../frontend-subbmission/index.html" class="gl-add-post-btn">+ Post Add</a>
+        </div>
+
+      </div>
+    </nav>
+    <!-- Navigation Menu end-->
+  </div>
+  <!-- END -->
+</header>
+<!-- HEADER END -->
+
+<!-- HERO IMAGE -->
+<section class="gl-hero-img-wrapper">
+  <div class="container">
+    <div class="row">
+      <h2 class="gl-hero-text-heading">Reservation is <span class="gl-color-text">easy</span> :)</h2>
+      <p class="gl-hero-text-paragraph">Go theme is providing you the best directory services from <span class="gl-color-text">+150</span> leading companies</p>
+
+      <!-- DIRECTORY FORM -->
+      <div class="gl-directory-searchbar gl-bz-directory-searchbar">
+        <form action="#" id="gl-bz-directory-form">
+          <fieldset>
+            <input type="text" name="gl-restaurant-keyword" id="gl-restaurant-keyword" class="gl-directory-input" placeholder="Keywords">
+            <input type="text" name="gl-search-location" id="gl-search-location" class="gl-directory-input" placeholder="Location">
+            <div class="gl-restaurant-category gl-category-dropdown">
+              <select class="gl-category-dropdown-selection">
+                <option></option>
+                <option value="Corp">Corporate</option>
+                <option value="Pub">Public</option>
+                <option value="Int">International</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <button type="submit" class="gl-icon-btn"><i class="fa fa-search"></i> Search</button>
+        </form>
+      </div>
+      <!-- END -->
+
+      <div class="gl-scroll-down-wrapper">
+        <a href="#gl-next-section" class="gl-scroll-down"><i class="ion-chevron-down"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- HERO IMAGE END -->
+
+<!-- ICON WITH TEXT/SERVICES -->
+<section class="gl-service-section-wrapper gl-section-wrapper" id="gl-next-section">
+  <div class="container">
+    <div class="row">
+      <div class="gl-service-we-offer">
+
+        <!-- ICON WITH TEXT -->
+        <div class="gl-icon-top-with-text col-md-4 col-sm-4 col-xs-12">
+          <div class="gl-icon-wrapper">
+            <img src="images/fingerprint-icon.png" alt="Discover">
+          </div>
+          <h3>Discover</h3>
+          <p>On the other hand, we denounce great deal come indignation and dislike</p>
+        </div>
+        <!-- END -->
+
+        <!-- ICON WITH TEXT -->
+        <div class="gl-icon-top-with-text col-md-4 col-sm-4 col-xs-12">
+          <div class="gl-icon-wrapper">
+            <img src="images/shield-icon.png" alt="Reserve a Table">
+          </div>
+          <h3>Reserve a Table</h3>
+          <p>On the other hand, we denounce great deal come indignation and dislike</p>
+        </div>
+        <!-- END -->
+
+        <!-- ICON WITH TEXT -->
+        <div class="gl-icon-top-with-text col-md-4 col-sm-4 col-xs-12">
+          <div class="gl-icon-wrapper">
+            <img src="images/location-pin.png" alt="Get and Enjoy">
+          </div>
+          <h3>Get and Enjoy</h3>
+          <p>On the other hand, we denounce great deal come indignation and dislike</p>
+        </div>
+      </div>
+      <!-- END -->
+
+    </div>
+  </div>
+</section>
+<!-- ICON WITH TEXT/SERVICES END -->
+
+<!-- FEATURED AREAS SECTION -->
+<section class="gl-popular-cat-section gl-section-wrapper">
+  <div class="container">
+    <div class="row">
+      <!-- SECTION HEADINGS -->
+      <div class="gl-section-headings">
+        <h1>Popular Categories</h1>
+        <p>Checkout and enjoy the biggest unlimited possiblities</p>
+      </div>
+      <!-- END -->
+
+      <div class="gl-popular-cat-wrapper">
+        <!-- PACKAGE ITEM -->
+        <div class="gl-popular-cat-item gl-dbl-width">
+          <picture>
+              <source media="(min-width: 480px)" srcset=images/popular-cat-1.jpg>
+              <img alt="Image" src="images/popular-cat-1.jpg" srcset=images/popular-cat-1.jpg>
+          </picture>
+
+          <a href="#" class="gl-overlay-effect">
+            <p class="gl-popular-cat-listing">
+              <span class="gl-popular-cat-title">Drinks & Bar</span>
+              <span class="gl-listing-num">250</span>
+            </p>
+          </a>
+        </div>
+        <!-- END -->
+
+        <!-- PACKAGE ITEM -->
+        <div class="gl-popular-cat-item gl-dbl-height">
+          <picture>
+              <source media="(min-width: 480px)" srcset=images/popular-cat-2.jpg>
+              <img alt="Image" src="images/popular-cat-2-xs.jpg" srcset=images/popular-cat-2-xs.jpg>
+          </picture>
+
+          <a href="#" class="gl-overlay-effect">
+            <p class="gl-popular-cat-listing">
+              <span class="gl-popular-cat-title">Traditional Food</span>
+              <span class="gl-listing-num">250</span>
+            </p>
+          </a>
+        </div>
+        <!-- END -->
+
+        <!-- PACKAGE ITEM -->
+        <div class="gl-popular-cat-item">
+          <picture>
+              <source media="(min-width: 480px)" srcset=images/popular-cat-3.jpg>
+              <img alt="Image" src="images/popular-cat-3-xs.jpg" srcset=images/popular-cat-3-xs.jpg>
+          </picture>
+
+          <a href="#" class="gl-overlay-effect">
+            <p class="gl-popular-cat-listing">
+              <span class="gl-popular-cat-title">Fast Food</span>
+              <span class="gl-listing-num">250</span>
+            </p>
+          </a>
+        </div>
+        <!-- END -->
+
+        <!-- PACKAGE ITEM -->
+        <div class="gl-popular-cat-item">
+          <picture>
+              <source media="(min-width: 480px)" srcset=images/popular-cat-4.jpg>
+              <img alt="Image" src="images/popular-cat-4-xs.jpg" srcset=images/popular-cat-4-xs.jpg>
+          </picture>
+
+          <a href="#" class="gl-overlay-effect">
+            <p class="gl-popular-cat-listing">
+              <span class="gl-popular-cat-title">Sea Food</span>
+              <span class="gl-listing-num">250</span>
+            </p>
+          </a>
+        </div>
+        <!-- END -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FEATURED AREAS SECTION END -->
+
+
+<!-- FEATURED LISTINGS -->
+<section class="gl-feat-listing-section gl-section-wrapper">
+  <div class="container">
+    <div class="row">
+      <!-- SECTION HEADINGS -->
+      <div class="gl-section-headings">
+        <h1>Featured Listing</h1>
+        <p>Checkout and enjoy the biggest unlimited possiblities</p>
+      </div>
+      <!-- END -->
+
+      <!-- WRAPPER -->
+      <div class="gl-featured-listing-wrapper">
+        <!-- FEATURED ITEMS -->
+        <div class="gl-featured-items col-md-4 col-sm-4 col-xs-12">
+          <div class="gl-feat-items-img-wrapper">
+            <picture>
+                <source media="(min-width: 768px)" srcset=images/featured-listing-1.jpg>
+                <img alt="Category Image" srcset=images/featured-listing-1-xs.jpg>
+            </picture>
+
+            <span class="gl-item-rating">
+              <i class="fa fa-star"></i>
+              4.5
+            </span>
+          </div>
+
+          <div class="gl-feat-item-details">
+            <h3>
+              <a href="#">Cofee Palace</a>
+            </h3>
+            <div class="gl-item-location">
+              <i class="ion-ios-location-outline"></i>
+              <span>Road 3, West Portland, USA</span>
+            </div>
+          </div>
+        </div>
+        <!-- END -->
+
+        <!-- FEATURED ITEMS -->
+        <div class="gl-featured-items col-md-4 col-sm-4 col-xs-12">
+          <div class="gl-feat-items-img-wrapper">
+            <picture>
+                <source media="(min-width: 768px)" srcset=images/featured-listing-2.jpg>
+                <img alt="Category Image" srcset=images/featured-listing-2-xs.jpg>
+            </picture>
+
+            <span class="gl-item-rating">
+              <i class="fa fa-star"></i>
+              4.5
+            </span>
+          </div>
+
+          <div class="gl-feat-item-details">
+            <h3>
+              <a href="#">Big Eaters</a>
+            </h3>
+            <div class="gl-item-location">
+              <i class="ion-ios-location-outline"></i>
+              <span>Road 3, West Portland, USA</span>
+            </div>
+          </div>
+        </div>
+        <!-- END -->
+
+        <!-- FEATURED ITEMS -->
+        <div class="gl-featured-items col-md-4 col-sm-4 col-xs-12">
+          <div class="gl-feat-items-img-wrapper">
+            <picture>
+                <source media="(min-width: 768px)" srcset=images/featured-listing-3.jpg>
+                <img alt="Category Image" srcset=images/featured-listing-3-xs.jpg>
+            </picture>
+
+            <span class="gl-item-rating">
+              <i class="fa fa-star"></i>
+              4.5
+            </span>
+          </div>
+
+          <div class="gl-feat-item-details">
+            <h3>
+              <a href="#">Burger Shop</a>
+            </h3>
+            <div class="gl-item-location">
+              <i class="ion-ios-location-outline"></i>
+              <span>Road 3, West Portland, USA</span>
+            </div>
+          </div>
+        </div>
+        <!-- END -->
+      </div>
+      <!-- END -->
+
+      <!-- MORE BTN -->
+      <div class="gl-more-btn-wrapper">
+        <a href="#" class="gl-more-btn gl-btn">More</a>
+      </div>
+      <!-- END -->
+    </div>
+  </div>
+</section>
+<!-- FEATURED LISTINGS END -->
+
+
+<!-- HOW IT WORKS -->
+<section class="gl-img-box-section gl-custom-section">
+  <div class="container-fluid">
+    <div class="row">
+      <!-- IMAGEBOX -->
+      <div class="gl-img-box-wrapper">
+        <picture>
+            <source media="(min-width: 768px)" srcset=images/custom-img-1.jpg>
+            <img alt="Category Image" srcset=images/custom-img-1-ws.jpg>
+        </picture>
+
+        <a href="#" class="gl-overlay-effect">
+          <span class="gl-img-box-text">How to order ?</span>
+        </a>
+      </div>
+      <!-- IMAGEBOX END -->
+
+      <!-- IMAGEBOX -->
+      <div class="gl-img-box-wrapper">
+        <picture>
+            <source media="(min-width: 768px)" srcset=images/custom-img-2.jpg>
+            <img alt="Category Image" srcset=images/custom-img-2-ws.jpg>
+        </picture>
+
+        <a href="#" class="gl-overlay-effect">
+          <span class="gl-img-box-text">Book for party</span>
+        </a>
+      </div>
+      <!-- IMAGEBOX END -->
+
+      <!-- IMAGEBOX -->
+      <div class="gl-img-box-wrapper">
+        <picture>
+            <source media="(min-width: 768px)" srcset=images/custom-img-3.jpg>
+            <img alt="Category Image" srcset=images/custom-img-3-ws.jpg>
+        </picture>
+
+        <a href="#" class="gl-overlay-effect">
+          <span class="gl-img-box-text">Online booking</span>
+        </a>
+      </div>
+      <!-- IMAGEBOX END -->
+    </div>
+  </div>
+</section>
+<!-- HOW IT WORKS END -->
+
+
+<!-- CTA -->
+<section class="gl-cta-section">
+  <div class="container">
+    <div class="row">
+      <div class="gl-cta-content-wrapper">
+        <p>Stay connected &amp; book the best table</p>
+
+        <form action="#" class="gl-newsletter-form">
+          <input type="email" name="gl-newsletter-email" id="gl-newsletter-email" placeholder="Email">
+
+          <div class="gl-restaurant-location gl-location-dropdown">
+            <select class="gl-location-selection">
+              <option></option>
+              <option value="canada">Canada</option>
+              <option value="itally">Itally</option>
+              <option value="london">London</option>
+            </select>
+          </div>
+
+          <input type="submit" value="Submit" class="gl-btn">
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- CTA END -->
+
+
+<!-- FOOTER -->
+<footer>
+  <!-- FOOTER TOP -->
+  <div class="gl-footer-top-wrapper">
+    <div class="container">
+      <div class="row">
+        <!-- FOOTER WIDGET -->
+        <div class="gl-footer-widget gl-footer-logo gl-footer-fixed-widget">
+          <a href="#">
+            <img src="images/logo-footer.png" alt="Glimpse">
+          </a>
+        </div>
+        <!-- END -->
+
+        <!-- FOOTER WIDGET -->
+        <div class="gl-footer-widget gl-contact-info">
+          <h3 class="gl-footer-widget-title">Contact info</h3>
+
+          <div class="gl-footer-widget-content">
+            <ul>
+              <li><i class="fa fa-map-marker"></i>Road 3, West side lane Texas,  USA</li>
+              <li><i class="fa fa-phone"></i>0632 0152 001</li>
+              <li><i class="fa fa-envelope-o"></i>mail@gmail.com</li>
+              <li><i class="fa fa-globe"></i>www.glimpse.com</li>
+            </ul>
+          </div>
+        </div>
+        <!-- END -->
+
+        <!-- FOOTER WIDGET -->
+        <div class="gl-footer-widget gl-useful-links">
+          <h3 class="gl-footer-widget-title">Company</h3>
+
+          <div class="gl-footer-widget-content">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Career &amp; Goal</a></li>
+              <li><a href="#">Company Profile</a></li>
+              <li><a href="#">Process</a></li>
+              <li><a href="#">Account</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- END -->
+
+        <!-- FOOTER WIDGET -->
+        <div class="gl-footer-widget gl-subscribe-widget">
+          <h3 class="gl-footer-widget-title">Subscribe</h3>
+
+          <div class="gl-footer-widget-content">
+          <p>Checkout and enjoy the biggest eco</p>
+
+          <form action="#">
+            <input type="email" name="gl-subscription" id="gl-subscription" placeholder="Your email">
+            <button type="submit" class="gl-btn">Submit</button>
+          </form>
+          </div>
+        </div>
+        <!-- END -->
+      </div>
+    </div>
+  </div>
+  <!-- END -->
+
+  <!-- FOOTER BOTTOM -->
+  <div class="gl-footer-bottom-wrapper">
+    <div class="container">
+      <div class="row">
+        <!-- COPYRIGHT INFO -->
+        <div class="gl-copyright-info-wrapper">
+          <p>Copyright &copy; 2016 Glimpse. All rights reserved</p>
+        </div>
+        <!-- COPYRIGHT INFO -->
+
+        <div class="gl-social-info-wrapper">
+          <ul>
+            <li>
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fa fa-behance"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fa fa-dribbble"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fa fa-vimeo"></i>
+                </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END -->
+</footer>
+<!-- FOOTER END -->
+
+
+
+
+
+
+<script src="../js/jquery.min.js%2bgoogle-autocomplete.js.pagespeed.jc.44inzeFGj8.js"></script><script>eval(mod_pagespeed_lx92aG0qO5);</script>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyBF0FPDHlurGkDKua7PfZjpD2fr2rQsRw0&amp;libraries=places"></script>
+<script>eval(mod_pagespeed_iuh6tnGKmz);</script>
+
+<script src="../js/plugins.js"></script>
+<script src="../js/scripts.js.pagespeed.jm.1PZwaFxr8B.js"></script>
+<script src="../js/main.js.pagespeed.ce.834V6Gn8Qo.js"></script>
+</body>
+
+<!-- Mirrored from redq.io/sites/glimpse/restaurant/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Apr 2017 06:31:39 GMT -->
+</html>

@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from redq.io/sites/glimpse/elements/elements.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Apr 2017 06:37:01 GMT -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- PAGE TITLE -->
+  <title>Glimpse - Elements</title>
+
+  <!-- FAVICON ICONS -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <link rel="stylesheet" href="css/elements.style.css">
+</head>
+
+<body class="gl-elements-page">
+
+<div id="gl-circle-loader-wrapper">
+  <div id="gl-circle-loader-center">
+    <div class="gl-circle-load">
+      <img src="images/ploading.gif" alt="Page Loader">
+    </div>
+  </div>
+</div>
+
+<!--================================
+            SIDE MENU
+=================================-->
+<!-- PAGE OVERLAY WHEN MENU ACTIVE -->
+<div class="gl-side-menu-overlay"></div>
+<!-- PAGE OVERLAY WHEN MENU ACTIVE END -->
+
+<div class="gl-side-menu-wrap">
+    <div class="gl-side-menu">
+        <div class="gl-side-menu-widget-wrap">
+            <div class="gl-login-form-wrapper">
+                <h3>User Login</h3>
+                <p>Login to add new listing </p>
+
+                <div class="gl-login-form">
+                    <form action="#">
+                        <input type="text" name="gl-user-name" id="gl-user-input" placeholder="User Name">
+                        <input type="password" name="gl-user-password" id="gl-user-password" placeholder="Password">
+                        <button type="submit">Login</button>
+                    </form>
+                </div>
+
+                <div class="gl-social-login-opt">
+                    <a href="#" class="gl-social-login-btn gl-facebook-login">Login with Facebook</a>
+                    <a href="#" class="gl-social-login-btn gl-twitter-login">Login with Twitter</a>
+                </div>
+
+                <div class="gl-other-options">
+                    <a href="#" class="gl-forgot-pass">Forget Password ?</a>
+                    <a href="#" class="gl-signup">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="gl-side-menu-close-button" id="gl-side-menu-close-button">Close Menu</button>
+</div>
+<!-- SIDE MENU END -->
+
+
+<!-- HEADER -->
+<header class="gl-header">
+  <!-- BOTTOM BAR/NAVIGATION -->
+  <div class="gl-header-bottombar">
+    <!-- Navigation Menu start-->
+    <nav class="navbar gl-header-main-menu" role="navigation">
+      <div class="container-fluid">
+
+        <!-- Navbar Toggle -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="../business/index.html"><img class="logo" src="images/logo-header.png" alt="GLIMPSE"></a>
+        </div>
+        <!-- Navbar Toggle End -->
+
+        <!-- navbar-collapse start-->
+        <div id="nav-menu" class="navbar-collapse gl-menu-wrapper collapse" role="navigation">
+          <ul class="nav navbar-nav gl-menus">
+              <li>
+                <a href="../business/index.html">Home</a>
+                <ul class="gl-sub-menu">
+                    <li>
+                        <a href="../jobs/index.html">Home - Job</a>
+                    </li>
+                    <li>
+                        <a href="../real-estate/index.html">Home - Real Estate</a>
+                    </li>
+                    <li>
+                        <a href="../restaurant/index.html">Home - Restaurant</a>
+                    </li>
+                </ul>
+              </li>
+              <li>
+                <a href="../business/listing-style-1.html">Listing</a>
+                <ul class="gl-sub-menu">
+                    <li>
+                        <a href="../business/listing-style-2.html">Listing Style - Map Right</a>
+                    </li>
+                    <li>
+                        <a href="../business/listing-style-3.html">Listing Style - Map Top</a>
+                    </li>
+                </ul>
+              </li>
+              <li>
+                <a href="../business/company.html">company</a>
+              </li>
+              <li>
+                <a href="../business/about-us.html">About</a>
+              </li>
+              <li class="active">
+                <a href="elements.html">Elements</a>
+                <ul class="gl-sub-menu">
+                  <li>
+                    <a href="../frontend-subbmission/index.html">Frontend Submission Page</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="../business/blog-grid.html">Blog</a>
+                <ul class="gl-sub-menu">
+                    <li>
+                        <a href="../business/blog-default.html">Blog Default</a>
+                    </li>
+                    <li>
+                        <a href="../business/blog-details.html">Blog Details</a>
+                    </li>
+                </ul>
+              </li>
+              <li>
+                <a href="../business/contact-us.html">Contact</a>
+              </li>
+          </ul>
+        </div>
+        <!-- navbar-collapse end-->
+
+        <div class="gl-extra-btns-wrapper">
+          <!-- PROFILE BTN -->
+          <button class="gl-profile-icon" id="gl-side-menu-btn"></button>
+          <!-- PROFILE BTN END -->
+        </div>
+
+      </div>
+    </nav>
+    <!-- Navigation Menu end-->
+  </div>
+  <!-- END -->
+</header>
+<!-- HEADER END -->
+
+<!-- Elements Shortcode -->
+<section class="gl-elements-shortcode-section">
+  <div class="container">
+    <div class="row">
+
+      <!-- *****************
+      Accordion 
+      ***************** -->
+      <div class="gl-element-type-wrapper">
+        <!-- Element Name -->
+        <h3 class="gl-element-title">Accordion</h3>
+        <!-- End -->
+
+        <div class="gl-element-wrapper">
+
+          <!-- Accorion With Collapse Icon -->
+          <div class="gl-accordion-with-icon gl-left-side-col">
+            <div class="panel-group" id="gl-accordion-icon" role="tablist" aria-multiselectable="true">
+              <!-- Accordion item -->
+              <div class="panel panel-default gl-accordion-item">
+                <!-- header -->
+                <div class="gl-accordion-item-wrapper panel-heading" role="tab" id="gl-accordion-1">
+                  <a role="button" data-toggle="collapse" data-parent="#gl-accordion-icon" href="#gl-accordion-1-details" aria-expanded="true" aria-controls="gl-accordion-1-details" class="collapsed">
+                    <h3>First Section</h3>
+                    <span class="gl-toggle-symbol">
+                      <i class="ion-ios-plus-empty"></i>
+                    </span>
+                  </a>
+                </div>
+                <!-- END -->
+
+                <!-- Details -->
+                <div id="gl-accordion-1-details" class="panel-collapse collapse gl-accordion-details" role="tabpanel" aria-labelledby="gl-accordionone">
+                  <div class="panel-body">
+                    <p>On the other hand, we denounce with righteous indignation and dislike men beguiled and demoralized by the charms of pleasure  of the moment, blinded belongs to those who</p>
+                  </div>
+                </div>
+                <!-- END -->
+              </div>
+              <!-- End -->
+
+              <!-- Accordion item -->
+              <div class="panel panel-default gl-accordion-item">
+                <!-- header -->
+                <div class="gl-accordion-item-wrapper panel-heading" role="tab" id="gl-accordion-2">
+                  <a role="button" data-toggle="collapse" data-parent="#gl-accordion-icon" href="#gl-accordion-2-details" aria-expanded="true" aria-controls="gl-accordion-2-details" class="collapsed">
+                    <h3>Second Section</h3>
+                    <span class="gl-toggle-symbol">
+                      <i class="ion-ios-plus-empty"></i>
+                    </span>
+                  </a>
+                </div>
+                <!-- END -->
+
+                <!-- Details -->
+                <div id="gl-accordion-2-details" class="panel-collapse collapse gl-accordion-details" role="tabpanel" aria-labelledby="gl-accordiontwo">
+                  <div class="panel-body">
+                    <p>On the other hand, we denounce with righteous indignation and dislike men beguiled and demoralized by the charms of pleasure  of the moment, blinded belongs to those who</p>
+                  </div>
+                </div>
+                <!-- END -->
+              </div>
+              <!-- End -->
+
+              <!-- Accordion item -->
+              <div class="panel panel-default gl-accordion-item">
+                <!-- header -->
+                <div class="gl-accordion-item-wrapper panel-heading" role="tab" id="gl-accordion-3">
+                  <a role="button" data-toggle="collapse" data-parent="#gl-accordion-icon" href="#gl-accordion-3-details" aria-expanded="true" aria-controls="gl-accordion-3-details" class="collapsed">
+                    <h3>Third Section</h3>
+                    <span class="gl-toggle-symbol">
+                      <i class="ion-ios-plus-empty"></i>
+                    </span>
+                  </a>
+                </div>
+                <!-- END -->
+
+                <!-- Details -->
+                <div id="gl-accordion-3-details" class="panel-collapse collapse gl-accordion-details" role="tabpanel" aria-labelledby="gl-accordionthree">
+                  <div class="panel-body">
+                    <p>On the other hand, we denounce with righteous indignation and dislike men beguiled and demoralized by the charms of pleasure  of the moment, blinded belongs to those who</p>
+                  </div>
+                </div>
+                <!-- END -->
+              </div>
+              <!-- End -->
+            </div>
+          </div>
+          <!-- Accorion With Collapse Icon End -->
+
+          <!-- Accorion With Collapse -->
+          <div class="gl-accordion-without-icon gl-right-side-col">
+            <div class="panel-group" id="gl-accordion" role="tablist" aria-multiselectable="true">
+              <!-- Accordion item -->
+              <div class="panel panel-default gl-accordion-item">
+                <!-- header -->
+                <div class="gl-accordion-item-wrapper panel-heading" role="tab" id="gl-accordion-a">
+                  <a role="button" data-toggle="collapse" data-parent="#gl-accordion" href="#gl-accordion-a-details" aria-expanded="true" aria-controls="gl-accordion-a-details" class="collapsed">
+                    <h3>First Section</h3>
+                  </a>
+                </div>
+                <!-- END -->
+
+                <!-- Details -->
+                <div id="gl-accordion-a-details" class="panel-collapse collapse gl-accordion-details" role="tabpanel" aria-labelledby="gl-accordionA">
+                  <div class="panel-body">
+                    <p>On the other hand, we denounce with righteous indignation and dislike men beguiled and demoralized by the charms of pleasure  of the moment, blinded belongs to those who</p>
+                  </div>
+                </div>
+                <!-- END -->
+              </div>
+              <!-- End -->
+
+              <!-- Accordion item -->
+              <div class="panel panel-default gl-accordion-item">
+                <!-- header -->
+                <div class="gl-accordion-item-wrapper panel-heading" role="tab" id="gl-accordion-b">
+                  <a role="button" data-toggle="collapse" data-parent="#gl-accordion" href="#gl-accordion-b-details" aria-expanded="true" aria-controls="gl-accordion-b-details" class="collapsed">
+                    <h3>Second Section</h3>
+                  </a>
+                </div>
+                <!-- END -->
+
+                <!-- Details -->
+                <div id="gl-accordion-b-details" class="panel-collapse collapse gl-accordion-details" role="tabpanel" aria-labelledby="gl-accordionB">
+                  <div class="panel-body">
+                    <p>On the other hand, we denounce with righteous indignation and dislike men beguiled and demoralized by the charms of pleasure  of the moment, blinded belongs to those who</p>
+                  </div>
+                </div>
+                <!-- END -->
+              </div>
+              <!-- End -->
+
+              <!-- Accordion item -->
+              <div class="panel panel-default gl-accordion-item">
+                <!-- header -->
+                <div class="gl-accordion-item-wrapper panel-heading" role="tab" id="gl-accordion-c">
+                  <a role="button" data-toggle="collapse" data-parent="#gl-accordion" href="#gl-accordion-c-details" aria-expanded="true" aria-controls="gl-accordion-c-details" class="collapsed">
+                    <h3>Third Section</h3>
+                  </a>
+                </div>
+                <!-- END -->
+
+                <!-- Details -->
+                <div id="gl-accordion-c-details" class="panel-collapse collapse gl-accordion-details" role="tabpanel" aria-labelledby="gl-accordionC">
+                  <div class="panel-body">
+                    <p>On the other hand, we denounce with righteous indignation and dislike men beguiled and demoralized by the charms of pleasure  of the moment, blinded belongs to those who</p>
+                  </div>
+                </div>
+                <!-- END -->
+              </div>
+              <!-- End -->
+            </div>
+          </div>
+          <!-- Accorion With Collapse Icon End -->
+
+        </div>
+      </div>
+      <!-- Accordion End -->
+
+      <!-- *****************
+      Tab
+      ***************** -->
+      <div class="gl-element-type-wrapper">
+        <!-- Element Name -->
+        <h3 class="gl-element-title">Tab</h3>
+        <!-- End -->
+
+        <div class="gl-element-wrapper">
+
+          <!-- Accorion With Collapse Icon -->
+          <div class="gl-tab-style-1 gl-left-side-col">
+            <div class="gl-tab-nav-btns">
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#tab-id-1" aria-controls="tab-id-1" role="tab" data-toggle="tab">First</a></li>
+                <li role="presentation"><a href="#tab-id-2" aria-controls="tab-id-2" role="tab" data-toggle="tab">Second</a></li>
+                <li role="presentation"><a href="#tab-id-3" aria-controls="tab-id-3" role="tab" data-toggle="tab">Third</a></li>
+              </ul>
+            </div>
+
+            <div class="gl-tab-nav-contents tab-content">
+              <div role="tabpanel" class="tab-pane fade in active" id="tab-id-1">
+                <p>men  beguiled and demoralized by the charms of pleasure  of the mom On the other hand, we denounce with righteous indignation and dislike men  beguiled and demoralized by the charms of pleasure  of the moment, blinded belongs to those who</p>
+              </div>
+
+              <div role="tabpanel" class="tab-pane fade" id="tab-id-2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus officiis maiores ullam asperiores sint, quas doloribus hic fugiat unde velit porro adipisci laborum eveniet eaque, eos dolorem saepe ea sit?</p>
+              </div>
+
+              <div role="tabpanel" class="tab-pane fade" id="tab-id-3">
+                <p>men  beguiled and demoralized by the charms of pleasure  of the mom On the other hand, we denounce with righteous indignation and dislike men  beguiled and demoralized by the charms of pleasure  of the moment, blinded belongs to those who</p>
+              </div>
+            </div>
+          </div>
+          <!-- Accorion With Collapse Icon End -->
+
+          <!-- Accorion With Collapse -->
+          <div class="gl-tab-style-2 gl-right-side-col">
+            <div class="gl-tab-nav-btns">
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#tab-style2-1" aria-controls="tab-style2-1" role="tab" data-toggle="tab">First</a></li>
+                <li role="presentation"><a href="#tab-style2-2" aria-controls="tab-style2-2" role="tab" data-toggle="tab">Second</a></li>
+                <li role="presentation"><a href="#tab-style2-3" aria-controls="tab-style2-3" role="tab" data-toggle="tab">Third</a></li>
+              </ul>
+            </div>
+
+            <div class="gl-tab-nav-contents tab-content">
+              <div role="tabpanel" class="tab-pane fade in active" id="tab-style2-1">
+                <p>men  beguiled and demoralized by the charms of pleasure  of the mom On the other hand, we denounce with righteous indignation and dislike men  beguiled and demoralized by the charms of pleasure  of the moment, blinded belongs to those who</p>
+              </div>
+
+              <div role="tabpanel" class="tab-pane fade" id="tab-style2-2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus officiis maiores ullam asperiores sint, quas doloribus hic fugiat unde velit porro adipisci laborum eveniet eaque, eos dolorem saepe ea sit?</p>
+              </div>
+
+              <div role="tabpanel" class="tab-pane fade" id="tab-style2-3">
+                <p>men  beguiled and demoralized by the charms of pleasure  of the mom On the other hand, we denounce with righteous indignation and dislike men  beguiled and demoralized by the charms of pleasure  of the moment, blinded belongs to those who</p>
+              </div>
+            </div>
+          </div>
+          <!-- Accorion With Collapse Icon End -->
+
+        </div>
+      </div>
+      <!-- Tab End -->
+
+      <!-- *****************
+      Button
+      ***************** -->
+      <div class="gl-element-type-wrapper">
+        <!-- Element Name -->
+        <h3 class="gl-element-title">Buttons</h3>
+        <!-- End -->
+
+        <div class="gl-element-wrapper">
+          <div class="gl-row">
+            <a href="#" class="gl-btn gl-btn-color-1">Button</a>
+            <a href="#" class="gl-btn gl-btn-color-2">Button</a>
+            <a href="#" class="gl-btn gl-btn-color-3">Button</a>
+          </div>
+
+          <div class="gl-row">
+            <a href="#" class="gl-btn gl-btn-color-2">
+              <i class="fa fa-heart-o"></i> Button
+            </a>
+            <a href="#" class="gl-btn gl-btn-color-3">
+              <i class="fa fa-heart-o"></i> Button
+            </a>
+            <a href="#" class="gl-btn gl-btn-color-1">
+              <i class="fa fa-heart-o"></i> Button
+            </a>
+          </div>
+
+          <div class="gl-row">
+            <a href="#" class="gl-btn gl-large-btn gl-btn-color-3">Extra Large Button</a>
+            <a href="#" class="gl-btn gl-large-btn gl-btn-color-2">Extra Large Button</a>
+            <a href="#" class="gl-btn gl-large-btn gl-btn-color-1">Extra Large Button</a>
+          </div>
+
+          <div class="gl-row">
+            <a href="#" class="gl-btn gl-flat-btn gl-btn-color-3">Button</a>
+            <a href="#" class="gl-btn gl-flat-btn gl-btn-color-2">
+              <i class="fa fa-heart-o"></i> Button
+            </a>
+            <a href="#" class="gl-btn gl-flat-btn gl-large-btn gl-btn-color-1">Extra Large Button</a>
+          </div>
+
+          <div class="gl-row">
+            <a href="#" class="gl-btn gl-shadow-btn gl-btn-color-4">
+              <i class="fa fa-search"></i> Search
+            </a>
+
+            <a href="#" class="gl-btn gl-shadow-btn gl-btn-color-5">
+              <i class="fa fa-search"></i> Search
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Button End -->
+
+      <!-- *****************
+      Tags
+      ***************** -->
+      <div class="gl-element-type-wrapper">
+        <!-- Element Name -->
+        <h3 class="gl-element-title">Tags</h3>
+        <!-- End -->
+
+        <div class="gl-element-wrapper">
+          <a href="#" class="gl-tag-btn gl-design">design</a>
+          <a href="#" class="gl-tag-btn gl-ideas">ideas</a>
+          <a href="#" class="gl-tag-btn gl-remote">remote</a>
+          <a href="#" class="gl-tag-btn gl-design">design</a>
+          <a href="#" class="gl-tag-btn gl-ideas">ideas</a>
+          <a href="#" class="gl-tag-btn gl-remote">remote</a>
+        </div>
+      </div>
+      <!-- Tags End -->
+
+      <!-- *****************
+      Progress bar
+      ***************** -->
+      <div class="gl-element-type-wrapper">
+        <!-- Element Name -->
+        <h3 class="gl-element-title">Progress Bar</h3>
+        <!-- End -->
+
+        <div class="gl-element-wrapper">
+          <div class="gl-skillbar-wrapper gl-left-side-col">
+            <div class="gl-skillbar clearfix" data-percent="90">
+                <p class="gl-skillbar-title">Design</p>
+                <div class="gl-skillbar-bar-wrapper">
+                    <div class="gl-skillbar-bar"></div>
+                </div>
+                <span class="skill-bar-percent"></span>
+            </div>
+
+            <div class="gl-skillbar clearfix" data-percent="90">
+                <p class="gl-skillbar-title">Devlopment</p>
+                <div class="gl-skillbar-bar-wrapper">
+                    <div class="gl-skillbar-bar"></div>
+                </div>
+                <span class="skill-bar-percent"></span>
+            </div>
+
+            <div class="gl-skillbar clearfix" data-percent="80">
+                <p class="gl-skillbar-title">Marketing</p>
+                <div class="gl-skillbar-bar-wrapper">
+                    <div class="gl-skillbar-bar"></div>
+                </div>
+                <span class="skill-bar-percent"></span>
+            </div>
+
+            <div class="gl-skillbar clearfix" data-percent="70">
+                <p class="gl-skillbar-title">Finance</p>
+                <div class="gl-skillbar-bar-wrapper">
+                    <div class="gl-skillbar-bar"></div>
+                </div>
+                <span class="skill-bar-percent"></span>
+            </div>
+
+            <div class="gl-skillbar clearfix" data-percent="90">
+                <p class="gl-skillbar-title">Support</p>
+                <div class="gl-skillbar-bar-wrapper">
+                    <div class="gl-skillbar-bar"></div>
+                </div>
+                <span class="skill-bar-percent"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Progress bar End -->
+
+      <!-- *****************
+      Featured Post
+      ***************** -->
+      <div class="gl-element-type-wrapper gl-featured-post-type">
+        <!-- Element Name -->
+        <h3 class="gl-element-title">Featured Post</h3>
+        <!-- End -->
+
+        <div class="gl-element-wrapper">
+          <!-- Row -->
+          <div class="gl-row">
+            <h3 class="gl-sub-heading">Style - 1</h3>
+            <!-- FEATURED ITEMS -->
+            <div class="gl-featured-items col-md-4 col-sm-4 col-xs-12">
+              <div class="gl-feat-items-img-wrapper">
+                <picture>
+                    <source media="(min-width: 768px)" srcset=images/featured-listing-1-lg.jpg>
+                    <img alt="Featured Listing" srcset=images/featured-listing-1.jpg>
+                </picture>
+              </div>
+
+              <div class="gl-feat-item-details">
+                <span class="gl-item-rating">
+                  <i class="ion-android-star-outline"></i>
+                  4.5
+                </span>
+                <h3>
+                  <a href="#">Office Rent</a>
+                </h3>
+                <div class="gl-item-location">
+                  <i class="ion-ios-location-outline"></i>
+                  <span>Road 3, West Portland, USA</span>
+                </div>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- FEATURED ITEMS -->
+            <div class="gl-featured-items col-md-4 col-sm-4 col-xs-12">
+              <div class="gl-feat-items-img-wrapper">
+                <picture>
+                    <source media="(min-width: 768px)" srcset=images/featured-listing-2-lg.jpg><img alt="Featured Listing" srcset=images/featured-listing-2.jpg>
+                </picture>
+              </div>
+
+              <div class="gl-feat-item-details">
+                <span class="gl-item-rating">
+                  <i class="ion-android-star-outline"></i>
+                  4.5
+                </span>
+                <h3>
+                  <a href="#">Lake Heaven</a>
+                </h3>
+                <div class="gl-item-location">
+                  <i class="ion-ios-location-outline"></i>
+                  <span>Road 3, West Portland, USA</span>
+                </div>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- FEATURED ITEMS -->
+            <div class="gl-featured-items col-md-4 col-sm-4 col-xs-12">
+              <div class="gl-feat-items-img-wrapper">
+                <picture>
+                    <source media="(min-width: 768px)" srcset=images/featured-listing-3-lg.jpg><img alt="Featured Listing" srcset=images/featured-listing-3.jpg>
+                </picture>
+              </div>
+
+              <div class="gl-feat-item-details">
+                <span class="gl-item-rating">
+                  <i class="ion-android-star-outline"></i>
+                  4.5
+                </span>
+
+                <h3>
+                  <a href="#">Cafe Hapus</a>
+                </h3>
+                <div class="gl-item-location">
+                  <i class="ion-ios-location-outline"></i>
+                  <span>Road 3, West Portland, USA</span>
+                </div>
+              </div>
+            </div>
+            <!-- END -->
+          </div>
+          <!-- Row End -->
+
+          <!-- Row -->
+          <div class="gl-row">
+            <h3 class="gl-sub-heading">Style - 2</h3>
+
+            <!-- Job item -->
+            <div class="panel panel-default gl-job-list-item">
+              <!-- Job Excerpt -->
+              <div class="gl-job-list-item-wrapper panel-heading" role="tab" id="jobOne">
+                <a role="button" data-toggle="collapse" data-parent="#featured-job" href="#jobOneDetails" aria-expanded="true" aria-controls="jobOneDetails">
+                  <!-- LOGO -->
+                  <div class="gl-job-company-logo gl-job-item-part">
+                    <img src="images/company-1.png" alt="Deep Purple inc" class="gl-lazy">
+                  </div>
+                  <!-- END -->
+
+                  <!-- JOB POSTION & COMPANY NAME -->
+                  <div class="gl-job-position-company gl-job-item-part">
+                    <h3>
+                        Product Designer
+                    </h3>
+
+                    <p class="gl-company-name">Deep Purple inc</p>
+                  </div>
+                  <!-- END -->
+
+                  <!-- JOB AVAILABILITY -->
+                  <div class="gl-job-availability gl-job-item-part">
+                    <span class="gl-item-status-label full-time-job">Full time</span>
+                  </div>
+                  <!-- END -->
+
+                  <!-- SALLERY -->
+                  <div class="gl-job-sallery gl-job-item-part">
+                    <!-- <i class="fa fa-money"></i>
+                    <h3>Salary :</h3>
+                    <span>$30000</span> -->
+                  </div>
+                  <!-- END -->
+
+                  <!-- AREA -->
+                  <div class="gl-job-location gl-job-item-part">
+                    <i class="ion-ios-location-outline"></i>
+                    <span>California</span>
+                  </div>
+                  <!-- END -->
+                </a>
+              </div>
+              <!-- END -->
+
+              <!-- Job Details -->
+              <div id="jobOneDetails" class="panel-collapse collapse gl-job-list-details" role="tabpanel" aria-labelledby="jobOne">
+                <div class="panel-body">
+                  <div class="gl-jobdetails-sec">
+                    <h3>About Job</h3>
+                    <p>
+                      On the other hand, we denounce with righteous indignation and dislike men who are so begueled and demoralized by the of pleasure so blinded by desire, that they cannot foresee the pain and trouble that are bounds to ensure blame belongs to those who fail in their weakness of will, which is the same
+                    </p>
+                  </div>
+
+                  <div class="gl-jobdetails-sec">
+                    <h3>Requirements</h3>
+
+                    <ul>
+                      <li>On the other hand, we denounce with righteous</li>
+                      <li>Pleasure of the moment, so blinded by desire, that</li>
+                      <li>Blame belongs to those who fail in their duty </li>
+                      <li>On the other hand, we denounce</li>
+                    </ul>
+                  </div>
+
+                  <div class="gl-jobdetails-sec">
+                    <a data-remodal-target="modal" class="gl-btn gl-apply-job">Apply</a>
+                    <a href="job-single.html" class="gl-btn gl-details-job">Details</a>
+                  </div>
+                </div>
+              </div>
+              <!-- END -->
+            </div>
+            <!-- End -->
+
+            <!-- Job item -->
+            <div class="panel panel-default gl-job-list-item">
+              <!-- Job Excerpt -->
+              <div class="gl-job-list-item-wrapper panel-heading" role="tab" id="jobTwo">
+                <a role="button" data-toggle="collapse" data-parent="#featured-job" href="#jobTwoDetails" aria-expanded="true" aria-controls="jobTwoDetails">
+                  <!-- LOGO -->
+                  <div class="gl-job-company-logo gl-job-item-part">
+                    <img src="images/company-2.png" alt="Deep Purple inc" class="gl-lazy">
+                  </div>
+                  <!-- END -->
+
+                  <!-- JOB POSTION & COMPANY NAME -->
+                  <div class="gl-job-position-company gl-job-item-part">
+                    <h3>Android Developer</h3>
+
+                    <p class="gl-company-name">Deep Purple inc</p>
+                  </div>
+                  <!-- END -->
+
+                  <!-- JOB AVAILABILITY -->
+                  <div class="gl-job-availability gl-job-item-part">
+                    <span class="gl-item-status-label part-time-job">Part time</span>
+                  </div>
+                  <!-- END -->
+
+                  <!-- SALLERY -->
+                  <div class="gl-job-sallery gl-job-item-part">
+                    <!-- <i class="fa fa-money"></i>
+                    <h3>Salary :</h3>
+                    <span>$30000</span> -->
+                  </div>
+                  <!-- END -->
+
+                  <!-- AREA -->
+                  <div class="gl-job-location gl-job-item-part">
+                    <i class="ion-ios-location-outline"></i>
+                    <span>California</span>
+                  </div>
+                  <!-- END -->
+                </a>
+              </div>
+              <!-- END -->
+
+              <!-- Job Details -->
+              <div id="jobTwoDetails" class="panel-collapse collapse gl-job-list-details" role="tabpanel" aria-labelledby="jobTwo">
+                <div class="panel-body">
+                  <div class="gl-jobdetails-sec">
+                    <h3>About Job</h3>
+                    <p>
+                      On the other hand, we denounce with righteous indignation and dislike men who are so begueled and demoralized by the of pleasure so blinded by desire, that they cannot foresee the pain and trouble that are bounds to ensure blame belongs to those who fail in their weakness of will, which is the same
+                    </p>
+                  </div>
+
+                  <div class="gl-jobdetails-sec">
+                    <h3>Requirements</h3>
+
+                    <ul>
+                      <li>On the other hand, we denounce with righteous</li>
+                      <li>Pleasure of the moment, so blinded by desire, that</li>
+                      <li>Blame belongs to those who fail in their duty </li>
+                      <li>On the other hand, we denounce</li>
+                    </ul>
+                  </div>
+
+                  <div class="gl-jobdetails-sec">
+                    <a data-remodal-target="modal" class="gl-btn gl-apply-job">Apply</a>
+                    <a href="job-single.html" class="gl-btn gl-details-job">Details</a>
+                  </div>
+                </div>
+              </div>
+              <!-- END -->
+            </div>
+            <!-- End -->
+
+            <!-- Job item -->
+            <div class="panel panel-default gl-job-list-item">
+              <!-- Job Excerpt -->
+              <div class="gl-job-list-item-wrapper panel-heading" role="tab" id="jobThree">
+                <a role="button" data-toggle="collapse" data-parent="#featured-job" href="#jobThreeDetails" aria-expanded="true" aria-controls="jobThreeDetails">
+                  <!-- LOGO -->
+                  <div class="gl-job-company-logo gl-job-item-part">
+                    <img src="images/company-3.png" alt="Deep Purple inc" class="gl-lazy">
+                  </div>
+                  <!-- END -->
+
+                  <!-- JOB POSTION & COMPANY NAME -->
+                  <div class="gl-job-position-company gl-job-item-part">
+                    <h3>Product Designer</h3>
+                    <p class="gl-company-name">Deep Purple inc</p>
+                  </div>
+                  <!-- END -->
+
+                  <!-- JOB AVAILABILITY -->
+                  <div class="gl-job-availability gl-job-item-part">
+                    <span class="gl-item-status-label remote-job">Full time</span>
+                  </div>
+                  <!-- END -->
+
+                  <!-- SALLERY -->
+                  <div class="gl-job-sallery gl-job-item-part">
+                    <!-- <i class="fa fa-money"></i>
+                    <h3>Salary :</h3>
+                    <span>$30000</span> -->
+                  </div>
+                  <!-- END -->
+
+                  <!-- AREA -->
+                  <div class="gl-job-location gl-job-item-part">
+                    <i class="ion-ios-location-outline"></i>
+                    <span>California</span>
+                  </div>
+                  <!-- END -->
+                </a>
+              </div>
+              <!-- END -->
+
+              <!-- Job Details -->
+              <div id="jobThreeDetails" class="panel-collapse collapse gl-job-list-details" role="tabpanel" aria-labelledby="jobThree">
+                <div class="panel-body">
+                  <div class="gl-jobdetails-sec">
+                    <h3>About Job</h3>
+                    <p>
+                      On the other hand, we denounce with righteous indignation and dislike men who are so begueled and demoralized by the of pleasure so blinded by desire, that they cannot foresee the pain and trouble that are bounds to ensure blame belongs to those who fail in their weakness of will, which is the same
+                    </p>
+                  </div>
+
+                  <div class="gl-jobdetails-sec">
+                    <h3>Requirements</h3>
+
+                    <ul>
+                      <li>On the other hand, we denounce with righteous</li>
+                      <li>Pleasure of the moment, so blinded by desire, that</li>
+                      <li>Blame belongs to those who fail in their duty </li>
+                      <li>On the other hand, we denounce</li>
+                    </ul>
+                  </div>
+
+                  <div class="gl-jobdetails-sec">
+                    <a data-remodal-target="modal" class="gl-btn gl-apply-job">Apply</a>
+                    <a href="job-single.html" class="gl-btn gl-details-job">Details</a>
+                  </div>
+                </div>
+              </div>
+              <!-- END -->
+            </div>
+            <!-- End -->
+
+            <!-- APPLY MODAL -->
+            <div class="remodal-bg">
+                <div class="gl-modal-wrapper" data-remodal-id="modal">
+                    <button data-remodal-action="close" class="remodal-close"></button>
+                    <h3 class="gl-modal-title">Personal Info</h3>
+
+                    <div class="gl-modal-form-wrapper">
+                        <form action="#">
+                            <fieldset>
+                                <p class="gl-input-label">Name</p>
+                                <input type="text" name="gl-applicant-name" id="gl-applicant-name" placeholder="Full Name">
+                            </fieldset>
+
+                            <fieldset>
+                                <p class="gl-input-label">Email</p>
+                                <input type="text" name="gl-applicant-email" id="gl-applicant-email" placeholder="Email">
+                            </fieldset>
+
+                            <fieldset>
+                                <p class="gl-input-label">Address</p>
+                                <input type="text" name="gl-applicant-address" id="gl-applicant-address" placeholder="Address">
+                            </fieldset>
+
+                             <fieldset>
+                                <p class="gl-input-label">Cover Letter</p>
+                                <textarea name="gl-applicant-letter" id="gl-applicant-letter" cols="30" rows="7" placeholder="Cover Letter"></textarea>
+                            </fieldset>
+
+                            <fieldset>
+                                <p class="gl-input-label">Upload</p>
+
+                                <input type="file" name="gl-applicant-resume" id="gl-applicant-resume">
+                                <label for="gl-applicant-resume">upload</label>
+
+                                <span class="gl-extra-info">we allow only .doc and .pdf file</span>
+                            </fieldset>
+
+                            <fieldset>
+                                <p class="gl-input-label">Your Name</p>
+                                <input type="text" name="gl-applicant-yname" id="gl-applicant-yname" placeholder="Your Name">
+                            </fieldset>
+
+                            <fieldset class="gl-apply-btns-wrapper">
+                                <button class="gl-apply-btn gl-btn" type="submit">Apply</button>
+                                <button class="gl-apply-linkedin-btn gl-btn">Apply from Linkedin</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- APPLY MODAL END -->
+          </div>
+          <!-- Row End -->
+
+          <!-- Row -->
+          <div class="gl-row">
+            <h3 class="gl-sub-heading">Style - 3</h3>
+
+            <!-- FEATURED ITEMS -->
+            <div class="gl-featured-items gl-featured-items-alt col-md-4 col-sm-4 col-xs-12">
+              <div class="gl-feat-items-img-wrapper">
+                <picture>
+                    <source media="(min-width: 768px)" srcset=images/real-estate-img-2-lg.jpg>
+                    <img alt="Category Image" srcset=images/real-estate-img-2.jpg>
+                </picture>
+
+                <span class="gl-price-tag">$3,000</span>
+              </div>
+
+              <div class="gl-feat-item-details">
+                <h3>
+                  <a href="#">Lake Cafe</a>
+                </h3>
+                <div class="gl-item-location">
+                  <i class="ion-ios-location-outline"></i>
+                  <span>Road 3, West Portland, USA</span>
+                </div>
+
+                <span class="gl-item-status-label gl-sold-label">Sold</span>
+              </div>
+
+              <div class="gl-feat-item-metas">
+                <ul class="gl-feature-info">
+                  <li>Beds<span>3</span>
+                  </li>
+                  <li>Baths<span>2</span>
+                  </li>
+                  <li>Area<span>900 sqft</span>
+                  </li>
+                </ul>
+
+                <ul class="gl-wishlist-compare-wrapper">
+                    <li>
+                        <a href="#" class="gl-add-wishlist">
+                            <i class="fa fa-heart-o"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="gl-add-compare">
+                            <div class="gl-compare-btn">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- FEATURED ITEMS -->
+            <div class="gl-featured-items gl-featured-items-alt col-md-4 col-sm-4 col-xs-12">
+              <div class="gl-feat-items-img-wrapper">
+                <picture>
+                    <source media="(min-width: 768px)" srcset=images/real-estate-img-4-lg.jpg>
+                    <img alt="Category Image" srcset=images/real-estate-img-4.jpg>
+                </picture>
+
+                <span class="gl-price-tag">$300</span>
+                <span class="gl-trending"></span>
+              </div>
+
+              <div class="gl-feat-item-details">
+                <span class="gl-item-status-label gl-sale-label">Sale</span>
+
+                <h3>
+                  <a href="#">Moon Castle</a>
+                </h3>
+                <div class="gl-item-location">
+                  <i class="ion-ios-location-outline"></i>
+                  <span>Road 3, West Portland, USA</span>
+                </div>
+              </div>
+
+              <div class="gl-feat-item-metas">
+                <ul class="gl-feature-info">
+                  <li>Beds<span>3</span>
+                  </li>
+                  <li>Baths<span>2</span>
+                  </li>
+                  <li>Area<span>900 sqft</span>
+                  </li>
+                </ul>
+
+                <ul class="gl-wishlist-compare-wrapper">
+                    <li>
+                        <a href="#" class="gl-add-wishlist">
+                            <i class="fa fa-heart-o"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="gl-add-compare">
+                            <div class="gl-compare-btn">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- FEATURED ITEMS -->
+            <div class="gl-featured-items gl-featured-items-alt col-md-4 col-sm-4 col-xs-12">
+              <div class="gl-feat-items-img-wrapper">
+                <picture>
+                    <source media="(min-width: 768px)" srcset=images/real-estate-img-8-lg.jpg>
+                    <img alt="Category Image" srcset=images/real-estate-img-8.jpg>
+                </picture>
+
+                <span class="gl-price-tag">$600</span>
+              </div>
+
+              <div class="gl-feat-item-details">
+                <span class="gl-item-status-label gl-rent-label">Rent</span>
+
+                <h3>
+                  <a href="#">Green Cafe</a>
+                </h3>
+                <div class="gl-item-location">
+                  <i class="ion-ios-location-outline"></i>
+                  <span>Road 3, West Portland, USA</span>
+                </div>
+              </div>
+
+              <div class="gl-feat-item-metas">
+                <ul class="gl-feature-info">
+                  <li>Beds<span>3</span>
+                  </li>
+                  <li>Baths<span>2</span>
+                  </li>
+                  <li>Area<span>900 sqft</span>
+                  </li>
+                </ul>
+
+                <ul class="gl-wishlist-compare-wrapper">
+                    <li>
+                        <a href="#" class="gl-add-wishlist">
+                            <i class="fa fa-heart-o"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="gl-add-compare">
+                            <div class="gl-compare-btn">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <!-- END -->
+          </div>
+          <!-- Row End -->
+
+          <!-- Row -->
+          <div class="gl-row">
+            <h3 class="gl-sub-heading">Style - 4</h3>
+
+            <!-- FEATURED ITEMS -->
+            <div class="gl-featured-items gl-featured-items-alt gl-listtype-display col-md-4 col-sm-4 col-xs-12">
+              <div class="gl-feat-items-img-wrapper">
+                <picture>
+                    <source media="(min-width: 768px)" srcset=images/real-estate-img-2-lg.jpg>
+                    <img alt="Category Image" srcset=images/real-estate-img-2.jpg>
+                </picture>
+
+                <span class="gl-price-tag">$3,000</span>
+              </div>
+
+              <div class="gl-feat-item-details">
+                <h3>
+                  <a href="#">Lake Cafe</a>
+                </h3>
+                <div class="gl-item-location">
+                  <i class="ion-ios-location-outline"></i>
+                  <span>Road 3, West Portland, USA</span>
+                </div>
+
+                <span class="gl-item-status-label gl-sold-label">Sold</span>
+              </div>
+
+              <div class="gl-feat-item-metas">
+                <ul class="gl-feature-info">
+                  <li>Beds<span>3</span>
+                  </li>
+                  <li>Baths<span>2</span>
+                  </li>
+                  <li>Area<span>900 sqft</span>
+                  </li>
+                </ul>
+
+                <ul class="gl-wishlist-compare-wrapper">
+                    <li>
+                        <a href="#" class="gl-add-wishlist">
+                            <i class="fa fa-heart-o"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="gl-add-compare">
+                            <div class="gl-compare-btn">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- FEATURED ITEMS -->
+            <div class="gl-featured-items gl-featured-items-alt gl-listtype-display col-md-4 col-sm-4 col-xs-12">
+              <div class="gl-feat-items-img-wrapper">
+                <picture>
+                    <source media="(min-width: 768px)" srcset=images/real-estate-img-4-lg.jpg>
+                    <img alt="Category Image" srcset=images/real-estate-img-4.jpg>
+                </picture>
+
+                <span class="gl-price-tag">$300</span>
+                <span class="gl-trending"></span>
+              </div>
+
+              <div class="gl-feat-item-details">
+                <span class="gl-item-status-label gl-sale-label">Sale</span>
+
+                <h3>
+                  <a href="#">Moon Castle</a>
+                </h3>
+                <div class="gl-item-location">
+                  <i class="ion-ios-location-outline"></i>
+                  <span>Road 3, West Portland, USA</span>
+                </div>
+              </div>
+
+              <div class="gl-feat-item-metas">
+                <ul class="gl-feature-info">
+                  <li>Beds<span>3</span>
+                  </li>
+                  <li>Baths<span>2</span>
+                  </li>
+                  <li>Area<span>900 sqft</span>
+                  </li>
+                </ul>
+
+                <ul class="gl-wishlist-compare-wrapper">
+                    <li>
+                        <a href="#" class="gl-add-wishlist">
+                            <i class="fa fa-heart-o"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="gl-add-compare">
+                            <div class="gl-compare-btn">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- FEATURED ITEMS -->
+            <div class="gl-featured-items gl-featured-items-alt gl-listtype-display col-md-4 col-sm-4 col-xs-12">
+              <div class="gl-feat-items-img-wrapper">
+                <picture>
+                    <source media="(min-width: 768px)" srcset=images/real-estate-img-8-lg.jpg>
+                    <img alt="Category Image" srcset=images/real-estate-img-8.jpg>
+                </picture>
+
+                <span class="gl-price-tag">$600</span>
+              </div>
+
+              <div class="gl-feat-item-details">
+                <h3>
+                  <a href="#">Green Cafe</a>
+                </h3>
+                <div class="gl-item-location">
+                  <i class="ion-ios-location-outline"></i>
+                  <span>Road 3, West Portland, USA</span>
+                </div>
+
+                <span class="gl-item-status-label gl-rent-label">Rent</span>
+              </div>
+
+              <div class="gl-feat-item-metas">
+                <ul class="gl-feature-info">
+                  <li>Beds<span>3</span>
+                  </li>
+                  <li>Baths<span>2</span>
+                  </li>
+                  <li>Area<span>900 sqft</span>
+                  </li>
+                </ul>
+
+                <ul class="gl-wishlist-compare-wrapper">
+                    <li>
+                        <a href="#" class="gl-add-wishlist">
+                            <i class="fa fa-heart-o"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="gl-add-compare">
+                            <div class="gl-compare-btn">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <!-- END -->
+          </div>
+          <!-- Row End -->
+        </div>
+      </div>
+      <!-- Freatured Post End -->
+
+
+      <!-- *****************
+      Team Member
+      ***************** -->
+      <div class="gl-element-type-wrapper">
+        <!-- Element Name -->
+        <h3 class="gl-element-title">Team Member</h3>
+        <!-- End -->
+
+        <div class="gl-element-wrapper">
+          <div class="swiper-container gl-agent-testimonial">
+          <div class="swiper-wrapper">
+            <!-- SLIDES -->
+            <div class="swiper-slide gl-agents-slide">
+              <div class="gl-agents-img-wrapper">
+                <img src="images/agents-1.jpg" alt="AGENTS" class="gl-lazy">
+              </div>
+
+              <div class="gl-feat-item-details">
+                <h3>
+                  <a href="agent_profile.html">Robert Doe</a>
+                </h3>
+                <p>Buying Agent</p>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- SLIDES -->
+            <div class="swiper-slide gl-agents-slide">
+              <div class="gl-agents-img-wrapper">
+                <img src="images/agents-2.jpg" alt="AGENTS" class="gl-lazy">
+              </div>
+
+              <div class="gl-feat-item-details">
+                <h3>
+                  <a href="agent_profile.html">George Kane</a>
+                </h3>
+                <p>Buying Agent</p>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- SLIDES -->
+            <div class="swiper-slide gl-agents-slide">
+              <div class="gl-agents-img-wrapper">
+                <img src="images/agents-3.jpg" alt="AGENTS" class="gl-lazy">
+              </div>
+
+              <div class="gl-feat-item-details">
+                <h3>
+                  <a href="agent_profile.html">Maria</a>
+                </h3>
+                <p>Buying Agent</p>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- SLIDES -->
+            <div class="swiper-slide gl-agents-slide">
+              <div class="gl-agents-img-wrapper">
+                <img src="images/agents-4.jpg" alt="AGENTS" class="gl-lazy">
+              </div>
+
+              <div class="gl-feat-item-details">
+                <h3>
+                  <a href="agent_profile.html">Dave Neo</a>
+                </h3>
+                <p>Buying Agent</p>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- SLIDES -->
+            <div class="swiper-slide gl-agents-slide">
+              <div class="gl-agents-img-wrapper">
+                <img src="images/agents-3.jpg" alt="AGENTS" class="gl-lazy">
+              </div>
+
+              <div class="gl-feat-item-details">
+                <h3>
+                  <a href="agent_profile.html">David Neolar</a>
+                </h3>
+                <p>Buying Agent</p>
+              </div>
+            </div>
+            <!-- END -->
+          </div>
+
+          <div class="swiper-pagination gl-agent-pagination"></div>
+        </div>
+        </div>
+      </div>
+      <!-- Team Member End -->
+
+
+      <!-- *****************
+      Blog Post
+      ***************** -->
+      <div class="gl-element-type-wrapper">
+        <!-- Element Name -->
+        <h3 class="gl-element-title">Blog Posts</h3>
+        <!-- End -->
+
+        <div class="gl-element-wrapper">
+          <div class="gl-row">
+            <h3 class="gl-sub-heading">Grid</h3>
+
+            <!-- BLOG ITEMS -->
+            <div class="gl-blog-items gl-image-post col-md-4 col-sm-4 col-xs-12">
+              <div class="gl-blog-img-wrapper">
+                <picture>
+                    <source media="(min-width: 768px)" srcset=images/blog-5-lg.jpg>
+                    <img alt="Category Image" srcset=images/blog-5-xs.jpg>
+                </picture>
+                <div class="gl-blog-cat-icon">
+                  <i class="ion-ios-musical-notes"></i>
+                </div>
+              </div>
+
+              <div class="gl-blog-item-details">
+                <h3>
+                  <a href="blog-details.html">Keep Playing</a>
+                </h3>
+                <p>Music kills the devil always. Love music so blinded by desire</p>
+                <span class="gl-blog-post-date">March 20, 2016</span>
+              </div>
+            </div>
+            <!-- BLOG ITEMS END -->
+
+            <!-- BLOG ITEMS -->
+            <div class="gl-blog-items gl-music-post col-md-4 col-sm-4 col-xs-12">
+              <div class="gl-blog-img-wrapper">
+                <picture>
+                    <source media="(min-width: 768px)" srcset=images/blog-13-lg.jpg>
+                    <img alt="Category Image" srcset=images/blog-13-xs.jpg>
+                </picture>
+                <div class="gl-blog-cat-icon">
+                  <i class="ion-ios-camera-outline"></i>
+                </div>
+              </div>
+
+              <div class="gl-blog-item-details">
+                <h3>
+                  <a href="blog-details.html">Keep Playing</a>
+                </h3>
+                <p>Music kills the devil always. Love music so blinded by desire</p>
+                <span class="gl-blog-post-date">March 20, 2016</span>
+              </div>
+            </div>
+            <!-- BLOG ITEMS END -->
+
+            <!-- BLOG ITEMS -->
+            <div class="gl-blog-items gl-image-post col-md-4 col-sm-4 col-xs-12">
+              <div class="gl-blog-img-wrapper">
+                <picture>
+                    <source media="(min-width: 768px)" srcset=images/blog-3-lg.jpg>
+                    <img alt="Category Image" srcset=images/blog-3-xs.jpg>
+                </picture>
+                <div class="gl-blog-cat-icon">
+                  <i class="ion-ios-musical-notes"></i>
+                </div>
+              </div>
+
+              <div class="gl-blog-item-details">
+                <h3>
+                  <a href="blog-details.html">Keep Playing</a>
+                </h3>
+                <p>Music kills the devil always. Love music so blinded by desire</p>
+                <span class="gl-blog-post-date">March 20, 2016</span>
+              </div>
+            </div>
+            <!-- BLOG ITEMS END -->
+          </div>
+
+          <div class="gl-row">
+            <h3 class="gl-sub-heading">Default</h3>
+            <!-- BLOG ITEMS -->
+            <div class="gl-blog-items gl-image-post">
+              <div class="gl-blog-img-wrapper">
+                <img src="images/blog-5.jpg" alt="Blog Image" class="gl-lazy">
+                <div class="gl-blog-cat-icon">
+                  <i class="ion-ios-musical-notes"></i>
+                </div>
+              </div>
+
+              <div class="gl-blog-item-details">
+                <h3>
+                  <a href="blog-details.html">Keep Playing</a>
+                </h3>
+                <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demo of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bou denounce with righteous dream</p>
+                <span class="gl-blog-post-date">March 20, 2016</span>
+              </div>
+            </div>
+            <!-- BLOG ITEMS END -->
+          </div>
+        </div>
+      </div>
+      <!-- Tags End -->
+
+      <!-- *****************
+      Contact Form
+      ***************** -->
+      <div class="gl-element-type-wrapper">
+        <!-- Element Name -->
+        <h3 class="gl-element-title">Forms</h3>
+        <!-- End -->
+
+        <div class="gl-element-wrapper">
+          <div class="gl-row">
+            <h3 class="gl-sub-heading">Contact Form</h3>
+
+            <form action="#" class="gl-contact-form">
+              <input type="text" name="gl-contact-name" id="gl-contact-name" placeholder="Name">
+              <input type="email" name="gl-contact-email" id="gl-contact-email" placeholder="Email">
+              <textarea name="gl-contact-message" id="gl-contact-message" cols="30" rows="10" placeholder="Message"></textarea>
+
+              <input type="submit" value="Send" class="gl-btn">
+            </form>
+          </div>
+
+          <div class="gl-row">
+            <h3 class="gl-sub-heading">Submission Form</h3>
+
+            <form action="#" class="gl-review-submission-form">
+              <fieldset class="gl-form-fields">
+                <div class="gl-input-area">
+                  <input type="text" name="gl-reviewer-name" id="gl-reviewer-name" placeholder="Name">
+                  <input type="email" name="gl-reviewer-email" id="gl-reviewer-email" placeholder="Email">
+                  <textarea name="gl-reviewer-message" id="gl-reviewer-message" cols="30" rows="10" placeholder="Your Comment"></textarea>
+                </div>
+
+                <div class="gl-rating-wrapper">
+                  <h4>Give your Rating</h4>
+
+                  <!-- QUALITY -->
+                  <div class="gl-rating-inputs">
+                      <span class="gl-rating-title">Quality</span>
+                      <div class="gl-rating-wrap">
+                          <span id="gl-quality-rating"></span>
+                      </div>
+                  </div>
+                  <!-- END -->
+
+                  <!-- SERVICE -->
+                  <div class="gl-rating-inputs">
+                      <span class="gl-rating-title">Service</span>
+                      <div class="gl-rating-wrap">
+                          <span id="gl-service-rating"></span>
+                      </div>
+                  </div>
+                  <!-- END -->
+
+                  <!-- RESPONSE -->
+                  <div class="gl-rating-inputs">
+                      <span class="gl-rating-title">Response</span>
+                      <div class="gl-rating-wrap">
+                          <span id="gl-response-rating"></span>
+                      </div>
+                  </div>
+                  <!-- END -->
+
+                  
+                  <!-- <span class="gl-rating-number">4.5</span> -->
+                </div>
+              </fieldset>
+
+              <fieldset class="gl-submit-wrapper">
+                <input type="submit" value="Submit" class="gl-btn">
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Tags End -->
+
+      <!-- *****************
+      Google Map
+      ***************** -->
+      <div class="gl-element-type-wrapper">
+        <!-- Element Name -->
+        <h3 class="gl-element-title">Google Map</h3>
+        <!-- End -->
+
+        <div class="gl-element-wrapper">
+          <!-- MAP -->
+          <div class="gl-row gl-google-map-section">
+            <div class="gl-search-map-wrapper">
+              <div id="gl-contact-map" class="gl-search-map"></div>
+            </div>
+          </div>
+          <!-- MAP END -->
+        </div>
+      </div>
+      <!-- GOOGLE MAP End -->
+
+      <!-- *****************
+      GALLERY
+      ***************** -->
+      <div class="gl-element-type-wrapper">
+        <!-- Element Name -->
+        <h3 class="gl-element-title">Gallery</h3>
+        <!-- End -->
+
+        <div class="gl-element-wrapper col-md-8 col-sm-8 col-xs-12">
+          <ul class="gl-gallery">
+              <li>
+                <a href="images/gallery-img-big-1.jpg" class="gl-lightbox-img">
+                  <img src="images/gallery-img-1.jpg" alt="Profile Gallery Image" class="gl-lazy">
+                </a>
+              </li>
+              <li>
+                <a href="images/gallery-img-big-2.jpg" class="gl-lightbox-img">
+                  <img src="images/gallery-img-2.jpg" alt="Profile Gallery Image" class="gl-lazy">
+                </a>
+              </li>
+              <li>
+                <a href="images/gallery-img-big-3.jpg" class="gl-lightbox-img">
+                  <picture>
+                    <source media="(min-width: 768px)" srcset=images/business-img-8-ws.jpg>
+                    <img alt="Category Image" srcset=images/business-img-8-xs.jpg>
+                </picture>
+                </a>
+              </li>
+              <li>
+                <a href="images/gallery-img-big-4.jpg" class="gl-lightbox-img">
+                  <picture>
+                    <source media="(min-width: 768px)" srcset=images/gallery-img-4-ws.jpg>
+                    <img alt="Category Image" srcset=images/gallery-img-4-xs.jpg>
+                </picture>
+                </a>
+              </li>
+              <li>
+                <a href="images/gallery-img-big-5.jpg" class="gl-lightbox-img">
+                  <picture>
+                    <source media="(min-width: 768px)" srcset=images/gallery-img-5-ws.jpg>
+                    <img alt="Category Image" srcset=images/gallery-img-5-xs.jpg>
+                </picture>
+                </a>
+              </li>
+              <li>
+                <a href="images/page-header-bg.jpg" class="gl-lightbox-img"></a>
+              </li>
+              <li>
+                <a href="images/gallery-img-big-7.jpg" class="gl-lightbox-img"></a>
+              </li>
+              <li>
+                <a href="images/gallery-img-big-8.jpg" class="gl-lightbox-img"></a>
+              </li>
+            </ul>
+        </div>
+      </div>
+      <!-- Tags End -->
+
+
+
+    </div>
+  </div>
+</section>
+<!-- Elements Shortcode End -->
+
+<!-- FOOTER -->
+<footer>
+  <!-- FOOTER TOP -->
+  <div class="gl-footer-top-wrapper">
+    <div class="container">
+      <div class="row">
+        <!-- FOOTER WIDGET -->
+        <div class="gl-footer-widget gl-footer-logo gl-footer-fixed-widget">
+          <a href="#">
+            <img src="images/logo-footer.png" alt="Glimpse">
+          </a>
+        </div>
+        <!-- END -->
+
+        <!-- FOOTER WIDGET -->
+        <div class="gl-footer-widget gl-contact-info">
+          <h3 class="gl-footer-widget-title">Contact info</h3>
+
+          <div class="gl-footer-widget-content">
+            <ul>
+              <li><i class="fa fa-map-marker"></i>Road 3, West side lane Texas,  USA</li>
+              <li><i class="fa fa-phone"></i>0632 0152 001</li>
+              <li><i class="fa fa-envelope-o"></i>mail@gmail.com</li>
+              <li><i class="fa fa-globe"></i>www.glimpse.com</li>
+            </ul>
+          </div>
+        </div>
+        <!-- END -->
+
+        <!-- FOOTER WIDGET -->
+        <div class="gl-footer-widget gl-useful-links">
+          <h3 class="gl-footer-widget-title">Company</h3>
+
+          <div class="gl-footer-widget-content">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Career &amp; Goal</a></li>
+              <li><a href="#">Company Profile</a></li>
+              <li><a href="#">Process</a></li>
+              <li><a href="#">Account</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- END -->
+
+        <!-- FOOTER WIDGET -->
+        <div class="gl-footer-widget gl-subscribe-widget">
+          <h3 class="gl-footer-widget-title">Subscribe</h3>
+
+          <div class="gl-footer-widget-content">
+          <p>Checkout and enjoy the biggest eco</p>
+
+          <form action="#">
+            <input type="email" name="gl-subscription" id="gl-subscription" placeholder="Your email">
+            <button type="submit" class="gl-btn">Submit</button>
+          </form>
+          </div>
+        </div>
+        <!-- END -->
+      </div>
+    </div>
+  </div>
+  <!-- END -->
+
+  <!-- FOOTER BOTTOM -->
+  <div class="gl-footer-bottom-wrapper">
+    <div class="container">
+      <div class="row">
+        <!-- COPYRIGHT INFO -->
+        <div class="gl-copyright-info-wrapper">
+          <p>Copyright &copy; 2016 Glimpse. All rights reserved</p>
+        </div>
+        <!-- COPYRIGHT INFO -->
+
+        <div class="gl-social-info-wrapper">
+          <ul>
+            <li>
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fa fa-behance"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fa fa-dribbble"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fa fa-vimeo"></i>
+                </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END -->
+</footer>
+<!-- FOOTER END -->
+
+<!-- Google Map -->
+<script src="../js/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyBF0FPDHlurGkDKua7PfZjpD2fr2rQsRw0&amp;libraries=places"></script>
+<script src="../js/infobubble-richmarker.js"></script>
+<script src="../js/business-map/google-contactmap-init.js"></script>
+<script src="../js/google-autocomplete.js"></script>
+
+<script src="../js/plugins.js"></script>
+<script src="../js/scripts.js"></script>
+<script src="../js/main.js"></script>
+</body>
+
+<!-- Mirrored from redq.io/sites/glimpse/elements/elements.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Apr 2017 06:38:04 GMT -->
+</html>

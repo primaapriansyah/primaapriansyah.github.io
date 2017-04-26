@@ -1,0 +1,1455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from redq.io/sites/glimpse/jobs/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Apr 2017 06:29:51 GMT -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- PAGE TITLE -->
+  <title>Glimpse - Jobs</title>
+
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <link rel="stylesheet" href="css/jobs.style.css">
+</head>
+
+<body class="gl-jobs-template gl-home-template">
+
+<div id="gl-circle-loader-wrapper">
+  <div id="gl-circle-loader-center">
+    <div class="gl-circle-load">
+      <img src="images/ploading.gif" alt="Page Loader">
+    </div>
+  </div>
+</div>
+
+<!--================================
+            SIDE MENU
+=================================-->
+<!-- PAGE OVERLAY WHEN MENU ACTIVE -->
+<div class="gl-side-menu-overlay"></div>
+<!-- PAGE OVERLAY WHEN MENU ACTIVE END -->
+
+<div class="gl-side-menu-wrap">
+    <div class="gl-side-menu">
+        <div class="gl-side-menu-widget-wrap">
+            <div class="gl-login-form-wrapper">
+                <h3>User Login</h3>
+                <p>Login to add new listing </p>
+
+                <div class="gl-login-form">
+                    <form action="#">
+                        <input type="text" name="gl-user-name" id="gl-user-input" placeholder="User Name">
+                        <input type="password" name="gl-user-password" id="gl-user-password" placeholder="Password">
+                        <button type="submit">Login</button>
+                    </form>
+                </div>
+
+                <div class="gl-social-login-opt">
+                    <a href="#" class="gl-social-login-btn gl-facebook-login">Login with Facebook</a>
+                    <a href="#" class="gl-social-login-btn gl-twitter-login">Login with Twitter</a>
+                </div>
+
+                <div class="gl-other-options">
+                    <a href="#" class="gl-forgot-pass">Forget Password ?</a>
+                    <a href="#" class="gl-signup">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="gl-side-menu-close-button" id="gl-side-menu-close-button">Close Menu</button>
+</div>
+<!-- SIDE MENU END -->
+
+<!-- HEADER -->
+<header class="gl-header">
+  <!-- BOTTOM BAR/NAVIGATION -->
+  <div class="gl-header-bottombar">
+    <!-- Navigation Menu start-->
+    <nav class="navbar gl-header-main-menu" role="navigation">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Navbar Toggle -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+
+              <!-- Logo -->
+              <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo-header.png" alt="GLIMPSE"></a>
+          </div>
+          <!-- Navbar Toggle End -->
+
+          <!-- navbar-collapse start-->
+          <div id="nav-menu" class="navbar-collapse gl-menu-wrapper collapse" role="navigation">
+            <ul class="nav navbar-nav gl-menus">
+              <li class="active">
+                <a href="index.html">Home</a>
+                <ul class="gl-sub-menu">
+                    <li>
+                        <a href="../business/index.html">Home - Business</a>
+                    </li>
+                    <li>
+                        <a href="../real-estate/index.html">Home - Real Estate</a>
+                    </li>
+                    <li>
+                        <a href="../restaurant/index.html">Home - Restaurant</a>
+                    </li>
+                </ul>
+              </li>
+              <li>
+                <a href="listing-style-1.html">Listing</a>
+                <ul class="gl-sub-menu">
+                    <li>
+                        <a href="listing-style-2.html">Listing Style - Map Right</a>
+                    </li>
+                    <li>
+                        <a href="listing-style-3.html">Listing Style - Map Top</a>
+                    </li>
+                </ul>
+              </li> 
+              <li>
+                  <a href="job-single.html">Job</a>
+              </li>
+              <li>
+                <a href="company.html">Company</a>
+              </li>
+              <li>
+                <a href="about-us.html">About</a>
+              </li>
+              <li>
+                <a href="../elements/elements.html">Elements</a>
+              </li>
+              <li>
+                <a href="blog-grid.html">Blog</a>
+                <ul class="gl-sub-menu">
+                    <li>
+                        <a href="blog-default.html">Blog Default</a>
+                    </li>
+                    <li>
+                        <a href="blog-details.html">Blog Details</a>
+                    </li>
+                </ul>
+              </li>
+              <li>
+                <a href="contact-us.html">Contact</a>
+              </li>
+          </ul>
+          </div>
+          <!-- navbar-collapse end-->
+
+          <div class="gl-extra-btns-wrapper">
+            <button class="gl-login-btn" id="gl-side-menu-btn">Login</button>
+            <a href="../frontend-subbmission/index.html" class="gl-add-post-btn">+ Post Add</a>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+    <!-- Navigation Menu end-->
+  </div>
+  <!-- END -->
+</header>
+<!-- HEADER END -->
+
+<!-- HERO IMAGE -->
+<section class="gl-hero-img-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="gl-elements-content-wrapper">
+        <div id="typed-strings">
+            <p>Your <span class="gl-color-text">dream</span> job !</p>
+            <p>Find the <span class="gl-color-text">best</span> job for you</p>
+        </div>
+        <h2 id="gl-slogan" class="gl-hero-text-heading"></h2>
+        <p class="gl-hero-text-paragraph">Go theme is providing you the best directory services from <span class="gl-color-text">+150</span> leading companies</p>
+
+        <!-- DIRECTORY FORM -->
+        <div class="gl-directory-searchbar gl-bz-directory-searchbar">
+          <form action="#" id="gl-bz-directory-form">
+            <fieldset>
+              <input type="text" name="gl-jobs-keyword" id="gl-jobs-keyword" class="gl-directory-input" placeholder="Keywords">
+              <input type="text" name="gl-search-location" id="gl-search-location" class="gl-directory-input" placeholder="Location">
+              <div class="gl-jobs-category gl-category-dropdown">
+                <select class="gl-category-dropdown-selection">
+                  <option>&nbsp;</option>
+                  <option value="Corp">Corporate</option>
+                  <option value="Pub">Public</option>
+                  <option value="Int">International</option>
+                </select>
+              </div>
+            </fieldset>
+
+            <button type="submit" class="gl-icon-btn"><i class="fa fa-search"></i> Search</button>
+          </form>
+        </div>
+        <!-- END -->
+
+        <div class="gl-scroll-down-wrapper">
+          <a href="#gl-next-section" class="gl-scroll-down"><i class="ion-chevron-down"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- HERO IMAGE END -->
+
+<!-- ICON WITH TEXT/SERVICES -->
+<section class="gl-service-section-wrapper gl-section-wrapper" id="gl-next-section">
+  <div class="container">
+    <div class="row">
+      <div class="gl-service-we-offer">
+
+        <!-- ICON WITH TEXT -->
+        <div class="gl-icon-top-with-text col-md-4 col-sm-4 col-xs-12 appear fadeIn" data-wow-duration=".5s" data-wow-delay=".3s">
+          <div class="gl-icon-wrapper">
+            <i class="ion-ios-briefcase-outline"></i>
+          </div>
+          <h3>Quality Job</h3>
+          <p>On the other hand, we denounce great deal come indignation and dislike</p>
+        </div>
+        <!-- END -->
+
+        <!-- ICON WITH TEXT -->
+        <div class="gl-icon-top-with-text col-md-4 col-sm-4 col-xs-12 appear fadeIn" data-wow-duration=".5s" data-wow-delay=".5s">
+          <div class="gl-icon-wrapper">
+            <i class="ion-ios-paper-outline"></i>
+          </div>
+          <h3>Selected Resumes</h3>
+          <p>On the other hand, we denounce great deal come indignation and dislike</p>
+        </div>
+        <!-- END -->
+
+        <!-- ICON WITH TEXT -->
+        <div class="gl-icon-top-with-text col-md-4 col-sm-4 col-xs-12 appear fadeIn" data-wow-duration=".5s" data-wow-delay=".7s">
+          <div class="gl-icon-wrapper">
+            <img src="images/location-pin.png" alt="Location">
+          </div>
+          <h3>Listed Companies</h3>
+          <p>On the other hand, we denounce great deal come indignation and dislike</p>
+        </div>
+      </div>
+      <!-- END -->
+
+    </div>
+  </div>
+</section>
+<!-- ICON WITH TEXT/SERVICES END -->
+
+<!-- AVAILABLE JOBS SECTION -->
+<section class="gl-available-section gl-section-wrapper">
+  <div class="container">
+    <div class="row">
+      <!-- SECTION HEADINGS -->
+      <div class="gl-single-headings">
+        <h1>Available Job</h1>
+      </div>
+      <!-- END -->
+
+      <!-- JOBS DISPLAY -->
+      <div class="gl-job-display-wrapper">
+        <!-- Jobs Navigation -->
+        <div class="gl-job-tabs-nav">
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active">
+              <a href="#fjob" aria-controls="fjob" role="tab" data-toggle="tab">Featured Job <span class="gl-job-num">(30)</span></a>
+            </li>
+
+            <li role="presentation">
+              <a href="#pjob" aria-controls="pjob" role="tab" data-toggle="tab">Popular Job <span class="gl-job-num">(20)</span></a>
+            </li>
+
+            <li role="presentation">
+              <a href="#rjob" aria-controls="rjob" role="tab" data-toggle="tab">Recent Job <span class="gl-job-num">(50)</span></a>
+            </li>
+          </ul>
+        </div>
+        <!-- End -->
+
+        <!-- Jobs Tab Body -->
+        <div class="gl-job-tab-body">
+          <div class="tab-content">
+            <!-- FEATURED JOBS TABS -->
+            <div role="tabpanel" class="tab-pane fade in active" id="fjob">
+              <div class="panel-group" id="featured-job" role="tablist" aria-multiselectable="true">
+
+                <!-- Job item -->
+                <div class="panel panel-default gl-job-list-item">
+                  <!-- Job Excerpt -->
+                  <div class="gl-job-list-item-wrapper panel-heading" role="tab" id="jobOne">
+                    <a role="button" data-toggle="collapse" data-parent="#featured-job" href="#jobOneDetails" aria-expanded="true" aria-controls="jobOneDetails">
+                      <!-- LOGO -->
+                      <div class="gl-job-company-logo gl-job-item-part">
+                        <img src="images/company-1.png" alt="Deep Purple inc" class="gl-lazy">
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB POSTION & COMPANY NAME -->
+                      <div class="gl-job-position-company gl-job-item-part">
+                        <h3>
+
+                            Product Designer
+
+                        </h3>
+
+                        <p class="gl-company-name">Deep Purple inc</p>
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB AVAILABILITY -->
+                      <div class="gl-job-availability gl-job-item-part">
+                        <span class="gl-item-status-label full-time-job">Full time</span>
+                      </div>
+                      <!-- END -->
+
+                      <!-- SALLERY -->
+                      <div class="gl-job-sallery gl-job-item-part">
+                        <!-- <i class="fa fa-money"></i>
+                        <h3>Salary :</h3>
+                        <span>$30000</span> -->
+                      </div>
+                      <!-- END -->
+
+                      <!-- AREA -->
+                      <div class="gl-job-location gl-job-item-part">
+                        <i class="ion-ios-location-outline"></i>
+                        <span>California</span>
+                      </div>
+                      <!-- END -->
+                    </a>
+                  </div>
+                  <!-- END -->
+
+                  <!-- Job Details -->
+                  <div id="jobOneDetails" class="panel-collapse collapse gl-job-list-details" role="tabpanel" aria-labelledby="jobOne">
+                    <div class="panel-body">
+                      <div class="gl-jobdetails-sec">
+                        <h3>About Job</h3>
+                        <p>
+                          On the other hand, we denounce with righteous indignation and dislike men who are so begueled and demoralized by the of pleasure so blinded by desire, that they cannot foresee the pain and trouble that are bounds to ensure blame belongs to those who fail in their weakness of will, which is the same
+                        </p>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <h3>Requirements</h3>
+
+                        <ul>
+                          <li>On the other hand, we denounce with righteous</li>
+                          <li>Pleasure of the moment, so blinded by desire, that</li>
+                          <li>Blame belongs to those who fail in their duty </li>
+                          <li>On the other hand, we denounce</li>
+                        </ul>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <a data-remodal-target="modal" class="gl-btn gl-apply-job">Apply</a>
+                        <a href="job-single.html" class="gl-btn gl-details-job">Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END -->
+                </div>
+                <!-- End -->
+
+                <!-- Job item -->
+                <div class="panel panel-default gl-job-list-item">
+                  <!-- Job Excerpt -->
+                  <div class="gl-job-list-item-wrapper panel-heading" role="tab" id="jobTwo">
+                    <a role="button" data-toggle="collapse" data-parent="#featured-job" href="#jobTwoDetails" aria-expanded="true" aria-controls="jobTwoDetails">
+                      <!-- LOGO -->
+                      <div class="gl-job-company-logo gl-job-item-part">
+                        <img src="images/company-2.png" alt="Deep Purple inc" class="gl-lazy">
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB POSTION & COMPANY NAME -->
+                      <div class="gl-job-position-company gl-job-item-part">
+                        <h3>Android Developer</h3>
+
+                        <p class="gl-company-name">Deep Purple inc</p>
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB AVAILABILITY -->
+                      <div class="gl-job-availability gl-job-item-part">
+                        <span class="gl-item-status-label part-time-job">Part time</span>
+                      </div>
+                      <!-- END -->
+
+                      <!-- SALLERY -->
+                      <div class="gl-job-sallery gl-job-item-part">
+                        <!-- <i class="fa fa-money"></i>
+                        <h3>Salary :</h3>
+                        <span>$30000</span> -->
+                      </div>
+                      <!-- END -->
+
+                      <!-- AREA -->
+                      <div class="gl-job-location gl-job-item-part">
+                        <i class="ion-ios-location-outline"></i>
+                        <span>California</span>
+                      </div>
+                      <!-- END -->
+                    </a>
+                  </div>
+                  <!-- END -->
+
+                  <!-- Job Details -->
+                  <div id="jobTwoDetails" class="panel-collapse collapse gl-job-list-details" role="tabpanel" aria-labelledby="jobTwo">
+                    <div class="panel-body">
+                      <div class="gl-jobdetails-sec">
+                        <h3>About Job</h3>
+                        <p>
+                          On the other hand, we denounce with righteous indignation and dislike men who are so begueled and demoralized by the of pleasure so blinded by desire, that they cannot foresee the pain and trouble that are bounds to ensure blame belongs to those who fail in their weakness of will, which is the same
+                        </p>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <h3>Requirements</h3>
+
+                        <ul>
+                          <li>On the other hand, we denounce with righteous</li>
+                          <li>Pleasure of the moment, so blinded by desire, that</li>
+                          <li>Blame belongs to those who fail in their duty </li>
+                          <li>On the other hand, we denounce</li>
+                        </ul>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <a data-remodal-target="modal" class="gl-btn gl-apply-job">Apply</a>
+                        <a href="job-single.html" class="gl-btn gl-details-job">Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END -->
+                </div>
+                <!-- End -->
+
+                <!-- Job item -->
+                <div class="panel panel-default gl-job-list-item">
+                  <!-- Job Excerpt -->
+                  <div class="gl-job-list-item-wrapper panel-heading" role="tab" id="jobThree">
+                    <a role="button" data-toggle="collapse" data-parent="#featured-job" href="#jobThreeDetails" aria-expanded="true" aria-controls="jobThreeDetails">
+                      <!-- LOGO -->
+                      <div class="gl-job-company-logo gl-job-item-part">
+                        <img src="images/company-3.png" alt="Deep Purple inc" class="gl-lazy">
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB POSTION & COMPANY NAME -->
+                      <div class="gl-job-position-company gl-job-item-part">
+                        <h3>Product Designer</h3>
+                        <p class="gl-company-name">Deep Purple inc</p>
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB AVAILABILITY -->
+                      <div class="gl-job-availability gl-job-item-part">
+                        <span class="gl-item-status-label full-time-job">Full time</span>
+                      </div>
+                      <!-- END -->
+
+                      <!-- SALLERY -->
+                      <div class="gl-job-sallery gl-job-item-part">
+                        <!-- <i class="fa fa-money"></i>
+                        <h3>Salary :</h3>
+                        <span>$30000</span> -->
+                      </div>
+                      <!-- END -->
+
+                      <!-- AREA -->
+                      <div class="gl-job-location gl-job-item-part">
+                        <i class="ion-ios-location-outline"></i>
+                        <span>California</span>
+                      </div>
+                      <!-- END -->
+                    </a>
+                  </div>
+                  <!-- END -->
+
+                  <!-- Job Details -->
+                  <div id="jobThreeDetails" class="panel-collapse collapse gl-job-list-details" role="tabpanel" aria-labelledby="jobThree">
+                    <div class="panel-body">
+                      <div class="gl-jobdetails-sec">
+                        <h3>About Job</h3>
+                        <p>
+                          On the other hand, we denounce with righteous indignation and dislike men who are so begueled and demoralized by the of pleasure so blinded by desire, that they cannot foresee the pain and trouble that are bounds to ensure blame belongs to those who fail in their weakness of will, which is the same
+                        </p>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <h3>Requirements</h3>
+
+                        <ul>
+                          <li>On the other hand, we denounce with righteous</li>
+                          <li>Pleasure of the moment, so blinded by desire, that</li>
+                          <li>Blame belongs to those who fail in their duty </li>
+                          <li>On the other hand, we denounce</li>
+                        </ul>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <a data-remodal-target="modal" class="gl-btn gl-apply-job">Apply</a>
+                        <a href="job-single.html" class="gl-btn gl-details-job">Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END -->
+                </div>
+                <!-- End -->
+
+                <!-- Job item -->
+                <div class="panel panel-default gl-job-list-item">
+                  <!-- Job Excerpt -->
+                  <div class="gl-job-list-item-wrapper panel-heading" role="tab" id="jobFour">
+                    <a role="button" data-toggle="collapse" data-parent="#featured-job" href="#jobFourDetails" aria-expanded="true" aria-controls="jobFourDetails">
+                      <!-- LOGO -->
+                      <div class="gl-job-company-logo gl-job-item-part">
+                        <img src="images/company-4.png" alt="Deep Purple inc" class="gl-lazy">
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB POSTION & COMPANY NAME -->
+                      <div class="gl-job-position-company gl-job-item-part">
+                        <h3>Product Designer</h3>
+                        <p class="gl-company-name">Deep Purple inc</p>
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB AVAILABILITY -->
+                      <div class="gl-job-availability gl-job-item-part">
+                        <span class="gl-item-status-label remote-job">Remote</span>
+                      </div>
+                      <!-- END -->
+
+                      <!-- SALLERY -->
+                      <div class="gl-job-sallery gl-job-item-part">
+                        <!-- <i class="fa fa-money"></i>
+                        <h3>Salary :</h3>
+                        <span>$30000</span> -->
+                      </div>
+                      <!-- END -->
+
+                      <!-- AREA -->
+                      <div class="gl-job-location gl-job-item-part">
+                        <i class="ion-ios-location-outline"></i>
+                        <span>California</span>
+                      </div>
+                      <!-- END -->
+                    </a>
+                  </div>
+                  <!-- END -->
+
+                  <!-- Job Details -->
+                  <div id="jobFourDetails" class="panel-collapse collapse gl-job-list-details" role="tabpanel" aria-labelledby="jobFour">
+                    <div class="panel-body">
+                      <div class="gl-jobdetails-sec">
+                        <h3>About Job</h3>
+                        <p>
+                          On the other hand, we denounce with righteous indignation and dislike men who are so begueled and demoralized by the of pleasure so blinded by desire, that they cannot foresee the pain and trouble that are bounds to ensure blame belongs to those who fail in their weakness of will, which is the same
+                        </p>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <h3>Requirements</h3>
+
+                        <ul>
+                          <li>On the other hand, we denounce with righteous</li>
+                          <li>Pleasure of the moment, so blinded by desire, that</li>
+                          <li>Blame belongs to those who fail in their duty </li>
+                          <li>On the other hand, we denounce</li>
+                        </ul>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <a data-remodal-target="modal" class="gl-btn gl-apply-job">Apply</a>
+                        <a href="job-single.html" class="gl-btn gl-details-job">Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END -->
+                </div>
+                <!-- End -->
+
+                <!-- Job item -->
+                <div class="panel panel-default gl-job-list-item">
+                  <!-- Job Excerpt -->
+                  <div class="gl-job-list-item-wrapper panel-heading" role="tab" id="jobFive">
+                    <a role="button" data-toggle="collapse" data-parent="#featured-job" href="#jobFiveDetails" aria-expanded="true" aria-controls="jobFiveDetails">
+                      <!-- LOGO -->
+                      <div class="gl-job-company-logo gl-job-item-part">
+                        <img src="images/company-5.png" alt="Deep Purple inc" class="gl-lazy">
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB POSTION & COMPANY NAME -->
+                      <div class="gl-job-position-company gl-job-item-part">
+                        <h3>Product Designer</h3>
+                        <p class="gl-company-name">Deep Purple inc</p>
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB AVAILABILITY -->
+                      <div class="gl-job-availability gl-job-item-part">
+                        <span class="gl-item-status-label full-time-job">Full time</span>
+                      </div>
+                      <!-- END -->
+
+                      <!-- SALLERY -->
+                      <div class="gl-job-sallery gl-job-item-part">
+                        <!-- <i class="fa fa-money"></i>
+                        <h3>Salary :</h3>
+                        <span>$30000</span> -->
+                      </div>
+                      <!-- END -->
+
+                      <!-- AREA -->
+                      <div class="gl-job-location gl-job-item-part">
+                        <i class="ion-ios-location-outline"></i>
+                        <span>California</span>
+                      </div>
+                      <!-- END -->
+                    </a>
+                  </div>
+                  <!-- END -->
+
+                  <!-- Job Details -->
+                  <div id="jobFiveDetails" class="panel-collapse collapse gl-job-list-details" role="tabpanel" aria-labelledby="jobFive">
+                    <div class="panel-body">
+                      <div class="gl-jobdetails-sec">
+                        <h3>About Job</h3>
+                        <p>
+                          On the other hand, we denounce with righteous indignation and dislike men who are so begueled and demoralized by the of pleasure so blinded by desire, that they cannot foresee the pain and trouble that are bounds to ensure blame belongs to those who fail in their weakness of will, which is the same
+                        </p>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <h3>Requirements</h3>
+
+                        <ul>
+                          <li>On the other hand, we denounce with righteous</li>
+                          <li>Pleasure of the moment, so blinded by desire, that</li>
+                          <li>Blame belongs to those who fail in their duty </li>
+                          <li>On the other hand, we denounce</li>
+                        </ul>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <a data-remodal-target="modal" class="gl-btn gl-apply-job">Apply</a>
+                        <a href="job-single.html" class="gl-btn gl-details-job">Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END -->
+                </div>
+                <!-- End -->
+
+                <!-- Job item -->
+                <div class="panel panel-default gl-job-list-item">
+                  <!-- Job Excerpt -->
+                  <div class="gl-job-list-item-wrapper panel-heading" role="tab" id="jobSix">
+                    <a role="button" data-toggle="collapse" data-parent="#featured-job" href="#jobSixDetails" aria-expanded="true" aria-controls="jobSixDetails">
+                      <!-- LOGO -->
+                      <div class="gl-job-company-logo gl-job-item-part">
+                        <img src="images/company-6.png" alt="Deep Purple inc" class="gl-lazy">
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB POSTION & COMPANY NAME -->
+                      <div class="gl-job-position-company gl-job-item-part">
+                        <h3>Product Designer</h3>
+                        <p class="gl-company-name">Deep Purple inc</p>
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB AVAILABILITY -->
+                      <div class="gl-job-availability gl-job-item-part">
+                        <span class="gl-item-status-label part-time-job">Part time</span>
+                      </div>
+                      <!-- END -->
+
+                      <!-- SALLERY -->
+                      <div class="gl-job-sallery gl-job-item-part">
+                        <!-- <i class="fa fa-money"></i>
+                        <h3>Salary :</h3>
+                        <span>$30000</span> -->
+                      </div>
+                      <!-- END -->
+
+                      <!-- AREA -->
+                      <div class="gl-job-location gl-job-item-part">
+                        <i class="ion-ios-location-outline"></i>
+                        <span>California</span>
+                      </div>
+                      <!-- END -->
+                    </a>
+                  </div>
+                  <!-- END -->
+
+                  <!-- Job Details -->
+                  <div id="jobSixDetails" class="panel-collapse collapse gl-job-list-details" role="tabpanel" aria-labelledby="jobSix">
+                    <div class="panel-body">
+                      <div class="gl-jobdetails-sec">
+                        <h3>About Job</h3>
+                        <p>
+                          On the other hand, we denounce with righteous indignation and dislike men who are so begueled and demoralized by the of pleasure so blinded by desire, that they cannot foresee the pain and trouble that are bounds to ensure blame belongs to those who fail in their weakness of will, which is the same
+                        </p>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <h3>Requirements</h3>
+
+                        <ul>
+                          <li>On the other hand, we denounce with righteous</li>
+                          <li>Pleasure of the moment, so blinded by desire, that</li>
+                          <li>Blame belongs to those who fail in their duty </li>
+                          <li>On the other hand, we denounce</li>
+                        </ul>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <a data-remodal-target="modal" class="gl-btn gl-apply-job">Apply</a>
+                        <a href="job-single.html" class="gl-btn gl-details-job">Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END -->
+                </div>
+                <!-- End -->
+              </div>
+
+              <div class="gl-more-post-wrapper">
+                <a href="#" class="gl-btn">More</a>
+              </div>
+            </div>
+            <!-- FEATURED JOBS TABS END -->
+
+            <!-- POPULAR JOBS TABS -->
+            <div role="tabpanel" class="tab-pane fade" id="pjob">
+              <div class="panel-group" id="popular-job" role="tablist" aria-multiselectable="true">
+                <!-- Job item -->
+                <div class="panel panel-default gl-job-list-item">
+                  <!-- Job Excerpt -->
+                  <div class="gl-job-list-item-wrapper panel-heading" role="tab" id="pjobOne">
+                    <a role="button" data-toggle="collapse" data-parent="#popular-job" href="#pjobOneDetails" aria-expanded="true" aria-controls="pjobOneDetails">
+                      <!-- LOGO -->
+                      <div class="gl-job-company-logo gl-job-item-part">
+                        <img src="images/company-1.png" alt="Deep Purple inc" class="gl-lazy">
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB POSTION & COMPANY NAME -->
+                      <div class="gl-job-position-company gl-job-item-part">
+                        <h3>Product Designer</h3>
+                        <p class="gl-company-name">Deep Purple inc</p>
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB AVAILABILITY -->
+                      <div class="gl-job-availability gl-job-item-part">
+                        <span class="gl-item-status-label full-time-job">Full time</span>
+                      </div>
+                      <!-- END -->
+
+                      <!-- SALLERY -->
+                      <div class="gl-job-sallery gl-job-item-part">
+                        <!-- <i class="fa fa-money"></i>
+                        <h3>Salary :</h3>
+                        <span>$30000</span> -->
+                      </div>
+                      <!-- END -->
+
+                      <!-- AREA -->
+                      <div class="gl-job-location gl-job-item-part">
+                        <i class="ion-ios-location-outline"></i>
+                        <span>California</span>
+                      </div>
+                      <!-- END -->
+                    </a>
+                  </div>
+                  <!-- END -->
+
+                  <!-- Job Details -->
+                  <div id="pjobOneDetails" class="panel-collapse collapse gl-job-list-details" role="tabpanel" aria-labelledby="pjobOne">
+                    <div class="panel-body">
+                      <div class="gl-jobdetails-sec">
+                        <h3>About Job</h3>
+                        <p>
+                          On the other hand, we denounce with righteous indignation and dislike men who are so begueled and demoralized by the of pleasure so blinded by desire, that they cannot foresee the pain and trouble that are bounds to ensure blame belongs to those who fail in their weakness of will, which is the same
+                        </p>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <h3>Requirements</h3>
+
+                        <ul>
+                          <li>On the other hand, we denounce with righteous</li>
+                          <li>Pleasure of the moment, so blinded by desire, that</li>
+                          <li>Blame belongs to those who fail in their duty </li>
+                          <li>On the other hand, we denounce</li>
+                        </ul>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <a data-remodal-target="modal" class="gl-btn gl-apply-job">Apply</a>
+                        <a href="job-single.html" class="gl-btn gl-details-job">Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END -->
+                </div>
+                <!-- End -->
+
+                <!-- Job item -->
+                <div class="panel panel-default gl-job-list-item">
+                  <!-- Job Excerpt -->
+                  <div class="gl-job-list-item-wrapper panel-heading" role="tab" id="pjobTwo">
+                    <a role="button" data-toggle="collapse" data-parent="#popular-job" href="#pjobTwoDetails" aria-expanded="true" aria-controls="pjobTwoDetails">
+                      <!-- LOGO -->
+                      <div class="gl-job-company-logo gl-job-item-part">
+                        <img src="images/company-2.png" alt="Deep Purple inc" class="gl-lazy">
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB POSTION & COMPANY NAME -->
+                      <div class="gl-job-position-company gl-job-item-part">
+                        <h3>Android Developer</h3>
+                        <p class="gl-company-name">Deep Purple inc</p>
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB AVAILABILITY -->
+                      <div class="gl-job-availability gl-job-item-part">
+                        <span class="gl-item-status-label part-time-job">Part time</span>
+                      </div>
+                      <!-- END -->
+
+                      <!-- SALLERY -->
+                      <div class="gl-job-sallery gl-job-item-part">
+                        <!-- <i class="fa fa-money"></i>
+                        <h3>Salary :</h3>
+                        <span>$30000</span> -->
+                      </div>
+                      <!-- END -->
+
+                      <!-- AREA -->
+                      <div class="gl-job-location gl-job-item-part">
+                        <i class="ion-ios-location-outline"></i>
+                        <span>California</span>
+                      </div>
+                      <!-- END -->
+                    </a>
+                  </div>
+                  <!-- END -->
+
+                  <!-- Job Details -->
+                  <div id="pjobTwoDetails" class="panel-collapse collapse gl-job-list-details" role="tabpanel" aria-labelledby="pjobTwo">
+                    <div class="panel-body">
+                      <div class="gl-jobdetails-sec">
+                        <h3>About Job</h3>
+                        <p>
+                          On the other hand, we denounce with righteous indignation and dislike men who are so begueled and demoralized by the of pleasure so blinded by desire, that they cannot foresee the pain and trouble that are bounds to ensure blame belongs to those who fail in their weakness of will, which is the same
+                        </p>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <h3>Requirements</h3>
+
+                        <ul>
+                          <li>On the other hand, we denounce with righteous</li>
+                          <li>Pleasure of the moment, so blinded by desire, that</li>
+                          <li>Blame belongs to those who fail in their duty </li>
+                          <li>On the other hand, we denounce</li>
+                        </ul>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <a data-remodal-target="modal" class="gl-btn gl-apply-job">Apply</a>
+                        <a href="job-single.html" class="gl-btn gl-details-job">Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END -->
+                </div>
+                <!-- End -->
+
+                <!-- Job item -->
+                <div class="panel panel-default gl-job-list-item">
+                  <!-- Job Excerpt -->
+                  <div class="gl-job-list-item-wrapper panel-heading" role="tab" id="pjobThree">
+                    <a role="button" data-toggle="collapse" data-parent="#popular-job" href="#pjobThreeDetails" aria-expanded="true" aria-controls="pjobThreeDetails">
+                      <!-- LOGO -->
+                      <div class="gl-job-company-logo gl-job-item-part">
+                        <img src="images/company-3.png" alt="Deep Purple inc" class="gl-lazy">
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB POSTION & COMPANY NAME -->
+                      <div class="gl-job-position-company gl-job-item-part">
+                        <h3>Product Designer</h3>
+                        <p class="gl-company-name">Deep Purple inc</p>
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB AVAILABILITY -->
+                      <div class="gl-job-availability gl-job-item-part">
+                        <span class="gl-item-status-label full-time-job">Full time</span>
+                      </div>
+                      <!-- END -->
+
+                      <!-- SALLERY -->
+                      <div class="gl-job-sallery gl-job-item-part">
+                        <!-- <i class="fa fa-money"></i>
+                        <h3>Salary :</h3>
+                        <span>$30000</span> -->
+                      </div>
+                      <!-- END -->
+
+                      <!-- AREA -->
+                      <div class="gl-job-location gl-job-item-part">
+                        <i class="ion-ios-location-outline"></i>
+                        <span>California</span>
+                      </div>
+                      <!-- END -->
+                    </a>
+                  </div>
+                  <!-- END -->
+
+                  <!-- Job Details -->
+                  <div id="pjobThreeDetails" class="panel-collapse collapse gl-job-list-details" role="tabpanel" aria-labelledby="pjobThree">
+                    <div class="panel-body">
+                      <div class="gl-jobdetails-sec">
+                        <h3>About Job</h3>
+                        <p>
+                          On the other hand, we denounce with righteous indignation and dislike men who are so begueled and demoralized by the of pleasure so blinded by desire, that they cannot foresee the pain and trouble that are bounds to ensure blame belongs to those who fail in their weakness of will, which is the same
+                        </p>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <h3>Requirements</h3>
+
+                        <ul>
+                          <li>On the other hand, we denounce with righteous</li>
+                          <li>Pleasure of the moment, so blinded by desire, that</li>
+                          <li>Blame belongs to those who fail in their duty </li>
+                          <li>On the other hand, we denounce</li>
+                        </ul>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <a data-remodal-target="modal" class="gl-btn gl-apply-job">Apply</a>
+                        <a href="job-single.html" class="gl-btn gl-details-job">Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END -->
+                </div>
+                <!-- End -->
+              </div>
+
+              <div class="gl-more-post-wrapper">
+                <a href="#" class="gl-btn">More</a>
+              </div>
+            </div>
+            <!-- POPULAR JOBS TABS END -->
+
+            <!-- RECENT JOBS TABS -->
+            <div role="tabpanel" class="tab-pane fade" id="rjob">
+              <div class="panel-group" id="recent-job" role="tablist" aria-multiselectable="true">
+                <!-- Job item -->
+                <div class="panel panel-default gl-job-list-item">
+                  <!-- Job Excerpt -->
+                  <div class="gl-job-list-item-wrapper panel-heading" role="tab" id="rjobone">
+                    <a role="button" data-toggle="collapse" data-parent="#recent-job" href="#rjobOneDetails" aria-expanded="true" aria-controls="rjobOneDetails">
+                      <!-- LOGO -->
+                      <div class="gl-job-company-logo gl-job-item-part">
+                        <img src="images/company-1.png" alt="Deep Purple inc" class="gl-lazy">
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB POSTION & COMPANY NAME -->
+                      <div class="gl-job-position-company gl-job-item-part">
+                        <h3>Product Designer</h3>
+                        <p class="gl-company-name">Deep Purple inc</p>
+                      </div>
+                      <!-- END -->
+
+                      <!-- JOB AVAILABILITY -->
+                      <div class="gl-job-availability gl-job-item-part">
+                        <span class="gl-item-status-label full-time-job">Full time</span>
+                      </div>
+                      <!-- END -->
+
+                      <!-- SALLERY -->
+                      <div class="gl-job-sallery gl-job-item-part">
+                        <!-- <i class="fa fa-money"></i>
+                        <h3>Salary :</h3>
+                        <span>$30000</span> -->
+                      </div>
+                      <!-- END -->
+
+                      <!-- AREA -->
+                      <div class="gl-job-location gl-job-item-part">
+                        <i class="ion-ios-location-outline"></i>
+                        <span>California</span>
+                      </div>
+                      <!-- END -->
+                    </a>
+                  </div>
+                  <!-- END -->
+
+                  <!-- Job Details -->
+                  <div id="rjobOneDetails" class="panel-collapse collapse gl-job-list-details" role="tabpanel" aria-labelledby="rjob">
+                    <div class="panel-body">
+                      <div class="gl-jobdetails-sec">
+                        <h3>About Job</h3>
+                        <p>
+                          On the other hand, we denounce with righteous indignation and dislike men who are so begueled and demoralized by the of pleasure so blinded by desire, that they cannot foresee the pain and trouble that are bounds to ensure blame belongs to those who fail in their weakness of will, which is the same
+                        </p>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <h3>Requirements</h3>
+
+                        <ul>
+                          <li>On the other hand, we denounce with righteous</li>
+                          <li>Pleasure of the moment, so blinded by desire, that</li>
+                          <li>Blame belongs to those who fail in their duty </li>
+                          <li>On the other hand, we denounce</li>
+                        </ul>
+                      </div>
+
+                      <div class="gl-jobdetails-sec">
+                        <a data-remodal-target="modal" class="gl-btn gl-apply-job">Apply</a>
+                        <a href="job-single.html" class="gl-btn gl-details-job">Details</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END -->
+                </div>
+                <!-- End -->
+              </div>
+            </div>
+            <!-- RECENT RESUME TABS END -->
+          </div>
+        </div>
+        <!-- End -->
+      </div>
+      <!-- END -->
+
+    </div>
+  </div>
+</section>
+<!-- AVAILABLE JOBS SECTION END -->
+
+
+<!-- TESTIMONIAL SECTION -->
+<section class="gl-custom-section gl-testimonial-section">
+  <div class="container">
+    <div class="row">
+
+      <!-- WRAPPER -->
+      <div class="gl-testimonial-wrapper">
+        <h3 class="gl-testimonial-header">Happy <span class="gl-header-bold">story</span> :)</h3>
+
+        <div class="swiper-container gl-jobs-testimonial">
+          <div class="swiper-wrapper">
+
+              <!-- Slides -->
+              <div class="swiper-slide gl-testimonial-slide">
+                <!-- TESTIMONIAL IMAGE -->
+                <div class="col-md-5 col-sm-6 col-xs-12 gl-testimonial-img">
+                  <div class="gl-testimonial-img-wrapper">
+                    <img src="images/test-img-1.png" alt="Testimonial Img" class="gl-lazy">
+                  </div>
+                </div>
+                <!-- END -->
+
+                <!-- TESTIMONIAL CONTENTS -->
+                <div class="col-md-7 col-sm-6 col-xs-12 gl-testimonial-contents">
+                  <div class="gl-testimonial-text">
+                    <p>But I must <span class="gl-color-text">explain</span> to you mistaken idea denoun pleasure and praising good.</p>
+                  </div>
+
+                  <p class="gl-testimonial-name-comp">Dave Smith <span class="gl-comp-name">Google inc</span></p>
+
+                  <div class="gl-sign-img">
+                    <img src="images/signature-1.png" alt="Signature" class="gl-lazy">
+                  </div>
+                </div>
+                <!-- END -->
+              </div>
+              <!-- END -->
+
+              <!-- Slides -->
+              <div class="swiper-slide gl-testimonial-slide">
+                <!-- TESTIMONIAL IMAGE -->
+                <div class="col-md-5 col-sm-6 col-xs-12 gl-testimonial-img">
+                  <div class="gl-testimonial-img-wrapper">
+                    <img src="images/test-img-2.png" alt="Testimonial Img" class="gl-lazy">
+                  </div>
+                </div>
+                <!-- END -->
+
+                <!-- TESTIMONIAL CONTENTS -->
+                <div class="col-md-7 col-sm-6 col-xs-12 gl-testimonial-contents">
+                  <div class="gl-testimonial-text">
+                    <p>But I must to you mistaken idea denoun pleasure and praising good.</p>
+                  </div>
+
+                  <p class="gl-testimonial-name-comp">Kate Smith <span class="gl-comp-name">Google inc</span></p>
+
+                  <div class="gl-sign-img">
+                    <img src="images/signature-1.png" alt="Signature" class="gl-lazy">
+                  </div>
+                </div>
+                <!-- END -->
+              </div>
+              <!-- END -->
+
+          </div>
+        </div>
+
+      </div>
+      <!-- END -->
+
+    </div>
+  </div>
+</section>
+<!-- TESTIMONIAL SECTION END -->
+
+
+<!-- FEATURED AREAS SECTION -->
+<section class="gl-featured-areas-section gl-section-wrapper">
+  <div class="container-fluid">
+    <div class="row">
+      <!-- SECTION HEADINGS -->
+      <div class="gl-section-headings">
+        <h1>You may like</h1>
+        <p>Checkout and enjoy the biggest unlimited possiblities</p>
+      </div>
+      <!-- END -->
+
+      <!-- FEATURED AREA WRAPPER -->
+      <div class="gl-feat-areas-wrapper">
+        <!-- FEATURED AREA -->
+        <div class="gl-feat-areas">
+            <picture>
+                <source media="(min-width: 768px)" srcset=images/area-img-2-lg.jpg>
+                <img alt="Category Image" srcset=images/area-img-2-lg.jpg>
+            </picture>
+
+          <a href="#" class="gl-img-overlay-effect">
+            <span class="gl-cat-link">Tech Business</span>
+          </a>
+        </div>
+        <!-- END -->
+
+         <!-- FEATURED AREA -->
+        <div class="gl-feat-areas">
+          <picture>
+                <source media="(min-width: 768px)" srcset=images/area-img-1-lg.jpg>
+                <img alt="Category Image" srcset=images/area-img-1-lg.jpg>
+            </picture>
+
+          <a href="#" class="gl-img-overlay-effect">
+            <span class="gl-cat-link">Freelancer</span>
+          </a>
+        </div>
+        <!-- END -->
+
+         <!-- FEATURED AREA -->
+        <div class="gl-feat-areas">
+          <picture>
+                <source media="(min-width: 768px)" srcset=images/area-img-4-lg.jpg>
+                <img alt="Category Image" srcset=images/area-img-4-lg.jpg>
+            </picture>
+
+          <a href="#" class="gl-img-overlay-effect">
+            <span class="gl-cat-link">Remote Job</span>
+          </a>
+        </div>
+        <!-- END -->
+
+         <!-- FEATURED AREA -->
+        <div class="gl-feat-areas">
+          <picture>
+                <source media="(min-width: 768px)" srcset=images/area-img-3-lg.jpg>
+                <img alt="Category Image" srcset=images/area-img-3-lg.jpg>
+            </picture>
+
+          <a href="#" class="gl-img-overlay-effect">
+            <span class="gl-cat-link">Software</span>
+          </a>
+        </div>
+        <!-- END -->
+
+         <!-- FEATURED AREA -->
+        <div class="gl-feat-areas">
+          <picture>
+                <source media="(min-width: 768px)" srcset=images/area-img-5-lg.jpg>
+                <img alt="Category Image" srcset=images/area-img-5-lg.jpg>
+            </picture>
+
+          <a href="#" class="gl-img-overlay-effect">
+            <span class="gl-cat-link">Srartup</span>
+          </a>
+        </div>
+        <!-- END -->
+
+         <!-- FEATURED AREA -->
+        <div class="gl-feat-areas">
+          <picture>
+                <source media="(min-width: 768px)" srcset=images/area-img-6-lg.jpg>
+                <img alt="Category Image" srcset=images/area-img-6-lg.jpg>
+            </picture>
+
+          <a href="#" class="gl-img-overlay-effect">
+            <span class="gl-cat-link">Service Provider</span>
+          </a>
+        </div>
+        <!-- END -->
+
+         <!-- FEATURED AREA -->
+        <div class="gl-feat-areas">
+          <picture>
+                <source media="(min-width: 768px)" srcset=images/area-img-7-lg.jpg>
+                <img alt="Category Image" srcset=images/area-img-7-lg.jpg>
+            </picture>
+
+          <a href="#" class="gl-img-overlay-effect">
+            <span class="gl-cat-link">Entrepreneur</span>
+          </a>
+        </div>
+        <!-- END -->
+
+         <!-- FEATURED AREA -->
+        <div class="gl-feat-areas">
+          <picture>
+                <source media="(min-width: 768px)" srcset=images/area-img-8-lg.jpg>
+                <img alt="Category Image" srcset=images/area-img-8-lg.jpg>
+            </picture>
+
+          <a href="#" class="gl-img-overlay-effect">
+            <span class="gl-cat-link">Remote Job</span>
+          </a>
+        </div>
+        <!-- END -->
+      </div>
+      <!-- END -->
+    </div>
+  </div>
+</section>
+<!-- FEATURED AREAS SECTION END -->
+
+
+<!-- CTA -->
+<section class="gl-cta-section gl-cta-parallax">
+  <div class="container">
+    <div class="row">
+      <div class="gl-cta-content-wrapper">
+        <p> Get best glimpse app for mobile and other small <span class="gl-bold-font">devices</span> from playstore </p>
+        <ul>
+          <li>
+            <a href="#" class="gl-google-play-btn"></a>
+          </li>
+          <li>
+            <a href="#" class="gl-app-store-btn"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- CTA END -->
+
+
+<!-- FOOTER -->
+<footer>
+  <!-- FOOTER TOP -->
+  <div class="gl-footer-top-wrapper">
+    <div class="container">
+      <div class="row">
+        <!-- FOOTER WIDGET -->
+        <div class="gl-footer-widget gl-footer-logo gl-footer-fixed-widget">
+          <a href="#">
+            <img src="images/logo-footer.png" alt="Glimpse">
+          </a>
+        </div>
+        <!-- END -->
+
+        <!-- FOOTER WIDGET -->
+        <div class="gl-footer-widget gl-contact-info">
+          <h3 class="gl-footer-widget-title">Contact info</h3>
+
+          <div class="gl-footer-widget-content">
+            <ul>
+              <li><i class="fa fa-map-marker"></i>Road 3, West side lane Texas,  USA</li>
+              <li><i class="fa fa-phone"></i>0632 0152 001</li>
+              <li><i class="fa fa-envelope-o"></i>mail@gmail.com</li>
+              <li><i class="fa fa-globe"></i>www.glimpse.com</li>
+            </ul>
+          </div>
+        </div>
+        <!-- END -->
+
+        <!-- FOOTER WIDGET -->
+        <div class="gl-footer-widget gl-useful-links">
+          <h3 class="gl-footer-widget-title">Company</h3>
+
+          <div class="gl-footer-widget-content">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Career &amp; Goal</a></li>
+              <li><a href="#">Company Profile</a></li>
+              <li><a href="#">Process</a></li>
+              <li><a href="#">Account</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- END -->
+
+        <!-- FOOTER WIDGET -->
+        <div class="gl-footer-widget gl-subscribe-widget">
+          <h3 class="gl-footer-widget-title">Subscribe</h3>
+
+          <div class="gl-footer-widget-content">
+          <p>Checkout and enjoy the biggest eco</p>
+
+          <form action="#">
+            <input type="email" name="gl-subscription" id="gl-subscription" placeholder="Your email">
+            <button type="submit" class="gl-btn">Submit</button>
+          </form>
+          </div>
+        </div>
+        <!-- END -->
+      </div>
+    </div>
+  </div>
+  <!-- END -->
+
+  <!-- FOOTER BOTTOM -->
+  <div class="gl-footer-bottom-wrapper">
+    <div class="container">
+      <div class="row">
+        <!-- COPYRIGHT INFO -->
+        <div class="gl-copyright-info-wrapper">
+          <p>Copyright &copy; 2016 Glimpse. All rights reserved</p>
+        </div>
+        <!-- COPYRIGHT INFO -->
+
+        <div class="gl-social-info-wrapper">
+          <ul>
+            <li>
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fa fa-behance"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fa fa-dribbble"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="fa fa-vimeo"></i>
+                </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END -->
+</footer>
+<!-- FOOTER END -->
+
+
+<!-- APPLY MODAL -->
+<div class="remodal-bg">
+    <div class="gl-modal-wrapper" data-remodal-id="modal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <h3 class="gl-modal-title">Personal Info</h3>
+
+        <div class="gl-modal-form-wrapper">
+            <form action="#">
+                <fieldset>
+                    <p class="gl-input-label">Name</p>
+                    <input type="text" name="gl-applicant-name" id="gl-applicant-name" placeholder="Full Name">
+                </fieldset>
+
+                <fieldset>
+                    <p class="gl-input-label">Email</p>
+                    <input type="text" name="gl-applicant-email" id="gl-applicant-email" placeholder="Email">
+                </fieldset>
+
+                <fieldset>
+                    <p class="gl-input-label">Address</p>
+                    <input type="text" name="gl-applicant-address" id="gl-applicant-address" placeholder="Address">
+                </fieldset>
+
+                 <fieldset>
+                    <p class="gl-input-label">Cover Letter</p>
+                    <textarea name="gl-applicant-letter" id="gl-applicant-letter" cols="30" rows="7" placeholder="Cover Letter"></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <p class="gl-input-label">Upload</p>
+
+                    <input type="file" name="gl-applicant-resume" id="gl-applicant-resume">
+                    <label for="gl-applicant-resume">upload</label>
+
+                    <span class="gl-extra-info">we allow only .doc and .pdf file</span>
+                </fieldset>
+
+                <fieldset>
+                    <p class="gl-input-label">Your Name</p>
+                    <input type="text" name="gl-applicant-yname" id="gl-applicant-yname" placeholder="Your Name">
+                </fieldset>
+
+                <fieldset class="gl-apply-btns-wrapper">
+                    <button class="gl-apply-btn gl-btn" type="submit">Apply</button>
+                    <button class="gl-apply-linkedin-btn gl-btn">Apply from Linkedin</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- APPLY MODAL END -->
+
+
+
+<script src="../js/jquery.min.js"></script>
+
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyBF0FPDHlurGkDKua7PfZjpD2fr2rQsRw0&amp;libraries=places"></script>
+
+<script src="../js/plugins.js"></script>
+<script src="../js/scripts.js"></script>
+
+<script src="../js/google-autocomplete.js"></script>
+
+<script src="../js/main.js"></script>
+</body>
+
+<!-- Mirrored from redq.io/sites/glimpse/jobs/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Apr 2017 06:30:17 GMT -->
+</html>

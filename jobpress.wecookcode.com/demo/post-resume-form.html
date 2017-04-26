@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<!-- Mirrored from jobpress.wecookcode.com/demo/post-resume-form.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Apr 2017 07:21:30 GMT -->
+<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>JobPress HTML template</title>
+
+		<!-- CSS -->
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Ionicons -->
+		<link href="fonts/ionicons/css/ionicons.min.css" rel="stylesheet">
+		<!-- Owl Carousel -->
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<link href="css/owl.theme.default.css" rel="stylesheet">
+		<!-- Animate.css -->
+		<link href="css/animate.min.css" rel="stylesheet">
+		<!--Magnific Popup -->
+		<link href="css/magnific-popup.css" rel="stylesheet">
+		<!--Tagsinput CSS -->
+		<link href="css/tagsinput.css" rel="stylesheet">		
+		<!-- Style.css -->
+		<link href="css/style.css" rel="stylesheet">
+
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header class="header">
+			<div class="container clearfix">
+				<div class="header-inner flex space-between items-center">
+					<div class="left">
+						<div class="logo"><a href="index.html"><img src="images/logo.png" alt="JobPress" class="img-responsive"></a></div>	
+					</div> <!-- end .left -->				
+					<div class="right flex space-between no-column items-center">
+						<div class="navigation">
+							<nav class="main-nav">
+								<ul class="list-unstyled">
+									<li class="active"><a href="index.html">Home</a></li>
+									<li><a href="about.html">About</a></li>
+									<li class="menu-item-has-children">
+										<a href="candidates-listing.html">Candidates</a>
+										<ul>
+											<li><a href="candidates-listing.html">Browse Candidates</a></li>
+											<li><a href="companies-listing.html">Browse Companies</a></li>
+											<li><a href="jobs-listing.html">Jobs Listing</a></li>
+											<li><a href="job-details.html">Job Details</a></li>
+											<li><a href="categories.html">Job Categories</a></li>
+											<li><a href="post-resume-form.html">Post a Resume</a></li>
+											<li><a href="candidate-dashboard.html">Candidate Dashboard</a></li>
+										</ul>									
+									</li>
+									<li class="menu-item-has-children">
+										<a href="companies-listing.html">Companies</a>
+										<ul>
+											<li><a href="companies-listing.html">Browse Companies</a></li>
+											<li><a href="post-job-form.html">Post a job</a></li>
+											<li><a href="employer-dashboard.html">Employer Dashboard</a></li>
+										</ul>
+									</li>								
+									<li class="menu-item-has-children">
+										<a href="blog-standard.html">Blog</a>
+										<ul>
+											<li><a href="blog-standard.html">Blog Standard</a></li>
+											<li><a href="blog-grid-full-width.html">Blog Grid Full Width</a></li>
+											<li><a href="blog-masonry-full-width.html">Blog Masonry Full Width</a></li>
+											<li><a href="blog-list.html">Blog List</a></li>
+											<li><a href="blog-single-fullwidth-image.html">Blog Single Image</a></li>
+											<li><a href="blog-single-fullwidth-video.html">Blog Single Video</a></li>
+											<li><a href="blog-single-width-sidebar.html">Blog Single Sidebar</a></li>
+										</ul>
+									</li>
+									<li class="menu-item-has-children">
+										<a href="#0">Pages</a>
+										<ul>
+											<li><a href="help.html">Help Tabs</a></li>
+											<li><a href="contact-us-full-width.html">Contact Us</a></li>
+											<li><a href="pricing-plans.html">Pricing plans</a></li>
+										</ul>
+									</li>
+								</ul>
+							</nav> <!-- end .main-nav -->
+							<a href="#" class="responsive-menu-open"><i class="ion-navicon"></i></a>
+						</div> <!-- end .navigation -->
+						<div class="button-group-merged flex no-column">
+							<a href="post-job-form.html" class="button">Post a Job</a>
+							<a href="#register" class="button" data-toggle="modal" data-target=".bs-modal-sm">Sign Up</a>
+						</div> <!-- end .button-group-merged -->
+					</div> <!-- end .right -->
+				</div> <!-- end .header-inner -->
+			</div> <!-- end .container -->
+		</header> <!-- end .header -->
+		
+		<!-- Responsive Menu -->
+		<div class="responsive-menu">
+			<a href="#" class="responsive-menu-close"><i class="ion-android-close"></i></a>
+			<nav class="responsive-nav"></nav> <!-- end .responsive-nav -->
+		</div> <!-- end .responsive-menu -->
+		
+		<!-- Login/Signup Popup -->
+	    <div class="modal fade bs-modal-sm" aria-hidden="true" aria-labelledby="myTabContent"  id="login-signup-popup" role="dialog" tabindex="-1">
+	        <div class="modal-dialog modal-sm login-signup-modal">
+	            <div class="modal-content">
+	                <div class="popup-tabs">
+	                    <ul class="nav nav-tabs" id="myTab">
+	                        <li class=""><a data-toggle="tab" href="#login">login</a></li>
+	                        <li class="active"><a data-toggle="tab" href="#register">Register</a></li>
+	                    </ul>
+	                </div> <!-- end .popup-tabs -->
+	                <div class="modal-body">
+	                    <div class="tab-content" id="myTabContent">
+	                        <div class="tab-pane fade active in" id="login">
+	                            <form class="login-form">
+
+									<div class="form-group">
+									    <label for="InputEmail1">Your Email *</label>
+									    <input type="email" class="form-control" id="InputEmail1" placeholder="Enter your email">
+									</div>
+
+									<div class="form-group">
+									    <label for="InputPassword1">Password *</label>
+									    <input type="password" class="form-control" id="InputPassword1" placeholder="Password">
+									</div>
+
+									<div class="checkbox flex space-between">
+										<div>
+											<input id="sigin-checkbox" type="checkbox">
+											<label for="sigin-checkbox">Remember me</label>
+										</div>
+									    <a href="#0">Lost password?</a>
+									</div> <!-- end .checkbox -->
+
+									<button type="button" class="button" data-dismiss="modal">Login</button>
+									
+									<p class="text-center divider-text small"><span>or login using</span></p>
+									
+									<div class="social-buttons">
+										<ul class="list-unstyled flex space-between">
+											<li class="twitter-btn"><a href="#0"><i class="ion-social-twitter"></i></a></li>
+											<li class="fb-btn"><a href="#0"><i class="ion-social-facebook"></i></a></li>
+											<li class="g-plus-btn"><a href="#0"><i class="ion-social-googleplus"></i></a></li>
+										</ul>
+									</div> <!-- end .social-buttons -->
+
+	                            </form> <!-- end .login-form -->
+	                        </div> <!-- end login-tab-content -->
+
+	                        <div class="tab-pane fade" id="register">
+	                            <form class="signup-form">
+									<div class="form-group">
+									    <label for="InputEmail1">Your Email *</label>
+									    <input type="email" class="form-control" id="InputEmail2" placeholder="Enter your email">
+									</div>
+
+									<div class="form-group">
+									    <label for="InputPassword1">Password *</label>
+									    <input type="password" class="form-control" id="InputPassword2" placeholder="Password">
+									</div>
+
+									<div class="form-group">
+									    <label for="InputPassword2">Confirm Password *</label>
+									    <input type="password" class="form-control" id="InputPassword3" placeholder="Password">
+									</div>
+
+									<div class="form-group">
+									    <label for="select1">Register as:</label>
+									    <div class="select-wrapper">
+									        <select class="form-control" id="select1">
+										        <option>Candidate</option>
+										        <option>Company</option>
+										    </select>
+									    </div> <!-- end .select-wrapper -->								    
+									</div>
+
+									<div class="checkbox">
+										<input id="signup-checkbox" type="checkbox">
+										<label for="signup-checkbox">I agree with the Terms of Use</label>
+									</div> <!-- end .checkbox -->
+
+									<button type="button" class="button" data-dismiss="modal">Sign Up</button>
+									
+									<p class="text-center divider-text small"><span>or login using</span></p>
+									
+									<div class="social-buttons">
+										<ul class="list-unstyled flex space-between">
+											<li class="twitter-btn"><a href="#0"><i class="ion-social-twitter"></i></a></li>
+											<li class="fb-btn"><a href="#0"><i class="ion-social-facebook"></i></a></li>
+											<li class="g-plus-btn"><a href="#0"><i class="ion-social-googleplus"></i></a></li>
+										</ul>
+									</div> <!-- end .social-buttons -->
+
+	                            </form> <!-- end .signup-form -->
+	                        </div> <!-- end signup-tab-content -->
+	                    </div> <!-- end .mytabcontent -->
+	                </div> <!-- end .modal-body -->
+	            </div> <!-- end .modal-content -->
+	        </div> <!-- end .modal-dialog -->
+	    </div> <!-- end .modal -->
+
+		<!-- Post resume Section -->
+		<div class="section post-resume-form-section solid-light-grey-bg">
+			<div class="inner">
+				<div class="container">
+					<!-- multistep form -->
+					<form action="#" method="post" id="post-resume-form" class="post-resume-form multisteps-form">
+					  	<fieldset>
+						  	<h2 class="form-title text-center dark">Post Resume</h2>
+						    <h3 class="step-title text-center dark">Step 1: Gernal Information</h2>							
+
+							<ul class="steps-progress-bar flex space-between items-center no-column no-wrap list-unstyled">
+								<li><span>1</span></li>
+								<li><span>2</span></li>
+								<li><span>3</span></li>								
+							</ul> <!-- end .steps-progress-bar -->
+
+					    	<div class="form-inner">
+					    		<h6>Already have an account? <a href="#0">Click here to login</a></h6>	
+
+								<div class="divider"></div>
+
+								<div class="form-fields-wrapper">
+									<h4 class="form-fields-title dark">Contact info</h4>
+									<div class="form-group-wrapper flex space-between items-center">
+										<div class="form-group">
+											<p class="label">First name</p>
+											<input type="text" id="candidate-first-name" name="candidate-first-name" placeholder="">
+										</div> <!-- end .form-group -->
+										<div class="form-group">
+											<p class="label">Last name</p>
+											<input type="text" id="candidate-last-name" name="candidate-last-name" placeholder="">
+										</div> <!-- end .form-group -->
+									</div> <!-- end .form-group-wrapper -->									
+
+									<div class="form-group-wrapper flex space-between items-center">
+										<div class="form-group">
+											<p class="label">Date of birth</p>
+											<input type="text" id="candidate-birthdate" name="candidate-birthdate" placeholder="">
+										</div> <!-- end .form-group -->
+										<div class="form-group">
+											<p class="label">Address<sup>*</sup></p>
+											<input type="text" id="candidate-address" name="candidate-address" placeholder="">
+										</div> <!-- end .form-group -->
+									</div> <!-- end .form-group-wrapper -->
+
+									<div class="form-group-wrapper flex space-between items-center">
+										<div class="form-group">
+											<p class="label">Phone number</p>
+											<input type="text" id="candidate-phone-number" name="candidate-phone-number" placeholder="">
+										</div> <!-- end .form-group -->
+										<div class="form-group">
+											<p class="label">Email</p>
+											<input type="email" id="candidate-email" name="candidate-email" placeholder="">
+										</div> <!-- end .form-group -->
+									</div> <!-- end .form-group-wrapper -->
+
+								</div> <!-- end .form-fields-wrapper -->
+
+				                <div class="divider"></div>
+
+								<div class="form-fields-wrapper">
+									<h4 class="form-fields-title dark">General info</h4>
+									<div class="form-group-wrapper flex space-between items-center">
+										<div class="form-group">
+											<p class="label">Position</p>
+											<input type="text" id="candidate-position" name="candidate-position" placeholder="">
+										</div> <!-- end .form-group -->
+										<div class="form-group">
+											<p class="label">Language</p>
+											<input type="text" id="candidate-language" name="candidate-language" placeholder="">
+										</div> <!-- end .form-group -->
+									</div> <!-- end .form-group-wrapper -->									
+
+									<div class="form-group-wrapper flex space-between items-center">
+										<div class="form-group">
+											<p class="label">Years of experience</p>
+											<input type="text" id="candidate-experience" name="candidate-experience" placeholder="">
+										</div> <!-- end .form-group -->
+										<div class="form-group">
+											<p class="label">Highest degree level</p>
+											<input type="text" id="candidate-degree" name="candidate-degree" placeholder="">
+										</div> <!-- end .form-group -->
+									</div> <!-- end .form-group-wrapper -->
+
+									<div class="form-group-wrapper flex space-between items-center">
+										<div class="form-group">
+											<p class="label">Expected job type</p>
+											<input type="text" id="candidate-job-type" name="candidate-job-type" placeholder="">
+										</div> <!-- end .form-group -->
+										<div class="form-group">
+											<p class="label">Expected job location</p>
+											<input type="text" id="candidate-job-location" name="candidate-job-location" placeholder="">
+										</div> <!-- end .form-group -->
+									</div> <!-- end .form-group-wrapper -->
+
+									<div class="form-group-wrapper">
+										<div class="form-group">
+											<p class="label">Introduce about yoursell<span>(optional)</span></p>
+											<textarea name="candidate-desc" id="candidate-desc" rows="6"></textarea>
+										</div> <!-- end .form-group -->
+									</div> <!-- end .form-group-wrapper -->
+
+								</div> <!-- end .form-fields-wrapper -->
+					    		
+					    		<div class="button-wrapper text-center">
+					    			<button type="button" class="button next">Go to step 2</button>
+					    		</div> <!-- end .button-wrapper -->			    		
+
+					    	</div> <!-- end .form-inner -->							
+					 	</fieldset>
+
+					  	<fieldset>
+						  	<h2 class="form-title text-center dark">Post Resume</h2>
+						    <h3 class="step-title text-center dark">Step 2: Resume detail information</h2>
+
+							<ul class="steps-progress-bar flex space-between items-center no-column no-wrap list-unstyled">
+								<li class="active"><span><i class="ion-ios-checkmark-empty"></i></span></li>
+								<li class="sub-active"><span>2</span></li>
+								<li><span>3</span></li>
+							</ul> <!-- end .steps-progress-bar -->
+
+					    	<div class="form-inner">
+
+								<div class="form-fields-wrapper">
+									<h4 class="form-fields-title dark">Education</h4>
+									<div id="clonedInput" class="form-fields-inner clonedInput">
+
+										<div class="form-group-wrapper flex space-between items-center">
+											<div class="form-group">
+												<p class="label">School<sup>*</sup></p>
+												<input type="text" id="candidate-school" name="candidate-school" placeholder="">
+											</div> <!-- end .form-group -->
+
+											<div class="form-group">
+												<p class="label">Field of study</p>
+												<input type="text" id="candidate-study-field" name="candidate-study-field" placeholder="">
+											</div> <!-- end .form-group -->
+										</div> <!-- end .form-group-wrapper -->
+
+										<div class="form-group-wrapper has-nested flex space-between items-center">
+											<div class="form-group-wrapper flex space-between items-center no-column no-wrap">
+												<div class="form-group">
+													<p class="label">From</p>
+													<input type="text" id="candidate-degree-from" name="candidate-degree-from" placeholder="">
+												</div> <!-- end .form-group -->
+												<div class="form-group">
+													<p class="label">To</p>
+													<input type="text" id="candidate-degree-to" name="candidate-degree-to" placeholder="">
+												</div> <!-- end .form-group -->
+											</div> <!-- end .form-group-wrapper -->
+											<div class="form-group">
+												<p class="label">Degree</p>
+												<input type="text" id="candidate-edu-degree" name="candidate-edu-degree" placeholder="">
+											</div> <!-- end .form-group -->
+										</div> <!-- end .form-group-wrapper -->
+
+										<div class="form-group-wrapper ">
+											<div class="form-group">
+												<p class="label">Activities &amp; societies<span>(Example: Alpha phi omega, debate team)</span></p>
+												<input type="text" id="candidate-activites" name="candidate-activites" placeholder="">
+											</div> <!-- end .form-group -->
+										</div> <!-- end .form-group-wrapper -->
+
+										<div class="form-group-wrapper">
+											<div class="form-group">
+												<p class="label">Description</p>
+												<textarea name="candidate-edu-desc" id="candidate-edu-desc" rows="3" placeholder=""></textarea>
+											</div> <!-- end .form-group -->
+										</div> <!-- end .form-group-wrapper -->
+
+									</div><!-- </div> end .form-fields-inner -->
+
+								    <div class="button-wrapper dynamic-buttons flex space-between items-center no-column no-wrap">
+								        <button class="clone"><span><i class="ion-ios-plus"></i></span>Add new education</button> 
+								        <button class="remove"><span><i class="ion-ios-trash-outline"></i></span>Delete this</button>
+								    </div> <!-- end .button-wrapper -->
+
+								</div> <!-- end .form-fields-wrapper -->
+
+								<div class="divider"></div>
+
+								<div class="form-fields-wrapper">
+									<h4 class="form-fields-title dark">Experience</h4>
+									<div id="clonedInput" class="form-fields-inner clonedInput">
+
+										<div class="form-group-wrapper flex space-between items-center">
+											<div class="form-group">
+												<p class="label">Company name<sup>*</sup></p>
+												<input type="text" id="candidate-prev-company" name="candidate-prev-company" placeholder="">
+											</div> <!-- end .form-group -->
+
+											<div class="form-group">
+												<p class="label">title</p>
+												<input type="text" id="candidate-prev-job-title" name="candidate-prev-job-title" placeholder="">
+											</div> <!-- end .form-group -->
+										</div> <!-- end .form-group-wrapper -->
+
+										<div class="form-group-wrapper">
+											<div class="form-group">
+												<p class="label">Location</p>
+												<input type="text" id="candidate-prev-company-location" name="candidate-prev-company-location" placeholder="">
+											</div> <!-- end .form-group -->
+										</div> <!-- end .form-group-wrapper -->
+
+										<div class="form-group-wrapper has-nested flex space-between items-center">
+											<div class="form-group-wrapper flex space-between items-center no-column no-wrap">
+												<div class="form-group">
+													<p class="label">From</p>
+													<input type="number" id="candidate-prev-company-from" name="candidate-prev-company-from" placeholder="">
+												</div> <!-- end .form-group -->
+												<div class="form-group">
+													<p class="label">To</p>
+													<input type="number" id="candidate-prev-company-to" name="candidate-prev-company-to" placeholder="">
+												</div> <!-- end .form-group -->
+											</div> <!-- end .form-group-wrapper -->
+											<div class="form-group checkbox">
+												<input id="candidate-company-checkbox" type="checkbox">												
+						                        <label for="candidate-company-checkbox">I currently work here</label>
+											</div> <!-- end .form-group -->
+										</div> <!-- end .form-group-wrapper -->
+
+										<div class="form-group-wrapper">
+											<div class="form-group">
+												<p class="label">Description</p>
+												<textarea name="candidate-exp-desc" id="candidate-exp-desc" rows="3" placeholder=""></textarea>
+											</div> <!-- end .form-group -->
+										</div> <!-- end .form-group-wrapper -->
+
+									</div><!-- </div> end .form-fields-inner -->
+
+								    <div class="button-wrapper dynamic-buttons flex space-between items-center no-column no-wrap">
+								        <button class="clone"><span><i class="ion-ios-plus"></i></span>Add new experience</button> 
+								        <button class="remove"><span><i class="ion-ios-trash-outline"></i></span>Delete this</button>
+								    </div> <!-- end .button-wrapper -->
+
+								</div> <!-- end .form-fields-wrapper -->
+
+								<div class="divider"></div>
+
+								<div class="form-fields-wrapper">
+									<h4 class="form-fields-title dark">Skills</h4>
+									<div id="clonedInput" class="form-fields-inner clonedInput">
+
+										<div class="form-group-wrapper skills-field flex space-between items-center no-column no-wrap">	
+												
+											<div class="form-group">
+												<p class="label">Skill name</p>
+												<input type="text" id="candidate-skill" name="candidate-skill" placeholder="">
+											</div> <!-- end .form-group -->											
+										
+											<div class="form-group">
+												<p class="label">X<span>(1-100)</span></p>
+												<input type="text" id="candidate-skill-x" name="candidate-skill-x" placeholder="">
+											</div> <!-- end .form-group -->
+
+										</div> <!-- end .form-group-wrapper -->
+
+									</div><!-- </div> end .form-fields-inner -->
+
+								    <div class="button-wrapper dynamic-buttons flex space-between items-center no-column no-wrap">
+								        <button class="clone"><span><i class="ion-ios-plus"></i></span>Add new skill</button> 
+								        <button class="remove"><span><i class="ion-ios-trash-outline"></i></span>Delete this</button>
+								    </div> <!-- end .button-wrapper -->
+
+								</div> <!-- end .form-fields-wrapper -->
+
+								<div class="divider"></div>
+					    		
+					    		<div class="button-wrapper text-center">
+					    			<button type="button" class="button previous">Back</button>
+					    			<button type="button" class="button next">Go to step 3</button>
+					    		</div> <!-- end .button-wrapper -->			    		
+
+					    	</div> <!-- end .form-inner -->							
+					 	</fieldset>
+
+					 	<fieldset>
+						  	<h2 class="form-title text-center dark">Post Resume</h2>
+						    <h3 class="step-title text-center dark">Step 3: Review resume</h2>
+
+							<ul class="steps-progress-bar flex space-between items-center no-column no-wrap list-unstyled">
+								<li class="active"><span><i class="ion-ios-checkmark-empty"></i></span></li>
+								<li class="active"><span><i class="ion-ios-checkmark-empty"></i></li>
+								<li class="active"><span>3</span></li>
+							</ul> <!-- end .steps-progress-bar -->
+
+					 		<div class="form-inner">
+						    	<div class="profile-badge"><h6>My resume</h6></div>
+						        <div class="profile-wrapper">
+
+									<div class="profile-info profile-section flex no-column no-wrap">
+										<div class="profile-picture">
+											<img src="images/candidate-big01.jpg" alt="candidate-picture" class="img-responsive">
+										</div> <!-- end .user-picture -->
+										<div class="profile-meta">
+											<h4 class="dark">Mark anderson</h4>
+											<p>UI/UX Designer</p>
+											<div class="profile-contact flex items-center no-wrap no-column">
+												<h6 class="contact-location">Manhattan,<span>NYC, USA</span></h6>
+												<h6 class="contact-phone">(+01)-212-322-5732</h6>
+												<h6 class="contact-email">mark.anderson@gmail.com</h6>
+											</div> <!-- end .profile-contact -->
+											<ul class="list-unstyled social-icons flex no-column">
+												<li><a href="#0"><i class="ion-social-twitter"></i></a></li>
+												<li><a href="#0"><i class="ion-social-facebook"></i></a></li>
+												<li><a href="#0"><i class="ion-social-instagram"></i></a></li>
+											</ul> <!-- end .social-icons -->
+										</div> <!-- end .profile-meta -->
+									</div> <!-- end .profile-info -->
+
+									<div class="divider"></div>
+
+									<div class="profile-about profile-section">
+										<h3 class="dark profile-title">About me<span><i class="ion-edit"></i></span></h3>
+										<p>Nullam semper erat arcu, ac tincidunt sem venenatis vel. Curabitur at dolor ac ligula fermentum euismod ac ullamcorper nulla. Integer blandit ultricies aliquam. Pellentesque quis dui varius, dapibus velit id, iaculis ipsum. Morbi ac eros feugiat, lacinia elit ut, elementum turpis. Curabitur justo sapien, tempus sit amet rutrum eu, commodo eu lacus. Morbi in ligula nibh. Maecenas ut mi at odio hendrerit eleif end tempor vitae augue. Fusce eget arcu et nibh dapibus maximus consectetur in est. Sed iaculis luctus nibh sed venenatis.</p>
+									</div> <!-- end .profile-about -->
+
+									<div class="divider"></div>
+
+									<div class="profile-experience-wrapper profile-section">
+										<h3 class="dark profile-title">Work experience<span><i class="ion-edit"></i></span></h3>
+										<div class="profile-experience flex space-between no-wrap no-column">
+											<div class="profile-experience-left">
+												<h5 class="profile-designation dark">UI/UX designer</h5>
+												<h5 class="profile-company dark">Banana inc.</h5>
+												<p class="small ultra-light">May 2015 - Present (1.5 years)</p>
+												<p>Nulla molestie sed lorem non suscipit. Morbi imperdiet ex sit amet tortor faucibus ultricies. Fusce tincidunt elementum imperdiet.</p>
+												<h6 class="projects-count">4 projects</h6>
+											</div> <!-- end .profile-experience-left -->
+											<div class="profile-experience-right">
+												<img src="images/company-logo-big01.jpg" alt="company-logo" class="img-responsive">
+											</div> <!-- end .profile-experience-right -->
+										</div> <!-- end .profile-experience -->
+										<div class="spacer-md"></div>
+										<div class="profile-experience flex space-between no-wrap no-column">
+											<div class="profile-experience-left">
+												<h5 class="profile-designation dark">UI Designer</h5>
+												<h5 class="profile-company dark">Whale creative</h5>
+												<p class="small ultra-light">May 2013 - May 2015 (over 2 years)</p>
+												<p>Nulla molestie sed lorem non suscipit. Morbi imperdiet ex sit amet tortor faucibus ultricies. Fusce tincidunt elementum imperdiet.</p>
+												<h6 class="projects-count">4 projects</h6>
+											</div> <!-- end .profile-experience-left -->
+											<div class="profile-experience-right">
+												<img src="images/company-logo-big05.jpg" alt="company-logo" class="img-responsive">
+											</div> <!-- end .profile-experience-right -->
+										</div> <!-- end .profile-experience -->
+									</div> <!-- end .profile-experience-wrapper -->
+
+									<div class="divider"></div>
+
+									<div class="profile-education-wrapper profile-section">
+										<h3 class="dark profile-title">Education<span><i class="ion-edit"></i></span></h4>											
+										<div class="profile-education">												
+											<h5 class="dark">Massachusetts Institute of Technology</h5>
+											<p>Bachelor of Computer Science</p>
+											<p class="ultra-light">2010-2014</p>
+										</div> <!-- end .profile-education -->
+										<div class="spacer-md"></div>											
+										<div class="profile-education">												
+											<h5 class="dark">School of Arts & Sciences of Stanford University</h5>
+											<p>Bachelor of Arts & Sciences</p>
+											<p class="ultra-light">2008-2012</p>
+										</div> <!-- end .profile-education -->
+									</div> <!-- end .profile-education-wrapper -->
+
+									<div class="divider"></div>
+
+									<div class="profile-skills-wrapper profile-section">
+										<h3 class="dark profile-title">Summary skill<span><i class="ion-edit"></i></span></h3>
+										<div class="progress-wrapper flex space-between items-center no-wrap">
+											<h6 class="progress-skill">HTML</h6>											
+											<div class="progress">													
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+												</div> <!-- end .progress-bar -->
+											</div> <!-- end .progress -->
+											<h6 class="percentage"><span class="countTo" data-from="0" data-to="90">90</span>%</h6>
+										</div> <!-- end .progress-wrapper -->
+										<div class="spacer-xs"></div>
+										<div class="progress-wrapper flex space-between items-center no-wrap">
+											<h6 class="progress-skill">WordPress</h6>											
+											<div class="progress">													
+												<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+												</div> <!-- end .progress-bar -->
+											</div> <!-- end .progress -->
+											<h6 class="percentage"><span class="countTo" data-from="0" data-to="80">80</span>%</h6>
+										</div> <!-- end .progress-wrapper -->
+										<div class="spacer-xs"></div>
+										<div class="progress-wrapper flex space-between items-center no-wrap">
+											<h6 class="progress-skill">PS</h6>											
+											<div class="progress">													
+												<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+												</div> <!-- end .progress-bar -->
+											</div> <!-- end .progress -->
+											<h6 class="percentage"><span class="countTo" data-from="0" data-to="60">60</span>%</h6>
+										</div> <!-- end .progress-wrapper -->
+										<div class="spacer-xs"></div>
+										<div class="progress-wrapper flex space-between items-center no-wrap">
+											<h6 class="progress-skill">AI</h6>											
+											<div class="progress">													
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+												</div> <!-- end .progress-bar -->
+											</div> <!-- end .progress -->
+											<h6 class="percentage"><span class="countTo" data-from="0" data-to="90">90</span>%</h6>
+										</div> <!-- end .progress-wrapper -->
+									</div> <!-- end .profile-skills-wrapper -->
+
+						        </div> <!-- end .profile-wrapper -->
+
+								<div class="divider"></div>
+
+					    		<div class="button-wrapper text-center">
+					    			<button type="button" class="button previous">Back</button>
+					    			<button type="button" class="button next">Submit</button>
+					    		</div> <!-- end .button-wrapper -->	
+
+					 		</div> <!-- end .form-inner -->
+					 	</fieldset>
+
+					 	<fieldset>
+						  	<h2 class="form-title text-center dark">Post resume</h2>
+						    <h3 class="step-title text-center dark">You've successfully posted your resume</h2>
+
+							<ul class="steps-progress-bar flex space-between items-center no-column no-wrap list-unstyled">
+								<li class="active"><span><i class="ion-ios-checkmark-empty"></i></span></li>
+								<li class="active"><span><i class="ion-ios-checkmark-empty"></i></span></li>
+								<li class="active"><span><i class="ion-ios-checkmark-empty"></i></span></li>
+							</ul> <!-- end .steps-progress-bar -->
+
+					 		<div class="form-inner">
+					 			<h2 class="text-center job-post-success">Congratulations!</h2>
+					 			<p class="text-center">You’ve successfully posted your resume. You can use it to apply for a new job now. Whenever you want to edit your resume, please go to your <a href="#0">Dashboard</a>> <a href="#0">My resume</a>. Thank you for using our job board!</p>
+				    			<div class="button-wrapper text-center">
+					    			<button type="button" class="button">Browse jobs now</button>
+					    		</div> <!-- end .button-wrapper -->
+				    		</div> <!-- end .form-inner -->	
+					 	</fieldset>
+
+					</form> <!-- end .job-post-form -->
+
+				</div> <!-- end .container -->
+			</div> <!-- end .inner -->
+		</div> <!-- end .section -->
+
+		<!-- Footer -->
+		<div class="section footer transparent" style="background-image: url('images/background03.jpg');">
+			<div class="container">
+				<div class="top flex space-between items-center">
+					<img src="images/footer-logo.png" alt="footer-logo" class="img-responsive">
+					<ul class="list-unstyled footer-menu flex">
+						<li><a href="#0">Home</a></li>
+						<li><a href="#0">About</a></li>
+						<li><a href="#0">Browse Jobs</a></li>
+						<li><a href="#0">Browse candidates</a></li>
+						<li><a href="#0">Contact</a></li>
+					</ul> <!-- end .footer-menu -->				
+				</div> <!-- end .top -->
+				<div class="footer-widgets flex no-column space-between">					
+					<div class="widget">
+						<h6>About</h6>
+						<ul class="list-unstyled">
+							<li><a href="#0">Company</a></li>
+							<li><a href="#0">Our Partners</a></li>
+							<li><a href="#0">Blog</a></li>
+							<li><a href="#0">FAQ</a></li>
+							<li><a href="#0">Pricing</a></li>
+							<li><a href="#0">Help Center</a></li>
+							<li><a href="#0">Team</a></li>
+							<li><a href="#0">Contact Us</a></li>
+						</ul>
+					</div> <!-- end .widget -->
+					<div class="widget">
+						<h6>For candidates</h6>
+						<ul class="list-unstyled">
+							<li><a href="#0">Browse Jobs</a></li>
+							<li><a href="#0">Browse categories</a></li>
+							<li><a href="#0">Submit Resume</a></li>
+							<li><a href="#0">Candidate Dashboard</a></li>
+							<li><a href="#0">Job Alerts</a></li>
+							<li><a href="#0">My Bookmarks</a></li>
+						</ul>
+					</div> <!-- end .widget -->
+					<div class="widget">
+						<h6>For companies</h6>
+						<ul class="list-unstyled">
+							<li><a href="#0">Browse Candidates</a></li>
+							<li><a href="#0">Company Dashboard</a></li>
+							<li><a href="#0">Add A Job</a></li>
+							<li><a href="#0">Packages</a></li>
+						</ul>
+					</div> <!-- end .widget -->
+					<div class="widget">
+						<h6>Follow us</h6>
+						<ul class="list-unstyled social-icons flex no-column">
+							<li><a href="#0"><i class="ion-social-twitter"></i></a></li>
+							<li><a href="#0"><i class="ion-social-facebook"></i></a></li>
+							<li><a href="#0"><i class="ion-social-youtube"></i></a></li>
+							<li><a href="#0"><i class="ion-social-instagram"></i></a></li>
+							<li><a href="#0"><i class="ion-social-linkedin"></i></a></li>
+						</ul>				
+						<h6>Subscribe Us</h6>
+						<p>Morbi in ligula nibh. Maecenas ut mi at odio hendrerit eleifend tempor vitae augue.</p>
+	                    <form class="form-inline subscribe-form flex no-column no-wrap items-center" role="subscribe">
+	                        <div class="form-group">
+	                        	<input type="text" class="form-control" placeholder="Your email">
+	                        </div> <!-- end .form-group -->
+	                        <button type="submit" class="button"><i class="ion-ios-arrow-thin-right"></i></button>
+	                  	</form>
+					</div> <!-- end .widget -->
+				</div> <!-- end .footer-widgets -->
+				<div class="bottom flex space-between items-center">
+					<p class="copyright-text small">&copy; 2017 <a href="#0">JobPress</a>. All Rights Reserved. Designed by <a href="#0">LeoStudo</a>.</p>
+					<ul class="list-unstyled copyright-menu flex no-column">
+						<li><a href="#0">Privacy policy</a></li>
+						<li><a href="#0">Terms of service</a></li>
+						<li><a href="#0">Conditions</a></li>
+					</ul> <!-- end .copyright-menu -->
+				</div> <!-- end .bottom -->
+			</div> <!-- end .container -->
+		</div> <!-- end .footer -->
+
+
+		<!-- Scripts -->
+		<!-- jQuery -->		
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- google maps -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAy-PboZ3O_A25CcJ9eoiSrKokTnWyAmt8"></script>
+		<!-- Owl Carousel -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- Wow.js -->
+		<script src="js/wow.min.js"></script>
+		<!-- Typehead.js -->
+		<script src="js/typehead.js"></script>
+		<!-- Tagsinput.js -->
+		<script src="js/tagsinput.js"></script>
+		<!-- Bootstrap Select -->
+		<script src="js/bootstrap-select.js"></script>		
+		<!-- Waypoints -->
+		<script src="js/jquery.waypoints.min.js"></script>
+		<!-- CountTo -->
+		<script src="js/jquery.countTo.js"></script>
+		<!-- Isotope -->
+		<script src="js/isotope.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<!-- Magnific-Popup -->
+		<script src="js/jquery.magnific-popup.js"></script>
+		<!-- Scripts.js -->
+		<script src="js/scripts.js"></script>
+
+	</body>
+
+<!-- Mirrored from jobpress.wecookcode.com/demo/post-resume-form.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Apr 2017 07:21:33 GMT -->
+</html>
