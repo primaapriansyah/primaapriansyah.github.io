@@ -1,0 +1,89 @@
+/*
+    NAME : CUSTOMIZER
+    AUTHOR NAME : Infinyteam
+    AUTHOR WEBSITE : www.infinyteam.net
+    OUR PORTFOLIO : http://themeforest.net/user/infinyteam/portfolio?ref=infinyteam
+*/
+
+/* ==================================================
+    01. CUSTOMIZE TRANSITIONS
+================================================== */
+#mobile-header .m-search form,
+#mobile-header .m-search .toggle span:before,
+#mobile-header .m-search .toggle span:after,
+.m-menu-offcanvas,
+.m-menu-offcanvas .m-close,
+.m-menu:before,
+.m-menu.open:before,
+.m-navigation ul ul li a,
+.header,
+.topmenu ul li a,
+.topmenu ul ul,
+.social-header ul li a,
+.search-box,
+.search .toggle,
+.featured-posts .nav-arrows,
+.grid-posts .nav-arrows,
+.post .post-image:after,
+.post-slider .nav-arrows,
+#respond #submit,
+input[type="submit"],
+.post-block .item .thumb:after,
+.recent-feeds li .feeds-image:after,
+.pagination ul li a,
+.social-footer a,
+.btn{
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -ms-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+
+/* BOX SHADOW */
+.featured-posts .nav-arrows{
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -ms-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    -o-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+
+/* ==================================================
+    02. CUSTOMIZE COLORS
+================================================== */
+/* BACKGROUND COLOR */
+.m-menu-offcanvas .m-close:hover,
+.featured-posts .nav-arrows:hover,
+.grid-posts .nav-arrows:hover,
+.swiper-pagination-bullet-active,
+.post .post-header .post-cat a,
+.post-slider .nav-arrows:hover,
+#respond #submit:hover,
+input[type="submit"]:hover,
+.btn-primary,
+.btn:hover{
+    background: #e6c55d;
+    border-color: #e6c55d;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* TEXT COLOR */
+.m-navigation ul li a:hover,
+.topmenu > ul > li:hover > a,
+.post .post-more a,
+.pagination ul li a.active,
+.pagination ul li a:hover,
+.social-footer a:hover,
+.footer a{
+    color: #e6c55d;
+}
+
+/* BORDER COLOR */
+.widget .widget-title,
+.widget .widget-title:after,
+.pagination ul li a.active,
+.pagination ul li a:hover{
+    border-color: #e6c55d;
+}

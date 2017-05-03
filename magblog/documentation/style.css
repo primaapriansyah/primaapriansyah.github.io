@@ -1,0 +1,426 @@
+/*
+ * Table of Content
+ * ===============================================================
+    00.BODY  
+    01.HEADING
+    02.HEADER
+    03.SECTIONS
+    04.FOOTER
+    05.OTHER
+*/
+
+/*
+ * 00. Body
+ * ================================================================= */
+body {
+    background-color: #fff;
+    color: #222222;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Fontawesome', 'Overpass', sans-serif, arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: -.02em;
+    -webkit-backface-visibility: hidden;
+}
+#wrapper {
+    background: #fff;
+    display: block;
+    overflow: hidden;
+    clear: both;
+    position: relative;
+}
+
+/* LINKS */
+a,
+a:link,
+a:visited{
+    color: #222;
+    text-decoration: none;
+    -webkit-backface-visibility: hidden;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/*
+ * 01. Heading 
+ * ================================================================= */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fontawesome', 'Overpass', sans-serif, arial;
+    font-weight: 800;
+    letter-spacing: normal;
+    text-rendering: optimizeLegibility;
+    word-break: normal;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+    -webkit-backface-visibility: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    -webkit-backface-visibility: hidden;
+    color: #222;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+  font-size: 27px;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 64.063em) {
+  h1 {
+    font-size: 39px;
+    line-height: 45px;
+  }
+}
+h2 {
+  font-size: 25px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 64.063em) {
+  h2 {
+    font-size: 37px;
+    line-height: 40px;
+  }
+}
+h3 {
+  font-size: 23px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 64.063em) {
+  h3 {
+    font-size: 29px;
+    line-height: 30px;
+  }
+}
+h4 {
+  font-size: 19px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 64.063em) {
+  h4 {
+    font-size: 19px;
+    line-height: 25px;
+  }
+}
+h5 {
+  font-size: 17px;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+h6 {
+  font-size: 15px;
+  line-height: 1.3;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/*
+ * 02. Header 
+ * ================================================================= */
+header.header {
+    display: block;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #eeeeee;
+    z-index: 9999;
+}
+
+/* Top Bar */
+.topbar {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    clear: both;
+}
+
+/* Logo */
+.topbar .logo {
+    float: left;
+    display: flex;
+    position: relative;
+    height: 50px;
+    border-right: 1px solid #eee;
+    padding-right: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.topbar .logo a {
+    display: block;
+    margin: auto;
+}
+
+/* Menu */
+.topbar .menu {
+    float: left;
+    display: block;
+    position: relative;
+}
+.topbar .menu ul li {
+    float: left;
+    margin-right: 50px;
+    position: relative;
+}
+.topbar .menu ul li a {
+    display: block;
+    -webkit-transition: .35s;
+    -o-transition: .35s;
+    transition: .35s;
+}
+.topbar .menu ul li:after {
+    content: "";
+    display: block;
+    width: 0;
+    border-top: 1px solid #8bc34a;
+    position: relative;
+    top: -1px;
+    -webkit-transition: .35s;
+    -o-transition: .35s;
+    transition: .35s;
+}
+.topbar .menu ul li a i {
+    font-size: 13px;
+    color: #FFC107;
+    margin-right: 5px;
+}
+.topbar .menu ul li:hover:after {
+    width: 100%;
+}
+.topbar .menu ul li:hover a{
+    color: #8bc34a;
+}
+
+
+/* Support Button */
+.topbar .support {
+    float: right;
+    display: block;
+    background: #8BC34A;
+    color: #fff;
+    padding: 0 20px;
+    line-height: 30px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.topbar .support i {
+    margin-right: 10px;
+}
+.topbar .support:hover{
+	-webkit-box-shadow: inset 0 -30px 0 rgba(0,0,0,.1);
+	box-shadow: inset 0 -30px 0 rgba(0,0,0,.1);
+}
+
+
+/*
+ * 03. Sections 
+ * ================================================================= */
+section {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    min-height: 100vh;
+    clear: both;
+    padding-top: 100px;
+    border-bottom: 1px solid #eee;
+}
+section h5 {
+    margin: 0;
+    display: block;
+}
+section h1 {
+    margin: 0;
+    display: block;
+}
+section#intro p {
+    font-size: 14px;
+    color: #434343;
+    display: block;
+    line-height: normal;
+}
+section#intro .theme-details {
+    display: block;
+    position: relative;
+    border: 1px solid #eee;
+    padding: 20px 30px;
+    line-height: 30px;
+    margin-top: 30px;
+    text-align: left;
+}
+section#intro .theme-details:before {
+	content: "Theme Details :";
+	position: absolute;
+	top: -16px;
+	background: #fff;
+	display: inline-block;
+	padding: 0 20px 0 5px;
+	margin-left: -5px;
+	text-transform: uppercase;
+}
+section#intro .theme-details ul {
+    display: block;
+    overflow: hidden;
+}
+section#intro .theme-details ul li {
+    display: block;
+    width: 50%;
+    float: left;
+}
+.theme-details a:after {
+	content: "\f105";
+	margin-left: -5px;
+	position: relative;
+	top: 1px;
+	transition: .35s;
+	opacity: 0;
+}
+.theme-details a:hover:after {
+    margin-left: 5px;
+    opacity: 1;
+}
+.theme-details a:hover {
+    color: #8BC34A;
+}
+.credits-details ul ul {
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.credits-details ul ul li {
+    list-style: circle;
+    color: #aaa;
+}
+
+/*
+ * 04. Footer 
+ * ================================================================= */
+#footer{
+	display: block;
+	overflow: hidden;
+	padding-top: 20px;
+	margin-top: 50px;
+	clear: both;
+	position: relative;
+	text-align: center;
+	border-top: 1px solid #eee;
+}
+
+#footer a{
+    color: #8BC34A;
+}
+
+/*
+ * 05. Other 
+ * ================================================================= */
+.alert {
+    border: 0;
+    border-left: 2px solid;
+    border-radius: 0;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-shadow: none;
+}
+.alert-success {
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.alert-danger,
+.alert-error {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
+.alert-info {
+  color: #3a87ad;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.alert-block {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.alert-block > p,
+.alert-block > ul {
+  margin-bottom: 0;
+}
+.alert-block p + p {
+  margin-top: 5px;
+}
+
+/* Pretty Print */
+.prettyprint {
+	background-color: #f7f7f9;
+	border: 1px solid #e1e1e8;
+    padding: 0;
+}
+.prettyprint.linenums {
+  -webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+     -moz-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+          box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+}
+.prettyprint.linenums {
+    margin: 15px 0; /* IE indents via margin-left */
+    overflow: auto; 
+} 
+.prettyprint.linenums li {
+	padding-left: 12px;
+	color: #bebec5;
+	line-height: 18px;
+    text-shadow: none !important;
+}
+.com { color: #93a1a1; }
+.lit { color: #195f91; }
+.pun, .opn, .clo { color: #93a1a1; }
+.fun { color: #dc322f; }
+.str, .atv { color: #D14; }
+.kwd, .linenums .tag { color: #1e347b; }
+.typ, .atn, .dec, .var { color: teal; }
+.pln { color: #48484c; }
+
+
+/* Tables */
+.table {
+    font-size: 14px;
+    border: 1px solid #eee;
+    overflow: hidden;
+    width: 100%;
+}
+.table tr:nth-child(even) {
+    background: #fafafa;
+}
+.table thead{
+    line-height: 40px;
+    width: 100%;
+}
+.table th, .table td {
+    border-left: 1px solid #eee;
+    padding: 5px 10px;
+}
+.table tr {
+    border-bottom: 1px solid #eee;
+}
+
+/* Code */
+code {
+    padding: 2px 4px;
+    color: #d14;
+    background-color: #fff1f6;
+    border: 0;
+    border-radius: 5px;
+}
+
+code, kbd, pre, samp {
+    font-family: 'Overpass', monospace, sans-serif;
+}

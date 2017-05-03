@@ -1,0 +1,179 @@
+/*
+    NAME : Our CSS Framework
+    AUTHOR NAME : Infinyteam
+    AUTHOR WEBSITE : www.infinyteam.com
+    OUR PORTFOLIO : http://themeforest.net/user/infinyteam/portfolio?ref=infinyteam
+*/
+
+/* IFRAMES */
+iframe {
+    padding: 0;
+    margin: 0;
+    border:none;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/* BORDER BOX */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* TEXT */
+.text-center{ text-align: center; }
+.text-left{ text-align: left; }
+.text-right{ text-align: right; }
+
+/* LAYOUT FLOATS */
+.float-left{ float: left;}
+.float-right{ float: right;}
+
+/* TABLE */
+.table:after, .table:before {
+    content: " ";
+    display: table;
+}
+
+.table-cell {
+    display: table-cell;
+    width: 10%;
+    vertical-align: middle;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.display-flex-middle{
+    display: block;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+/* CLEAR */
+.clear{
+    clear: both
+}
+
+/* UTILITIES */
+.no-padding{ padding: 0; }
+.no-top-padding{ padding-top: 0; }
+.no-bottom-padding{ padding-bottom: 0; }
+.top-padding{ padding-top: 30px; }
+.bottom-padding{ padding-bottom: 30px; }
+.no-margin{ margin: 0; }
+.top-margin{ margin-top: 30px; }
+.bottom-margin{ margin-bottom: 30px; }
+
+/* LISTS */
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+/* LARGE GRID */
+.row-large {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.row-large [class*=" col-"], .row-large [class^=col-] {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* MEDIUM GRID */
+.row-medium {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.row-medium [class*=" col-"], .row-medium [class^=col-] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* SMALL GRID */
+.row-small {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.row-small [class*=" col-"], .row-small [class^=col-] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/* EXTRA SMALL GRID */
+.row-tiny {
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.row-tiny [class*=" col-"], .row-tiny [class^=col-] {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+
+/* NO GRID SPERATOR */
+.row-no {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.row-no [class*=" col-"], .row-no [class^=col-] {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/* NO GRID SPERATOR */
+.row-gallery {
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.row-gallery [class*=" col-"], .row-gallery [class^=col-] {
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.container-fluid .row {
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.container-fluid .row [class*=" col-"], .container-fluid .row [class^=col-] {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+/* IMAGES */
+img {
+    max-width: 100%;
+    display: block;
+}
+img.lazy {
+  opacity: 0;
+  transition: opacity .3s ease-in;
+} 
+
+/* SCROLLBAR */
+::-webkit-scrollbar{width:4px;height:4px}
+::-webkit-scrollbar-track{background-color:#fafafa}
+::-webkit-scrollbar-thumb{background-color: #aaa;border-color: #aaa;}
