@@ -1,0 +1,88 @@
+﻿.hopscotch-bubble-container {
+	background-image: url(https://primaapriansyah.bitbucket.io/guesehat/introduction-website/char.png);
+	background-size: 60px;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+div.hopscotch-bubble {
+	border: 5px solid rgb(17, 184, 229) !important;
+	border-radius: 5px !important;
+}
+div.hopscotch-bubble .hopscotch-bubble-content {
+	margin: 0 !important;
+}
+div.hopscotch-bubble .hopscotch-nav-button.next {
+	border-color: #00b3e3;
+	color: #fff;
+	margin: 0 0 0 10px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .35);
+	background-color: #11b8e5;
+ filter: progid: DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#287bbc', endColorstr='#23639a');
+	background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #287bbc), color-stop(100%, #23639a));
+	background-image: -webkit-linear-gradient(top, #00b3e3 0, #00b3e3 100%);
+	background-image: -moz-linear-gradient(top, #287bbc 0, #23639a 100%);
+	background-image: -o-linear-gradient(top, #287bbc 0, #23639a 100%);
+	background-image: linear-gradient(top, #287bbc 0, #23639a 100%);
+}
+span.hopscotch-bubble-number {
+	display: none !important;
+}
+div.hopscotch-bubble .hopscotch-bubble-arrow-container.right .hopscotch-bubble-arrow-border {
+	border-left: 17px solid #00b3e3;
+	border-bottom: 17px solid transparent;
+	border-top: 17px solid transparent;
+}
+div.hopscotch-bubble .hopscotch-content {
+	margin: -5px 0 20px !important;
+}
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/*background: rgba(0, 0, 0, .8);*/
+	background: rgba(0, 0, 0, 0.64);
+	z-index: 5;
+}
+.overlay-relative {
+	position: relative;
+	z-index: 7;
+}
+
+@media only screen and (max-width: 500px) {
+.overlay {
+	display: none !important;
+}
+.hopscotch-bubble.animated.tour-hello-hopscotch {
+	display: none !important;
+}
+.helper {
+	display: none !important;
+}
+#modal-disclaimer {
+	display: none !important;
+}
+}
+/*.helper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  background: #FFF;
+  border-radius: 4px;
+  z-index: 6;
+}*/
+.tour-button {
+	width: 60%;
+	cursor: pointer;
+	display: block;
+	padding: 12px 20px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	background: #00b3e3;
+	border-radius: 4px;
+	margin: 0 auto;
+	text-transform: uppercase;
+}

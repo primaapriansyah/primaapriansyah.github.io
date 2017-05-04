@@ -24,6 +24,8 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="https://www.guesehat.com/static/img/favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
+
+
 <link rel="stylesheet" href="https://www.guesehat.com/static/css/basic.css">
 <link rel="stylesheet" href="https://www.guesehat.com/static/css/font.css">
 <link rel="stylesheet" href="https://www.guesehat.com/static/css/slick.css">
@@ -38,477 +40,12 @@
 <link rel="stylesheet" href="https://www.guesehat.com/static/css/small.css">
 <link rel="stylesheet" href="https://www.guesehat.com/static/css/mobile.css">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="../static/css/event.css" rel="stylesheet">
+<link rel="stylesheet prefetch' href='http://cdn.rawgit.com/noelboss/featherlight/1.3.4/release/featherlight.min.css">
 <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.css"> -->
 <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
-<style>
-*, *::after, *::before {
-	box-sizing: border-box;
-}
-html {
-	font-size: 62.5%;
-}
-body {
-	/* primaapriansyah
-			font-size: 1.6rem;
-			*/
-            
-	font-family: Poppins, Arial, sans-serif;
-	color: #383838;
-	background-color: #FAFAFA;
-	line-height: 1.5em;
-}
-a {
-	/*color: #00b3e3;*/
-            
-	text-decoration: none;
-}
-/* -------------------------------- 
 
-Main Components 
 
--------------------------------- */
-        
-.cd-horizontal-timeline {
-	margin: 0em auto;
-	-webkit-transition: opacity 0.2s;
-	-moz-transition: opacity 0.2s;
-	transition: opacity 0.2s;
-}
-.cd-horizontal-timeline::before {
-	/* never visible - this is used in jQuery to check the current MQ */
-            
-	content: 'mobile';
-	display: none;
-}
-.cd-horizontal-timeline.loaded {
-	/* show the timeline after events position has been set (using JavaScript) */
-            
-	opacity: 1;
-}
-.cd-horizontal-timeline .timeline {
-	position: relative;
-	height: 100px;
-	width: 90%;
-	/* primaapriansyah
-	max-width: 800px;
-*/
-            
-	margin: 0 auto;
-}
-.cd-horizontal-timeline .events-wrapper {
-	position: relative;
-	height: 100%;
-	margin: 0 40px;
-	overflow: hidden;
-}
-.cd-horizontal-timeline .events-wrapper::after, .cd-horizontal-timeline .events-wrapper::before {
-	/* these are used to create a shadow effect at the sides of the timeline */
-            
-	content: '';
-	position: absolute;
-	z-index: 2;
-	top: 0;
-	height: 100%;
-	width: 20px;
-}
-.cd-horizontal-timeline .events {
-	/* this is the grey line/timeline */
-            
-	position: absolute;
-	z-index: 1;
-	left: 0;
-	top: 49px;
-	height: 2px;
-	/* width will be set using JavaScript */
-            
-	background: #dfdfdf;
-	-webkit-transition: -webkit-transform 0.4s;
-	-moz-transition: -moz-transform 0.4s;
-	transition: transform 0.4s;
-}
-.cd-horizontal-timeline .filling-line {
-	/* this is used to create the green line filling the timeline */
-            
-	position: absolute;
-	z-index: 1;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background-color: #00b3e3;
-	/*background-color: #00b3e3;*/
-            
-	-webkit-transform: scaleX(0);
-	-moz-transform: scaleX(0);
-	-ms-transform: scaleX(0);
-	-o-transform: scaleX(0);
-	transform: scaleX(0);
-	-webkit-transform-origin: left center;
-	-moz-transform-origin: left center;
-	-ms-transform-origin: left center;
-	-o-transform-origin: left center;
-	transform-origin: left center;
-	-webkit-transition: -webkit-transform 0.3s;
-	-moz-transition: -moz-transform 0.3s;
-	transition: transform 0.3s;
-}
-.cd-horizontal-timeline .events a {
-	position: absolute;
-	bottom: 0;
-	z-index: 2;
-	text-align: center;
-	/* primaapriansyah
-			font-size: 1.3rem;
-			*/
-            
-	padding-bottom: 15px;
-	color: #383838;
-	/* fix bug on Safari - text flickering while timeline translates */
-            
-	-webkit-transform: translateZ(0);
-	-moz-transform: translateZ(0);
-	-ms-transform: translateZ(0);
-	-o-transform: translateZ(0);
-	transform: translateZ(0);
-}
-.cd-horizontal-timeline .events a::after {
-	/* this is used to create the event spot */
-            
-	content: '';
-	position: absolute;
-	left: 50%;
-	right: auto;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	transform: translateX(-50%);
-	bottom: -5px;
-	height: 12px;
-	width: 12px;
-	border-radius: 50%;
-	border: 2px solid #dfdfdf;
-	background-color: #f8f8f8;
-	-webkit-transition: background-color 0.3s, border-color 0.3s;
-	-moz-transition: background-color 0.3s, border-color 0.3s;
-	transition: background-color 0.3s, border-color 0.3s;
-}
-.no-touch .cd-horizontal-timeline .events a:hover::after {
-	background-color: #00b3e3;
-	border-color: #00b3e3;
-}
-.cd-horizontal-timeline .events a.selected {
-	pointer-events: none;
-}
-.cd-horizontal-timeline .events a.selected::after {
-	background-color: #00b3e3;
-	border-color: #00b3e3;
-}
-.cd-horizontal-timeline .events a.older-event::after {
-	border-color: #00b3e3;
-}
-
-@media only screen and (min-width: 1100px) {
-.cd-horizontal-timeline {
-	margin: 0em auto;
-	background: #fafafa;
-}
-.cd-horizontal-timeline::before {
-	/* never visible - this is used in jQuery to check the current MQ */
-                
-	content: 'desktop';
-}
-}
-.events-content ol {
-	background: #FAFAFA;
-}
-.cd-timeline-navigation a {
-	/* these are the left/right arrows to navigate the timeline */
-            
-	position: absolute;
-	z-index: 1;
-	top: 50%;
-	bottom: auto;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	transform: translateY(-50%);
-	height: 34px;
-	width: 34px;
-	border-radius: 50%;
-	border: 2px solid #dfdfdf;
-	/* replace text with an icon */
-            
-	overflow: hidden;
-	color: transparent;
-	text-indent: 100%;
-	white-space: nowrap;
-	-webkit-transition: border-color 0.3s;
-	-moz-transition: border-color 0.3s;
-	transition: border-color 0.3s;
-}
-.cd-timeline-navigation a::after {
-	/* arrow icon */
-            
-	content: '';
-	position: absolute;
-	height: 16px;
-	width: 16px;
-	left: 50%;
-	top: 50%;
-	bottom: auto;
-	right: auto;
-	-webkit-transform: translateX(-50%) translateY(-50%);
-	-moz-transform: translateX(-50%) translateY(-50%);
-	-ms-transform: translateX(-50%) translateY(-50%);
-	-o-transform: translateX(-50%) translateY(-50%);
-	transform: translateX(-50%) translateY(-50%);
-	background: url(../img/cd-arrow.svg) no-repeat 0 0;
-}
-.cd-timeline-navigation a.prev {
-	left: 0;
-	-webkit-transform: translateY(-50%) rotate(180deg);
-	-moz-transform: translateY(-50%) rotate(180deg);
-	-ms-transform: translateY(-50%) rotate(180deg);
-	-o-transform: translateY(-50%) rotate(180deg);
-	transform: translateY(-50%) rotate(180deg);
-}
-.cd-timeline-navigation a.next {
-	right: 0;
-}
-.no-touch .cd-timeline-navigation a:hover {
-	border-color: #00b3e3;
-}
-.cd-timeline-navigation a.inactive {
-	cursor: not-allowed;
-}
-.cd-timeline-navigation a.inactive::after {
-	background-position: 0 -16px;
-}
-.no-touch .cd-timeline-navigation a.inactive:hover {
-	border-color: #dfdfdf;
-}
-.cd-horizontal-timeline .events-content {
-	position: relative;
-	width: 100%;
-	margin: 0em 0;
-	overflow: hidden;
-	-webkit-transition: height 0.4s;
-	-moz-transition: height 0.4s;
-	transition: height 0.4s;
-}
-.cd-horizontal-timeline .events-content li.selected {
-	/* visible event content */
-            
-	position: relative;
-	z-index: 2;
-	opacity: 1;
-	-webkit-transform: translateX(0);
-	-moz-transform: translateX(0);
-	-ms-transform: translateX(0);
-	-o-transform: translateX(0);
-	transform: translateX(0);
-	/*primaapriansyah*/
-            
-	padding: 0px;
-}
-.cd-horizontal-timeline .events-content li.enter-right, .cd-horizontal-timeline .events-content li.leave-right {
-	-webkit-animation-name: cd-enter-right;
-	-moz-animation-name: cd-enter-right;
-	animation-name: cd-enter-right;
-}
-.cd-horizontal-timeline .events-content li.enter-left, .cd-horizontal-timeline .events-content li.leave-left {
-	-webkit-animation-name: cd-enter-left;
-	-moz-animation-name: cd-enter-left;
-	animation-name: cd-enter-left;
-}
-.cd-horizontal-timeline .events-content li.leave-right, .cd-horizontal-timeline .events-content li.leave-left {
-	-webkit-animation-direction: reverse;
-	-moz-animation-direction: reverse;
-	animation-direction: reverse;
-}
-.cd-horizontal-timeline .events-content li > * {
-	/* primaapriansyah
-	max-width: 800px;
-*/
-	margin: 0 auto;
-	color: #616161;
-}
-.cd-horizontal-timeline .events-content h2 {
-	font-size: 2.6rem;
-	font-family: Poppins, Arial, sans-serif;
-	font-weight: 900;
-	line-height: 1.2;
-	color: #000;
-}
-.cd-horizontal-timeline .events-content em {
-	display: block;
-	font-style: italic;
-	margin: 10px auto;
-}
-.cd-horizontal-timeline .events-content em::before {
-	content: '- ';
-}
-.cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
-	line-height: 1.6;
-}
-
-@media only screen and (min-width: 768px) {
-.cd-horizontal-timeline .events-content h2 {
-	/* primaapriansyah
-			font-size: 3rem;
-				*/
-                
-	text-align: center;
-	background: #fff;
-}
-.cd-horizontal-timeline .events-content em {
-/* primaapriansyah
-			font-size: 2rem;
-				*/
-}
-}
-/*PRIMAAPRISNSYAH*/
-        
-.container-content {
-	max-width: 700px;
-	padding: 10px;
-	margin-top: 20px !important;
-	background: #fff;
-}
-section.cd-horizontal-timeline.loaded {
-	background: #FAFAFA;
-}
-.button-rsvp {
-	background-color: #00b3e3;
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	border-radius: 5px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	cursor: pointer;
-}
-.button-rsvp:hover {
-    background: #008fb5;
-}
-.button-fullwidth {
-	width: 100%;
-}
-.container-content.special-button {
-	padding: 0px !important;
-}
-h2.submenu-event {
-	text-align: left !important;
-	font-size: 1.7rem !important;
-}
-.map-responsive {
-	overflow: hidden;
-	padding-bottom: 56.25%;
-	position: relative;
-	height: 0;
-}
-.map-responsive iframe {
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	position: absolute;
-}
-.question-event {
-	font-weight: 600;
-}
-@media screen and (max-width: 991px) {
-.dirpage-control-toggle-cont {
-	display: block;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 60px;
-	padding: 5px;
-	z-index: 4;
-	border-top: 1px solid #fff;
-	background: #fff;
-	box-shadow: 0 -3px 9px rgba(0, 0, 0, .05);
-}
-.container-content.special-button {
-	display: none;
-}
-.for-mobile {
-	display: block !important;
-}
-.for-desktop {
-	display: none;
-}
-.container-content {
-	margin-top: 0px !important;
-}
-}
-.for-mobile {
-	display: none;
-}
-</style>
-<style>
-div.tab-event {
-    overflow: hidden;
-    margin: -10px;
-    margin-bottom: 15px;
-    background-color: #f1f1f1;
-}
-
-/* Style the buttons inside the tab */
-div.tab-event button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-	width: 50%;
-	color: #7d7d7d;
-}
-
-/* Change background color of buttons on hover */
-div.tab-event button:hover {
-    background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-div.tab-event button.active {
-    background-color: #fff;
-	color: #000;
-}
-
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    /*border: 1px solid #ccc;*/
-    border-top: none;
-}
-/*=============
-	Prima Update
-==============*/
-.videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
-}
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-</style>
 </head>
 
 <body>
@@ -775,20 +312,7 @@ div.tab-event button.active {
       <!-- .timeline --> 
       
       <!--THUMB KECIL -->
-     <style>
-		.search-table-outter {}
-		.search-table{table-layout: fixed; margin:5px auto 0px auto; }
-		.search-table, td, th{border-collapse:collapse;}
-		th{padding:20px 7px; font-size:15px; color:#444; background:#66C2E0;}
-		td{padding:5px 5px; height:35px;}
-
-		.search-table-outter { overflow-x: scroll; }
-		th, td { min-width: 250px; }
-
-		img.responsive-event-image {
-			width: 100%;
-		}
-	</style>
+     
       <div class="search-table-outter wrapper">
         <table class="search-table inner">
           <tr>
@@ -926,461 +450,155 @@ div.tab-event button.active {
               <div id="galleries-event" class="tabcontent">
               	<!-- primaapriansyah gallery -->
               	<div id="container"> 
-				  <!-- This will make sure our size stays right when using Masonry -->
 				  <div class="gutter-sizer"></div>
 				  <div class="grid-sizer"></div>
-				  <!-- This is what Masonry will tile for you -->
+				  
 				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
-					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/1.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
-					<span class="overlay" href="#">
-					<div class="cta-container">
-					  <p>Shop<br />
-						&middot;<br />
-						<a href="#">CTA HERE</a><br />
-						<a href="#">CTA HERE</a></p>
-					</div>
-					<div class="description">
-					  <p> </p>
-					</div>
-					</span> </div>
-				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
-					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/2.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
+					
+					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/2.jpg" class="image">
 					<span class="overlay" href="#">
 					<div class="description">
 					  <p> </p>
 					</div>
 					</span> </div>
 				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
+					
 					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/3.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
 					<span class="overlay" href="#">
 					<div class="description">
 					  <p> </p>
 					</div>
 					</span> </div>
 				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
+					
 					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/4.jpg" class="image" larger="yes"> 
-					<!-- This is the overlay for the hover --> 
+					
 					<span class="overlay" href="#">
 					<div class="description">
 					  <p> </p>
 					</div>
 					</span> </div>
 				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
+					
 					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/5.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
+					
 					<span class="overlay" href="#">
 					<div class="description">
 					  <p> </p>
 					</div>
 					</span> </div>
 				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
+					
 					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/6.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
+					
 					<span class="overlay" href="#">
 					<div class="description">
 					  <p> </p>
 					</div>
 					</span> </div>
 				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
+					
 					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/7.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
+					
 					<span class="overlay" href="#">
 					<div class="description">
 					  <p> </p>
 					</div>
 					</span> </div>
 				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
+					
 					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/8.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
+					
 					<span class="overlay" href="#">
 					<div class="description">
 					  <p> </p>
 					</div>
 					</span> </div>
 				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
+					
 					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/9.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
+					
 					<span class="overlay" href="#">
 					<div class="description">
 					  <p> </p>
 					</div>
 					</span> </div>
 				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
+					
 					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/10.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
+					
 					<span class="overlay" href="#">
 					<div class="description">
 					  <p> </p>
 					</div>
 					</span> </div>
+				  
+				  
 				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
-					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/11.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
-					<span class="overlay" href="#">
-					<div class="description">
-					  <p> </p>
-					</div>
-					</span> </div>
-				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
-					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/12.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
-					<span class="overlay" href="#">
-					<div class="description">
-					  <p> </p>
-					</div>
-					</span> </div>
-				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
-					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/13.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
-					<span class="overlay" href="#">
-					<div class="description">
-					  <p> </p>
-					</div>
-					</span> </div>
-				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
-					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/14.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
-					<span class="overlay" href="#">
-					<div class="description">
-					  <p> </p>
-					</div>
-					</span> </div>
-				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
-					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/15.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
-					<span class="overlay" href="#">
-					<div class="description">
-					  <p> </p>
-					</div>
-					</span> </div>
-				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
-					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/16.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
-					<span class="overlay" href="#">
-					<div class="description">
-					  <p> </p>
-					</div>
-					</span> </div>
-				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
-					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/18.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
-					<span class="overlay" href="#">
-					<div class="description">
-					  <p> </p>
-					</div>
-					</span> </div>
-				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
-					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/19.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
-					<span class="overlay" href="#">
-					<div class="description">
-					  <p> </p>
-					</div>
-					</span> </div>
-				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
-					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/20.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
-					<span class="overlay" href="#">
-					<div class="description">
-					  <p> </p>
-					</div>
-					</span> </div>
-				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
-					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/21.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
-					<span class="overlay" href="#">
-					<div class="description">
-					  <p> </p>
-					</div>
-					</span> </div>
-				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
-					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/22.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
-					<span class="overlay" href="#">
-					<div class="description">
-					  <p> </p>
-					</div>
-					</span> </div>
-				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
-					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/23.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
-					<span class="overlay" href="#">
-					<div class="description">
-					  <p> </p>
-					</div>
-					</span> </div>
-				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
-					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/24.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
-					<span class="overlay" href="#">
-					<div class="description">
-					  <p> </p>
-					</div>
-					</span> </div>
-				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
+					
 					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/25.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
+					
 					<span class="overlay" href="#">
 					<div class="description">
 					  <p> </p>
 					</div>
 					</span> </div>
 				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
+					
 					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/26.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
+					
 					<span class="overlay" href="#">
 					<div class="description">
 					  <p> </p>
 					</div>
 					</span> </div>
 				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
+					
 					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/27.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
+					
 					<span class="overlay" href="#">
 					<div class="description">
 					  <p> </p>
 					</div>
 					</span> </div>
 				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
+					
 					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/28.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
+					
 					<span class="overlay" href="#">
 					<div class="description">
 					  <p> </p>
 					</div>
 					</span> </div>
 				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
+					
 					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/29.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
+					
 					<span class="overlay" href="#">
 					<div class="description">
 					  <p> </p>
 					</div>
 					</span> </div>
 				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
+					
 					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/30.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
+					
 					<span class="overlay" href="#">
 					<div class="description">
 					  <p> </p>
 					</div>
 					</span> </div>
 				  <div class="item taphover"> 
-					<!-- An image, of course! --> 
+					
 					<img src="http://www.bhldn.com/resources/bhldn/images/testing/trends/32.jpg" class="image"> 
-					<!-- This is the overlay for the hover --> 
+					
 					<span class="overlay" href="#">
 					<div class="description">
 					  <p> </p>
 					</div>
 					</span> </div>
 				</div>
-            	<style>
-				  html {
-  overflow-y: scroll;
-}
-
-/* ---- grid ---- */
-
-* {
-  box-sizing: border-box;
-}
-
-div#main:after,
-div#container:after,
-div#container2:after,
-div.back-to-top-container:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-div#main {
-  margin-bottom: 16px;
-}
-
-div#main .inner {
-  background: #fcfaf6;
-  text-align:center;
-  padding: 8px;
-  color: #999999;
-}
-
-div#main .inner h2 {
-  border-bottom: 0;
-  font-size: 2.5em;
-  font-style: italic;
-  letter-spacing: 5px;
-  font-weight: normal;
-}
-
-div#main .inner p {
-  font-size: 1em;
-  font-style: italic;
-}
-
-div#main .inner p a,
-div#main .inner p a:visited {
-  color: #999999;
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-style: italic;
-}
-
-div#main .inner p a:hover {
-  color: #e0b2aa;
-}
-
-.cta-container {
-  display:table;
-  width: 100%;
-  height: 90%;
-}
-
-.cta-container p {
-  display: table-cell;
-  width: 100%;
-  vertical-align: middle;
-  text-align: center;
-  margin:5px 0;
-  font-family: arial, sans-serif;
-  line-height: 1.6;
-}
-
-.l-content .ct .cta-container p {
-    font-family: arial, sans-serif;
-}
-
-.cta-container p a,
-.cta-container p a:visited {
-  text-decoration: underline;
-  color: #666666;
-}
-
-.cta-container p a:hover {
-  color: #e0b2aa;
-}
-
-.grid-sizer, .item {
-  width: 19%;
-
-}
-
-#container {
-/*  background: #EEE;*/
-  /* center */
-  margin: 0 auto;
-  max-width: 1280px;
-}
-
-.gutter-sizer {
-  width: 1%;
-}
-
-.item img {
-  max-width: 100%;
-}
-
-.overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(245, 233, 229, 0.85);
-    position: absolute;
-    top: 0;
-    left: 0; 
-    text-decoration: none;
-    color: #666666;
-    font-family: arial, sans-serif;
-    display: none;
-}
-
-
-.overlay .title {
-    text-align: center;
-    font-size: 18px;
-    background: #6d6d6d;
-    margin: 0px 0 5px;
-}
-
-.overlay .description {
-    position: absolute;
-    bottom: 2px;
-    left: 0;
-    background-color: rgba(0,0,0,0.25);
-    width: 100%;
-    margin: 0;
-}
-
-.overlay .description a, .overlay .description a:visited {
-  color: #f8ede9;
-  text-decoration: none;
-  display:block;
-}
-
-.overlay .description a:hover {
-  color: #666666;
-}
-
-.overlay .description p {
-  text-align: center;
-  margin: 0.5em 0;
-}
-
-/*.overlay .description p {
-    margin: 10px;
-}*/
-
-.item:hover .overlay {
-    display: block;
-}
-
-div.back-to-top-container {
-  text-align: center;
-}
-
-@media only screen and (max-width: 960px) {
-  .grid-sizer, .item {
-    width: 24%;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .grid-sizer, .item {
-    width: 49%;
-  }
-}</style>
+            	
              	
               	<!-- primaapriansyah gallery end -->
               </div>
@@ -1601,7 +819,6 @@ div.back-to-top-container {
 </footer>
 <script type="text/javascript" src="https://www.guesehat.com/static/js/jquery.js"></script> 
 <!-- primaapriansyah --> 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js"></script> 
 <!-- //primaapriansyah --> 
 
 <!-- primaapriansyah --> 
@@ -1625,16 +842,25 @@ document.getElementById("defaultOpen").click();
 </script> 
 <!-- //primaapriansyah --> 
 
+<!--SCRIPT GALLERY -->
+
+
+<!-- prima gallery -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+<script src="http://masonry.desandro.com/masonry.pkgd.js"></script> 
+<script src="http://cdn.rawgit.com/noelboss/featherlight/1.3.4/release/featherlight.min.js"></script> 
+<script src="https://kswedberg.github.io/jquery-smooth-scroll/src/jquery.smooth-scroll.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.min.js"></script> 
+<script src="../static/js/event.js"></script>
+<!-- SCRIPT END -->
+
 <script type="text/javascript" src="https://www.guesehat.com/static/js/jquery.form-validator.min.js"></script> 
 <script type="text/javascript" src="https://www.guesehat.com/static/js/slick.min.js"></script> 
 <script type="text/javascript" src="https://www.guesehat.com/static/js/ion.rangeSlider.min.js"></script> 
-<script type="text/javascript" src="https://www.guesehat.com/static/js/moment.min.js"></script> 
 <script type="text/javascript" src="https://www.guesehat.com/static/js/dmuploader.min.js"></script> 
 <script type="text/javascript" src="https://www.guesehat.com/static/js/tinymce/tinymce.min.js"></script> 
 <script type="text/javascript" src="https://www.guesehat.com/static/js/featherlight.js"></script> 
 <script type="text/javascript" src="https://www.guesehat.com/static/js/featherlight.gallery.js"></script> 
-<script type="text/javascript" src="https://www.guesehat.com/static/js/select2/select2.min.js"></script> 
-<script type="text/javascript" src="https://www.guesehat.com/static/js/select2/id.js"></script> 
 <script type="text/javascript" src="https://www.guesehat.com/static/js/bootstrap-datetimepicker.min.js"></script> 
 <script type="text/javascript" src="https://www.guesehat.com/static/js/croppie.js"></script> 
 <script type="text/javascript" src="https://www.guesehat.com/static/js/jquery.lazyload.js"></script> 
@@ -1643,88 +869,6 @@ document.getElementById("defaultOpen").click();
 <script type="text/javascript" src="https://www.guesehat.com/static/js/jquery.unveil.js"></script> 
 <script type="text/javascript" src="https://www.guesehat.com/static/js/custom.js"></script> 
 
-<!-- prima gallery -->
-<link rel="stylesheet" href="http://cdn.rawgit.com/noelboss/featherlight/1.3.4/release/featherlight.min.css"> 
-<script type="text/javascript" src="http://masonry.desandro.com/masonry.pkgd.js"></script> 
-<script type="text/javascript" src="http://cdn.rawgit.com/noelboss/featherlight/1.3.4/release/featherlight.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.min.js"></script> 
 
-<script>
-$(document).ready(function() {
-
-    var $container = $('#container').masonry({
-        itemSelector: "#container .item",
-        columnWidth: ".grid-sizer",
-        gutter: ".gutter-sizer",
-        percentPosition: true
-
-    });
-
-    $container.imagesLoaded().progress(function() {
-        $container.masonry('layout');
-    });
-
-    var $containerTwo = $('#container2').masonry({
-        itemSelector: "#container2 .item",
-        columnWidth: "#container2 .grid-sizer",
-        gutter: "#container2 .gutter-sizer",
-        percentPosition: true
-
-    });
-
-    $containerTwo.imagesLoaded().progress(function() {
-        $containerTwo.masonry('layout');
-    });
-
-
-
-});
-
-$(document).ready(function() {
-
-    $(".item").each(function() {
-        var item = $(this);
-        var image = item.children('img').attr('src');
-        $(item).find('.description p').append('<a href="' + image + '" data-featherlight="image">View Larger</a>');
-
-    });
-
-    $('.back-to-top-container a').smoothScroll({
-        offset: -20
-
-    });
-
-
-    $('a[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html,body').animate({
-                    scrollTop: target.offset().top
-                }, 1000);
-                return false;
-            }
-        }
-
-
-    });
-
-    $('item.taphover').on("touchstart", function (e) {
-    'use strict'; //satisfy code inspectors
-    var link = $(this); //preselect the link
-    if (link.hasClass('hover')) {
-        return true;
-    } else {
-        link.addClass('hover');
-        $('item.taphover').not(this).removeClass('hover');
-        e.preventDefault();
-        return false; //extra, and to make sure the function has consistent return points
-    }
-});
-});
-</script>
-<!-- SCRIPT END -->
 </body>
 </html>

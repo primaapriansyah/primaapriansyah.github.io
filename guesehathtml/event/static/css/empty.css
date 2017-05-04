@@ -1,0 +1,3280 @@
+@media screen and (max-width: 767px) {
+
+/* VP DIGITAL TEAM ================================*/
+/*=================================================*/
+html {}
+body {}
+
+#wrapper {
+}
+
+#wrapper.type-grey {
+}
+
+
+/* UNIVERSAL =====================================*/
+/*================================================*/
+
+	.categ-cont {
+	}
+	
+		.categ {
+		}
+
+	.author {
+	}
+	
+		.author-img-cont {
+		}
+		
+			.author-img {
+			}
+			
+		.author-content {
+		}
+		
+			.author-name {
+			}
+			
+			.author-time {
+			}
+			
+	.block {
+	}
+	
+		.block-title {
+		}
+		
+		.block-title.type-center {
+		}
+		
+		.blocksub1 {
+		}
+		
+		.blocksub2 {
+		}
+	
+	.overlay-load {
+	}	
+
+	.load-button-cont {
+	}
+		
+		.load-button {
+		}
+
+		.load-loading {
+		}
+		
+	.noScroll {
+	}
+		
+/* FORM ==========================================*/
+/*================================================*/
+		
+	.form {
+	}
+	
+		.form-list {
+		}
+		
+			.form-list > li {
+			}
+			
+				.form-text {
+				}
+				
+				.form-text.type-borderedtop {
+				}
+				
+				.label {
+				}
+				
+				.field-cont {
+				}
+
+					.field {
+					}
+					
+					.ta {
+					}
+					
+					.field.type-unit {
+					}
+				
+					.field:focus,
+					.ta:focus {
+					}
+					
+					.field.error,
+					.ta.error {
+					}
+					
+					.field-cont .help-block.form-error {
+					}
+					
+					.password-toggle {
+					}
+					
+					.password-toggle.active {
+					}
+
+					.select {
+					}
+
+						.select-cont:before {
+						}
+					
+				.form-button-cont {
+				}
+				
+					.form-button {
+					}
+					
+					.form-social-button {
+					}
+					
+					.form-social-button.type-fb {
+					}
+					
+						.form-social-button.type-fb:before {
+							
+						}
+					
+					.form-social-button.type-go {
+					}
+					
+						.form-social-button.type-go:before {
+							
+						}
+					
+				.rcbgroup {
+				}
+				
+					.rcbgroup-item {
+					}
+					
+						.rcb-cont {
+						}
+						
+							.cbdummy {
+							}
+								
+								.cbdummy:before {
+								}
+
+								.cbdummy.active:before {
+								}
+								
+							.rcb-cont.has-error .cbdummy {
+							}
+							
+							.cb, 
+							.rb {
+							}
+							
+							.rbdummy {
+							}
+
+								.rbdummy.active:before {
+								}
+
+							.rb {
+							}
+							
+							.rcb-cont .help-block.form-error {
+							}
+							
+						.rcbgroup-label {
+						}
+
+/* BREADCRUMBS ===================================*/
+/*================================================*/
+	.breadcrumbs {
+	}
+
+		.breadcrumbs > li {
+		}
+
+			.breadcrumbs-link {
+			}
+			
+			.breadcrumbs > li:first-child .breadcrumbs-link {
+			}
+
+			.breadcrumbs > li:last-child .breadcrumbs-link {
+			}
+
+				.breadcrumbs-link:before {
+				}
+
+				.breadcrumbs > li:first-child .breadcrumbs-link:before {
+				}
+
+/* TAB ===========================================*/
+/*================================================*/
+
+	.tab {
+	}
+	
+	.tab.active {
+	}
+						
+/* ACCORDION =====================================*/
+/*================================================*/
+
+	.accord {
+	}
+	
+		.accord-it {
+		}
+		
+			.accord-head {
+			}
+			
+				.accord-head:before {
+				}
+			
+				.accord-it.active .accord-head:before {
+				}
+			
+			.accord-body {
+			}
+			
+				.accord-viewport {
+				}
+				
+				.accord-content {
+				}
+
+/* HEADER ========================================*/
+/*================================================*/
+
+	header {
+	}
+	
+		.header-block {
+		}
+	
+			.logo {
+			}
+			
+				.logo img {
+				}
+					
+			.menu {
+			}
+			
+				.menu-list {
+				}
+				
+					.menu-list > li {
+					}
+					
+						.menu-link {
+						}
+						
+						.menu-link.type2 {
+						}
+						
+							.menu-link.type2:before {
+							}
+						
+							.menu-link.type2:after {
+							}
+						
+						.menu-link.type-search {
+						}
+						
+						.menu-link.type-search.active {
+						}
+						
+							.menu-link.type-search:before {
+								
+							}
+						
+						.menu-link.type-member {
+						}
+
+							.submenu-member-head {
+							}
+
+								.submenu-member-head-img {
+								}
+
+									.submenu-member-head-img > img {
+									}
+
+								.notif-icon {
+								}
+
+							.overlay-member-login {
+							}
+
+							.submenu-member-body {				
+							}
+
+								.submenu-member-list {									
+								}
+
+									.submenu-member-list > li {
+									}
+
+										.submenu-member-link {
+										}
+
+										.submenu-member-link:hover {
+										}
+
+											.submenu-member-link:before {
+											}
+
+								.submenu-notif-cont {
+								}
+
+									.submenu-notif-block {
+									}
+
+										.submenu-notif-block.new:before {
+										}
+
+										.submenu-notif-img {
+										}
+
+											.submenu-notif-img > img {
+											}
+
+										.submenu-notif-text {
+										}
+
+											.submenu-notif-text > p {
+											}
+
+											.submenu-notif-name {
+											}
+
+											.submenu-notif-time {
+											}
+
+												.submenu-notif-time-img {
+												}
+
+												.submenu-notif-time-img.comment {
+												}
+												.submenu-notif-time-img.write {
+												}
+												.submenu-notif-time-img.health {
+												}
+
+												.submenu-notif-time > time {
+												}
+
+						.header-write {
+						}
+						
+							.header-write-icon {
+							}
+							
+								.header-write-icon:before {
+								}
+								
+							.header-write-text {
+							}
+						
+						.search {
+						}
+						
+							.search-field {
+							}
+							
+							.search-button {
+							}
+							
+								.search-button:before {
+								}
+								
+						.submenu {
+						}
+						
+						.menu-list > li:hover > .submenu {
+						}
+						
+							.submenu:before {
+							}
+						
+							.submenu-list {
+							}
+							
+								.submenu-list > li {
+								}
+								
+									.submenu-link {
+									}
+									
+									.submenu-link:hover {
+									}
+									
+							.submenu-info {
+							}
+								
+			.header-error {
+			}
+
+			.header-error.black {
+			}
+			
+			.header-error.green {
+			}
+
+			.header-error.active {
+			}
+			
+				.header-error-body {
+				}
+			
+					.header-error-block {
+					}
+					
+						.header-error-icon {
+						}
+						
+						.header-error.black .header-error-icon {
+						}
+
+						.header-error.green .header-error-icon {
+						}
+
+						.header-error-block-detail {
+						}
+						
+							.header-error-title {
+							}
+							
+							.header-error-text {
+							}
+							
+					.header-error-button {
+					}
+					
+					.header-error.black .header-error-button {
+					}
+
+					.header-error.green .header-error-button {
+					}
+	
+	.mobile-menu-button {
+	}
+
+	.mobile-menu {
+	}
+		
+		.mobile-header-search-cont {
+		}
+			
+			.mobile-header-search-field-cont {
+			}
+
+				.mobile-header-search {
+				}
+
+					.mobile-header-search:before {
+					}
+			
+		.mobile-header-login-cont {
+		}
+
+			.mobile-header-login-button {
+			}
+
+			.mobile-header-login-button.type2 {
+			}
+		
+		.mobile-header-member-cont {
+		}
+
+			.mobile-header-member-head {
+			}
+
+				.mobile-header-member-head:before {
+				}
+
+				.mobile-header-member-img-cont {
+				}
+
+					.mobile-header-member-img {
+					}
+
+						.mobile-header-member-img > img {
+						}
+
+					.mobile-header-member-notif {
+					}
+				
+				.mobile-header-member-content {
+				}
+
+					.mobile-header-member-name {
+					}
+
+					.mobile-header-member-text {
+					}
+
+		.mobile-menu-list {
+		}
+
+			.mobile-menu-list > li {
+
+			}
+
+				.mobile-menu-list .accord-head {
+				}
+
+					.mobile-menu-list .accord-head:before {
+					}
+
+					.mobile-menu-link {
+					}
+
+				.mobile-submenu {
+				}
+
+					.mobile-submenu-list {
+
+					}
+
+						.mobile-submenu-list > li {
+						}
+
+							.mobile-submenu-link {
+							}
+
+							.mobile-submenu-notif {
+							}
+
+
+	
+/* HEADER PRVIEW =================================*/
+/*================================================*/
+
+	.header-preview {
+	}
+
+		.header-preview-block {
+		}
+			
+			.header-preview-block .logo {
+			}
+
+			.preview-title {
+			}
+
+				.preview-title span {
+				}
+
+			.preview-close {
+			}
+
+	#content.submit-preview {
+	}
+
+/* CONTENT ========================================*/
+/*=================================================*/	
+
+	#content {
+	}
+	
+		.inner {
+		}
+		
+		.inner.type2 {
+		}
+	
+/* HOME SLIDER ====================================*/
+/*=================================================*/	
+
+	.home-slider-cont {
+	}
+	
+		.home-slider {
+		}
+		
+			.home-slider-it {
+			}
+			
+				.home-slider-img-cont {
+				}
+
+					.home-slider-img-cont:after {
+					}
+				
+					.home-slider-img {
+					}
+					
+					.home-slider-pimg {
+					}
+					
+					.home-slider-content {
+					}
+					
+						.home-slider-categ-cont {
+						}
+						
+						.home-slider-title {
+						}
+						
+						.home-slider-text {
+						}
+						
+							.home-slider-text > p {
+							}
+							
+						.home-slider-author {
+						}
+						
+							.home-slider-author .author-img-cont {
+							}
+							
+								.home-slider-author .author-img {
+								}
+								
+							.home-slider-author .author-content {
+							}
+							
+								.home-slider-author .author-name {
+								}
+								
+								.home-slider-author .author-time {
+								}
+								
+		.home-slider-pager-cont {
+		}
+		
+			.home-slider-pager-cont > .slick-dots {
+			}
+			
+				.home-slider-pager-cont > .slick-dots > li {
+				}
+				
+				.home-slider-pager-cont > .slick-dots > li.active {
+				}
+				
+					.home-slider-pager-cont > .slick-dots > li > button {
+					}
+					
+					.home-slider-pager-cont > .slick-dots > li.slick-active > button,
+					.home-slider-pager-cont > .slick-dots > li > button:hover {
+					}
+					
+		.home-search-cont {
+		}
+		
+			.home-search-cont:before {
+			}
+		
+			.home-search-field-cont {
+			}
+			
+				.home-search-field {
+				}
+				
+			.home-search-select-cont {
+			}
+			
+				.home-search-select-cont:before {
+				}
+			
+				.home-search-select {
+				}
+				
+			.home-search-button {
+			}
+							
+		.home-slider-prev,
+		.home-slider-next {
+		}
+		
+		.home-slider-next {
+		}
+		
+/* HOME PERSONAL HEALTH ===========================*/
+/*=================================================*/
+
+	.phealth-block {
+	}
+	
+		.phealth-slider-cont {
+		}
+		
+			.phealth-slider-cont > .container {
+			}
+			
+				.phealth-slider-cont > .container:before {
+				}
+			
+				.phealth-slider {
+				}
+				
+					.phealth-slider-it {
+					}
+					
+						.phealth {
+						}
+						
+							.phealth-img-cont {
+							}
+							
+								.phealth-img {
+								}
+								
+							.phealth-title {
+							}
+							
+			.phealth-slider-prev {
+			}
+			
+			.phealth-slider-next {
+			}
+		
+/* BOXSTORY =======================================*/
+/*=================================================*/
+
+	.boxstory-contlist {
+	}
+	
+		.boxstory-contlist > li {
+		}
+	
+			.boxstory {
+			}
+			
+				.boxstory-img-cont {
+				}
+				
+					.boxstory-img {
+					}
+					
+				.boxstory-content {
+				}
+				
+					.boxstory-categ-cont {
+					}
+					
+					.boxstory-title {
+					}
+					
+					.boxstory-text {
+					}
+					
+						.boxstory-text > p {
+						}
+						
+					.boxstory-author {
+					}
+					
+						.boxstory-author .author-img-cont {
+						}
+						
+							.boxstory-author .author-img {
+							}
+							
+						.boxstory-author .author-content {
+						}
+						
+							.boxstory-author .author-name {
+							}
+							
+							.boxstory-author .author-time {
+							}
+	
+			.boxstory.type2 {
+			}
+			
+				.boxstory.type2 .boxstory-img-cont {
+				}
+				
+					.boxstory.type2 .boxstory-img {
+					}
+					
+				.boxstory.type2 .boxstory-content {
+				}
+				
+					.boxstory.type2 .boxstory-categ-cont {
+					}
+					
+					.boxstory.type2 .boxstory-title {
+					}
+							
+/* EXTRASTORY =====================================*/
+/*=================================================*/
+
+	.extrastory-contlist {
+	}
+	
+		.extrastory-contlist > li {
+		}
+		
+			.extrastory {
+			}
+			
+				.extrastory-title {
+				}
+	
+/* HOME DIRECTORY ================================*/
+/*================================================*/	
+
+	.dir-block {
+	}
+	
+		.dir-block-title {
+		}
+		
+		.dir-slider-cont {
+		}
+		
+			.dir-slider-cont > .container {
+			}
+			
+				.dir-slider {
+				}
+				
+					.dir-slider-it {
+					}
+					
+						.dir-cont {
+						}
+					
+							.dir {
+							}
+							
+								.dir-img-cont {
+								}
+								
+									.dir-img {
+									}
+									
+								.dir-content {
+								}
+								
+									.dir-title {
+									}
+									
+									.dir-text {
+									}
+									
+										.dir-text > a {
+										}
+										
+									.dir-button-cont {
+									}
+									
+										.dir-button {
+										}
+										
+											.dir-button:after {
+											}
+									
+			.dir-slider-prev,
+			.dir-slider-next {
+			}
+			
+			.dir-slider-next {
+			}
+			
+			.dir-slider-pager-cont {
+			}
+			
+				.dir-slider-pager-cont > .slick-dots {
+				}
+				
+					.dir-slider-pager-cont > .slick-dots > li {
+					}
+					
+						.dir-slider-pager-cont > .slick-dots > li > button {
+						}
+					
+						.dir-slider-pager-cont > .slick-dots > li.slick-active > button {
+						}
+	
+/* SPLIT =========================================*/
+/*================================================*/	
+
+	.split {
+	}
+	
+		.split > .container {
+		}
+		
+			.split-main {
+			}
+			
+			.split-side {
+			}
+	
+/* STORY =========================================*/
+/*================================================*/	
+
+	.story-contlist {
+	}
+	
+		.story-contlist > li {
+		}
+
+			.story {
+			}
+			
+				.story-img-cont {
+				}
+					
+					.story-img-status {
+					}
+
+					.story-img {
+					}
+					
+				.story-content {
+				}
+				
+					.story-categ-cont {
+					}
+					
+					.story-title {
+					}
+					
+					.story-text {
+					}
+					
+						.story-text > p {
+						}
+						
+					.story-author {
+					}
+					
+						.story-author .author-img-cont {
+						}
+						
+							.story-author .author-img {
+							}
+							
+						.story-author .author-content {
+						}
+						
+							.story-author .author-name {
+							}
+							
+							.story-author .author-time {
+							}
+	
+/* HOME TOOLS ====================================*/
+/*================================================*/
+
+	.tools-contlist {
+	}
+	
+		.tools-contlist > li {
+		}
+		
+			.tools {
+			}
+			
+				.tools-img-cont {
+				}
+				
+					.tools-img {
+					}
+					
+				.tools-title {
+				}
+	
+/* HOME ANSWERED =================================*/
+/*================================================*/
+
+	.answered {
+	}
+	
+		.answered-img-cont {
+		}
+		
+			.answered-img {
+			}
+			
+		.answered-content {
+		}
+		
+			.answered-title {
+			}
+			
+		.answered-button-cont {
+		}
+		
+			.answered-button-alpha {
+			}
+		
+			.answered-button-beta {
+			}
+	
+/* ADS ===========================================*/
+/*================================================*/
+
+	.ads-cont {
+	}
+
+		.ads {
+		}
+		
+			.ads-img-cont {
+			}
+			
+				.ads-img {
+				}
+				
+		.ads.type-wide {
+		}
+		
+			.ads.type-wide .ads-img-cont {
+			}
+		
+				.ads.type-wide .ads-img {
+				}
+	
+		
+	
+/* LIST PAGE =====================================*/
+/*================================================*/	
+
+	.listpage-head {
+	}
+	
+		.listpage-head-title {
+
+		}
+
+		.listpage-head-title.type2 {
+		}
+		
+		.listpage-head-control {
+		}
+		
+			.listpage-head-control-label {
+			}
+	
+			.listpage-head-control-select-cont {
+			}
+			
+				.listpage-head-control-select-cont:before {
+				}
+			
+				.listpage-head-control-select {
+				}
+		
+	
+/* FORM PAGE =====================================*/
+/*================================================*/	
+
+	.formpage {
+	}
+	
+		.formpage-split {
+		}
+		
+			.formpage-split > .container {
+			}
+			
+				.formpage-split-block1 {
+				}
+				
+					.formpage-intro {
+					}
+					
+						.formpage-title {
+						}
+						
+							.formpage-title > span {
+							}
+						
+						.formpage-subtitle {
+						}
+						
+						.formpage-text {
+						}
+						
+							.formpage-text > p {
+							}
+
+						.formpage-link-cont {
+						}
+
+							.formpage-link {
+							}
+
+								.formpage-link a {
+								}
+
+									.formpage-link a > img {
+									}
+				
+				.formpage-split-block2 {
+				}
+				
+					.formpage-tabgroup {
+					}
+					
+						.formpage-tabgroup-head {
+						}
+						
+							.formpage-tabgroup-head-button {
+							}
+						
+							.formpage-tabgroup-head-button.active {
+							}
+
+						.formpage-tabgroup-body {
+						}
+						
+							.formpage-tab {
+							}
+							
+								.formpage-form {
+								}
+	
+/* ARTICLE =======================================*/
+/*================================================*/	
+
+	.article {
+	}
+	
+		.article > .container {
+		}
+		
+			.article-media {
+			}
+			
+				.article-media-img {
+				}
+
+				.article-media-text {
+				}
+				
+					.article-misc {
+					}
+					
+						.article-author {
+						}
+						
+							.article-author .author-img-cont {
+							}
+							
+								.article-author .author-img {
+								}
+								
+							.article-author .author-content {
+							}
+							
+								.article-author .author-name {
+								}
+								
+								.article-author .author-time {
+								}
+								
+						.article-misc-text {
+						}
+						
+							.article-misc-text > p {
+							}
+							
+						.article-misc-button {
+						}
+						
+							.article-misc-button.type-like {
+							}
+
+							.article-misc-button.type-like:before {
+							}
+							
+						.article-share {
+						}
+						
+							.article-share-button {
+							}
+
+							.article-share-button:before {
+							}
+
+							.article-share-button:after {
+							}
+							
+								.article-share-button.type-fb {
+								}
+									
+									.article-share-button.type-fb:before {
+									}
+
+									.article-share-button.type-fb:after {
+									}
+
+								.article-share-button.type-tw {
+								}
+
+									.article-share-button.type-tw:before {
+									}
+
+									.article-share-button.type-tw:after {
+									}
+							
+								.article-share-button.type-pi {
+								}
+
+									.article-share-button.type-pi:before {
+									}
+
+									.article-share-button.type-pi:after {
+									}
+							
+								.article-share-button.type-em {									
+								}
+
+									.article-share-button.type-em:before {
+									}
+
+									.article-share-button.type-em:after {
+									}
+								
+					.article-main {
+					}
+								
+					.article-main.type2 {
+					}
+					
+						.article-main.type2 .article-body {
+						}
+					
+						.article-categ-cont {
+						}
+						
+							.article-categ .categ {
+							}
+							
+						.article-title {
+						}
+						
+						.article-body {
+						}
+							
+							.article-body h2,
+							.article-body .heading2 {
+							}
+							
+							.article-body h3,
+							.article-body .heading3 {
+							}
+							
+							.article-body h4,
+							.article-body .heading4 {
+							}
+						
+							.article-body p {
+							}
+							
+							.article-body a {
+							}
+
+							.article-body blockquote {
+							}
+
+							.article-body-title {
+							}
+
+								.article-body-title span {
+								}
+
+									.article-body-subtitle {
+									}
+
+							.about-contribute {
+							}
+
+								.about-contribute.dn-arrow:before {
+								}
+							
+							.about-large {
+							}
+
+							.article-body .about-button {
+							}
+
+							.article-body ul {
+							}
+							
+								.article-body ul > li {
+								}
+							
+							.article-body ol {
+							}
+							
+								.article-body ol > li {
+								}
+							
+							.article-body-media-cont {
+							}
+
+							.article-body-media-cont iframe {
+							}
+							
+								.article-body img {
+								}
+							
+								.article-ads {
+								}
+								
+									.article-ads-img-cont {
+									}
+									
+										.article-ads-img {
+										}
+										
+						.article-tag-block {
+						}
+						
+							.article-tag-block:before {
+							}
+							
+								.article-tag-contlist {
+								}
+								
+									.article-tag-contlist > li {
+									}
+								
+									.article-tag-contlist > li:first-child {
+									}
+								
+										.article-tag {
+										}
+	
+/* PROMO =========================================*/
+/*================================================*/	
+
+	.promo-contlist {
+	}
+	
+			.promo-img-cont {
+			}
+			
+				.promo-img {
+				}
+				
+			.promo-content {
+			}
+			
+				.promo-title {
+				}
+	
+/* COMMENTBOX ====================================*/
+/*================================================*/	
+
+	.commentbox {
+	}
+		
+		.commentbox-head {
+		}
+		
+			.commentbox-title {
+			}
+			
+			.commentbox-sort {
+			}
+			
+				.commentbox-sort-label {
+				}
+				
+				.commentbox-sort-select-cont {
+				}
+					
+					.commentbox-sort-select-cont:before {
+					}
+				
+					.commentbox-sort-select {
+					}
+					
+		.commentbox-form {
+		}
+		
+			.commentbox-form-img-cont {
+			}
+			
+				.commentbox-form-img {
+				}
+				
+			.commentbox-form-content {
+			}
+			
+				.commentbox-form-ta-cont {
+				}
+				
+					.commentbox-form-ta {
+					}
+					
+				.commentbox-form-button-cont {
+				}
+					
+					.commentbox-form-wait-cont {
+					}
+						
+						.commentbox-form-wait-cont > span {
+						}
+
+						.commentbox-form-wait {
+						}
+
+					.commentbox-form-button-rate-cont {
+					}
+
+						.commentbox-form-button-rate-cont > p {
+						}
+
+						.commentbox-form-button-rate {
+						}
+
+							.commentbox-form-button-rate:before {
+							}
+
+							.commentbox-form-button-rate:after {
+							}
+
+							.button-rate {
+							}
+
+					.commentbox-form-button {
+					}
+				
+					.commentbox-form-upload {
+					}
+
+						.commentbox-form-upload:before {
+						}
+
+						.commentbox-form-upload input {
+						}
+
+					.commentbox-upload-preview-cont {
+					}
+
+						.commentbox-upload-preview {
+						}
+
+							.commentbox-upload-preview:last-child {
+							}
+
+		.commentbox-list {
+		}
+		
+			.commentbox-list > li {
+			}
+			
+				.commentbox-comment {
+				}
+				
+					.commentbox-comment-img-cont {
+					}
+					
+						.commentbox-comment-img {
+						}
+						
+					.commentbox-comment-content {
+					}
+					
+						.commentbox-comment-body {
+						}
+						
+							.commentbox-comment-head {
+							}
+							
+								.commentbox-comment-head-block {
+								}
+								.commentbox-comment-head-block.type2 {
+								}
+
+								.commentbox-comment-head-block-forum {
+								}
+								
+									.commentbox-comment-name {
+									}
+									
+									.commentbox-comment-time {
+									}
+
+									.commentbox-label-top {
+									}
+										.commentbox-label-top:before {
+										}
+									
+									.commentbox-like {
+									}
+
+								.commentbox-comment-role {
+								}
+								
+							.commentbox-comment-text {
+							}
+							
+								.commentbox-comment-text > p {
+								}
+
+								.commentbox-comment-img a {
+								}
+
+									.commentbox-comment-img img {
+									}
+
+							.commentbox-comment-button-cont {
+							}
+							
+								.commentbox-comment-button-rate-cont {
+								}
+
+									.commentbox-comment-button-rate-cont > p {
+									}
+
+									.commentbox-comment-button-rate {
+									}
+
+										.commentbox-comment-button-rate:before {
+										}
+
+										.commentbox-comment-button-rate:after {
+										}
+
+								.commentbox-comment-wait-cont {
+								}
+
+									.commentbox-comment-wait-cont > p {
+									}
+
+								.commentbox-comment-button {
+								}
+								
+								.commentbox-comment-button.type-reply {
+								}
+
+									.commentbox-comment-button.type-reply:before {
+									}
+
+								.reply-commentbox-form-cont {
+								}
+
+				.file {
+				}
+
+					.file:last-child {
+					}
+
+					.info {
+					}
+
+					.bar {
+					}
+
+/* FOUR O FOUR ===================================*/
+/*================================================*/	
+	
+	.fof {
+	}
+	
+		.fof > .container {
+		}
+		
+			.fof-body {
+			}
+							
+				.fof-body:before {
+				}
+	
+				.fof-block {
+				}
+				
+					.fof-title {
+					}
+					
+					.fof-text {
+					}
+					
+						.fof-text > p {
+						}
+						
+					.fof-button-cont {
+					}
+					
+						.fof-button {
+						}
+						
+					.fof-form {
+					}
+					
+						.fof-label {
+						}
+						
+						.fof-field-cont {
+						}
+						
+							.fof-field-cont:before {
+							}
+						
+							.fof-field {
+							}
+
+/* DIRECTORY LIST ================================*/
+/*================================================*/
+	.dirpage {
+	}
+
+		.dirpage-control {
+		}
+
+			.dirpage-control-head {
+			}
+
+				.dirpage-control-head-select-block {
+				}
+
+					.dirpage-control-head-select-label {
+					}
+
+					.dirpage-control-head-select-cont {
+					}
+
+						.dirpage-control-head-select-cont:before {
+						}
+
+						.dirpage-control-head-select {
+						}
+			
+			.dirpage-control-block {
+			}
+
+				.dirpage-control-field-cont {
+				}
+
+					.dirpage-control-field {
+					}
+
+				.dirpage-control-block-title {
+				}
+
+					.dirpage-control-block-title > h4 {
+					}
+
+				.dirpage-control-button {
+				}
+
+				.dirpage-control-button.type-lite {
+				}
+
+		.dirpage-body {
+		}
+
+			.dirpage-body-head {
+			}
+			
+				.dirpage-body-head-title {
+				}
+				.dirpage-body-head-title.type2 {
+				}
+
+				.dirpage-body-head .dirpage-control-head-select-block {
+				}
+
+					.dirpage-body-head .dirpage-control-head-select {
+					}
+
+			.dirpage-list {
+			}
+
+				.dirpage-list > li {
+				}
+
+					.dirpage-list-block {
+					}
+
+						.dirpage-list-img-cont {
+						}
+
+						.dirpage-list-img-cont.type2 {
+						}
+
+							.dirpage-list-img-cont > img {
+							}
+
+						.dirpage-list-detail {
+						}
+
+							.dirpage-list-split {
+							}
+
+								.dirpage-list-split-main {
+								}
+
+									.dirpage-list-title {
+									}
+
+										.dirpage-list-title > a {
+										}
+
+									.dirpage-list-rating {
+									}
+
+										.dirpage-list-rating:before {
+										}
+
+										.dirpage-list-rating:after {
+										}
+
+									.dirpage-list-detail-block {
+									}
+
+									.dirpage-list-detail-block.type2 {
+									}
+
+										.dirpage-list-subtitle {
+										}
+
+										.dirpage-list-text {
+										}
+
+											.dirpage-list-text > p {
+											}
+
+								.dirpage-list-split-side {
+								}
+
+									.dirpage-list-price-cont {
+									}
+
+										.dirpage-list-price-cont .dirpage-list-subtitle {
+										}
+
+										.dirpage-list-price {
+										}
+
+											.dirpage-list-price > p {
+											}
+
+									.dirpage-list-time-cont {
+										
+									}
+
+										.dirpage-list-time-cont .dirpage-list-subtitle {
+										}
+
+											.dirpage-list-schedule {
+											}
+
+											.dirpage-list-time {
+											}
+
+									.dirpage-list-insurance {
+									}
+
+									.dirpage-list-detail-sublist {
+									}
+
+										.dirpage-list-detail-sublist > li {
+										}
+
+				.dirpage-rcbgroup {
+				}
+
+					.dirpage-rcbgroup .rcbgroup-item {
+					}
+
+						.dirpage-rcbgroup .rcb-cont {
+						}
+
+							.dirpage-rcbgroup .cbdummy {
+							}
+
+								.dirpage-rcbgroup .cbdummy:before {
+								}
+
+								.dirpage-rcbgroup .cbdummy.active {
+								}
+
+									.dirpage-rcbgroup .cbdummy.active:before {
+									}
+
+								.dirpage-rcbgroup .cb {
+								}
+
+							.dirpage-rcbgroup .rcbgroup-label {
+							}	
+
+					.dirpage-control-scroll {
+					}	
+
+				.dirpage-control-search-cont {
+				}
+
+					.dirpage-control-search-cont:before {
+					}
+
+					.dirpage-control-search {
+					}
+
+/* DIRECTORY DETAIL ==============================*/
+/*================================================*/
+
+	.dirdetail {
+	}
+		
+		.dirdetail > .container:before {
+		}
+
+		.dirdetail-side {
+		}
+
+			.dirdetail-side-profpic-cont {
+			}
+
+			.dirdetail-side-profpic-cont.type-full {
+			}
+
+				.dirdetail-side-profpic-cont > img {
+				}
+			
+			.dirdetail-side-accord {
+			}
+
+				.dirdetail-side-block-title {
+				}
+
+					.dirdetail-side-block-title:before {
+					}
+
+				.dirdetail-side-block-body {
+				}
+
+			.dirdetail-side-socmed {
+			}
+
+				.dirdetail-side-socmed-link {
+				}
+
+					.dirdetail-side-socmed-link img {
+					}
+
+					.dirdetail-side-socmed-link span {
+					}
+
+		.dirdetail-main {
+		}
+
+			.dirdetail-head {
+			}
+
+				.dirdetail-head-title {
+				}
+
+				.dirdetail-head-rating {
+				}
+
+					.dirdetail-head-rating:before {
+					}
+
+					.dirdetail-head-rating:after {
+					}
+
+					.rate1:after {
+					}
+					.rate2:after {
+					}
+					.rate3:after {
+					}
+					.rate4:after {
+					}
+					.rate5:after {
+					}
+
+					.dirpage-list-rating.rate1:after {
+					}
+					.dirpage-list-rating.rate2:after {
+					}
+					.dirpage-list-rating.rate3:after {
+					}
+					.dirpage-list-rating.rate4:after {
+					}
+					.dirpage-list-rating.rate5:after {
+					}
+
+				.dirdetail-head-subtitle {
+				}
+
+				.dirdetail-head-info {
+				}
+					
+					.dirdetail-head-info:before {
+					}
+
+				.dirdetail-head-socmed {
+				}
+
+					.dirdetail-head-socmed > li {
+					}
+
+						.dirdetail-head-socmed-label {
+						}
+
+						.dirdetail-head-socmed-link {
+						}
+
+				.dirdetail-head-rec {
+				}
+
+					.dirdetail-head-rec-number {
+					}
+
+					.dirdetail-head-rec-button {
+					}
+
+						.dirdetail-head-rec-button:before {
+						}
+
+			.dirdetail-body {
+			}
+
+				.dirdetail-body:before {
+				}
+
+				.dirdetail-body-head {
+				}
+
+					.dirdetail-body-head-split1 {
+					}
+						
+					.dirdetail-body-head-split2 {
+					}
+
+						.dirdetail-body-head-title {
+						}
+
+						.dirdetail-body-head-subtitle {
+						}
+
+						.dirdetail-body-head-subtitle.type-bigger {
+						}
+					
+					.dirdetail-body-head-button-cont {
+					}
+
+						.dirdetail-body-head-button {
+						}
+
+				.dirdetail-body-title {
+				}
+
+				.dirdetail-block {
+				}
+
+					.dirdetail-block-title {
+					}
+
+					.dirdetail-block-text {
+					}
+
+						.dirdetail-block-text > p {
+						}
+
+						.dirdetail-block-text a {
+						}
+
+					.dirdetail-block-link-cont {
+					}
+
+						.dirdetail-block-link {
+						}
+
+							.dirdetail-block-link:before {
+							}
+
+							.dirdetail-block-link:after {
+							}
+
+								.dirdetail-block-link.type-call:before {
+								}
+
+								.dirdetail-block-link.type-gmap:before {
+								}							
+				
+				.dirdetail-block-table {
+				}
+
+					.dirdetail-block-table table {
+					}
+
+						.dirdetail-block-table thead {
+						}
+
+							.dirdetail-block-table th {
+							}
+
+						.dirdetail-block-table tbody {
+						}
+
+							.dirdetail-block-table tr {
+							}
+
+							.dirdetail-block-table td {
+							}
+
+
+				.dirdetail-block.type-address {
+				}
+
+					.dirdetail-block.type-address .dirdetail-block-text {
+					}
+
+					.dirdetail-block-link-cont.type-address	{
+					}
+
+						.dirdetail-block-link-cont.type-address	> p {
+						}
+
+						.dirdetail-block-link-cont.type-address .dirdetail-block-link {
+						}		
+
+				.dirdetail-map-cont {
+				}
+
+					.dirdetail-map-cont iframe {
+					}
+
+				.dirdetail-body-tabgroup {
+				}
+
+					.dirdetail-body-tabgroup-head {
+					}
+
+						.dirdetail-body-tabgroup-head-button {
+						}
+
+						.dirdetail-body-tabgroup-head-button.active {
+						}
+
+					.dirdetail-body-tabgroup-body {
+					}
+
+						.dirdetail-body-group-doctor-head {
+						}
+
+							.dirdetail-body-group-doctor-input {
+							}
+
+						.dirdetail-body-group-doctor-paging-cont {
+						}
+
+							.dirdetail-body-group-doctor-paging-list {
+
+							}
+								
+								.dirdetail-body-group-doctor-paging-list:before {
+								}
+
+								.dirdetail-body-group-doctor-paging-list:after {
+								}
+
+								.dirdetail-body-group-doctor-paging-list > li {
+								}
+
+								.dirdetail-body-group-doctor-paging {
+								}
+
+									.dirdetail-body-group-doctor-paging.active {
+									}
+
+						.dirdetail-body-tabgroup-list {
+						}
+
+							.dirdetail-body-tabgroup-list > li {
+							}
+
+								.dirdetail-body-tabgroup-list > li:before {
+								}
+
+								.dirdetail-body-tabgroup-list p {
+								}
+
+/* MEMBER PROFILE ================================*/
+/*================================================*/
+
+	.member-profile {
+	}
+		
+		.member-profile .dirdetail-head {
+		}
+
+		.dirdetail-head-submit {
+		}
+
+			.dirdetail-head-submit-button {
+			}
+
+				.dirdetail-head-submit-button:before {
+				}
+
+				.dirdetail-body-head.type-less-padding {
+				}
+
+					.dirdetail-body-head-split1.type-less-width {
+					}
+					
+					.dirdetail-body-head-button-cont.type-less-width {
+					}
+
+						.dirdetail-body-head-button.type-less-padding {
+						}
+					
+		.dirdetail-split-four-block {
+		}
+
+			.dirdetail-body-split-four {
+			}
+				
+			.dirdetail-body-data {
+				
+			}
+
+				.dirdetail-body-data-text {
+				}
+
+				.dirdetail-body-data-text span {
+				}
+		
+			#write,
+			#drafts {
+			}
+
+		.question-list {
+		}
+
+			.question-list > li {
+			}
+
+			.question-list > li:last-child {
+			}
+
+				.question-it {
+				}
+
+					.question-id {
+					}
+
+						.question-id .author-img-cont {
+						}
+
+							.question-id .author-img {
+							}
+
+					.question-text {
+					}
+
+					.question-data {
+					}
+
+					.question-data span {
+						}
+
+/* MEMBER SUBMIT =================================*/
+/*================================================*/
+
+	.member-submit {
+	}
+
+		.member-submit .dirdetail-head {
+		}
+
+		.dirdetail-body-head.type-submitpage {
+		}
+
+			.submitpage-body-head-title {
+			}
+
+			.submitpage-body-head-button-cont {
+			}
+
+				.submitpage-head-button {
+				}
+				.submitpage-head-button.color2 {
+				}
+				.submitpage-head-button.type-delete {
+				}
+
+					.submitpage-head-button.type-delete:before {
+					}
+
+		.submitpage-form {
+		}
+			
+			.submitpage-block {
+			}
+
+				.submitpage-form .label {
+				}
+
+				.submitpage-select-cont {
+				}
+
+					.submitpage-select-cont:before {
+					}
+
+					.submitpage-select-cont .select{
+					}
+				
+				.submitpage-img-upload {
+				}
+
+					.submit-img-btn-cont {
+					}
+
+						.submit-img-btn-cont .btn {
+						}
+
+							.upfile-text {
+							}
+
+							.submitpage-img-upload.active .upfile-text {
+							}
+
+							.upfile-dummy {
+							}
+
+							.submitpage-img-upload.active .upfile-dummy {
+							}
+							
+							.upfile-name-cont {
+							}
+
+							.upfile-name {
+							}
+								.upfile-name-cont:before {
+								}
+
+							.submitpage-img-upload.active .upfile-name-cont {
+							}
+
+							.submit-img-btn-cont .btn input[type="file"] {
+							}
+							.submit-img-btn-cont .btn input[type="file"]::-webkit-file-upload-button { 
+							}
+
+						.submitpage-img-text {
+						}
+
+					.upload-msg {
+					}
+
+					.submitpage-img-upload.active .upload-msg {
+					}
+					
+					.upload-img-wrap {
+					}
+
+					.submitpage-img-upload.active .upload-img-wrap {
+					}
+
+				#write-content {
+				}
+
+				.tag-block {
+				}
+
+					.field.type-tag {
+					}
+
+					.tag-text {
+					}
+
+/* MEMBER EDIT ===================================*/
+/*================================================*/
+	
+	#wrapper.member-edit-wrap {
+	}
+
+	.member-edit {
+	}
+
+		.member-edit > .container:before {
+		}
+		
+		.member-edit-title {
+		}
+
+		.member-edit-side {
+		}
+		
+		.member-edit-side .member-edit-block {
+		}
+
+		.member-edit-main {
+		}
+
+			.member-edit-block {
+			}
+				
+				.member-edit-block .label {
+				}
+
+				.member-edit-block .col-sm-6:first-child {
+				}
+
+				.member-edit-block .col-sm-4 {
+				}
+				.member-edit-block .col-sm-4:last-child {
+				}
+
+				.member-edit-sidemenu {
+
+				}
+
+					.member-edit-sidemenu > li {
+
+					}
+
+						.member-edit-sidemenu-it {
+
+						}
+
+							.member-edit-sidemenu-link {
+							}
+							.member-edit-sidemenu-link.active {
+							}
+		.add-field-cont {
+		}
+
+			.add-field-it {
+			}
+			.add-field-it:last-child {
+			}
+
+				.add-field-button,
+				.add-field-schedule-button,
+				.add-field-time-button,
+				.remove-field-button,
+				.remove-field-time-button {
+				}
+					.add-field-button:before,
+					.add-field-schedule-button:before,
+					.add-field-time-button:before {		
+					}
+			
+				.add-field-schedule-button {
+				}
+				.add-field-time-button {
+				}
+			
+				.remove-field-button,
+				.remove-field-time-button {
+				}
+
+				.remove-field-button.type2 {
+				}
+
+				.add-field-it:first-child .remove-field-button.type2,
+				.schedule-time-it:first-child .remove-field-time-button {
+				}
+
+					.remove-field-button:before,
+					.remove-field-time-button:before {
+					}
+
+				.remove-field-time-button {
+				}
+
+				.schedule-time-cont {
+				}
+
+					.schedule-time-text {
+					}
+
+					.schedule-time-content {
+					}
+
+						.schedule-time-it {
+						}
+
+				.member-edit-button-cont {
+				}
+
+					.member-edit-button {
+					}
+					.member-edit-button.type2 {
+					}
+
+				.map-buton-cont {
+
+				}
+
+					.map-button {
+					}
+
+						.map-button:before {
+						}
+
+/* MEMBER NOTIF ==================================*/
+/*================================================*/
+
+	.member-notif {
+	}
+		
+		.member-notif .dirdetail-head {
+		}
+
+		.member-notif-body-title {
+		}
+
+		.member-notif-list {
+		}
+
+			.member-notif-list > li {
+			}
+
+				.member-notif-it {
+				}
+
+					.member-notif-img-cont {
+					}
+
+						.member-notif-img {
+						}
+
+					.member-notif-content {
+					}
+
+						.member-notif-text {
+						}
+
+							.member-notif-text > span {
+							}
+
+								.member-notif-name {
+								}
+
+							.member-notif-time {
+							}
+
+								.member-notif-time > time {
+								}
+
+/* FORUM LIST ====================================*/
+/*================================================*/
+
+	.forum {
+	}
+		
+		.forumlist-block {
+		}
+
+		.forumlist-button {
+		}
+		
+			.dirpage-control-field-clear {
+			}
+
+				.dirpage-control-field-clear:before {
+				}
+
+		.forumlist-title {
+		}
+		.forumlist-title.type2 {
+		}
+		.forumlist-title.type3 {
+		}
+
+		.viewall-button {					
+		}
+			
+			.viewall-button:after {
+			}
+
+/* FORUM DETAIL ==================================*/
+/*================================================*/
+	
+	.forum-split {
+	}
+
+		.forumdetail-title {
+		}
+
+		.forumdetail-text {
+		}
+
+			.forumdetail-share {
+			}
+
+				.forumdetail-share > li {
+				}
+
+					.forumdetail-share-link {
+					}
+
+					.forumdetail-share-link > img {
+					}
+					
+			.commentbox-comment-img-cont.type-doctor:before {
+			}
+			.commentbox-comment-img-cont.type-pin:after {
+			}
+
+					.forumdetail-like {
+					}
+						.forumdetail-like:before {
+						}
+						.forumdetail-like:after {
+						}
+					
+					.forumdetail-like.liked {
+					}
+						.forumdetail-like.liked:before {							
+						}
+						.forumdetail-like.liked:after {
+						}
+
+	.sidelist {
+	}
+
+		.sidelist > li {
+		}
+
+			.sidelist-it {
+			}
+
+				.sidelist-img-cont {
+				}
+
+					.sidelist-img {
+					}
+
+				.sidelist-text {
+				}
+
+/* FORUM SUBMIT ==================================*/
+/*================================================*/
+
+	.forumsbt {
+	}
+		
+		.forumsbt > .listpage-head-title {
+		}
+
+		.forumsbt > .container {
+		}
+
+		.forumsbt-form {
+		}
+			
+			.forumsbt-block {
+			}
+
+			.forumsbt-block:last-child {
+			}
+
+				.forumsbt-form .label {
+				}
+
+				.forumsbt-status {
+				}
+
+					.forumsbt-status > li {
+					}
+
+						.forumsbt-status-it {
+						}
+
+							.forumsbt-status-tooltip {
+							}
+
+							.forumsbt-status-tooltip:hover {
+							}
+
+								.forumsbt-status-tooltip-text {
+								}
+
+								.forumsbt-status-tooltip:hover .forumsbt-status-tooltip-text {
+								}
+
+									.forumsbt-status-tooltip-text:before {
+									}
+
+							.forumsbt-status-img-cont {
+							}
+
+								.forumsbt-status-img {
+								}
+
+							.forumsbt-status-rb {
+
+							}
+
+								.forumsbt-status-rb .rcb-cont {
+								}
+
+									.forumsbt-status-rb .rcbgroup-label {
+									}
+					
+					.forumsbt-select-cont {
+					}
+
+						.forumsbt-select-cont .select2-container {
+						}
+
+					.forumsbt-select-cont .select2-selection--multiple {
+					}
+					.forumsbt-select-cont .select2-selection--multiple:before {
+
+					}
+
+					.forumsbt-select-cont .select2-selection__choice {
+					}
+
+						.forumsbt-select-cont .select2-selection__choice__remove {
+						}
+
+				.forumsbt-button-cont {
+				}
+
+					.forumsbt-button {
+					}
+
+					.forumsbt-link {
+					}
+
+/* RANGE SLIDER ==================================*/
+/*================================================*/
+	
+	.range-slider-cont {
+	}
+
+		.range-slider-control-cont {
+		}
+
+			.range-slider-control {
+			}
+
+			.range-slider-control.type2  {
+			}
+
+				.range-slider-control-input {
+				}
+
+/* MODAL =========================================*/
+/*================================================*/	
+	.modal {
+	}
+
+		.modal-block {
+		}
+
+			.modal-head {
+			}
+				
+				.modal-head-title {
+				}
+
+			.modal-body {
+			}
+
+				.modal-text {
+				}
+
+				.modal-button {
+				}
+
+/* DATETIMEPICKER ================================*/
+/*================================================*/
+	.overlay-reserv {
+	}
+
+	#modal-reserv.modal {
+	}
+
+		#modal-reserv .modal-block {
+		}
+	
+		#modal-reserv:before {
+		}
+
+	.datetimepicker {
+	}
+		
+		.datetimepicker table {
+		}
+
+			.datetimepicker  td, 
+			.datetimepicker th {
+			}
+
+				.datetimepicker .datetimepicker-minutes span,
+				.datetimepicker .datetimepicker-hours span {
+				}
+
+		.datetimepicker .prev,
+		.datetimepicker .next {
+		}
+			.datetimepicker .prev:before {
+			}
+			.datetimepicker .next:before {
+			}
+
+	.date-submit-cont {
+	}
+
+		.date-submit {
+		}
+
+/* SLIDER ========================================*/
+/*================================================*/
+	
+	.slider-cont {
+	}
+		.slider3 {
+		}
+
+			.slider3-it {
+			}
+
+		.slider4 {
+		}
+
+			.slider4-it {
+			}
+
+		.slider6 {
+		}
+
+			.slider6-it {
+			}
+		
+		.slider3-prev,
+		.slider3-next,
+		.slider4-prev,
+		.slider4-next,
+		.slider6-prev,
+		.slider6-next {
+		}
+
+		.slider3-next,
+		.slider4-next,
+		.slider6-next {
+		}
+
+/* RECOMENDATION =================================*/
+/*================================================*/
+
+	.recom-contlist {
+	}
+
+		.recom {
+		}
+
+			.recom-img-cont {
+			}
+
+				.recom-img {
+				}
+
+			.recom-content {
+			}
+
+				.recom-title {
+				}
+
+				.recom-rate {
+				}
+
+					.recom-rate:before {
+					}
+
+				.recom-text {
+				}
+
+/* SYMPTOM CHECKER ===============================*/
+/*================================================*/
+
+	.sc {
+	}
+	
+		.sc-block1 {
+		}
+			
+			.sc-block-title {
+			}
+			
+				.sc-block-title:before {
+				}
+			
+				.sc-block-title.type2:before {
+				}
+		
+			.sc-control {
+			}
+				.sc-control-group1 {
+				}
+				
+					.sc-label {
+					}
+					
+					.sc-select-cont {
+					}
+					
+						.sc-select-cont:before {
+						}
+					
+						.sc-select {
+						}
+						
+					.sc-button {
+					}
+					
+				.sc-control-group2 {
+				}
+				
+					.sc-control-text {
+					}
+					
+						.sc-control-text > a {
+						}
+						
+					.sc-field-cont {
+					}
+					
+					.sc-field-cont.type-search {
+					}
+					
+						.sc-field-cont.type-search:before {
+						}
+					
+						.sc-field {
+						}
+						
+					.sc-control-special {
+					}
+					
+						.sc-control-special:before {
+						}
+			
+			.sc-map-cont {
+			}
+			
+				.sc-map-group {
+				}
+				
+				.sc-map-group.active {
+				}
+			
+					.sc-map {
+					}
+				
+					.sc-map.active {
+					}
+					
+						.sc-map-level1 {
+						}
+						
+							.sc-map-level2 {
+							}
+						
+							.sc-map-level2.active {
+							}
+							
+								.sc-map-obj {
+								}
+								
+								.sc-map-obj:hover {
+								}
+								
+				.sc-map-back-button {
+				}
+				
+					.sc-map-back-button:before {
+					}
+		
+		.sc-block2 {
+		}
+		
+			.sc-menu1 {
+			}
+			
+				.sc-menu1-list {
+				}
+				
+					.sc-menu1-list > li {
+					}
+					
+						.sc-menu1-list-button {
+						}
+					
+						.sc-menu1-list-button.active {
+						}
+						
+							.sc-menu1-list-button.active:before {
+							}
+						
+							.sc-menu1-list-button.active:after {
+							}
+		
+			.sc-menu2 {
+			}
+			
+				.sc-menu2-list {
+				}
+				
+					.sc-menu2-list > li {
+					}
+					
+						.sc-menu2-list-button {
+						}
+					
+						.sc-menu2-list-button:before {
+						}
+					
+						.sc-menu2-list-button:hover:before {
+						}
+		
+			.sc-menu3 {
+			}
+			
+				.sc-menu3-list {
+				}
+				
+					.sc-menu3-list > li {
+					}
+					
+						.sc-cond {
+						}
+						
+							.sc-cond-bar-cont {
+							}
+							
+								.sc-cond-bar {
+								}
+	
+		.sc-diagnose-modal {
+		}
+		
+			.sc-diagnose-modal-block {
+			}
+		
+				.sc-diagnose-modal-block-body {
+				}
+		
+					.sc-diagnose-modal-title {
+					}
+		
+					.sc-diagnose-modal-text {
+					}
+		
+						.sc-diagnose-modal-text > p {
+						}
+		
+					.sc-diagnose-modal-button-cont {
+					}
+		
+						.sc-diagnose-modal-button {
+						}
+		
+		.sc-diagnose-modal-x {
+		}
+
+	#modal-sc-ask {
+	}
+
+		#modal-sc-ask .modal-block {
+		}
+
+			#modal-sc-ask .modal-head {
+			}
+
+				#modal-sc-ask .modal-head-title {
+				}
+
+			#modal-sc-ask .modal-body {
+			}
+
+				#modal-sc-ask .modal-body-block {
+				}
+
+				#modal-sc-ask .modal-body-block:last-child {
+				}
+
+					#modal-sc-ask .modal-body-it {
+					}
+
+						.modal-body-title {
+						}
+
+						.modal-body-text {
+						}
+
+						.modal-sc-rcbgroup {
+						}
+
+						#modal-sc-ask .modal-btn-cont {
+						}
+
+							#modal-sc-ask .modal-btn {
+							}
+
+			.modal-x {
+			}
+
+/* DISEASE LIST ==================================*/
+/*================================================*/
+	
+	.dislist-head {
+	}
+
+		.dislist-split-cont {
+		}
+
+			.dislist-split1 {
+			}
+
+			.dislist-split2 {
+			}
+
+				.dislist-head-text {
+				}
+				
+				.dislist-search-field-cont {
+				}
+
+					.dislist-search-field {
+					}
+
+						.dislist-search-field-cont:before {
+						}
+
+				.dislist-search-buton-cont {
+				}
+
+					.dislist-search-button {
+					}
+
+					.dislist-head-filter-reset {
+					}
+
+				.dislist-filter {
+				}
+
+					.dislist-filter > li {
+					}
+					.dislist-filter > li:last-child {
+					}
+
+						.dislist-filter-it {
+						}
+
+							.dislist-filter-link {
+							}
+							.dislist-filter-link.active {
+							}
+
+	.dislist-body {
+	}
+		
+		.dislist-disease-list {
+		}
+			
+			.dislist-disease-list > li {
+			}
+
+				.dislist-body-link {
+				}
+
+/* DISEASE DETAIL ================================*/
+/*================================================*/
+
+	.disdetail {
+	}
+
+		.disdetail-split {
+		}
+
+			.disdetail-head-title {
+			}
+
+			.disdetail-title {
+			}
+
+			.disdetail-tabgroup {
+			}
+
+				.disdetail-tabgroup-head {
+				}
+
+					.disdetail-tabgroup-head-button {
+					}
+					.disdetail-tabgroup-head-button.active {
+					}
+
+				.disdetail-tabgroup-body {
+				}
+
+					.disdetail-tab {
+					}
+
+						.disdetail-body-img-cont {
+						}
+							.disdetail-body-img {
+							}
+
+						.disdetail-body-text {
+						}
+
+							.disdetail-body-text p {
+							}
+
+						.disdetail-body-share-cont {
+						}
+
+							.disdetail-body-share-link {
+							}
+
+								.disdetail-body-share-text {
+								}
+
+								.disdetail-body-share-img {
+								}
+
+									.disdetail-body-share-img img {
+									}
+
+/* SEARCH ========================================*/
+/*================================================*/
+
+	.search-page-cont {
+	}
+
+		.search-page {
+		}
+
+			.search-head {
+			}
+				
+				.search-head-content {
+				}
+
+					.search-head-field-cont {
+					}
+
+						.search-head-field-cont:before {
+						}
+
+						.search-head-field {
+						}
+
+						.reset-field {
+						}
+					
+					.search-head-select-cont {
+					}
+						
+						.search-head-select-cont:before {
+						}
+
+						.search-head-select {
+						}
+
+					.search-head-button {
+					}
+
+			.search-body {
+			}
+
+				.search-body-block {
+				}
+
+					.search-body-title {
+					}
+
+					.search-body-list {
+					}
+
+						.search-body-list > li {
+						}
+
+							.search-body-list-it {
+							}
+
+								.search-body-list-img-cont {
+								}
+
+									.search-body-list-img {
+									}
+									.search-body-list-img.type2 {
+									}
+
+								.search-body-list-text {
+								}
+
+					.search-body-link {
+					}
+
+						.search-body-link:before {
+						}
+
+					.search-body-content {
+					}
+
+						.search-body-name {
+						}
+
+						.search-body-desc {
+						}
+
+			.search-close {
+			}
+
+				.search-close:before {
+				}
+
+/* FOOTPAGE ======================================*/
+/*================================================*/
+
+	.footerpage-head-title {
+	}
+
+/* FOOTER ========================================*/
+/*================================================*/	
+	
+	footer {
+	}
+	
+		.footer-block1 {
+		}
+	
+			.copyright {
+			}
+			
+			.social {
+			}
+			
+				.social-button {
+				}
+				
+				.social-button:first-child {
+				}
+				
+					.social-button > img {
+					}
+		
+		.footer-menu {
+		}
+		
+			.footer-menu-list > li {
+			}
+			
+				.footer-menu-link {
+				}
+				
+					.footer-menu-link:before {
+					}
+				
+					.footer-menu-list > li:first-child > .footer-menu-link:before {
+					}
+}
