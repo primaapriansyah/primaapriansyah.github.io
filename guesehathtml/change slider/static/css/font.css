@@ -1,0 +1,29 @@
+@font-face {
+	font-family: Poppins;
+	font-weight: 300;
+	src: url('../font/Poppins-Light.ttf');
+}
+
+@font-face {
+	font-family: Poppins;
+	font-weight: 400;
+	src: url('../font/Poppins-Regular.ttf');
+}
+
+@font-face {
+	font-family: Poppins;
+	font-weight: 700;
+	src: url('../font/Poppins-Medium.ttf');
+}
+
+@font-face {
+	font-family: Poppins;
+	font-weight: 900;
+	src: url('../font/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: CrimsonText;
+	font-weight: 400;
+	src: url('../font/CrimsonText-Roman.ttf');
+}
