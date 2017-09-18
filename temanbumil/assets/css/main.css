@@ -673,7 +673,8 @@ section#about img.img-responsive.center-block {
     color: #fac917;
 }
 #testimonial .testimonial-slider .owl-dots {
-    margin-top: 20px !important;
+    margin-top: 0px !important;
+	margin-bottom: 50px;
 }
 #testimonial .testimonial-slider .owl-dots .owl-dot span {
     background: #fff;
