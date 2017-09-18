@@ -485,7 +485,7 @@ nav.navbar.navbar-default.appy-menu.sticky .navbar-nav>.active>a, .appy-menu .na
     opacity: 0.9;
 }
 .overlay.special-home {
-    background-image:linear-gradient(to right, #5d6faf, #9D50BB)
+    background-image:linear-gradient(to right, rgba(93, 111, 175, 0.05), rgba(157, 80, 187, 0.72))
 }
 #home_banner h3 {
     font-size: 55px;
