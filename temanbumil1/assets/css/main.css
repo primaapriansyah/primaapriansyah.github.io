@@ -359,7 +359,7 @@ nav.navbar.navbar-default.appy-menu.sticky .navbar-nav>.active>a, .appy-menu .na
     box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.8);
     padding: 0;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
 .appy-menu.sticky {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
